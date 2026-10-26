@@ -30,3 +30,4 @@ pnpm-debug.log*
 
 # shell history
 .zsh_history_project
+.vercel
