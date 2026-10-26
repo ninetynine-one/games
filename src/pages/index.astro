@@ -1,0 +1,140 @@
+---
+import { Image } from "astro:assets"
+
+import Layout from "@/layouts/Layout.astro"
+import ThemeImage from "@/components/ThemeImage.astro"
+import { SubscribeForm } from "@/components/SubscribeForm"
+import { buttonVariants } from "@/components/ui/button"
+import { games, site } from "@/data/games"
+import { cn } from "@/lib/utils"
+import logo from "@/assets/logo/nno-horizontal.svg"
+import logoDark from "@/assets/logo/nno-horizontal-dark.svg"
+
+const year = new Date().getFullYear()
+---
+
+<Layout>
+  <header class="sticky top-0 z-30 border-b bg-muted/85 backdrop-blur-md dark:bg-background/85">
+    <nav
+      class="container-page flex h-18 items-center gap-4"
+      aria-label="Principal"
+    >
+      <a href={site.home} class="flex shrink-0">
+        <ThemeImage
+          light={logo}
+          dark={logoDark}
+          alt={site.name}
+          loading="eager"
+          class="h-7 w-auto"
+        />
+      </a>
+      <a
+        href="#avisame"
+        class={cn(buttonVariants({ variant: "ink" }), "ml-auto px-4.5")}
+      >
+        Avísame
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container-page flex flex-col gap-6 pt-12 pb-10 md:pt-20 md:pb-14">
+      <h1 class="max-w-[18ch] text-5xl leading-none tracking-display text-balance md:text-6xl">
+        Nuestros juegos, para jugar{" "}
+        <em class="text-primary not-italic">ahora</em>.
+      </h1>
+      <p class="max-w-xl text-lg/7 text-pretty text-body md:text-xl/8">
+        Demos en el navegador, gratis y sin cuenta. Todavía están en obra:
+        juega, dinos qué te pareció y vuelve cuando salga la próxima versión.
+      </p>
+    </section>
+
+    <section
+      class="container-page grid gap-10 pb-18 sm:grid-cols-2 md:pb-24 lg:grid-cols-3 lg:gap-12"
+      aria-label="Juegos"
+    >
+      {games.map((game, index) => (
+        <article class="flex flex-col gap-5">
+          <a
+            href={`/${game.slug}/`}
+            class:list={[
+              "relative block rounded-xs bg-card p-3 pb-4 shadow-lg transition duration-base ease-out hover:rotate-0 motion-reduce:transition-none",
+              index % 2 ? "rotate-[1.2deg]" : "-rotate-[1.2deg]",
+            ]}
+            tabindex="-1"
+            aria-hidden="true"
+          >
+            <span class="absolute -top-2.5 left-1/2 size-5 -translate-x-1/2 rounded-full bg-primary shadow-sm" />
+            <Image
+              src={game.cover}
+              alt=""
+              widths={[400, 675]}
+              sizes="(min-width: 1024px) 360px, (min-width: 640px) 45vw, 100vw"
+              loading={index === 0 ? "eager" : "lazy"}
+              class="block aspect-[4/5] h-auto w-full rounded-[2px] object-cover"
+            />
+            <span class="sr-only">{game.alt}</span>
+          </a>
+          <div class="flex flex-col items-start gap-3">
+            <span class="inline-flex h-7.5 items-center gap-2 rounded-full bg-success px-3 text-[13px] font-semibold text-success-foreground">
+              <span
+                class="size-1.75 rounded-full bg-current"
+                aria-hidden="true"
+              />
+              {game.status}
+            </span>
+            <h2 class="text-3xl leading-tight tracking-display text-balance">
+              {game.title}
+            </h2>
+            <p class="text-lg/7 text-body">{game.tagline}</p>
+            <a
+              href={`/${game.slug}/`}
+              class={cn(buttonVariants({ variant: "ink", size: "lg" }))}
+              aria-label={`Jugar a ${game.title}`}
+            >
+              Jugar <span aria-hidden="true">→</span>
+            </a>
+            <p class="text-[13px] text-muted-foreground">
+              Ilustraciones creadas con ayuda de IA
+            </p>
+          </div>
+        </article>
+      ))}
+    </section>
+
+    <section
+      id="avisame"
+      class="container-page grid scroll-mt-18 gap-10 pb-18 md:pb-24 lg:grid-cols-[5fr_6fr] lg:gap-24 lg:pb-32"
+    >
+      <div class="flex flex-col items-start gap-5">
+        <h2 class="max-w-[16ch] text-4xl tracking-display text-balance md:text-5xl">
+          Avísame de nuevas versiones.
+        </h2>
+        <p class="max-w-md text-lg/7 text-body">
+          Un correo cuando haya algo nuevo que jugar. Nada más, y te das de baja
+          cuando quieras.
+        </p>
+      </div>
+      <SubscribeForm
+        client:visible
+        email={site.email}
+        privacy={site.privacy}
+        games={games.map(({ slug, title }) => ({ slug, title }))}
+      />
+    </section>
+  </main>
+
+  <footer class="border-t">
+    <div class="container-page flex flex-col gap-3 py-10 text-[15px] text-muted-foreground sm:flex-row sm:items-center sm:gap-6">
+      <span>
+        © {year} {site.legalName}
+      </span>
+      <a href={site.home} class="text-muted-foreground">
+        ninetynineone.studio
+      </a>
+      <a href={site.privacy} class="text-muted-foreground">
+        Privacidad
+      </a>
+    </div>
+  </footer>
+</Layout>

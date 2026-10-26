@@ -1,0 +1,55 @@
+---
+import "@/styles/global.css"
+import VercelAnalytics from "@vercel/analytics/astro"
+import { site } from "@/data/games"
+
+interface Props {
+  title?: string
+  description?: string
+}
+
+const { title = site.title, description = site.description } = Astro.props
+const canonical = new URL(Astro.url.pathname, Astro.site)
+---
+
+<!doctype html>
+<html lang="es-CL">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta
+      name="theme-color"
+      content="#FBF7F1"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#1E1916"
+      media="(prefers-color-scheme: dark)"
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content="es_CL" />
+    <meta property="og:site_name" content={site.name} />
+    <title>{title}</title>
+    <script is:inline>
+      // Sin selector de tema ni cookies: sigue al sistema, antes de pintar.
+      const media = window.matchMedia("(prefers-color-scheme: dark)")
+      const apply = () =>
+        document.documentElement.classList.toggle("dark", media.matches)
+      apply()
+      media.addEventListener("change", apply)
+    </script>
+  </head>
+  <body>
+    <slot />
+    {/* Visitas anónimas y sin cookies. */}
+    <VercelAnalytics />
+  </body>
+</html>
