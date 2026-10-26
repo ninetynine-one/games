@@ -3,6 +3,7 @@ import type { APIRoute } from "astro"
 
 import { gameSlugs } from "@/data/games"
 import { postToDashboard } from "@/lib/dashboard"
+import { withDevice } from "@/lib/device"
 import { isSameOrigin, MAX_BODY_BYTES, parseBatch } from "@/lib/events"
 
 export const prerender = false
@@ -21,7 +22,11 @@ export const POST: APIRoute = async ({ request, url }) => {
   if (!result.batch) return noContent()
 
   try {
-    const response = await postToDashboard("events", result.batch)
+    const { batch } = result
+    const response = await postToDashboard("events", {
+      ...batch,
+      events: withDevice(batch.events, request.headers),
+    })
     if (!response) {
       console.error(
         "[events] DASHBOARD_GAMES_URL or DASHBOARD_GAMES_SECRET is not set"
