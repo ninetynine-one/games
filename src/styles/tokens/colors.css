@@ -1,0 +1,185 @@
+/* Ninety Nine One — color
+   Pasteles para fondos y superficies; tonos profundos de la misma familia para texto, acciones y estados.
+   Todas las parejas texto/fondo documentadas cumplen WCAG AA (≥4.5:1). */
+:root {
+  /* Arena — neutros cálidos */
+  --arena-50: #FBF7F1;
+  --arena-100: #F5EEE3;
+  --arena-200: #EBE1D2;
+  --arena-300: #D9CBB7;
+  --arena-400: #B9A893;
+  --arena-500: #9A8A76;
+  --arena-600: #75665A;
+  --arena-700: #554940;
+  --arena-800: #3D332C;
+  --arena-900: #2A221D;
+  /* Durazno — primario (el uno) */
+  --durazno-50: #FEF4EF;
+  --durazno-100: #FCE6DC;
+  --durazno-200: #F8D0BE;
+  --durazno-300: #F2B39A;
+  --durazno-400: #E48E6C;
+  --durazno-500: #CC6A45;
+  --durazno-600: #B04A2B;
+  --durazno-700: #9A3E22;
+  --durazno-800: #6E2C18;
+  --durazno-900: #2A1A12;
+  /* Lavanda — acento */
+  --lavanda-100: #ECE8F7;
+  --lavanda-200: #DAD3F0;
+  --lavanda-300: #BFB4E4;
+  --lavanda-700: #5B4A9A;
+  --lavanda-800: #3F3373;
+  /* Salvia — éxito */
+  --salvia-100: #E4EFE3;
+  --salvia-200: #CDE2CB;
+  --salvia-300: #A9CBA6;
+  --salvia-700: #3E6B43;
+  --salvia-800: #2C4E31;
+  /* Mantequilla — advertencia */
+  --mantequilla-100: #FBF0D3;
+  --mantequilla-200: #F6E2A8;
+  --mantequilla-300: #EDCC72;
+  --mantequilla-700: #7A5A0C;
+  --mantequilla-800: #5A4208;
+  /* Cielo — información */
+  --cielo-100: #E2EEF6;
+  --cielo-200: #C7DDEC;
+  --cielo-700: #2F5F80;
+  --cielo-800: #21445C;
+  /* Granada — error / destructivo */
+  --granada-100: #F6E3E6;
+  --granada-200: #EDC7CE;
+  --granada-400: #D47A8C;
+  --granada-600: #9E3550;
+  --granada-700: #842B42;
+
+  /* Roles semánticos (modo claro) */
+  --surface-page: var(--arena-50);
+  --surface-card: #FFFFFF;
+  --surface-muted: var(--arena-100);
+  --surface-sunken: var(--arena-200);
+  --surface-inverse: var(--arena-900);
+  --text-strong: var(--arena-900);
+  --text-body: var(--arena-800);
+  --text-muted: var(--arena-600);
+  --text-inverse: var(--arena-50);
+  --text-link: var(--durazno-700);
+  --border-subtle: var(--arena-200);
+  --border-strong: var(--arena-300);
+  --action-primary: var(--durazno-600);
+  --action-primary-hover: var(--durazno-700);
+  --action-primary-fg: var(--arena-50);
+  --action-soft: var(--durazno-100);
+  --action-soft-hover: var(--durazno-200);
+  --action-soft-fg: var(--durazno-700);
+  --focus-ring: var(--durazno-500);
+  --state-success-bg: var(--salvia-100);
+  --state-success-fg: var(--salvia-700);
+  --state-warning-bg: var(--mantequilla-100);
+  --state-warning-fg: var(--mantequilla-700);
+  --state-info-bg: var(--cielo-100);
+  --state-info-fg: var(--cielo-700);
+  --state-danger-bg: var(--granada-100);
+  --state-danger-fg: var(--granada-700);
+  --state-danger-solid: var(--granada-600);
+
+  /* shadcn/ui */
+  --background: var(--arena-50);
+  --foreground: var(--arena-900);
+  --card: #FFFFFF;
+  --card-foreground: var(--arena-900);
+  --popover: #FFFFFF;
+  --popover-foreground: var(--arena-900);
+  --primary: var(--durazno-600);
+  --primary-foreground: var(--arena-50);
+  --secondary: var(--durazno-100);
+  --secondary-foreground: var(--durazno-700);
+  --muted: var(--arena-100);
+  --muted-foreground: var(--arena-600);
+  --accent: var(--lavanda-100);
+  --accent-foreground: var(--lavanda-800);
+  --destructive: var(--granada-600);
+  --destructive-foreground: #FFFFFF;
+  --border: var(--arena-200);
+  --input: var(--arena-300);
+  --ring: var(--durazno-500);
+  --chart-1: var(--durazno-500);
+  --chart-2: var(--lavanda-700);
+  --chart-3: var(--salvia-700);
+  --chart-4: var(--mantequilla-300);
+  --chart-5: var(--cielo-700);
+  --sidebar: var(--arena-100);
+  --sidebar-foreground: var(--arena-900);
+  --sidebar-primary: var(--durazno-600);
+  --sidebar-primary-foreground: var(--arena-50);
+  --sidebar-accent: var(--arena-200);
+  --sidebar-accent-foreground: var(--arena-900);
+  --sidebar-border: var(--arena-200);
+  --sidebar-ring: var(--durazno-500);
+}
+
+/* Modo oscuro (secundario) */
+.dark {
+  --surface-page: #1E1916;
+  --surface-card: #27211D;
+  --surface-muted: #312A25;
+  --surface-sunken: #171310;
+  --surface-inverse: var(--arena-50);
+  --text-strong: #F4ECE2;
+  --text-body: #E6DBCE;
+  --text-muted: #B8AA9A;
+  --text-inverse: var(--arena-900);
+  --text-link: var(--durazno-300);
+  --border-subtle: #3D352F;
+  --border-strong: #52483F;
+  --action-primary: var(--durazno-300);
+  --action-primary-hover: var(--durazno-200);
+  --action-primary-fg: var(--durazno-900);
+  --action-soft: #3A2A22;
+  --action-soft-hover: #4A3429;
+  --action-soft-fg: var(--durazno-200);
+  --focus-ring: var(--durazno-300);
+  --state-success-bg: #24342A;
+  --state-success-fg: var(--salvia-300);
+  --state-warning-bg: #3A3020;
+  --state-warning-fg: var(--mantequilla-300);
+  --state-info-bg: #1F2E3A;
+  --state-info-fg: var(--cielo-200);
+  --state-danger-bg: #3A2228;
+  --state-danger-fg: var(--granada-200);
+  --state-danger-solid: var(--granada-400);
+
+  --background: #1E1916;
+  --foreground: #F4ECE2;
+  --card: #27211D;
+  --card-foreground: #F4ECE2;
+  --popover: #27211D;
+  --popover-foreground: #F4ECE2;
+  --primary: var(--durazno-300);
+  --primary-foreground: var(--durazno-900);
+  --secondary: #3A2A22;
+  --secondary-foreground: var(--durazno-200);
+  --muted: #312A25;
+  --muted-foreground: #B8AA9A;
+  --accent: #2E2940;
+  --accent-foreground: var(--lavanda-200);
+  --destructive: var(--granada-400);
+  --destructive-foreground: #1E1916;
+  --border: #3D352F;
+  --input: #52483F;
+  --ring: var(--durazno-300);
+  --chart-1: var(--durazno-300);
+  --chart-2: var(--lavanda-300);
+  --chart-3: var(--salvia-300);
+  --chart-4: var(--mantequilla-300);
+  --chart-5: var(--cielo-200);
+  --sidebar: #171310;
+  --sidebar-foreground: #F4ECE2;
+  --sidebar-primary: var(--durazno-300);
+  --sidebar-primary-foreground: var(--durazno-900);
+  --sidebar-accent: #312A25;
+  --sidebar-accent-foreground: #F4ECE2;
+  --sidebar-border: #3D352F;
+  --sidebar-ring: var(--durazno-300);
+}

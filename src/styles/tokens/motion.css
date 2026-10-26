@@ -1,0 +1,13 @@
+/* Ninety Nine One — movimiento
+   Sobrio en producto y B2B; el resorte se reserva para juegos y momentos de logro.
+   Las curvas (ease-out, ease-spring…) viven en theme.css. */
+:root {
+  --duration-instant: 80ms;
+  --duration-fast: 140ms;
+  --duration-base: 220ms;
+  --duration-slow: 320ms;
+  --duration-slower: 480ms;
+}
+@media (prefers-reduced-motion: reduce) {
+  :root { --duration-fast: 0ms; --duration-base: 0ms; --duration-slow: 0ms; --duration-slower: 0ms; }
+}

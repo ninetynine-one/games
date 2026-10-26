@@ -1,0 +1,145 @@
+/* Ninety Nine One — tema de Tailwind CSS v4
+   Escalas fijas en @theme static; colores en @theme inline para que respondan al modo oscuro. */
+
+@theme static {
+  --font-display: "Fredoka Variable", "Figtree Variable", ui-rounded, system-ui, sans-serif;
+  --font-heading: var(--font-display);
+  --font-sans: "Figtree Variable", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Red Hat Mono Variable", ui-monospace, "SFMono-Regular", monospace;
+
+  /* Escala (tamaño / interlineado) — razón ~1.25 */
+  --text-xs: 0.75rem;   --text-xs--line-height: 1rem;
+  --text-sm: 0.875rem;  --text-sm--line-height: 1.25rem;
+  --text-base: 1rem;    --text-base--line-height: 1.5rem;
+  --text-lg: 1.125rem;  --text-lg--line-height: 1.75rem;
+  --text-xl: 1.25rem;   --text-xl--line-height: 1.75rem;
+  --text-2xl: 1.5rem;   --text-2xl--line-height: 2rem;
+  --text-3xl: 1.875rem; --text-3xl--line-height: 2.25rem;
+  --text-4xl: 2.25rem;  --text-4xl--line-height: 2.625rem;
+  --text-5xl: 3rem;     --text-5xl--line-height: 3.25rem;
+  --text-6xl: 3.75rem;  --text-6xl--line-height: 4rem;
+  --text-7xl: 4.75rem;  --text-7xl--line-height: 4.875rem;
+
+  --tracking-display: -0.02em;
+  --tracking-tight: -0.01em;
+  --tracking-caps: 0.08em;
+
+  /* Radios: todo redondeado, nada en ángulo recto */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-2xl: 40px;
+  --radius-full: 9999px;
+
+  /* Sombras cálidas, tintadas de Arena 900; suaves y cortas */
+  --shadow-xs: 0 1px 2px rgba(42, 34, 29, 0.06);
+  --shadow-sm: 0 1px 2px rgba(42, 34, 29, 0.06), 0 2px 6px rgba(42, 34, 29, 0.05);
+  --shadow-md: 0 2px 4px rgba(42, 34, 29, 0.05), 0 8px 20px rgba(42, 34, 29, 0.08);
+  --shadow-lg: 0 4px 8px rgba(42, 34, 29, 0.05), 0 20px 44px rgba(42, 34, 29, 0.12);
+  --shadow-paper: 0 1px 2px rgba(42, 34, 29, 0.06), 0 14px 36px -12px rgba(42, 34, 29, 0.22);
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in: cubic-bezier(0.55, 0, 1, 0.45);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@theme inline {
+  /* Paleta de marca: bg-durazno-100, text-arena-900… */
+  --color-arena-50: var(--arena-50);
+  --color-arena-100: var(--arena-100);
+  --color-arena-200: var(--arena-200);
+  --color-arena-300: var(--arena-300);
+  --color-arena-400: var(--arena-400);
+  --color-arena-500: var(--arena-500);
+  --color-arena-600: var(--arena-600);
+  --color-arena-700: var(--arena-700);
+  --color-arena-800: var(--arena-800);
+  --color-arena-900: var(--arena-900);
+  --color-durazno-50: var(--durazno-50);
+  --color-durazno-100: var(--durazno-100);
+  --color-durazno-200: var(--durazno-200);
+  --color-durazno-300: var(--durazno-300);
+  --color-durazno-400: var(--durazno-400);
+  --color-durazno-500: var(--durazno-500);
+  --color-durazno-600: var(--durazno-600);
+  --color-durazno-700: var(--durazno-700);
+  --color-durazno-800: var(--durazno-800);
+  --color-durazno-900: var(--durazno-900);
+  --color-lavanda-100: var(--lavanda-100);
+  --color-lavanda-200: var(--lavanda-200);
+  --color-lavanda-300: var(--lavanda-300);
+  --color-lavanda-700: var(--lavanda-700);
+  --color-lavanda-800: var(--lavanda-800);
+  --color-salvia-100: var(--salvia-100);
+  --color-salvia-200: var(--salvia-200);
+  --color-salvia-300: var(--salvia-300);
+  --color-salvia-700: var(--salvia-700);
+  --color-salvia-800: var(--salvia-800);
+  --color-mantequilla-100: var(--mantequilla-100);
+  --color-mantequilla-200: var(--mantequilla-200);
+  --color-mantequilla-300: var(--mantequilla-300);
+  --color-mantequilla-700: var(--mantequilla-700);
+  --color-mantequilla-800: var(--mantequilla-800);
+  --color-cielo-100: var(--cielo-100);
+  --color-cielo-200: var(--cielo-200);
+  --color-cielo-700: var(--cielo-700);
+  --color-cielo-800: var(--cielo-800);
+  --color-granada-100: var(--granada-100);
+  --color-granada-200: var(--granada-200);
+  --color-granada-400: var(--granada-400);
+  --color-granada-600: var(--granada-600);
+  --color-granada-700: var(--granada-700);
+
+  /* shadcn/ui: bg-background, text-primary-foreground, ring-ring… */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* Roles extra de la marca */
+  --color-body: var(--text-body);
+  --color-link: var(--text-link);
+  --color-primary-hover: var(--action-primary-hover);
+  --color-secondary-hover: var(--action-soft-hover);
+  --color-inverse: var(--surface-inverse);
+  --color-inverse-foreground: var(--text-inverse);
+  --color-success: var(--state-success-bg);
+  --color-success-foreground: var(--state-success-fg);
+  --color-warning: var(--state-warning-bg);
+  --color-warning-foreground: var(--state-warning-fg);
+  --color-info: var(--state-info-bg);
+  --color-info-foreground: var(--state-info-fg);
+  --color-danger: var(--state-danger-bg);
+  --color-danger-foreground: var(--state-danger-fg);
+}

@@ -1,0 +1,87 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@import "@fontsource-variable/fredoka";
+@import "@fontsource-variable/figtree";
+@import "@fontsource-variable/red-hat-mono";
+
+@import "./tokens/colors.css";
+@import "./tokens/typography.css";
+@import "./tokens/spacing.css";
+@import "./tokens/motion.css";
+@import "./tokens/theme.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply scroll-smooth scheme-light font-sans antialiased dark:scheme-dark;
+  }
+  body {
+    @apply bg-dots text-base text-foreground;
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display font-medium;
+  }
+  a {
+    @apply text-link underline-offset-3 hover:text-primary-hover;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-ring;
+  }
+  ::selection {
+    @apply bg-durazno-200 text-arena-900;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@utility container-page {
+  @apply mx-auto w-full max-w-300 px-5 md:px-8 lg:px-12;
+}
+
+/* Trama de puntos del fondo: el cuaderno del taller. */
+@utility bg-dots {
+  background-color: var(--surface-muted);
+  background-image: radial-gradient(
+    circle,
+    var(--border-strong) 1.1px,
+    transparent 1.5px
+  );
+  background-size: 22px 22px;
+
+  &:where(.dark, .dark *) {
+    background-color: var(--surface-page);
+  }
+}
+
+/* Superficie de papel sobre la trama: tarjetas, hojas y formularios. */
+@utility bg-paper {
+  background-color: var(--surface-page);
+
+  &:where(.dark, .dark *) {
+    background-color: var(--surface-card);
+  }
+}
+
+@keyframes settle {
+  from {
+    opacity: 0;
+    translate: 0 24px;
+    rotate: 2deg;
+  }
+}
+
+@keyframes beacon {
+  50% {
+    box-shadow: 0 0 0 9px var(--action-soft);
+  }
+}

@@ -1,0 +1,22 @@
+/* Ninety Nine One — tipografía
+   Titulares: Fredoka (redondeada). Texto: Figtree (geométrica circular). Código: Red Hat Mono.
+   Familias y escala de tamaños viven en theme.css (utilidades font-display, text-5xl…). */
+:root {
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* Roles */
+  --type-display: var(--weight-medium) var(--text-6xl) / var(--text-6xl--line-height) var(--font-display);
+  --type-h1: var(--weight-medium) var(--text-5xl) / var(--text-5xl--line-height) var(--font-display);
+  --type-h2: var(--weight-medium) var(--text-4xl) / var(--text-4xl--line-height) var(--font-display);
+  --type-h3: var(--weight-medium) var(--text-2xl) / var(--text-2xl--line-height) var(--font-display);
+  --type-h4: var(--weight-semibold) var(--text-lg) / var(--text-lg--line-height) var(--font-sans);
+  --type-body-lg: var(--weight-regular) var(--text-lg) / var(--text-lg--line-height) var(--font-sans);
+  --type-body: var(--weight-regular) var(--text-base) / var(--text-base--line-height) var(--font-sans);
+  --type-small: var(--weight-regular) var(--text-sm) / var(--text-sm--line-height) var(--font-sans);
+  --type-label: var(--weight-semibold) var(--text-sm) / var(--text-sm--line-height) var(--font-sans);
+  --type-eyebrow: var(--weight-semibold) var(--text-xs) / var(--text-xs--line-height) var(--font-sans);
+  --type-code: var(--weight-regular) var(--text-sm) / var(--text-sm--line-height) var(--font-mono);
+}
