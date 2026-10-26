@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- La Matematica de vapor: chibi lady with a lace bonnet, Victorian dress, chalk tucked behind the ear and a notebook under the arm. Body only: the tool is a separate layer (tool-*.svg) held at HAND. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="5"/>
+      <feDisplacementMap in="SourceGraphic" scale="2"/>
+    </filter>
+  </defs>
+  <g stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <g filter="url(#rough)">
+      <!-- shoes under the skirt -->
+      <ellipse cx="56" cy="110" rx="7" ry="4" fill="#3a2a1e"/>
+      <ellipse cx="72" cy="110" rx="7" ry="4" fill="#3a2a1e"/>
+      <!-- bell skirt and bodice -->
+      <path d="M48 84 L80 84 Q92 98 93 107 Q64 113 35 107 Q36 98 48 84 Z" fill="#8f5a3a"/>
+      <path d="M37 102 Q64 108 91 102 L93 107 Q64 113 35 107 Z" fill="#c99a5e" stroke-width="2.6"/>
+      <path d="M56 88 L52 104 M64 88 L64 106 M72 88 L76 104" stroke="#6e4228" stroke-width="2"/>
+      <path d="M50 69 L78 69 Q83 78 81 88 L47 88 Q45 78 50 69 Z" fill="#7a4a32"/>
+      <!-- lace collar and amber brooch -->
+      <path d="M53 69 Q64 78 75 69 L74 74 Q64 82 54 74 Z" fill="#f3e8cf" stroke-width="2.6"/>
+      <circle cx="64" cy="78" r="3" fill="#f0b43c" stroke-width="2"/>
+      <!-- notebook under the left arm -->
+      <g transform="translate(37 88) rotate(-14)">
+        <rect x="-9" y="-13" width="19" height="25" rx="2" fill="#5e3e25"/>
+        <rect x="6" y="-11" width="3" height="21" fill="#f3e8cf" stroke-width="1.6"/>
+        <path d="M-5 -6 L3 -6 M-5 -1 L3 -1" stroke="#c99a5e" stroke-width="1.6"/>
+      </g>
+      <path d="M52 72 Q42 77 40 88 L47 91 Q48 84 55 79 Z" fill="#7a4a32"/>
+      <circle cx="43" cy="91" r="5.5" fill="#f0d4ac" stroke-width="3"/>
+      <path d="M76 72 Q88 76 91 85 L85 89 Q81 83 73 79 Z" fill="#7a4a32"/>
+      <!-- bonnet hood behind the face -->
+      <path d="M37 52 Q33 18 64 15 Q95 18 92 52 Q93 64 85 70 L44 70 Q36 64 37 52 Z" fill="#a8763e"/>
+      <path d="M78 20 Q93 26 92 52 Q92 62 86 69 L80 69 Q88 50 78 20 Z" fill="#8a5e30" stroke="none"/>
+      <!-- lace frill around the face -->
+      <g fill="#f3e8cf" stroke-width="2.5">
+        <circle cx="44.5" cy="56" r="6"/><circle cx="43.3" cy="44.2" r="6"/><circle cx="48" cy="34" r="6"/>
+        <circle cx="57.5" cy="27.5" r="6"/><circle cx="68.8" cy="26.5" r="6"/><circle cx="79" cy="31" r="6"/>
+        <circle cx="85.7" cy="40.5" r="6"/><circle cx="86.7" cy="52" r="6"/>
+      </g>
+      <!-- bonnet ribbon -->
+      <path d="M58 70 Q52 74 54 79 Q60 76 64 71 Q68 76 74 79 Q76 74 70 70 Z" fill="#c99a5e" stroke-width="2.6"/>
+    </g>
+    <ellipse cx="65" cy="50" rx="19.5" ry="18.5" fill="#f0d4ac"/>
+    <path d="M82 54 Q78 66 64 68 Q80 70 84 57 Z" fill="#dcb88c" stroke="none"/>
+    <path d="M48 44 Q55 31 66 34 Q77 31 83 44 Q75 39 66 41 Q56 39 48 44 Z" fill="#6b4a2e" stroke-width="2.6"/>
+    <ellipse cx="58" cy="51" rx="3.8" ry="4.8" fill="#1b1714" stroke="none"/>
+    <ellipse cx="73" cy="51" rx="3.8" ry="4.8" fill="#1b1714" stroke="none"/>
+    <circle cx="59.3" cy="49.3" r="1.5" fill="#fff" stroke="none"/>
+    <circle cx="74.3" cy="49.3" r="1.5" fill="#fff" stroke="none"/>
+    <ellipse cx="52" cy="59" rx="4.5" ry="2.6" fill="#e39a8a" opacity="0.65" stroke="none"/>
+    <ellipse cx="79" cy="59" rx="4.5" ry="2.6" fill="#e39a8a" opacity="0.65" stroke="none"/>
+    <path d="M63 61 Q66.5 64.5 70 61" fill="none" stroke-width="2.4"/>
+    <!-- chalk behind the right ear -->
+    <g transform="translate(89 60) rotate(-28)">
+      <rect x="-2.6" y="-8" width="5.2" height="15" rx="1.5" fill="#f8f6ee" stroke-width="2.4"/>
+    </g>
+    <circle cx="90" cy="88" r="5.5" fill="#f0d4ac" stroke-width="3"/>
+  </g>
+</svg>

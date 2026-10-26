@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Golpe de pala: estrella de tierra con piedrecillas que saltan -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="13"/>
+      <feDisplacementMap in="SourceGraphic" scale="3"/>
+    </filter>
+  </defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M64 14 L74 46 L106 30 L88 60 L118 70 L86 80 L98 110 L68 90 L52 116 L48 86 L16 96 L38 70 L10 52 L44 50 L34 20 L56 42 Z" fill="#8a5e3c"/>
+    <path d="M64 34 L70 54 L88 48 L78 64 L94 72 L76 76 L82 94 L66 82 L56 98 L54 80 L36 84 L48 68 L32 58 L52 56 L46 40 L58 52 Z" fill="#b48456" stroke="none"/>
+    <circle cx="64" cy="66" r="8" fill="#d6b07a" stroke="none"/>
+    <path d="M18 24 l7 -2 l3 6 l-6 4 Z" fill="#9aa3a8"/>
+    <path d="M108 16 l6 2 l-1 6 l-6 0 Z" fill="#7e8890"/>
+    <path d="M114 100 l6 1 l0 6 l-6 1 Z" fill="#9aa3a8"/>
+    <path d="M14 110 l5 -3 l4 4 l-4 5 Z" fill="#7e8890"/>
+    <circle cx="96" cy="8" r="3" fill="#8a5e3c" stroke-width="2.4"/>
+    <circle cx="6" cy="78" r="3" fill="#8a5e3c" stroke-width="2.4"/>
+  </g>
+</svg>

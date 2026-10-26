@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Espora: orbe violeta luminoso con halo -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="61"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+    <path id="flor-petal" d="M0 0 Q-11 -16 -4 -34 Q0 -38 4 -34 Q11 -16 0 0 Z"/>
+    <path id="petal-long" d="M0 0 Q-12 -20 -2 -44 Q6 -40 7 -30 Q8 -14 0 0 Z"/>
+  </defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <circle cx="64" cy="64" r="44" fill="#b58ee6" opacity="0.18" stroke="none"/>
+    <circle cx="64" cy="64" r="32" fill="#b58ee6" opacity="0.3" stroke="none"/>
+    <circle cx="64" cy="64" r="22" fill="#9a74c8"/>
+    <path d="M76 48 Q86 60 82 76 Q74 84 64 86 Q80 70 76 48 Z" fill="#7b52b0" stroke="none"/>
+    <path d="M50 58 Q52 48 62 46" fill="none" stroke="#e4d2f8" stroke-width="3.4"/>
+    <circle cx="70" cy="70" r="3" fill="#5ff0dc" stroke="none"/>
+    <circle cx="22" cy="40" r="3" fill="#d9c4f2" stroke="none"/>
+    <circle cx="104" cy="94" r="2.6" fill="#d9c4f2" stroke="none"/>
+    <circle cx="100" cy="30" r="2" fill="#d9c4f2" stroke="none"/>
+  </g>
+</svg>

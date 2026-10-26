@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · herramienta: Placa adaptadora. Placa de circuito verde con chip y conectores; agarre en el conector (40,96), apunta arriba a la derecha. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="35"/><feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/></filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="translate(40 96) rotate(45)">
+      <!-- conector de agarre -->
+      <rect x="-10" y="-26" width="20" height="28" rx="4" fill="#8a949a"/>
+      <!-- pines de arriba -->
+      <rect x="-17" y="-94" width="13" height="16" rx="2" fill="#3a3f44"/>
+      <rect x="4" y="-94" width="13" height="16" rx="2" fill="#3a3f44"/>
+      <!-- pestañas laterales -->
+      <rect x="-28" y="-62" width="10" height="18" rx="3" fill="#8a949a"/>
+      <rect x="18" y="-62" width="10" height="18" rx="3" fill="#8a949a"/>
+      <!-- placa -->
+      <rect x="-23" y="-82" width="46" height="60" rx="5" fill="#2e8a78"/>
+      <path d="M-14 -72 h28 v34 h-28z M0 -38 v10" fill="none" stroke="#d8f0e0" stroke-width="2"/>
+      <rect x="-10" y="-62" width="20" height="14" rx="2" fill="#22282c" stroke-width="3"/>
+      <circle cx="-17" cy="-76" r="2.8" fill="#e8c547" stroke-width="1.6"/>
+      <circle cx="17" cy="-76" r="2.8" fill="#e8c547" stroke-width="1.6"/>
+      <circle cx="-17" cy="-28" r="2.8" fill="#e8c547" stroke-width="1.6"/>
+      <circle cx="17" cy="-28" r="2.8" fill="#e8c547" stroke-width="1.6"/>
+    </g>
+  </g>
+</svg>

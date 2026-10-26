@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · fx: puf de polvo al construir, recoger o desaparecer. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="85"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <ellipse cx="64" cy="104" rx="44" ry="6" fill="#000" opacity=".35"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <g><g fill="#1b1714" stroke="#1b1714" stroke-width="8"><circle cx="44" cy="82" r="16"/><circle cx="64" cy="72" r="20"/><circle cx="86" cy="82" r="15"/><circle cx="30" cy="94" r="9"/><circle cx="100" cy="96" r="8"/><circle cx="64" cy="92" r="14"/></g><g fill="#cfc8bb" stroke="none"><circle cx="44" cy="82" r="16"/><circle cx="64" cy="72" r="20"/><circle cx="86" cy="82" r="15"/><circle cx="30" cy="94" r="9"/><circle cx="100" cy="96" r="8"/><circle cx="64" cy="92" r="14"/></g></g>
+    <g fill="#ece6da" stroke="none"><circle cx="58" cy="66" r="9"/><circle cx="40" cy="78" r="6"/><circle cx="82" cy="76" r="6"/></g>
+    <path d="M20 66 q-6 -6 -4 -14 M108 66 q6 -6 4 -14 M64 44 q2 -8 8 -12" fill="none" stroke-width="4"/>
+  </g>
+</svg>

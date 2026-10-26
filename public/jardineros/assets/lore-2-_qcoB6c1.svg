@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<linearGradient id="l2sky" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b4a2a"/><stop offset="1" stop-color="#232b1c"/></linearGradient>
+<linearGradient id="l2bark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3ead2"/><stop offset="0.7" stop-color="#e2d3ac"/><stop offset="1" stop-color="#cdbb8e"/></linearGradient>
+<linearGradient id="l2fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e2d3ac" stop-opacity="0"/><stop offset="1" stop-color="#cdbb8e" stop-opacity="1"/></linearGradient>
+<radialGradient id="l2glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fff6d8" stop-opacity="0.8"/><stop offset="1" stop-color="#f3ead2" stop-opacity="0"/></radialGradient>
+<radialGradient id="l2vig" cx="0.5" cy="0.5" r="0.7"><stop offset="0.55" stop-color="#14190f" stop-opacity="0"/><stop offset="1" stop-color="#14190f" stop-opacity="0.6"/></radialGradient>
+</defs>
+<g id="sky" data-name="Cielo">
+<rect id="lore2-fondo" data-name="Fondo de musgo oscuro" width="1600" height="900" fill="url(#l2sky)"/>
+</g>
+<g id="background" data-name="Fondo">
+<g id="lore2-musgo-fondo" data-name="Manchas de musgo">
+<ellipse cx="160" cy="180" rx="220" ry="130" fill="#5f7f3a" opacity="0.5"/>
+<ellipse cx="1480" cy="740" rx="260" ry="150" fill="#5f7f3a" opacity="0.5"/>
+<ellipse cx="1500" cy="140" rx="160" ry="100" fill="#9cb08a" opacity="0.25"/>
+<ellipse cx="110" cy="780" rx="170" ry="110" fill="#9cb08a" opacity="0.25"/>
+</g>
+</g>
+<g id="midground" data-name="Plano medio">
+<g id="lore2-corteza" data-name="Fragmento de corteza">
+<path d="M330 90 C500 50 1100 40 1280 80 C1340 120 1350 300 1330 480 C1345 640 1320 780 1270 830 C1100 870 560 880 340 840 C270 790 262 640 275 470 C262 300 275 160 330 90 Z" fill="#3e3320"/>
+<path d="M346 108 C510 70 1090 62 1262 98 C1318 132 1328 300 1310 480 C1324 640 1302 770 1256 812 C1090 848 570 858 352 822 C292 780 286 640 298 470 C286 300 296 170 346 108 Z" fill="url(#l2bark)"/>
+<path d="M330 150 C320 300 322 600 332 790 M1290 150 C1300 300 1298 600 1286 780" fill="none" stroke="#cdbb8e" stroke-width="8" stroke-linecap="round"/>
+<path d="M420 130 C470 190 460 240 430 300 M1160 120 C1120 190 1150 250 1190 300 M520 840 C560 790 540 740 510 700 M1060 836 C1020 790 1050 740 1080 700" fill="none" stroke="#bda97c" stroke-width="5" stroke-linecap="round"/>
+</g>
+</g>
+<g id="subject" data-name="Sujeto">
+<g id="lore2-mapa" data-name="Mapa tallado">
+<g id="lore2-masa-tierra" data-name="Masa de tierra continua">
+<path d="M440 230 C520 170 640 190 720 160 C820 130 940 170 1030 150 C1120 130 1190 190 1170 270 C1200 330 1150 380 1090 380 C1040 430 960 410 900 440 C820 460 760 420 690 440 C600 460 520 420 500 360 C430 340 400 280 440 230 Z" fill="#9cb08a"/>
+<path d="M458 240 C530 188 640 206 722 178 C820 150 940 190 1030 168 C1110 150 1166 200 1152 266 C1180 326 1138 362 1084 362 C1036 410 960 392 900 420 C820 440 760 402 690 420 C606 440 530 404 514 350 C450 330 424 284 458 240 Z" fill="#b6c7a4"/>
+<path d="M440 230 C520 170 640 190 720 160 C820 130 940 170 1030 150 C1120 130 1190 190 1170 270 C1200 330 1150 380 1090 380 C1040 430 960 410 900 440 C820 460 760 420 690 440 C600 460 520 420 500 360 C430 340 400 280 440 230 Z" fill="none" stroke="#5f7f3a" stroke-width="6" stroke-linejoin="round"/>
+</g>
+<g id="lore2-arboles" data-name="Arboles del mapa">
+<circle cx="560" cy="270" r="44" fill="#5f7f3a"/><circle cx="560" cy="270" r="26" fill="#7a9a52"/>
+<circle cx="760" cy="230" r="52" fill="#5f7f3a"/><circle cx="760" cy="230" r="30" fill="#7a9a52"/>
+<circle cx="960" cy="240" r="46" fill="#5f7f3a"/><circle cx="960" cy="240" r="27" fill="#7a9a52"/>
+<circle cx="1080" cy="320" r="34" fill="#5f7f3a"/><circle cx="1080" cy="320" r="19" fill="#7a9a52"/>
+<circle cx="840" cy="350" r="38" fill="#5f7f3a"/><circle cx="840" cy="350" r="22" fill="#7a9a52"/>
+<circle cx="650" cy="380" r="30" fill="#5f7f3a"/><circle cx="650" cy="380" r="16" fill="#7a9a52"/>
+</g>
+<g id="lore2-raices-union" data-name="Raices que unen los arboles">
+<path d="M560 270 C620 240 700 250 760 230 C830 215 900 250 960 240 C1010 240 1050 280 1080 320 M760 230 C790 270 810 310 840 350 M560 270 C590 320 620 350 650 380 M650 380 C720 390 780 370 840 350 M840 350 C920 340 1000 330 1080 320" fill="none" stroke="#4a3c22" stroke-width="8" stroke-linecap="round"/>
+</g>
+<g id="lore2-raices-abajo" data-name="Lineas que bajan hacia el borde sin dibujar">
+<path d="M560 270 C520 400 560 500 540 640 C535 700 548 760 540 820" fill="none" stroke="#4a3c22" stroke-width="8" stroke-linecap="round"/>
+<path d="M650 380 C660 480 630 560 650 680 C655 740 640 790 648 830" fill="none" stroke="#4a3c22" stroke-width="7" stroke-linecap="round"/>
+<path d="M840 350 C820 450 860 540 840 650 C832 720 850 780 842 836" fill="none" stroke="#4a3c22" stroke-width="9" stroke-linecap="round"/>
+<path d="M960 240 C1000 360 960 460 990 580 C1004 660 984 740 994 830" fill="none" stroke="#4a3c22" stroke-width="7" stroke-linecap="round"/>
+<path d="M1080 320 C1110 430 1090 520 1110 620 C1120 700 1108 760 1114 826" fill="none" stroke="#4a3c22" stroke-width="8" stroke-linecap="round"/>
+<path d="M760 230 C740 320 720 420 740 520 C752 600 730 700 740 828" fill="none" stroke="#4a3c22" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+</g>
+<path id="lore2-borde-sin-dibujar" data-name="Borde sin dibujar" d="M298 560 L1310 560 C1318 640 1302 770 1256 812 C1090 848 570 858 352 822 C292 780 286 640 298 560 Z" fill="url(#l2fade)"/>
+</g>
+</g>
+<g id="foreground" data-name="Primer plano">
+<g id="lore2-hojas" data-name="Hojas y musgo del borde">
+<path d="M-20 900 C0 780 60 700 150 680 C140 760 150 820 130 900 Z" fill="#4a6a2c"/>
+<path d="M1620 0 C1600 100 1540 170 1460 190 C1470 120 1460 60 1480 0 Z" fill="#4a6a2c"/>
+<path d="M1620 900 C1600 820 1550 780 1480 770 C1500 820 1490 860 1500 900 Z" fill="#5f7f3a"/>
+<path d="M-20 0 C20 60 80 90 150 90 C120 60 110 30 120 0 Z" fill="#5f7f3a"/>
+</g>
+</g>
+<g id="light" data-name="Luz">
+<ellipse id="lore2-luz-mapa" data-name="Luz tibia sobre el mapa" cx="800" cy="300" rx="560" ry="300" fill="url(#l2glow)" opacity="0.7"/>
+<rect id="lore2-vineta" data-name="Vineta" width="1600" height="900" fill="url(#l2vig)"/>
+</g>
+</svg>

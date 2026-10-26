@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Raíz Prensora: bloque de piedra cubierto de raíces gruesas; también sirve de muro -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="19"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- bloque -->
+    <path d="M12 86 H116 V116 H12 Z" fill="#4c4844"/>
+    <path d="M12 102 H116 V116 H12 Z" fill="#3b3835" stroke="none"/>
+    <path d="M12 26 H116 V88 H12 Z" fill="#6a655f"/>
+    <path d="M104 28 H114 V86 H104 Z" fill="#57524d" stroke="none"/>
+    <path d="M20 34 H108 V80 H20 Z" fill="none" stroke-width="2.2"/>
+    <!-- raíces que cruzan -->
+    <path d="M6 44 Q30 36 50 52 Q66 64 90 50 Q108 40 122 46" fill="none" stroke-width="14"/>
+    <path d="M6 44 Q30 36 50 52 Q66 64 90 50 Q108 40 122 46" fill="none" stroke="#6b4a32" stroke-width="8"/>
+    <path d="M10 78 Q34 66 54 72 Q76 80 96 66 Q110 58 120 70" fill="none" stroke-width="13"/>
+    <path d="M10 78 Q34 66 54 72 Q76 80 96 66 Q110 58 120 70" fill="none" stroke="#7a5638" stroke-width="7"/>
+    <!-- nudo central -->
+    <path d="M44 56 Q42 38 62 36 Q84 36 84 56 Q84 74 64 76 Q44 74 44 56 Z" fill="#6b4a32"/>
+    <path d="M70 38 Q84 42 83 58 Q80 72 66 75 Q78 60 70 38 Z" fill="#553a27" stroke="none"/>
+    <path d="M54 50 Q62 44 70 50 Q74 58 66 62 Q58 62 60 56" fill="none" stroke-width="2.6"/>
+    <!-- raíces colgando por el frente -->
+    <path d="M30 84 Q28 98 34 110 M80 84 Q86 98 80 112 M104 80 Q110 92 106 104" fill="none" stroke-width="8"/>
+    <path d="M30 84 Q28 98 34 110 M80 84 Q86 98 80 112 M104 80 Q110 92 106 104" fill="none" stroke="#6b4a32" stroke-width="3.5"/>
+    <!-- espinas -->
+    <path d="M24 38 L20 30 L30 36 M100 44 L104 34 L108 44 M36 70 L32 62 L42 68 M90 64 L96 58 L96 68" fill="#c9b796" stroke-width="2.2"/>
+    <!-- brote y musgo -->
+    <path d="M64 36 Q62 26 64 18" fill="none" stroke-width="3"/>
+    <path d="M64 22 Q54 12 46 18 Q54 26 64 22 Z" fill="#7d9a5a" stroke-width="2.6"/>
+    <path d="M64 20 Q74 8 82 14 Q76 24 64 20 Z" fill="#7d9a5a" stroke-width="2.6"/>
+    <path d="M16 56 Q20 50 26 54 Q24 60 16 58 Z M96 78 Q102 72 108 78 Q102 82 96 80 Z" fill="#5a6b45" stroke-width="2"/>
+    <circle cx="58" cy="44" r="2" fill="#47d6c2" stroke="none"/>
+  </g>
+</svg>

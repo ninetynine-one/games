@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · pieza: Resto, bola de chatarra prensada y atada; munición explosiva que sale de la Trituradora. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="37"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <radialGradient id="gl"><stop offset="0" stop-color="#f6d24a" stop-opacity=".7"/><stop offset="1" stop-color="#f6d24a" stop-opacity="0"/></radialGradient>
+  </defs>
+  <circle cx="64" cy="62" r="60" fill="url(#gl)"/>
+  <ellipse cx="64" cy="112" rx="38" ry="8" fill="#000" opacity=".35"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M22 60 L34 26 L70 14 L104 32 L110 72 L88 104 L46 106 L18 86 Z" fill="#f2b632"/>
+    <path d="M104 32 L110 72 L88 104 L60 106 Q96 76 104 32Z" fill="#c48a1c" stroke="none"/>
+    <path d="M22 60 L34 26 L70 14 L104 32 L110 72 L88 104 L46 106 L18 86 Z" fill="none"/>
+    <path d="M34 40 l18 10 -6 16 M70 34 l14 22 M54 76 l26 6 M38 86 l10 -12" stroke-width="5" fill="none"/>
+    <path d="M20 66 Q64 44 110 64" fill="none" stroke="#1b1714" stroke-width="12"/>
+    <path d="M20 66 Q64 44 110 64" fill="none" stroke="#c9652e" stroke-width="5"/>
+  </g>
+</svg>

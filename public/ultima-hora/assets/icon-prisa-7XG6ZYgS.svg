@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Prisa: red running boot with speed lines and a tiny skull on the shaft. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="46"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+    </filter>
+  </defs>
+  <ellipse cx="74" cy="112" rx="34" ry="5" fill="#000" opacity="0.3"/>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- speed lines -->
+    <path d="M8 44 L34 44 M4 62 L36 62 M10 80 L36 80" fill="none" stroke-width="9"/>
+    <path d="M8 44 L34 44 M4 62 L36 62 M10 80 L36 80" fill="none" stroke="#f0b43c" stroke-width="4"/>
+    <!-- boot -->
+    <path d="M46 30 L78 30 L78 70 Q80 76 96 80 Q114 84 112 98 L112 100 L42 100 L42 88 Z" fill="#e0483c"/>
+    <path d="M70 32 L78 32 L78 70 Q80 76 96 80 Q114 84 112 98 L100 98 Q104 88 86 84 Q70 80 70 70 Z" fill="#a8302a" stroke="none"/>
+    <path d="M46 30 L78 30 L78 70 Q80 76 96 80 Q114 84 112 98 L112 100 L42 100 L42 88 Z" fill="none"/>
+    <path d="M40 98 L114 98 L114 108 L40 108 Z" fill="#5e3e25" stroke-width="3"/>
+    <rect x="42" y="22" width="40" height="12" rx="3" fill="#a8302a" stroke-width="3"/>
+    <path d="M80 72 L90 66 M86 76 L96 70" fill="none" stroke="#f3e6c4" stroke-width="2.4"/>
+    <!-- skull -->
+    <circle cx="60" cy="56" r="10" fill="#f3e6c4" stroke-width="2.8"/>
+    <rect x="55" y="63" width="10" height="7" rx="2" fill="#f3e6c4" stroke-width="2.4"/>
+    <circle cx="56.5" cy="55" r="3" fill="#1b1714" stroke="none"/>
+    <circle cx="63.5" cy="55" r="3" fill="#1b1714" stroke="none"/>
+    <path d="M58 70 L58 66 M62 70 L62 66" fill="none" stroke-width="1.6"/>
+  </g>
+  <path d="M50 38 L50 80" fill="none" stroke="#ffb0a0" stroke-opacity="0.8" stroke-width="3" stroke-linecap="round"/>
+</svg>

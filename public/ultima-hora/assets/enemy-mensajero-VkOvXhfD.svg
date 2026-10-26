@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Mensajero del Mañana: a winged envelope sprinting left with an urgent letter. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="6"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <ellipse cx="62" cy="114" rx="26" ry="5" fill="#000" opacity="0.3"/>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-linejoin="round" stroke-linecap="round">
+    <!-- speed lines -->
+    <g stroke="#8d95a6" stroke-width="3.5">
+      <path d="M104 58 H122 M108 72 H124 M102 86 H116"/>
+    </g>
+    <!-- legs -->
+    <g stroke-width="3.5" fill="none">
+      <path d="M56 96 L44 108"/><path d="M72 96 L80 108"/>
+    </g>
+    <path d="M37 105 L46 104 L47 111 L36 112 Z M76 106 L86 105 L87 111 L76 112 Z" fill="#2a2638" stroke-width="2.6"/>
+    <g transform="rotate(-8 64 72)" stroke-width="3.5">
+      <!-- wings -->
+      <path d="M32 50 Q14 38 10 50 Q18 50 14 58 Q22 56 22 62 Q30 58 34 58 Z" fill="#dfe6ee"/>
+      <path d="M96 50 Q114 38 118 50 Q110 50 114 58 Q106 56 106 62 Q98 58 94 58 Z" fill="#dfe6ee"/>
+      <!-- envelope -->
+      <path d="M30 46 L98 46 L98 98 L30 98 Z" fill="#e6dcc2"/>
+      <path d="M30 90 L98 90 L98 98 L30 98 Z" fill="#cfc2a0" stroke="none"/>
+      <path d="M30 46 L98 46 L98 98 L30 98 Z" fill="none"/>
+      <path d="M30 98 L56 78 M98 98 L72 78" fill="none" stroke-width="2.4"/>
+      <path d="M30 46 L64 76 L98 46" fill="#d6caa8" stroke-width="3"/>
+      <!-- wax seal -->
+      <circle cx="64" cy="77" r="9.5" fill="#b8433a" stroke-width="3"/>
+      <path d="M60 72 L68 72 L60 82 L68 82 Z" fill="none" stroke="#7a2a24" stroke-width="2"/>
+      <!-- eyes -->
+      <circle cx="46" cy="58" r="8" fill="#ffffff" stroke-width="3"/>
+      <circle cx="68" cy="56" r="7" fill="#ffffff" stroke-width="3"/>
+      <circle cx="43" cy="59" r="3.6" fill="#1b1714" stroke-width="1"/>
+      <circle cx="65" cy="57" r="3.3" fill="#1b1714" stroke-width="1"/>
+      <path d="M38 47 L52 51 M62 47 L74 49" fill="none" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

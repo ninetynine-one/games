@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · icono: lupa (inspeccionar). -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="103"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M78 78 L112 112" stroke-width="26"/>
+    <path d="M78 78 L112 112" stroke="#c9652e" stroke-width="14"/>
+    <circle cx="52" cy="52" r="38" fill="#ece6da"/>
+    <circle cx="52" cy="52" r="26" fill="#4f6676" stroke-width="6"/>
+    <path d="M36 44 a18 18 0 0 1 14 -12" fill="none" stroke="#c3ced5" stroke-width="6"/>
+  </g>
+</svg>

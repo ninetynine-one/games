@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- Chatarra · menú (key-art.jpg): brillo del ojo rojo de la Red, 48×48; va encima de los ojos de menu-red-siluetas y parpadea. -->
+  <defs>
+    <radialGradient id="g" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#ffd0c0"/><stop offset=".25" stop-color="#ff5a3c"/><stop offset=".6" stop-color="#ff3a1c" stop-opacity=".35"/><stop offset="1" stop-color="#ff3a1c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="24" cy="24" r="24" fill="url(#g)"/>
+  <circle cx="24" cy="24" r="6" fill="#ff6a48" stroke="#1b1714" stroke-width="2"/>
+</svg>

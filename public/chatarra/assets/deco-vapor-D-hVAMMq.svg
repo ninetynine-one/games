@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · fx: nube de vapor blanca grisácea con contorno. Sin sombra. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="317"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <g fill="#1b1714" stroke="#1b1714" stroke-width="8">
+      <circle cx="40" cy="72" r="20"/><circle cx="62" cy="54" r="24"/><circle cx="88" cy="68" r="20"/><circle cx="66" cy="82" r="18"/><circle cx="96" cy="44" r="10"/>
+    </g>
+    <g fill="#c9ccc8" stroke="none">
+      <circle cx="40" cy="72" r="20"/><circle cx="62" cy="54" r="24"/><circle cx="88" cy="68" r="20"/><circle cx="66" cy="82" r="18"/><circle cx="96" cy="44" r="10"/>
+    </g>
+    <g fill="#e8eae6" stroke="none">
+      <circle cx="38" cy="68" r="14"/><circle cx="58" cy="50" r="18"/><circle cx="84" cy="64" r="14"/><circle cx="94" cy="42" r="6"/>
+    </g>
+    <circle cx="52" cy="42" r="5" fill="#fbfbf8" stroke="none"/>
+    <path d="M30 84 q8 6 18 4 M76 92 q8 0 14 -6" fill="none" stroke="#9aa3a3" stroke-width="3"/>
+    <circle cx="22" cy="44" r="5" fill="#e8eae6" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · mascota: Minidrón. Esfera turquesa con lente, hélices amarillas y patas a rayas; flota con sombra separada. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="43"/><feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/></filter>
+  </defs>
+  <ellipse cx="64" cy="117" rx="24" ry="5" fill="#000" opacity=".28"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- patas a rayas -->
+    <path d="M50 76 L38 100 M78 76 L90 100" fill="none" stroke-width="10"/>
+    <path d="M50 76 L38 100 M78 76 L90 100" fill="none" stroke="#f2b632" stroke-width="5"/>
+    <path d="M50 76 L38 100 M78 76 L90 100" fill="none" stroke="#c9652e" stroke-width="5" stroke-dasharray="4 5" stroke-linecap="butt"/>
+    <!-- brazos -->
+    <path d="M44 48 L22 38 M84 48 L106 38" fill="none" stroke-width="8"/>
+    <path d="M44 48 L22 38 M84 48 L106 38" fill="none" stroke="#8d979e" stroke-width="3"/>
+    <!-- hélices -->
+    <ellipse cx="22" cy="32" rx="19" ry="8" fill="#f2b632"/>
+    <ellipse cx="106" cy="32" rx="19" ry="8" fill="#f2b632"/>
+    <path d="M10 32 h24 M94 32 h24" stroke="#c98a1a" stroke-width="2.5"/>
+    <circle cx="22" cy="34" r="4" fill="#8d979e" stroke-width="3"/>
+    <circle cx="106" cy="34" r="4" fill="#8d979e" stroke-width="3"/>
+    <!-- cuerpo -->
+    <circle cx="64" cy="56" r="27" fill="#3fc0a8"/>
+    <path d="M80 36 q12 12 8 30 q-4 14 -18 16 q14 -18 10 -46z" fill="#2a917e" stroke="none"/>
+    <circle cx="64" cy="56" r="27" fill="none"/>
+    <path d="M46 46 q4 -10 14 -12" fill="none" stroke="#9cf0de" stroke-width="4"/>
+    <!-- lente -->
+    <circle cx="62" cy="60" r="12" fill="#9aa6ad"/>
+    <circle cx="62" cy="60" r="7" fill="#2c4a5a" stroke-width="3"/>
+    <circle cx="59" cy="57" r="2.2" fill="#fff" stroke="none"/>
+  </g>
+</svg>

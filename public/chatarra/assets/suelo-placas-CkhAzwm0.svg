@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384" width="384" height="384">
+  <!-- Chatarra · suelo del taller (paisaje.jpg): baldosas grandes gris azulado con juntas, desgaste y grietas. Tileable (las juntas caen en los bordes). -->
+  <rect width="384" height="384" fill="#5f6b78"/>
+  <g stroke="#1b1714" stroke-opacity=".45" stroke-width="3">
+    <rect x="4" y="4" width="184" height="184" rx="7" fill="#a2adb8"/>
+    <rect x="196" y="4" width="184" height="184" rx="7" fill="#98a4b0"/>
+    <rect x="4" y="196" width="184" height="184" rx="7" fill="#9ba7b3"/>
+    <rect x="196" y="196" width="184" height="184" rx="7" fill="#a6b1bc"/>
+  </g>
+  <!-- brillo arriba-izquierda y sombra abajo-derecha de cada baldosa -->
+  <g fill="none" stroke-width="4" stroke-linecap="round">
+    <path d="M12 180 V14 q0 -4 4 -4 H180" stroke="#c3ccd5"/><path d="M204 180 V14 q0 -4 4 -4 H372" stroke="#b8c2cc"/>
+    <path d="M12 372 V206 q0 -4 4 -4 H180" stroke="#bcc6cf"/><path d="M204 372 V206 q0 -4 4 -4 H372" stroke="#c6cfd8"/>
+    <path d="M184 12 V184 H14" stroke="#7d8996"/><path d="M376 12 V184 H206" stroke="#76828f"/>
+    <path d="M184 204 V376 H14" stroke="#7a8693"/><path d="M376 204 V376 H206" stroke="#808c99"/>
+  </g>
+  <!-- subdivisión suave de las baldosas (paneles) -->
+  <g stroke="#8794a1" stroke-width="2.5" opacity=".7">
+    <path d="M96 20 V172"/><path d="M212 96 H364"/><path d="M20 288 H172"/><path d="M288 212 V364"/>
+  </g>
+  <!-- desgaste, grietas y arañazos -->
+  <g fill="none" stroke="#6c7885" stroke-width="2.5" stroke-linecap="round">
+    <path d="M30 40 l18 10 l6 16 l14 4"/><path d="M250 150 l20 -6 l8 10"/><path d="M140 330 l-14 -12 l-18 2"/>
+    <path d="M320 260 l16 18"/><path d="M60 130 q20 -8 40 0"/><path d="M230 40 q14 6 30 2"/>
+  </g>
+  <g fill="#7f8b98" opacity=".45">
+    <ellipse cx="140" cy="60" rx="26" ry="12"/><ellipse cx="300" cy="320" rx="30" ry="14"/><ellipse cx="60" cy="250" rx="18" ry="9"/>
+  </g>
+  <g fill="#c9d2da" opacity=".8">
+    <circle cx="160" cy="150" r="2.5"/><circle cx="330" cy="60" r="2"/><circle cx="40" cy="340" r="2.5"/><circle cx="260" cy="250" r="2"/>
+  </g>
+</svg>

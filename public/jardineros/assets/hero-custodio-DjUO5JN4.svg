@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Custodio de la lluvia (concepto custodio.jpg): capucha e impermeable turquesa con ala de hoja verde, gota en el pecho, botas verdes. Mano derecha libre en (88,92) -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="57"/>
+      <feDisplacementMap in="SourceGraphic" scale="2"/>
+    </filter>
+  </defs>
+  <ellipse cx="64" cy="116" rx="26" ry="6" fill="#000" opacity="0.3"/>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- piernas y botas verdes -->
+    <path d="M51 98 H62 V106 H51 Z" fill="#f6d9bf"/>
+    <path d="M67 98 H78 V106 H67 Z" fill="#f6d9bf"/>
+    <path d="M49 104 H63 V115 H52 Q45 115 47 109 Z" fill="#6a9a78"/>
+    <path d="M66 104 H80 L80 115 H69 Q65 115 66 110 Z" fill="#6a9a78"/>
+    <path d="M73 106 H79 V114 H73 Z" fill="#557f62" stroke="none"/>
+    <!-- brazo izquierdo con la bolsita -->
+    <path d="M50 76 Q38 80 34 92 L45 96 Q47 89 53 86 Z" fill="#74c4c8"/>
+    <circle cx="39" cy="96" r="5" fill="#f6d9bf"/>
+    <path d="M33 98 H47 Q48 108 40 108 Q32 108 33 98 Z" fill="#8cb48a"/>
+    <!-- brazo derecho, mano libre en (88,92) -->
+    <path d="M78 76 Q90 78 93 89 L83 93 Q81 88 75 86 Z" fill="#74c4c8"/>
+    <circle cx="88" cy="92" r="5" fill="#f6d9bf"/>
+    <!-- impermeable -->
+    <path d="M50 74 Q44 88 44 101 H84 Q84 88 78 74 Q64 70 50 74 Z" fill="#74c4c8"/>
+    <path d="M72 76 Q82 86 84 101 H74 Q76 88 72 76 Z" fill="#5aa8ae" stroke="none"/>
+    <path d="M64 82 V100" fill="none" stroke="#4d969c" stroke-width="2"/>
+    <circle cx="67" cy="88" r="1.8" fill="#4d969c" stroke="none"/>
+    <circle cx="67" cy="96" r="1.8" fill="#4d969c" stroke="none"/>
+    <!-- bandolera -->
+    <path d="M76 76 L46 98" fill="none" stroke="#7a5236" stroke-width="4"/>
+    <!-- capucha (parte trasera) -->
+    <path d="M33 50 Q30 78 50 82 Q64 86 78 82 Q98 78 95 50 Z" fill="#74c4c8"/>
+    <path d="M88 52 Q95 70 84 80 Q80 82 76 82 Q90 70 88 52 Z" fill="#5aa8ae" stroke="none"/>
+    <!-- cara -->
+    <path d="M42 56 Q42 40 64 40 Q86 40 86 56 Q86 76 64 76 Q42 76 42 56 Z" fill="#f6d9bf"/>
+    <path d="M82 58 Q85 68 77 73 Q72 76 66 75 Q80 68 82 58 Z" fill="#ebc4a4" stroke="none"/>
+    <path d="M42 58 Q40 46 50 45 H78 Q88 46 86 58 Q83 52 80 54 L78 48 Q74 54 69 49 Q64 55 58 49 Q54 54 49 51 Q45 54 42 58 Z" fill="#5a3a2a"/>
+    <ellipse cx="54" cy="60" rx="3.8" ry="4.6" fill="#1b1714" stroke="none"/>
+    <ellipse cx="74" cy="60" rx="3.8" ry="4.6" fill="#1b1714" stroke="none"/>
+    <circle cx="52.8" cy="58.3" r="1.5" fill="#fff" stroke="none"/>
+    <circle cx="72.8" cy="58.3" r="1.5" fill="#fff" stroke="none"/>
+    <ellipse cx="46" cy="67" rx="4.5" ry="3" fill="#f0a088" stroke="none" opacity="0.75"/>
+    <ellipse cx="82" cy="67" rx="4.5" ry="3" fill="#f0a088" stroke="none" opacity="0.75"/>
+    <path d="M59.5 67 Q61.7 69.5 64 67 Q66.3 69.5 68.5 67" fill="none" stroke-width="2.2"/>
+    <!-- borde de la capucha alrededor de la cara -->
+    <!-- gota en el pecho -->
+    <path d="M64 76 Q70 84 70 88 Q70 93 64 93 Q58 93 58 88 Q58 84 64 76 Z" fill="#4fd8e0"/>
+    <ellipse cx="62" cy="88" rx="1.6" ry="2.4" fill="#e8fcff" stroke="none"/>
+    <!-- sombrero-capucha con ala de hoja -->
+    <path d="M24 50 Q20 12 66 8 Q106 10 106 46 Q96 40 64 40 Q36 40 24 50 Z" fill="#74c4c8"/>
+    <path d="M30 36 Q30 20 44 16 Q38 26 38 38 Z" fill="#5aa8ae" stroke="none"/>
+    <path d="M60 10 Q70 22 72 34" fill="none" stroke="#4d969c" stroke-width="2.2"/>
+    <circle cx="86" cy="22" r="1.8" fill="#e8fcff" stroke="none"/>
+    <path d="M18 52 Q22 36 64 34 Q106 34 112 48 Q104 56 90 52 Q64 46 40 52 Q26 56 18 52 Z" fill="#8cc08a"/>
+    <path d="M28 50 Q64 38 104 47 M50 44 L56 50 M74 40 L76 48 M92 44 L90 50" fill="none" stroke="#6a9a68" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 940" width="480" height="940">
+  <!-- Living menu, centre: the great brass street clock on its plinth, crown and scroll brackets (key-art.jpg). The glowing dial is menu-dial.svg. -->
+  <defs><filter id="rough" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="2"/><feDisplacementMap in="SourceGraphic" scale="3"/></filter>
+    <linearGradient id="brass" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7a5418"/><stop offset="0.3" stop-color="#d8ae48"/><stop offset="0.45" stop-color="#f6dc8a"/>
+      <stop offset="0.62" stop-color="#c89a3c"/><stop offset="1" stop-color="#6e4a14"/>
+    </linearGradient>
+    <linearGradient id="brassD" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5e400e"/><stop offset="0.5" stop-color="#a87e2c"/><stop offset="1" stop-color="#5a3c0c"/></linearGradient>
+    <radialGradient id="drum" cx="0.4" cy="0.4"><stop offset="0" stop-color="#f0cc6a"/><stop offset="0.7" stop-color="#b8892e"/><stop offset="1" stop-color="#7a5418"/></radialGradient>
+  </defs>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <!-- plinth -->
+    <path d="M20 940 L30 890 L450 890 L460 940 Z" fill="url(#brassD)"/>
+    <rect x="50" y="770" width="380" height="124" fill="url(#brass)"/>
+    <path d="M36 776 L60 734 L420 734 L444 776 Z" fill="url(#brassD)"/>
+    <rect x="96" y="796" width="288" height="72" rx="8" fill="none" stroke="#7a5418" stroke-width="5"/>
+    <path d="M82 734 V712 M146 734 V708 M334 734 V708 M398 734 V712" fill="none" stroke-width="10"/>
+    <circle cx="82" cy="708" r="9" fill="#e8c25a"/><circle cx="146" cy="704" r="9" fill="#e8c25a"/>
+    <circle cx="334" cy="704" r="9" fill="#e8c25a"/><circle cx="398" cy="708" r="9" fill="#e8c25a"/>
+    <!-- column -->
+    <path d="M168 470 L312 470 L330 736 L150 736 Z" fill="url(#brass)"/>
+    <path d="M196 520 L284 520 L294 700 L186 700 Z" fill="none" stroke="#7a5418" stroke-width="5"/>
+    <ellipse cx="240" cy="640" rx="20" ry="26" fill="url(#drum)"/>
+    <!-- scroll brackets under the head -->
+    <path d="M172 484 C116 484 106 552 146 560 C168 564 174 538 158 532 M308 484 C364 484 374 552 334 560 C312 564 306 538 322 532" fill="none" stroke-width="26"/>
+    <path d="M172 484 C116 484 106 552 146 560 C168 564 174 538 158 532 M308 484 C364 484 374 552 334 560 C312 564 306 538 322 532" fill="none" stroke="#d8ae48" stroke-width="12"/>
+    <path d="M150 430 L330 430 L318 482 L162 482 Z" fill="url(#brass)"/>
+    <path d="M240 482 L226 520 L240 560 L254 520 Z" fill="#e8c25a"/>
+    <!-- head: back drum (depth) and front case -->
+    <circle cx="214" cy="268" r="196" fill="url(#brassD)"/>
+    <circle cx="240" cy="268" r="196" fill="url(#drum)"/>
+    <circle cx="240" cy="268" r="170" fill="url(#brassD)"/>
+    <!-- crown -->
+    <path d="M150 92 Q170 50 240 48 Q310 50 330 92 Z" fill="url(#brass)"/>
+    <path d="M150 92 Q120 86 116 60 Q114 38 136 40 M330 92 Q360 86 364 60 Q366 38 344 40" fill="none" stroke-width="8"/>
+    <circle cx="240" cy="40" r="26" fill="url(#drum)"/>
+    <circle cx="240" cy="40" r="12" fill="#fff0b0"/>
+    <path d="M226 14 L240 -4 L254 14" fill="#e8c25a"/>
+  </g>
+  <path d="M110 180 A150 150 0 0 1 200 96" fill="none" stroke="#fff4c8" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+  <path d="M200 500 L196 690 M82 790 V870" stroke="#fff4c8" stroke-width="8" stroke-linecap="round" opacity="0.5"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Station bench seen from above (paisaje.jpg): honey slats on iron ends, long axis horizontal inside a 48px band so a rotated bench fits a one-cell wall. -->
+  <ellipse cx="64" cy="86" rx="60" ry="6" fill="#000" opacity="0.35"/>
+  <g stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="4" y="42" width="12" height="44" rx="4" fill="#3d3a3a"/>
+    <rect x="112" y="42" width="12" height="44" rx="4" fill="#3d3a3a"/>
+    <rect x="12" y="44" width="104" height="12" rx="3" fill="#b8793c"/>
+    <rect x="12" y="58" width="104" height="12" rx="3" fill="#d29a57"/>
+    <rect x="12" y="72" width="104" height="12" rx="3" fill="#c98d4c"/>
+  </g>
+  <path d="M18 61 H110 M18 75 H110" stroke="#f0c48a" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  <g fill="#e0b450" stroke="#1b1714" stroke-width="1.4"><circle cx="22" cy="64" r="2"/><circle cx="106" cy="64" r="2"/><circle cx="22" cy="78" r="2"/><circle cx="106" cy="78" r="2"/></g>
+</svg>

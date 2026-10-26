@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · fx: pulso del imán. Anillos turquesa concéntricos. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="37"/><feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/></filter>
+  </defs>
+  <g filter="url(#sk)" fill="none" stroke-linecap="round">
+    <circle cx="64" cy="64" r="54" stroke="#1b1714" stroke-width="7" opacity=".25"/>
+    <circle cx="64" cy="64" r="54" stroke="#3cc6b8" stroke-width="4" opacity=".45"/>
+    <circle cx="64" cy="64" r="37" stroke="#1b1714" stroke-width="8" opacity=".4"/>
+    <circle cx="64" cy="64" r="37" stroke="#5fe8da" stroke-width="5" opacity=".75"/>
+    <circle cx="64" cy="64" r="20" stroke="#1b1714" stroke-width="9"/>
+    <circle cx="64" cy="64" r="20" stroke="#9ff7ee" stroke-width="5"/>
+    <path d="M64 6 v8 M64 114 v8 M6 64 h8 M114 64 h8" stroke="#9ff7ee" stroke-width="4"/>
+  </g>
+</svg>

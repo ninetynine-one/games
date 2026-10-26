@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chorro de la regadera: gotas azules en horizontal, de izquierda (fino) a derecha (abierto) -->
+  <g stroke="#1b1714" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M4 62 Q40 56 76 52 Q100 48 112 42 Q120 44 116 52 Q124 58 118 64 Q126 72 116 78 Q120 86 110 84 Q98 78 76 74 Q40 70 4 68 Z" fill="#5ab8f0" opacity="0.9"/>
+    <path d="M8 64 Q50 60 90 58 Q104 57 112 56" fill="none" stroke="#e8f8ff" stroke-width="3.5"/>
+    <path d="M84 30 Q92 34 92 40 Q92 45 86 45 Q80 45 80 40 Q80 34 84 30 Z" fill="#7ccaf6"/>
+    <path d="M104 18 Q110 22 110 27 Q110 31 105 31 Q100 31 100 27 Q100 22 104 18 Z" fill="#7ccaf6"/>
+    <path d="M96 88 Q102 92 102 97 Q102 101 97 101 Q92 101 92 97 Q92 92 96 88 Z" fill="#7ccaf6"/>
+    <path d="M114 100 Q119 103 119 107 Q119 111 115 111 Q111 111 111 107 Q111 103 114 100 Z" fill="#7ccaf6"/>
+    <circle cx="60" cy="44" r="3" fill="#7ccaf6" stroke-width="2.4"/>
+    <circle cx="62" cy="84" r="3" fill="#7ccaf6" stroke-width="2.4"/>
+  </g>
+</svg>

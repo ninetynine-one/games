@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · pieza: Tuerca. Hexágono de acero; suelo, cinta y carga del robot. Trazo grueso para leerse a 32-48 px. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="31"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <ellipse cx="64" cy="112" rx="40" ry="8" fill="#000" opacity=".35"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M64 12 L109 38 V90 L64 116 L19 90 V38 Z" fill="#a9b6be"/>
+    <path d="M64 64 L109 38 V90 L64 116 Z" fill="#7d8b94" stroke="none"/>
+    <path d="M64 12 L109 38 V90 L64 116 L19 90 V38 Z" fill="none"/>
+    <circle cx="64" cy="64" r="22" fill="#1b1714"/>
+    <path d="M50 54 a18 18 0 0 1 18 -10" fill="none" stroke="#5c6870" stroke-width="5"/>
+    <path d="M30 42 l14 -8" stroke="#e8eef1" stroke-width="5"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <!-- Concepto fase 4 · Cielo del nivel 1 (Invernadero Abandonado): atardecer cálido y brumoso sobre un océano de nubes, con islas lejanas de raíces colgantes -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4c98c"/><stop offset="0.28" stop-color="#f0b48a"/><stop offset="0.55" stop-color="#d9c6c6"/><stop offset="0.78" stop-color="#a9c4d6"/><stop offset="1" stop-color="#86a9c4"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.72" cy="0.2" r="0.42"><stop offset="0" stop-color="#fff4d6" stop-opacity="0.95"/><stop offset="0.25" stop-color="#ffe2a8" stop-opacity="0.55"/><stop offset="1" stop-color="#ffe2a8" stop-opacity="0"/></radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="6"/></filter>
+    <filter id="wob" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" seed="5"/><feDisplacementMap in="SourceGraphic" scale="10"/></filter>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#sky)"/>
+  <rect width="1080" height="1920" fill="url(#sun)"/>
+  <circle cx="778" cy="384" r="70" fill="#fff6dc" opacity="0.9"/>
+  <!-- islas lejanas -->
+  <g filter="url(#wob)" fill="#b69aa8" opacity="0.65">
+    <path d="M80 640 Q160 600 260 630 Q270 660 230 690 Q200 760 170 700 Q130 720 110 690 Q70 670 80 640 Z"/>
+    <path d="M160 690 Q156 760 166 820 M200 700 Q206 750 198 790" fill="none" stroke="#b69aa8" stroke-width="6"/>
+    <path d="M820 820 Q900 790 990 812 Q996 840 960 860 Q930 920 900 868 Q860 880 840 858 Q806 842 820 820 Z"/>
+    <path d="M900 868 Q896 930 906 980" fill="none" stroke="#b69aa8" stroke-width="5"/>
+  </g>
+  <g filter="url(#wob)" fill="#9fb0c4" opacity="0.6">
+    <path d="M430 1060 Q490 1040 560 1056 Q566 1076 538 1090 Q516 1130 494 1094 Q460 1100 446 1084 Q420 1072 430 1060 Z"/>
+  </g>
+  <!-- bandas de bruma -->
+  <g filter="url(#soft)" fill="#fff2e0" opacity="0.35">
+    <path d="M-40 520 Q300 480 620 520 Q900 550 1120 510 V560 Q800 600 500 570 Q200 550 -40 590 Z"/>
+    <path d="M-40 980 Q260 950 560 990 Q860 1020 1120 980 V1030 Q820 1070 520 1040 Q220 1010 -40 1050 Z"/>
+  </g>
+  <!-- océano de nubes al fondo -->
+  <g filter="url(#wob)">
+    <path d="M-40 1460 Q60 1380 180 1430 Q260 1350 380 1410 Q470 1340 590 1400 Q700 1330 820 1400 Q930 1350 1120 1420 V1960 H-40 Z" fill="#c8d6e2"/>
+    <path d="M-40 1580 Q90 1510 220 1560 Q330 1490 460 1550 Q580 1490 700 1550 Q830 1490 960 1550 Q1040 1520 1120 1550 V1960 H-40 Z" fill="#a9c0d4"/>
+    <path d="M-40 1720 Q120 1660 280 1710 Q420 1650 560 1710 Q720 1650 880 1710 Q1000 1680 1120 1700 V1960 H-40 Z" fill="#8eaac4"/>
+    <path d="M60 1440 Q160 1410 250 1440 M520 1400 Q600 1376 680 1404" fill="none" stroke="#f6eee4" stroke-width="8" opacity="0.6"/>
+  </g>
+</svg>

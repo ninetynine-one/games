@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" width="720" height="560">
+  <!-- Chatarra · menú (key-art.jpg): grúa de celosía, 720×560 (base del mástil y punto del gancho anotados). -->
+  <!-- base del mástil en 100,560 (sobre el contenedor de arriba); el gancho (menu-gancho) cuelga de 680,120 -->
+  <g stroke="#1b1714" stroke-width="6" stroke-linejoin="round" stroke-linecap="round" fill="none">
+    <path d="M100 40 L360 82 M100 40 L640 82" stroke-width="4"/>
+    <path d="M80 140 V560 M120 140 V560" stroke="#c8622f" stroke-width="10"/><path d="M80 140 V560 M120 140 V560"/>
+    <path d="M80 160 L120 200 M120 160 L80 200 M80 200 L120 240 M120 200 L80 240 M80 240 L120 280 M120 240 L80 280 M80 280 L120 320 M120 280 L80 320 M80 320 L120 360 M120 320 L80 360 M80 360 L120 400 M120 360 L80 400 M80 400 L120 440 M120 400 L80 440 M80 440 L120 480 M120 440 L80 480 M80 480 L120 520 M120 480 L80 520" stroke-width="4"/>
+    <path d="M40 82 H700 M140 118 H700" stroke="#c8622f" stroke-width="10"/><path d="M40 82 H700 M140 118 H700"/>
+    <path d="M140 82 L180 118 M180 82 L140 118 M180 82 L220 118 M220 82 L180 118 M220 82 L260 118 M260 82 L220 118 M260 82 L300 118 M300 82 L260 118 M300 82 L340 118 M340 82 L300 118 M340 82 L380 118 M380 82 L340 118 M380 82 L420 118 M420 82 L380 118 M420 82 L460 118 M460 82 L420 118 M460 82 L500 118 M500 82 L460 118 M500 82 L540 118 M540 82 L500 118 M540 82 L580 118 M580 82 L540 118 M580 82 L620 118 M620 82 L580 118 M620 82 L660 118 M660 82 L620 118 M660 82 L700 118 M700 82 L660 118" stroke-width="4"/>
+    <path d="M700 82 V118"/>
+  </g>
+  <g stroke="#1b1714" stroke-width="6" stroke-linejoin="round">
+    <rect x="0" y="86" width="96" height="60" rx="6" fill="#8a4a2a"/>
+    <path d="M14 100 h68 M14 116 h68 M14 132 h68" stroke-width="3"/>
+    <path d="M88 20 L112 20 L112 40 L88 40 Z" fill="#c8622f"/>
+    <rect x="110" y="120" width="70" height="54" rx="8" fill="#d4703a"/>
+    <rect x="124" y="130" width="40" height="26" rx="4" fill="#ffd25a"/>
+    <circle cx="100" cy="20" r="8" fill="#e04a32"/>
+  </g>
+</svg>

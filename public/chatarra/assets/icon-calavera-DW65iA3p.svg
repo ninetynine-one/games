@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · icono: calavera (bajas). -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="91"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="40" y="70" width="48" height="40" rx="10" fill="#ece6da"/>
+    <circle cx="64" cy="54" r="42" fill="#ece6da"/>
+    <path d="M92 26 a42 42 0 0 1 -4 60 q-2 -30 4 -60z" fill="#c9c2b4" stroke="none"/>
+    <path d="M30 74 a42 42 0 1 1 68 0" fill="none"/>
+    <path d="M40 76 v24 q0 10 10 10 h28 q10 0 10 -10 v-24" fill="none"/>
+    <circle cx="47" cy="58" r="12" fill="#1b1714"/>
+    <circle cx="81" cy="58" r="12" fill="#1b1714"/>
+    <path d="M64 70 l-6 10 h12z" fill="#1b1714" stroke-width="4"/>
+    <path d="M54 94 v14 M64 94 v14 M74 94 v14" stroke-width="5"/>
+  </g>
+</svg>

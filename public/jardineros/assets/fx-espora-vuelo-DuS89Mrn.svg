@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Espora en vuelo: nubecilla violeta de tres orbes con chispa turquesa (proyectil del Hongo y de la infección) -->
+  <defs><filter id="wob" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="64"/><feDisplacementMap in="SourceGraphic" scale="2.6"/></filter></defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="5" stroke-linejoin="round">
+    <circle cx="64" cy="64" r="50" fill="#b58ee6" opacity="0.22" stroke="none"/>
+    <circle cx="46" cy="72" r="20" fill="#9a74c8"/>
+    <circle cx="80" cy="74" r="17" fill="#8a62bc"/>
+    <circle cx="64" cy="50" r="22" fill="#b08ae0"/>
+    <path d="M52 44 Q56 34 66 34" fill="none" stroke="#efe2ff" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="70" cy="56" r="5" fill="#5ff0dc" stroke="none"/>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Concepto fase 4 · Borde inferior de la isla: canto de tierra en capas con labio de hierba y raíces que cuelgan al vacío (fondo transparente) -->
+  <defs><filter id="wob" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="41"/><feDisplacementMap in="SourceGraphic" scale="2.6"/></filter></defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M-4 0 H132 V30 Q118 46 100 40 Q86 56 66 46 Q48 58 30 44 Q12 52 -4 38 Z" fill="#8a5e3a"/>
+    <path d="M-4 16 Q30 24 64 18 Q98 12 132 20 V30 Q118 46 100 40 Q86 56 66 46 Q48 58 30 44 Q12 52 -4 38 Z" fill="#6b4529" stroke="none"/>
+    <path d="M6 26 Q20 22 34 28 M74 30 Q90 26 104 32" fill="none" stroke="#4a2e1a" stroke-width="2.4"/>
+    <ellipse cx="50" cy="28" rx="6" ry="4" fill="#b8a88a" stroke-width="2"/>
+    <path d="M-4 0 H132 V8 Q112 14 96 8 Q80 16 62 9 Q44 16 28 9 Q12 15 -4 8 Z" fill="#6e9446"/>
+    <path d="M22 44 Q20 70 28 92 Q30 106 24 118" fill="none" stroke="#6b4529" stroke-width="5"/>
+    <path d="M22 44 Q20 70 28 92 Q30 106 24 118" fill="none" stroke="#8a5e3a" stroke-width="2"/>
+    <path d="M66 48 Q70 74 62 100" fill="none" stroke="#6b4529" stroke-width="6"/>
+    <path d="M66 48 Q70 74 62 100" fill="none" stroke="#8a5e3a" stroke-width="2.4"/>
+    <path d="M64 76 Q76 82 80 94" fill="none" stroke="#6b4529" stroke-width="3.5"/>
+    <path d="M102 42 Q98 62 104 76" fill="none" stroke="#6b4529" stroke-width="4.5"/>
+    <path d="M102 42 Q98 62 104 76" fill="none" stroke="#8a5e3a" stroke-width="1.8"/>
+    <path d="M26 92 Q16 96 18 104 Q26 102 26 92 Z" fill="#7fae4e" stroke-width="2.4"/>
+    <circle cx="62" cy="102" r="3.4" fill="#5ff0dc" stroke-width="2"/>
+    <circle cx="104" cy="78" r="2.6" fill="#b98cff" stroke-width="1.6"/>
+  </g>
+</svg>

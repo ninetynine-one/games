@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Carta: Arrancar raíces, unas manos de raíz que levantan un bloque -->
+  <defs><filter id="wob" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="75"/><feDisplacementMap in="SourceGraphic" scale="2.2"/></filter></defs>
+  <ellipse cx="64" cy="114" rx="28" ry="6" fill="#000" opacity="0.35"/>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M32 74 L96 74 L92 104 L36 104 Z" fill="#7a5236"/>
+    <path d="M32 74 L96 74 L90 64 L38 64 Z" fill="#9a6c44"/>
+    <path d="M52 64 Q48 44 58 34 Q64 46 60 64 M72 64 Q80 44 74 30 Q66 44 68 64" fill="#5fb84a"/>
+    <path d="M24 108 Q18 86 30 72 Q34 84 36 104 M104 108 Q110 86 98 72 Q94 84 92 104" fill="#6b4a2e"/>
+    <path d="M58 20 L64 8 L70 20 Z M44 26 L50 14 L54 26 Z M74 26 L80 14 L84 26 Z" fill="#f2ece4"/>
+    <path d="M40 112 Q64 118 88 112" fill="none" stroke="#e04848" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+  <!-- Chatarra · HUD: placa clara de las cartas (chapa crema gastada con remaches): las cajas y máquinas se leen encima. Nine-slice con márgenes de 24. -->
+  <defs>
+    <linearGradient id="v" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f1e2c2"/><stop offset="1" stop-color="#d9c39c"/></linearGradient>
+  </defs>
+  <rect x="2" y="2" width="92" height="92" rx="9" fill="#8a6a44" stroke="#1b1714" stroke-width="4"/>
+  <rect x="5" y="5" width="86" height="81" rx="7" fill="url(#v)"/>
+  <path d="M12 9 H84" stroke="#fffaf0" stroke-width="3" stroke-linecap="round"/>
+  <path d="M6 86 H90" stroke="#1b1714" stroke-width="2.5"/>
+  <g fill="#b9a27c" stroke="#1b1714" stroke-width="2">
+    <circle cx="12" cy="13" r="3.4"/><circle cx="84" cy="13" r="3.4"/><circle cx="12" cy="78" r="3.4"/><circle cx="84" cy="78" r="3.4"/>
+  </g>
+</svg>

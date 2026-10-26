@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 128" width="256" height="128">
+  <!-- Chatarra · decoración: tablero perforado de pared con llave inglesa, martillo y destornillador colgados de ganchos. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="272" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="309"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="10" y="8" width="236" height="112" rx="5" fill="#7a5c40"/>
+    <path d="M214 10 h30 v108 h-30z" fill="#654a33" stroke="none"/>
+    <rect x="10" y="8" width="236" height="112" rx="5" fill="none"/>
+    <g fill="#3a2b20" stroke="none">
+      <circle cx="24" cy="20" r="2"/>
+      <circle cx="40" cy="20" r="2"/>
+      <circle cx="56" cy="20" r="2"/>
+      <circle cx="72" cy="20" r="2"/>
+      <circle cx="88" cy="20" r="2"/>
+      <circle cx="104" cy="20" r="2"/>
+      <circle cx="120" cy="20" r="2"/>
+      <circle cx="136" cy="20" r="2"/>
+      <circle cx="152" cy="20" r="2"/>
+      <circle cx="168" cy="20" r="2"/>
+      <circle cx="184" cy="20" r="2"/>
+      <circle cx="200" cy="20" r="2"/>
+      <circle cx="216" cy="20" r="2"/>
+      <circle cx="232" cy="20" r="2"/>
+      <circle cx="24" cy="36" r="2"/>
+      <circle cx="40" cy="36" r="2"/>
+      <circle cx="56" cy="36" r="2"/>
+      <circle cx="72" cy="36" r="2"/>
+      <circle cx="88" cy="36" r="2"/>
+      <circle cx="104" cy="36" r="2"/>
+      <circle cx="120" cy="36" r="2"/>
+      <circle cx="136" cy="36" r="2"/>
+      <circle cx="152" cy="36" r="2"/>
+      <circle cx="168" cy="36" r="2"/>
+      <circle cx="184" cy="36" r="2"/>
+      <circle cx="200" cy="36" r="2"/>
+      <circle cx="216" cy="36" r="2"/>
+      <circle cx="232" cy="36" r="2"/>
+      <circle cx="24" cy="52" r="2"/>
+      <circle cx="40" cy="52" r="2"/>
+      <circle cx="56" cy="52" r="2"/>
+      <circle cx="72" cy="52" r="2"/>
+      <circle cx="88" cy="52" r="2"/>
+      <circle cx="104" cy="52" r="2"/>
+      <circle cx="120" cy="52" r="2"/>
+      <circle cx="136" cy="52" r="2"/>
+      <circle cx="152" cy="52" r="2"/>
+      <circle cx="168" cy="52" r="2"/>
+      <circle cx="184" cy="52" r="2"/>
+      <circle cx="200" cy="52" r="2"/>
+      <circle cx="216" cy="52" r="2"/>
+      <circle cx="232" cy="52" r="2"/>
+      <circle cx="24" cy="68" r="2"/>
+      <circle cx="40" cy="68" r="2"/>
+      <circle cx="56" cy="68" r="2"/>
+      <circle cx="72" cy="68" r="2"/>
+      <circle cx="88" cy="68" r="2"/>
+      <circle cx="104" cy="68" r="2"/>
+      <circle cx="120" cy="68" r="2"/>
+      <circle cx="136" cy="68" r="2"/>
+      <circle cx="152" cy="68" r="2"/>
+      <circle cx="168" cy="68" r="2"/>
+      <circle cx="184" cy="68" r="2"/>
+      <circle cx="200" cy="68" r="2"/>
+      <circle cx="216" cy="68" r="2"/>
+      <circle cx="232" cy="68" r="2"/>
+      <circle cx="24" cy="84" r="2"/>
+      <circle cx="40" cy="84" r="2"/>
+      <circle cx="56" cy="84" r="2"/>
+      <circle cx="72" cy="84" r="2"/>
+      <circle cx="88" cy="84" r="2"/>
+      <circle cx="104" cy="84" r="2"/>
+      <circle cx="120" cy="84" r="2"/>
+      <circle cx="136" cy="84" r="2"/>
+      <circle cx="152" cy="84" r="2"/>
+      <circle cx="168" cy="84" r="2"/>
+      <circle cx="184" cy="84" r="2"/>
+      <circle cx="200" cy="84" r="2"/>
+      <circle cx="216" cy="84" r="2"/>
+      <circle cx="232" cy="84" r="2"/>
+      <circle cx="24" cy="100" r="2"/>
+      <circle cx="40" cy="100" r="2"/>
+      <circle cx="56" cy="100" r="2"/>
+      <circle cx="72" cy="100" r="2"/>
+      <circle cx="88" cy="100" r="2"/>
+      <circle cx="104" cy="100" r="2"/>
+      <circle cx="120" cy="100" r="2"/>
+      <circle cx="136" cy="100" r="2"/>
+      <circle cx="152" cy="100" r="2"/>
+      <circle cx="168" cy="100" r="2"/>
+      <circle cx="184" cy="100" r="2"/>
+      <circle cx="200" cy="100" r="2"/>
+      <circle cx="216" cy="100" r="2"/>
+      <circle cx="232" cy="100" r="2"/>
+    </g>
+    <!-- ganchos -->
+    <path d="M60 20 v8 q0 4 4 4 M128 20 v6 M200 20 v8" fill="none" stroke-width="5"/>
+    <path d="M60 20 v8 q0 4 4 4 M128 20 v6 M200 20 v8" fill="none" stroke="#a9b6be" stroke-width="2"/>
+    <!-- llave inglesa -->
+    <g transform="rotate(-8 62 70)">
+      <rect x="55" y="40" width="14" height="60" rx="5" fill="#a9b6be"/>
+      <circle cx="62" cy="38" r="14" fill="#a9b6be"/>
+      <rect x="56" y="22" width="12" height="16" fill="#7a5c40"/>
+      <circle cx="62" cy="104" r="9" fill="#a9b6be"/>
+      <circle cx="62" cy="104" r="3.6" fill="#3a2b20" stroke-width="2.4"/>
+      <path d="M64 46 v46" stroke="#7d8b94" stroke-width="3"/>
+    </g>
+    <!-- martillo -->
+    <rect x="122" y="40" width="12" height="70" rx="4" fill="#c9652e"/>
+    <path d="M122 92 h12 M122 100 h12" stroke-width="2.4"/>
+    <path d="M102 28 h40 q10 0 14 10 l-10 4 q-2 -4 -6 -4 h-38z" fill="#6c7d86"/>
+    <rect x="98" y="26" width="8" height="16" rx="2" fill="#56656d"/>
+    <!-- destornillador -->
+    <path d="M190 30 h20 v30 q0 6 -6 6 h-8 q-6 0 -6 -6z" fill="#f2b632"/>
+    <path d="M196 34 v26 M204 34 v26" stroke-width="2.4"/>
+    <rect x="197" y="66" width="6" height="34" fill="#a9b6be" stroke-width="3"/>
+    <path d="M197 100 l3 8 3 -8z" fill="#a9b6be" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · maldición: La Red envía refuerzos. Ojo rojo de la Red con un más y flechas que bajan. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="221"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M64 8 L116 30 V66 q0 34 -52 54 q-52 -20 -52 -54 V30z" fill="#36322f"/>
+    <path d="M64 18 L106 36 V66 q0 26 -42 44 q-42 -18 -42 -44 V36z" fill="none" stroke="#5c564e" stroke-width="3"/>
+    <path d="M34 54 q30 -24 60 0 q-30 24 -60 0z" fill="#d8d2c4"/>
+    <circle cx="64" cy="54" r="11" fill="#e04a32" stroke-width="4"/>
+    <circle cx="61" cy="51" r="3" fill="#ffd1c4" stroke="none"/>
+    <path d="M44 78 l20 12 20 -12 M44 92 l20 12 20 -12" fill="none" stroke="#e04a32" stroke-width="6"/>
+    <circle cx="102" cy="22" r="18" fill="#e04a32"/>
+    <path d="M102 12 v20 M92 22 h20" stroke="#fff" stroke-width="5"/>
+  </g>
+</svg>

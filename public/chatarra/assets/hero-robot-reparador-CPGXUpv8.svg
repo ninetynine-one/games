@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · héroe: Robot reparador con las llaves (retrato del HUD y pantallas). Compuesto de hero-reparador.svg + tool-llaves.svg con el agarre en (176,150). -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-16" y="-16" width="288" height="288"><feTurbulence type="fractalNoise" baseFrequency="0.0225" numOctaves="2" seed="7"/><feDisplacementMap in="SourceGraphic" scale="5" xChannelSelector="R" yChannelSelector="G"/></filter>
+  </defs>
+  <g transform="scale(.5)">
+  <ellipse cx="128" cy="232" rx="60" ry="10" fill="#000" opacity=".3"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <!-- piernas y pies -->
+    <rect x="102" y="198" width="20" height="24" rx="5" fill="#5a3a2a"/>
+    <rect x="134" y="198" width="20" height="24" rx="5" fill="#5a3a2a"/>
+    <path d="M86 232 q0 -17 20 -17 q18 0 18 17z" fill="#d9692e"/>
+    <path d="M132 232 q0 -17 18 -17 q20 0 20 17z" fill="#d9692e"/>
+    <!-- brazo izquierdo colgando, con pinza -->
+    <path d="M94 168 q-22 6 -26 30" fill="none" stroke-width="17"/>
+    <path d="M94 168 q-22 6 -26 30" fill="none" stroke="#a84a1f" stroke-width="7"/>
+    <path d="M60 200 q-8 12 2 20 M76 200 q8 12 -2 20" fill="none" stroke-width="8"/>
+    <path d="M60 200 q-8 12 2 20 M76 200 q8 12 -2 20" fill="none" stroke="#d9692e" stroke-width="3"/>
+    <circle cx="68" cy="200" r="10" fill="#d9692e"/>
+    <!-- cuerpo -->
+    <rect x="86" y="146" width="84" height="62" rx="24" fill="#d9692e"/>
+    <path d="M150 150 q18 4 18 26 v8 q0 22 -22 22 q16 -18 4 -56z" fill="#a84a1f" stroke="none"/>
+    <path d="M100 162 q4 -6 12 -6" fill="none" stroke="#f29a62" stroke-width="5"/>
+    <ellipse cx="118" cy="188" rx="9" ry="6" fill="#c7a07a" stroke="none" opacity=".7"/>
+    <rect x="86" y="146" width="84" height="62" rx="24" fill="none"/>
+    <circle cx="104" cy="166" r="5" fill="#b9c0c4" stroke-width="3.5"/>
+    <circle cx="152" cy="166" r="5" fill="#b9c0c4" stroke-width="3.5"/>
+    <circle cx="104" cy="192" r="5" fill="#b9c0c4" stroke-width="3.5"/>
+    <circle cx="152" cy="192" r="5" fill="#b9c0c4" stroke-width="3.5"/>
+    <!-- brazo derecho hasta el agarre -->
+    <path d="M162 168 L194 180 L178 152" fill="none" stroke-width="17"/>
+    <path d="M162 168 L194 180 L178 152" fill="none" stroke="#a84a1f" stroke-width="7"/>
+    <circle cx="176" cy="150" r="12" fill="#d9692e"/>
+    <!-- cuello -->
+    <rect x="114" y="134" width="28" height="16" rx="4" fill="#5a3a2a"/>
+    <!-- orejas -->
+    <circle cx="64" cy="86" r="15" fill="#b9c0c4"/>
+    <circle cx="64" cy="86" r="6" fill="#7f888d" stroke-width="3"/>
+    <circle cx="192" cy="86" r="15" fill="#b9c0c4"/>
+    <circle cx="192" cy="86" r="6" fill="#7f888d" stroke-width="3"/>
+    <!-- cabeza -->
+    <rect x="66" y="28" width="124" height="112" rx="34" fill="#d9692e"/>
+    <path d="M170 36 q18 14 16 50 q-2 46 -40 50 q36 -22 24 -100z" fill="#a84a1f" stroke="none"/>
+    <path d="M84 50 q6 -12 22 -14" fill="none" stroke="#f29a62" stroke-width="6"/>
+    <ellipse cx="172" cy="122" rx="7" ry="4" fill="#c7a07a" stroke="none" opacity=".7"/>
+    <rect x="66" y="28" width="124" height="112" rx="34" fill="none"/>
+    <!-- pantalla-cara turquesa -->
+    <rect x="82" y="48" width="92" height="70" rx="18" fill="#2a8f8c"/>
+    <rect x="90" y="56" width="76" height="54" rx="13" fill="#38aea8" stroke="none"/>
+    <circle cx="108" cy="83" r="15" fill="#1fd3c8" stroke="none"/>
+    <circle cx="148" cy="83" r="15" fill="#1fd3c8" stroke="none"/>
+    <circle cx="108" cy="83" r="9" fill="#b9fff8" stroke="none"/>
+    <circle cx="148" cy="83" r="9" fill="#b9fff8" stroke="none"/>
+    <path d="M96 62 l14 0" stroke="#7fe0da" stroke-width="4" fill="none"/>
+  </g>
+  <g transform="translate(176 150) scale(.9) translate(-40 -96)" stroke-width="4">
+  <g stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- llave de anilla, detrás -->
+    <g transform="translate(40 96) rotate(-68)">
+      <rect x="-6" y="-6" width="70" height="12" rx="6" fill="#8d979e"/>
+      <circle cx="72" cy="0" r="13" fill="#8d979e"/>
+      <circle cx="72" cy="0" r="5.5" fill="#3b3430" stroke-width="3"/>
+    </g>
+    <!-- llave fija, delante -->
+    <g transform="translate(40 96) rotate(-42)">
+      <rect x="-8" y="-7" width="80" height="14" rx="7" fill="#b7c0c6"/>
+      <path d="M16 0 h44" stroke="#7f8a90" stroke-width="3"/>
+      <path d="M70 -10 C72 -24 98 -26 102 -11 L89 -6 L89 6 L102 11 C98 26 72 24 70 10 Z" fill="#b7c0c6"/>
+      <path d="M76 -14 q8 -6 16 -2" fill="none" stroke="#e6ecef" stroke-width="2.5"/>
+    </g>
+  </g>
+  </g>
+  </g>
+</svg>

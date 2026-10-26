@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · decoración (Astillero Oxidado, nivel 4): cadena que cuelga del muro con un gancho oxidado. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="419"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <g fill="none">
+      <rect x="56" y="-4" width="16" height="24" rx="8" stroke-width="9"/><rect x="56" y="-4" width="16" height="24" rx="8" stroke="#8f9ca4" stroke-width="4"/>
+      <rect x="60" y="14" width="8" height="24" rx="4" stroke-width="9"/><rect x="60" y="14" width="8" height="24" rx="4" stroke="#a9b6be" stroke-width="4"/>
+      <rect x="56" y="32" width="16" height="24" rx="8" stroke-width="9"/><rect x="56" y="32" width="16" height="24" rx="8" stroke="#8f9ca4" stroke-width="4"/>
+      <rect x="60" y="50" width="8" height="24" rx="4" stroke-width="9"/><rect x="60" y="50" width="8" height="24" rx="4" stroke="#a9b6be" stroke-width="4"/>
+    </g>
+    <rect x="50" y="70" width="28" height="14" rx="4" fill="#c9652e"/>
+    <path d="M64 84 v10 q0 22 -18 22 q-16 0 -16 -16" fill="none" stroke-width="13"/>
+    <path d="M64 84 v10 q0 22 -18 22 q-16 0 -16 -16" fill="none" stroke="#c9652e" stroke-width="6"/>
+    <path d="M30 100 l-6 -8 l12 2z" fill="#c9652e" stroke-width="3"/>
+  </g>
+</svg>

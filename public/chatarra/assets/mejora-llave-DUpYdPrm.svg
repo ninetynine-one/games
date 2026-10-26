@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · mejora: Llave reforzada del robot, con cinta en el mango. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="109"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <ellipse cx="64" cy="116" rx="44" ry="7" fill="#000" opacity=".35"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="rotate(-40 64 64)">
+      <rect x="22" y="56" width="66" height="16" rx="6" fill="#a9b6be"/>
+      <path d="M26 68 h58" stroke="#7d8b94" stroke-width="4"/>
+      <rect x="22" y="56" width="66" height="16" rx="6" fill="none"/>
+      <rect x="38" y="52" width="26" height="24" rx="4" fill="#c9652e"/>
+      <path d="M46 52 v24 M55 52 v24" stroke-width="3"/>
+      <path d="M104 56 L120.5 56 A22 22 0 1 0 120.5 72 L104 72 Z" fill="#a9b6be"/>
+      <path d="M90 50 a18 18 0 0 0 2 28" fill="none" stroke="#e8eef1" stroke-width="4"/>
+      <circle cx="18" cy="64" r="14" fill="#a9b6be"/>
+      <circle cx="18" cy="64" r="5.5" fill="#1b1714" stroke="none"/>
+      <circle cx="96" cy="46" r="3" fill="#1b1714" stroke="none"/><circle cx="96" cy="82" r="3" fill="#1b1714" stroke="none"/>
+    </g>
+  </g>
+</svg>

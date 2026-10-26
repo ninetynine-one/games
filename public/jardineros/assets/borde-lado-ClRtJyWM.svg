@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Concepto fase 4 · Borde lateral de la isla (izquierdo; el derecho se espeja): canto de tierra con hierba que asoma y raicillas (transparente) -->
+  <defs><filter id="wob" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="42"/><feDisplacementMap in="SourceGraphic" scale="2.4"/></filter></defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M132 -4 V132 H104 Q90 116 98 98 Q86 82 96 64 Q84 46 96 30 Q88 12 104 -4 Z" fill="#7a5434"/>
+    <path d="M132 -4 V132 H116 Q106 112 112 94 Q102 78 110 62 Q100 44 110 28 Q104 10 116 -4 Z" fill="#8a5e3a" stroke="none"/>
+    <path d="M128 -4 V132 H120 Q114 112 122 96 Q114 80 120 64 Q112 46 120 30 Q114 12 120 -4 Z" fill="#6e9446"/>
+    <path d="M98 98 Q84 100 80 112 M96 64 Q82 64 76 74 M96 30 Q86 28 80 36" fill="none" stroke="#6b4529" stroke-width="3.5"/>
+    <path d="M100 60 Q94 54 98 46 Q104 52 100 60 Z" fill="#9cc45a" stroke-width="2"/>
+    <path d="M102 120 Q96 116 100 108 Q106 114 102 120 Z" fill="#9cc45a" stroke-width="2"/>
+  </g>
+</svg>

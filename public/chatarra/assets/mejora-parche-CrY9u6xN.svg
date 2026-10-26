@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · mejora: Parche del reactor. Reactor con cinta cruzada y un «+» de integridad. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="113"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <ellipse cx="64" cy="116" rx="40" ry="7" fill="#000" opacity=".35"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M30 34 v62 a34 11 0 0 0 68 0 v-62z" fill="#6c7d86"/>
+    <path d="M82 36 h16 v60 q0 9 -16 11z" fill="#4c5a62" stroke="none"/>
+    <path d="M30 34 v62 a34 11 0 0 0 68 0 v-62" fill="none"/>
+    <rect x="50" y="44" width="28" height="50" rx="13" fill="#2ee6d0"/>
+    <rect x="56" y="50" width="8" height="28" rx="4" fill="#c9fff6" stroke="none"/>
+    <ellipse cx="64" cy="34" rx="34" ry="11" fill="#9fb2bd"/>
+    <ellipse cx="64" cy="34" rx="18" ry="5.5" fill="#4c5a62" stroke-width="4"/>
+    <path d="M28 54 l70 30 -4 10 -70 -30z" fill="#e9c97a" stroke-width="4"/>
+    <path d="M32 94 l64 -36 5 9 -64 36z" fill="#e9c97a" stroke-width="4"/>
+    <path d="M104 6 v26 M91 19 h26" stroke-width="13"/>
+    <path d="M104 6 v26 M91 19 h26" stroke="#6fd06a" stroke-width="6"/>
+  </g>
+</svg>

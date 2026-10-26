@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · decoración: prensa hidráulica pequeña al fondo del taller, con pistón y luz teal de encendida. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="305"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <defs><radialGradient id="gt"><stop offset="0" stop-color="#2ee6d0" stop-opacity=".6"/><stop offset="1" stop-color="#2ee6d0" stop-opacity="0"/></radialGradient></defs>
+  <ellipse cx="64" cy="116" rx="50" ry="7" fill="#000" opacity=".35"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- columnas -->
+    <rect x="20" y="22" width="14" height="80" fill="#5f7a8c"/>
+    <rect x="94" y="22" width="14" height="80" fill="#4a6070"/>
+    <!-- base -->
+    <rect x="12" y="94" width="104" height="20" rx="4" fill="#4b4540"/>
+    <path d="M96 96 h18 v16 h-18z" fill="#36322f" stroke="none"/>
+    <rect x="12" y="94" width="104" height="20" rx="4" fill="none"/>
+    <!-- mesa de prensado -->
+    <rect x="38" y="84" width="52" height="12" rx="2" fill="#36322f"/>
+    <!-- travesaño superior -->
+    <rect x="12" y="12" width="104" height="24" rx="5" fill="#6c7d86"/>
+    <path d="M96 14 h18 v20 h-18z" fill="#56656d" stroke="none"/>
+    <rect x="12" y="12" width="104" height="24" rx="5" fill="none"/>
+    <circle cx="22" cy="24" r="2.4" fill="#1b1714" stroke="none"/><circle cx="106" cy="24" r="2.4" fill="#1b1714" stroke="none"/>
+    <!-- cilindro hidráulico y vástago -->
+    <rect x="50" y="34" width="28" height="22" rx="3" fill="#bdb6a9"/>
+    <path d="M70 36 h6 v18 h-6z" fill="#8f887b" stroke="none"/>
+    <rect x="50" y="34" width="28" height="22" rx="3" fill="none"/>
+    <rect x="58" y="54" width="12" height="14" fill="#d3cdc1"/>
+    <!-- placa de prensa con franja de peligro -->
+    <rect x="36" y="66" width="56" height="12" rx="2" fill="#f2b632"/>
+    <path d="M44 78 l8 -12 M58 78 l8 -12 M72 78 l8 -12" stroke-width="3"/>
+    <!-- luz teal -->
+    <circle cx="86" cy="24" r="14" fill="url(#gt)" stroke="none"/>
+    <circle cx="86" cy="24" r="6" fill="#2ee6d0" stroke-width="3"/>
+    <circle cx="84.5" cy="22.5" r="2" fill="#e6fffb" stroke="none"/>
+    <!-- manguera -->
+    <path d="M34 48 q10 0 16 -4" fill="none" stroke-width="7"/><path d="M34 48 q10 0 16 -4" fill="none" stroke="#2c2825" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Polilla de Ceniza: aérea y rápida; alas grises con brasas -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="37"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+    </filter>
+  </defs>
+  <!-- sombra separada: vuela -->
+  <ellipse cx="64" cy="118" rx="22" ry="5" fill="#000" opacity="0.28"/>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- alas traseras -->
+    <path d="M56 70 Q24 96 14 82 Q10 66 40 60 Z" fill="#5c5752"/>
+    <path d="M72 70 Q104 96 114 82 Q118 66 88 60 Z" fill="#5c5752"/>
+    <!-- alas delanteras -->
+    <path d="M54 58 Q24 18 8 34 Q2 56 50 70 Z" fill="#8c8681"/>
+    <path d="M74 58 Q104 18 120 34 Q126 56 78 70 Z" fill="#8c8681"/>
+    <path d="M80 62 Q110 30 119 38 Q122 54 78 68 Z" fill="#76706b" stroke="none"/>
+    <path d="M20 36 Q34 40 46 58 M108 36 Q94 40 82 58" fill="none" stroke-width="2"/>
+    <circle cx="26" cy="44" r="6" fill="#e8782f" stroke-width="2.4"/>
+    <circle cx="102" cy="44" r="6" fill="#e8782f" stroke-width="2.4"/>
+    <circle cx="26" cy="44" r="2.4" fill="#ffc46b" stroke="none"/>
+    <circle cx="102" cy="44" r="2.4" fill="#ffc46b" stroke="none"/>
+    <circle cx="28" cy="80" r="3" fill="#e8782f" stroke-width="2"/>
+    <circle cx="100" cy="80" r="3" fill="#e8782f" stroke-width="2"/>
+    <!-- antenas -->
+    <path d="M56 40 Q46 20 36 16 M72 40 Q82 20 92 16" fill="none" stroke-width="3"/>
+    <path d="M36 16 Q34 10 40 10 M92 16 Q94 10 88 10" fill="none" stroke-width="3"/>
+    <!-- cuerpo peludo -->
+    <path d="M44 62 Q40 38 64 36 Q88 38 84 62 Q86 90 64 96 Q42 90 44 62 Z" fill="#b0a9a1"/>
+    <path d="M74 40 Q88 46 84 64 Q84 86 66 95 Q80 70 74 40 Z" fill="#938c85" stroke="none"/>
+    <path d="M48 78 Q64 84 80 78 M50 86 Q64 92 78 86" fill="none" stroke-width="2.2"/>
+    <path d="M46 44 L42 40 M82 44 L86 40 M44 58 L40 58" fill="none" stroke-width="2.2"/>
+    <!-- ojos -->
+    <circle cx="55" cy="56" r="8" fill="#1b1714"/>
+    <circle cx="73" cy="56" r="8" fill="#1b1714"/>
+    <circle cx="53" cy="53" r="2.6" fill="#ffc46b" stroke="none"/>
+    <circle cx="71" cy="53" r="2.6" fill="#ffc46b" stroke="none"/>
+    <!-- ceniza -->
+    <circle cx="60" cy="108" r="2" fill="#8c8681" stroke="none"/>
+    <circle cx="70" cy="104" r="1.5" fill="#e8782f" stroke="none"/>
+  </g>
+</svg>

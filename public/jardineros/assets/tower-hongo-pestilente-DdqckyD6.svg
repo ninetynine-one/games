@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Hongo Pestilente: sombrero ancho morado oscuro que gotea bruma; un solo objetivo -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="29"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- macetero: cara frontal -->
+    <path d="M12 90 H116 V116 H12 Z" fill="#4a3526"/>
+    <path d="M12 104 H116 V116 H12 Z" fill="#3a291e" stroke="none"/>
+    <path d="M44 92 V114 M84 92 V114" fill="none" stroke-width="2.2"/>
+    <circle cx="20" cy="103" r="1.8" fill="#1b1714" stroke="none"/>
+    <circle cx="108" cy="103" r="1.8" fill="#1b1714" stroke="none"/>
+    <!-- macetero: cara superior -->
+    <path d="M12 30 H116 V92 H12 Z" fill="#7a5a40"/>
+    <path d="M104 32 H114 V90 H104 Z" fill="#634833" stroke="none"/>
+    <path d="M23 40 H105 V82 H23 Z" fill="#2f2620"/>
+    <path d="M25 74 Q45 70 64 76 T103 72 V80 H25 Z" fill="#3c3128" stroke="none"/>
+    <path d="M16 36 L22 34 M110 86 L104 88 M18 88 L24 86" fill="none" stroke-width="1.8"/>
+    <!-- bruma densa -->
+    <path d="M18 84 Q12 66 30 64 Q34 52 52 58 Q64 48 78 58 Q96 52 100 64 Q116 66 110 84 Z" fill="#8a6aa8" opacity="0.65" stroke="none"/>
+    <!-- tallo grueso -->
+    <path d="M48 84 Q44 68 50 56 H78 Q84 68 80 84 Q64 88 48 84 Z" fill="#e8dcc0"/>
+    <path d="M72 58 H78 Q83 70 80 83 Q76 85 72 85 Q75 70 72 58 Z" fill="#c9b796" stroke="none"/>
+    <path d="M56 72 L62 76 M62 72 L56 76 M68 72 L74 76 M74 72 L68 76" fill="none" stroke-width="2.4"/>
+    <!-- sombrero ancho -->
+    <path d="M10 60 Q12 18 64 12 Q116 18 118 60 Q96 70 64 69 Q32 70 10 60 Z" fill="#5a2f86"/>
+    <path d="M86 16 Q112 28 117 59 Q104 66 92 67 Q102 40 86 16 Z" fill="#43216a" stroke="none"/>
+    <path d="M22 34 Q34 20 54 15" fill="none" stroke="#9a6bd8" stroke-width="3"/>
+    <!-- pústulas -->
+    <circle cx="44" cy="36" r="8" fill="#47d6c2" stroke-width="2.8"/>
+    <circle cx="44" cy="36" r="3" fill="#1f6b62" stroke="none"/>
+    <circle cx="78" cy="30" r="6.5" fill="#47d6c2" stroke-width="2.6"/>
+    <circle cx="78" cy="30" r="2.4" fill="#1f6b62" stroke="none"/>
+    <circle cx="96" cy="48" r="5" fill="#47d6c2" stroke-width="2.4"/>
+    <circle cx="26" cy="52" r="4" fill="#47d6c2" stroke-width="2.2"/>
+    <circle cx="62" cy="52" r="4.5" fill="#47d6c2" stroke-width="2.2"/>
+    <!-- gotas de bruma -->
+    <path d="M24 62 Q22 72 26 76 Q30 72 29 63 Z M50 68 Q48 80 52 84 Q56 80 55 69 Z M98 64 Q97 74 101 78 Q105 73 103 63 Z" fill="#b58ee6" stroke-width="2.4"/>
+    <!-- nube de esporas -->
+    <circle cx="8" cy="20" r="4" fill="#9a6bd8" stroke-width="2"/>
+    <circle cx="118" cy="14" r="3.4" fill="#9a6bd8" stroke-width="2"/>
+    <circle cx="104" cy="4" r="2" fill="#b58ee6" stroke="none"/>
+    <circle cx="20" cy="6" r="2.2" fill="#b58ee6" stroke="none"/>
+  </g>
+</svg>

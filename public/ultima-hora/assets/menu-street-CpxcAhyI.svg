@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 740" width="1160" height="740">
+  <!-- Living menu, front layer: the curved lamplit sidewalk at the foot of the clock and the night road (key-art.jpg). -->
+  <defs><filter id="rough" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="2" seed="8"/><feDisplacementMap in="SourceGraphic" scale="3"/></filter>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2e3656"/><stop offset="1" stop-color="#171a2e"/></linearGradient>
+    <linearGradient id="walk" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c8a07a"/><stop offset="0.5" stop-color="#a08470"/><stop offset="1" stop-color="#5e607c"/></linearGradient>
+  </defs>
+  <rect x="0" y="20" width="1160" height="720" fill="url(#road)"/>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="6" stroke-linejoin="round">
+    <path d="M600 30 L1160 26 L1160 62 L600 66 Z" fill="#3e4668"/>
+    <path d="M0 62 L600 70 Q880 78 900 170 Q915 262 620 310 L0 392 Z" fill="#4a3c3c"/>
+    <path d="M0 40 L600 48 Q860 56 880 150 Q895 238 610 288 L0 366 Z" fill="url(#walk)"/>
+  </g>
+  <path d="M90 46 L50 286 M180 48 L140 282 M270 50 L230 278 M360 52 L320 274 M450 54 L410 270 M540 56 L500 266 M630 58 L590 262 M720 60 L680 258 " fill="none" stroke="#5a4a44" stroke-width="3" opacity="0.35"/>
+  <path d="M960 420 L1060 410 M700 520 L820 506 M420 640 L560 622" stroke="#4a5278" stroke-width="8" stroke-linecap="round" opacity="0.5"/>
+</svg>

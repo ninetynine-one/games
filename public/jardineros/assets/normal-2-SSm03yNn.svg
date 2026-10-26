@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+  <!-- Suelo normal (variante): tierra oscura con piedrecitas y musgo -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="4"/>
+      <feDisplacementMap in="SourceGraphic" scale="2"/>
+    </filter>
+  </defs>
+  <rect width="96" height="96" fill="#2e2620"/>
+  <g filter="url(#wob)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 22 Q66 14 80 22 Q84 34 68 36 Q52 34 50 22 Z" fill="#33392a" opacity="0.8"/>
+    <path d="M8 62 Q20 56 32 62 Q34 72 22 74 Q10 72 8 62 Z" fill="#33392a" opacity="0.8"/>
+    <ellipse cx="40" cy="44" rx="4" ry="2.6" fill="#45403a" stroke="#1b1714" stroke-width="1.4"/>
+    <ellipse cx="78" cy="78" rx="3" ry="2" fill="#45403a" stroke="#1b1714" stroke-width="1.2"/>
+    <path d="M60 52 Q66 50 70 54" fill="none" stroke="#241d18" stroke-width="1.4"/>
+    <circle cx="16" cy="18" r="1.4" fill="#3d332a"/><circle cx="56" cy="88" r="1.6" fill="#3d332a"/>
+    <path d="M66 28 l-2 -6 M66 28 l1 -7 M66 28 l4 -5" fill="none" stroke="#4d6138" stroke-width="1.6"/>
+    <path d="M20 66 l-2 -6 M20 66 l1 -7 M20 66 l4 -5" fill="none" stroke="#4d6138" stroke-width="1.6"/>
+    <path d="M86 50 l-2 -6 M86 50 l1 -7 M86 50 l4 -5" fill="none" stroke="#4d6138" stroke-width="1.6"/>
+    <path d="M34 90 l-2 -6 M34 90 l1 -7 M34 90 l4 -5" fill="none" stroke="#4d6138" stroke-width="1.6"/>
+  </g>
+</svg>

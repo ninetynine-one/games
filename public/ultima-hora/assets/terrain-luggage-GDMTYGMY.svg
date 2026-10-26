@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Solid terrain: a pile of forgotten station luggage (paisaje.jpg): an oxblood trunk with brass bands and a green case on top. Not buildable, blocks paths. -->
+  <ellipse cx="64" cy="114" rx="56" ry="11" fill="#000" opacity="0.4"/>
+  <g stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M10 64 L118 63 L118 112 Q64 115 10 113 Z" fill="#6a2f22"/>
+    <path d="M13 67 L64 66 L64 110 L13 110 Z" fill="#7d3a2a" stroke="none"/>
+    <path d="M10 64 L118 63 L118 112 Q64 115 10 113 Z" fill="none"/>
+    <path d="M10 79 L118 78" fill="none" stroke-width="2.6"/>
+    <path d="M30 64 V113 M98 63 V112" fill="none" stroke="#c89a3c" stroke-width="6"/>
+    <path d="M30 64 V113 M98 63 V112" fill="none" stroke-width="1.4"/>
+    <rect x="57" y="82" width="14" height="14" rx="2" fill="#e0b450" stroke-width="2.4"/>
+    <path d="M22 32 L94 31 L96 64 L20 65 Z" fill="#2f6a5a"/>
+    <path d="M24 35 L58 34 L58 62 L23 63 Z" fill="#3c8270" stroke="none"/>
+    <path d="M22 32 L94 31 L96 64 L20 65 Z" fill="none"/>
+    <path d="M46 32 Q46 20 57 20 Q68 20 68 31" fill="none" stroke-width="4.5"/>
+    <path d="M24 44 L94 43" fill="none" stroke="#c89a3c" stroke-width="4"/>
+    <rect x="51" y="39" width="11" height="10" fill="#e0b450" stroke-width="2"/>
+    <path d="M72 50 L87 50 L87 60 L72 60 Z" fill="#f0e4c6" stroke-width="2"/>
+    <path d="M75 55 H84" fill="none" stroke-width="1.6"/>
+    <g fill="#e0b450" stroke-width="1.6"><circle cx="16" cy="70" r="2.8"/><circle cx="112" cy="70" r="2.8"/><circle cx="16" cy="106" r="2.8"/><circle cx="112" cy="105" r="2.8"/></g>
+  </g>
+  <path d="M16 68 L60 67" stroke="#f0c89a" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+</svg>

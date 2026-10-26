@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · maldición: Las piezas caducan antes. Reloj de arena con arena roja y una tuerca oxidada. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="225"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M64 8 L116 30 V66 q0 34 -52 54 q-52 -20 -52 -54 V30z" fill="#36322f"/>
+    <path d="M64 18 L106 36 V66 q0 26 -42 44 q-42 -18 -42 -44 V36z" fill="none" stroke="#5c564e" stroke-width="3"/>
+    <path d="M40 24 h48 M40 98 h48" stroke-width="7"/>
+    <path d="M46 26 q0 22 18 34 q-18 12 -18 36 h36 q0 -24 -18 -36 q18 -12 18 -34z" fill="#d8d2c4" stroke-width="5"/>
+    <path d="M52 34 h24 q-2 12 -12 20 q-10 -8 -12 -20z" fill="#e04a32" stroke="none"/>
+    <path d="M64 60 v20" stroke="#e04a32" stroke-width="3"/>
+    <path d="M50 94 q14 -14 28 0z" fill="#e04a32" stroke-width="3"/>
+    <path d="M94 76 l9 5 v11 l-9 5 -9 -5 v-11z" fill="#9a6a3e" stroke-width="4"/>
+    <circle cx="94" cy="86" r="3.2" fill="#1b1714" stroke="none"/>
+  </g>
+</svg>

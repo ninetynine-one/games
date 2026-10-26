@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · fx: explosión 3/4, humo gris grande con brasas y chispas. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="81"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <g><g fill="#1b1714" stroke="#1b1714" stroke-width="8"><circle cx="64" cy="68" r="32"/><circle cx="34" cy="60" r="22"/><circle cx="94" cy="60" r="22"/><circle cx="50" cy="36" r="20"/><circle cx="82" cy="38" r="18"/><circle cx="38" cy="90" r="18"/><circle cx="90" cy="92" r="18"/><circle cx="64" cy="98" r="14"/></g><g fill="#6b655c" stroke="none"><circle cx="64" cy="68" r="32"/><circle cx="34" cy="60" r="22"/><circle cx="94" cy="60" r="22"/><circle cx="50" cy="36" r="20"/><circle cx="82" cy="38" r="18"/><circle cx="38" cy="90" r="18"/><circle cx="90" cy="92" r="18"/><circle cx="64" cy="98" r="14"/></g></g>
+    <g fill="#8a8379" stroke="none"><circle cx="56" cy="54" r="17"/><circle cx="82" cy="48" r="11"/><circle cx="36" cy="56" r="10"/><circle cx="48" cy="32" r="9"/></g>
+    <g><g fill="#1b1714" stroke="#1b1714" stroke-width="6"><circle cx="62" cy="74" r="9"/><circle cx="71" cy="79" r="7"/><circle cx="56" cy="80" r="5"/></g><g fill="#f08a2a" stroke="none"><circle cx="62" cy="74" r="9"/><circle cx="71" cy="79" r="7"/><circle cx="56" cy="80" r="5"/></g></g>
+    <g fill="#ffd24a" stroke="none"><circle cx="63" cy="74" r="4"/></g>
+    <circle cx="88" cy="66" r="3" fill="#f08a2a" stroke-width="2.4"/><circle cx="40" cy="84" r="2.6" fill="#f08a2a" stroke-width="2.4"/>
+    <path d="M38.0 19.0 L33.0 10.3" stroke-width="9"/><path d="M38.0 19.0 L33.0 10.3" stroke="#ffd24a" stroke-width="4"/>
+    <path d="M107.3 39.0 L117.7 33.0" stroke-width="9"/><path d="M107.3 39.0 L117.7 33.0" stroke="#ffd24a" stroke-width="4"/>
+    <path d="M109.3 85.1 L118.4 89.4" stroke-width="9"/><path d="M109.3 85.1 L118.4 89.4" stroke="#ffd24a" stroke-width="4"/>
+    <path d="M22.4 88.0 L12.0 94.0" stroke-width="9"/><path d="M22.4 88.0 L12.0 94.0" stroke="#ffd24a" stroke-width="4"/>
+    <path d="M112 102 l6 -2 2 6 -6 2z M10 100 l6 1 -1 6 -6 -1z M104 16 l6 1 -1 6 -6 -1z" fill="#c9652e" stroke-width="3"/>
+  </g>
+</svg>

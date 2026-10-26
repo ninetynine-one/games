@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · bloque: caja de madera sola (torres.jpg), muro y base. Más alta que la caja de las torres, pero sin máquina encima. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="33"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <ellipse cx="64" cy="123" rx="58" ry="6" fill="#000" opacity=".35"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- tapa en 3/4 -->
+    <path d="M18 40 H110 L118 54 H10 Z" fill="#dc9a58"/>
+    <path d="M22 45 H106 M16 50 H112" stroke="#a8652e" stroke-width="2"/>
+    <!-- frontal de tablas -->
+    <rect x="10" y="54" width="108" height="68" rx="4" fill="#c47a3e"/>
+    <path d="M24 71 H104 M24 88 H104 M24 105 H104" stroke="#8a4f24" stroke-width="2.5"/>
+    <path d="M44 60 q10 4 20 0 M70 94 q12 4 22 0" stroke="#dc9a58" stroke-width="2" fill="none"/>
+    <!-- esquineras y travesaño -->
+    <rect x="10" y="54" width="15" height="68" rx="3" fill="#a8652e"/>
+    <rect x="103" y="54" width="15" height="68" rx="3" fill="#a8652e"/>
+    <rect x="25" y="54" width="78" height="10" fill="#b26c34"/>
+    <!-- clavos y chapa de refuerzo -->
+    <circle cx="17.5" cy="62" r="2.6" fill="#d8d2c4" stroke-width="1.5"/><circle cx="17.5" cy="114" r="2.6" fill="#d8d2c4" stroke-width="1.5"/>
+    <circle cx="110.5" cy="62" r="2.6" fill="#d8d2c4" stroke-width="1.5"/><circle cx="110.5" cy="114" r="2.6" fill="#d8d2c4" stroke-width="1.5"/>
+    <path d="M54 96 h20 v14 h-20z" fill="#8f9ca4" stroke-width="3"/>
+    <circle cx="58" cy="103" r="1.6" fill="#1b1714" stroke="none"/><circle cx="70" cy="103" r="1.6" fill="#1b1714" stroke="none"/>
+  </g>
+</svg>

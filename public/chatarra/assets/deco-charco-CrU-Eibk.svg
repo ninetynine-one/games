@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · decoración (Astillero Oxidado, nivel 4): charco de agua plano con reflejos. Calcomanía: no parece obstáculo. -->
+  <path d="M14 70 q-4 -22 26 -26 q16 -14 40 -6 q30 0 34 22 q10 20 -16 30 q-20 14 -50 6 q-34 0 -34 -26z" fill="#7fb8d8" stroke="#1b1714" stroke-opacity=".45" stroke-width="3"/>
+  <path d="M26 66 q-2 -14 20 -16 q12 -10 30 -4 q22 0 26 14" fill="none" stroke="#b8e0f2" stroke-width="4" stroke-linecap="round"/>
+  <path d="M50 82 q16 6 34 0" fill="none" stroke="#5f98ba" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="88" cy="58" rx="6" ry="3" fill="#e6f6ff"/>
+</svg>

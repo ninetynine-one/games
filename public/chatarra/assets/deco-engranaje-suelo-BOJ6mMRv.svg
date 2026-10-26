@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · decoración: engranaje verde tirado en el suelo (paisaje.jpg), plano y con sombra: no parece obstáculo. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="413"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <ellipse cx="66" cy="70" rx="50" ry="30" fill="#000" opacity=".2"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" transform="translate(0 6) scale(1 .72) translate(0 12)">
+    <path d="M106 56 L118 58 L118 70 L106 72 L103 82 L111 91 L104 100 L93 95 L85 102 L86 113 L75 117 L69 107 L59 107 L53 117 L42 113 L43 102 L35 95 L24 100 L17 91 L25 82 L22 72 L10 70 L10 58 L22 56 L25 46 L17 37 L24 28 L35 33 L43 26 L42 15 L53 11 L59 21 L69 21 L75 11 L86 15 L85 26 L93 33 L104 28 L111 37 L103 46Z" fill="#8cc63f"/>
+    <circle cx="64" cy="64" r="30" fill="#a6d65a" stroke-width="3"/>
+    <circle cx="64" cy="64" r="14" fill="#5a8a2a"/>
+    <circle cx="64" cy="64" r="6" fill="#2f4a18" stroke="none"/>
+  </g>
+</svg>

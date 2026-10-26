@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · carta: Palanca. Pata de cabra roja, gastada, haciendo palanca sobre un bloque. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="215"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <ellipse cx="64" cy="116" rx="46" ry="7" fill="#000" opacity=".35"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="62" y="70" width="48" height="40" rx="5" fill="#8a7a52"/>
+    <path d="M62 84 h48 M62 98 h48" fill="none" stroke-width="3"/>
+    <path d="M22 26 L92 86" stroke-width="16"/>
+    <path d="M22 26 L92 86" stroke="#b5432f" stroke-width="8"/>
+    <path d="M92 86 q10 8 2 18 l-6 -2" fill="none" stroke-width="12"/>
+    <path d="M92 86 q10 8 2 18 l-6 -2" fill="none" stroke="#b5432f" stroke-width="5"/>
+    <path d="M22 26 q-8 -8 -2 -16 l8 4" fill="none" stroke-width="12"/>
+    <path d="M22 26 q-8 -8 -2 -16 l8 4" fill="none" stroke="#b5432f" stroke-width="5"/>
+    <path d="M40 38 l20 17" stroke="#e8a090" stroke-width="3"/>
+    <path d="M100 66 l8 -8 M110 74 l10 -4" stroke="#f2b632" stroke-width="4"/>
+  </g>
+</svg>

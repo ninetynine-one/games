@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · mascota: Tuerca con patas. Tuerca naranja octogonal con cara, bracitos y patas. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="41"/><feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/></filter>
+  </defs>
+  <ellipse cx="64" cy="115" rx="34" ry="7" fill="#000" opacity=".3"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- patas -->
+    <path d="M52 96 v12 h-8 M76 96 v12 h8" fill="none" stroke-width="9"/>
+    <path d="M52 96 v12 h-8 M76 96 v12 h8" fill="none" stroke="#8a4a2a" stroke-width="4"/>
+    <!-- bracitos -->
+    <path d="M26 66 q-10 8 -8 20 M102 66 q10 8 8 20" fill="none" stroke-width="10"/>
+    <path d="M26 66 q-10 8 -8 20 M102 66 q10 8 8 20" fill="none" stroke="#8a4a2a" stroke-width="5"/>
+    <!-- tuerca -->
+    <path d="M48 20 h32 l23 23 v32 l-23 23 h-32 l-23 -23 v-32z" fill="#e07a36"/>
+    <path d="M80 20 l23 23 v32 l-23 23 h-10 l20 -22 v-30 z" fill="#b5582a" stroke="none"/>
+    <path d="M42 34 q6 -8 16 -9" fill="none" stroke="#f6aa72" stroke-width="5"/>
+    <path d="M48 20 h32 l23 23 v32 l-23 23 h-32 l-23 -23 v-32z" fill="none"/>
+    <!-- cara -->
+    <circle cx="52" cy="58" r="6" fill="#1b1714" stroke="none"/>
+    <circle cx="76" cy="58" r="6" fill="#1b1714" stroke="none"/>
+    <circle cx="54" cy="56" r="2" fill="#fff" stroke="none"/>
+    <circle cx="78" cy="56" r="2" fill="#fff" stroke="none"/>
+    <path d="M58 70 q6 5 12 0" fill="none" stroke-width="3"/>
+  </g>
+</svg>

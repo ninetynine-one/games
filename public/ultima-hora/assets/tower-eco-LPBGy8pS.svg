@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Torre del Eco: twin tuning forks; the echo is drawn dashed. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="5"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- pedestal -->
+    <path d="M13 95 L115 94 L115 115 Q64 118 13 116 Z" fill="#2a2a31"/>
+    <path d="M13 99 L115 98 L115 104 L13 105 Z" fill="#8a6a3a" stroke-width="2.5"/>
+    <path d="M14 24 L114 23 L115 96 L13 97 Z" fill="#4a4b54"/>
+    <path d="M24 32 L104 31 L105 88 L23 89 Z" fill="#5b5c66" stroke-width="2.5"/>
+    <path d="M24 82 L105 81 L105 88 L23 89 Z" fill="#45464f" stroke="none"/>
+    <path d="M14 24 L29 24 L29 38 L14 38 Z M99 23 L114 23 L114 37 L99 37 Z M13 83 L28 83 L28 97 L13 97 Z M100 82 L115 82 L115 96 L100 96 Z" fill="#9c7a42" stroke-width="2.5"/>
+    <g fill="#d4a640" stroke-width="1.6">
+      <circle cx="26" cy="110" r="2.6"/><circle cx="64" cy="110" r="2.6"/><circle cx="102" cy="110" r="2.6"/>
+    </g>
+    <path d="M58 40 l4 4 l-1 5" fill="none" stroke-width="1.6"/>
+    <!-- echo waves (dashed: the echo stroke) -->
+    <g fill="none" stroke-width="6" stroke-opacity="0.85">
+      <path d="M26 20 Q44 2 62 20"/><path d="M66 20 Q84 2 102 20"/>
+    </g>
+    <g fill="none" stroke="#5fd4e6" stroke-width="2.6" stroke-dasharray="5 4">
+      <path d="M26 20 Q44 2 62 20"/><path d="M66 20 Q84 2 102 20"/>
+    </g>
+    <!-- yoke between the twins -->
+    <path d="M42 80 Q64 90 86 80 L86 86 Q64 96 42 86 Z" fill="#8a6a3a" stroke-width="2.8"/>
+    <!-- left fork -->
+    <ellipse cx="44" cy="84" rx="10" ry="5" fill="#7d6032" stroke-width="2.8"/>
+    <path d="M34 22 L34 56 Q34 64 41 66 L41 84 L47 84 L47 66 Q54 64 54 56 L54 22 L48 22 L48 54 Q48 58 44 58 Q40 58 40 54 L40 22 Z" fill="#c69a50"/>
+    <path d="M48 22 L54 22 L54 56 Q54 64 47 66 L47 84 L44.5 84 L44.5 64 Q50 62 51 56 L51 22 Z" fill="#8a6a3a" stroke="none"/>
+    <path d="M34 22 L34 56 Q34 64 41 66 L41 84 L47 84 L47 66 Q54 64 54 56 L54 22 L48 22 L48 54 Q48 58 44 58 Q40 58 40 54 L40 22 Z" fill="none"/>
+    <!-- right fork (twin) -->
+    <ellipse cx="84" cy="84" rx="10" ry="5" fill="#7d6032" stroke-width="2.8"/>
+    <path d="M74 22 L74 56 Q74 64 81 66 L81 84 L87 84 L87 66 Q94 64 94 56 L94 22 L88 22 L88 54 Q88 58 84 58 Q80 58 80 54 L80 22 Z" fill="#c69a50"/>
+    <path d="M88 22 L94 22 L94 56 Q94 64 87 66 L87 84 L84.5 84 L84.5 64 Q90 62 91 56 L91 22 Z" fill="#8a6a3a" stroke="none"/>
+    <path d="M74 22 L74 56 Q74 64 81 66 L81 84 L87 84 L87 66 Q94 64 94 56 L94 22 L88 22 L88 54 Q88 58 84 58 Q80 58 80 54 L80 22 Z" fill="none"/>
+    <!-- resonance gem -->
+    <path d="M64 62 L71 72 L64 82 L57 72 Z" fill="#5fd4e6" stroke-width="2.8"/>
+    <path d="M64 62 L71 72 L64 82 Z" fill="#3aa9bd" stroke="none"/>
+    <path d="M64 62 L71 72 L64 82 L57 72 Z" fill="none" stroke-width="2.8"/>
+  </g>
+  <circle cx="61.5" cy="69" r="1.6" fill="#ffffff"/>
+</svg>

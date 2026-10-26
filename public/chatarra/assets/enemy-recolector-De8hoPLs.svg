@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · enemigo: Recolector de Serie. Pequeño: cabeza redonda, pinza y saco rojo a la espalda. Contorno claro para leerse sobre el suelo gris. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="21"/><feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/></filter>
+    <filter id="rim" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144"><feMorphology in="SourceAlpha" operator="dilate" radius="3" result="d"/><feFlood flood-color="#f4efe6"/><feComposite in2="d" operator="in"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <ellipse cx="64" cy="114" rx="28" ry="6" fill="#000" opacity=".4"/>
+  <g filter="url(#rim)"><g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- saco rojo -->
+    <path d="M46 60 q-32 0 -30 30 q2 20 22 20 q16 0 20 -18z" fill="#d8453a"/>
+    <path d="M28 76 q4 -6 10 -8" fill="none" stroke="#f08a7e" stroke-width="3"/>
+    <path d="M40 60 l6 -6 4 8z" fill="#a82f26" stroke-width="3"/>
+    <!-- patas -->
+    <path d="M58 98 l-5 12 h-8 M74 98 l5 12 h8" fill="none" stroke-width="8"/>
+    <path d="M58 98 l-5 12 h-8 M74 98 l5 12 h8" fill="none" stroke="#8f969a" stroke-width="3"/>
+    <!-- cuerpo -->
+    <ellipse cx="66" cy="92" rx="17" ry="11" fill="#cfd3d4"/>
+    <!-- brazo con pinza -->
+    <path d="M84 84 q12 0 14 10" fill="none" stroke-width="8"/>
+    <path d="M84 84 q12 0 14 10" fill="none" stroke="#8f969a" stroke-width="3"/>
+    <path d="M98 94 l-10 12 M98 94 l12 10" fill="none" stroke-width="9"/>
+    <path d="M98 94 l-10 12 M98 94 l12 10" fill="none" stroke="#8f969a" stroke-width="3.5"/>
+    <circle cx="98" cy="94" r="5" fill="#5c6166" stroke-width="3"/>
+    <!-- cabeza redonda -->
+    <ellipse cx="66" cy="62" rx="26" ry="24" fill="#f1efe9"/>
+    <path d="M80 42 q12 8 11 22 q-1 16 -16 20 q12 -16 5 -42z" fill="#c9c6bd" stroke="none"/>
+    <ellipse cx="66" cy="62" rx="26" ry="24" fill="none"/>
+    <rect x="50" y="54" width="32" height="16" rx="8" fill="#1f2429"/>
+    <circle cx="60" cy="62" r="3.5" fill="#ff5a48" stroke="none"/>
+    <circle cx="72" cy="62" r="3.5" fill="#ff5a48" stroke="none"/>
+    <path d="M66 38 v-8" fill="none" stroke-width="3"/>
+    <circle cx="66" cy="28" r="3.5" fill="#d8453a" stroke-width="3"/>
+  </g></g>
+</svg>

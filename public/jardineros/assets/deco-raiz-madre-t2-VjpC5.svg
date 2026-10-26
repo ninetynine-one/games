@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Fase 5 · Decorado nivel 5: raíz gruesa del Árbol Madre que asoma del musgo, con vetas turquesa que laten -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="72"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+    <radialGradient id="halo" cx="0.5" cy="0.6" r="0.5"><stop offset="0" stop-color="#5fe0cc" stop-opacity="0.55"/><stop offset="1" stop-color="#5fe0cc" stop-opacity="0"/></radialGradient>
+  </defs>
+  <ellipse cx="64" cy="76" rx="62" ry="46" fill="url(#halo)"/>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="64" cy="114" rx="58" ry="9" fill="#14110f" stroke="none" opacity="0.5"/>
+    <path d="M4 112 Q10 70 40 52 Q64 36 88 50 Q118 68 124 112 L102 112 Q96 80 76 72 Q58 66 44 80 Q30 94 28 112 Z" fill="#6b4a2e"/>
+    <path d="M40 52 Q64 36 88 50 Q74 46 60 50 Q48 54 40 62 Z" fill="#8a6038" stroke="none"/>
+    <path d="M14 106 Q22 76 44 62 M108 106 Q102 78 84 62" fill="none" stroke="#4a3220" stroke-width="2.6"/>
+    <path d="M18 104 Q24 80 46 66 Q64 56 82 64 Q100 74 106 104" fill="none" stroke="#5fe0cc" stroke-width="3"/>
+    <path d="M60 52 Q62 44 70 42" fill="none" stroke="#5fe0cc" stroke-width="2.4"/>
+    <path d="M30 60 Q36 46 48 48 Q44 38 58 40 Q64 32 72 40 Q60 44 52 52 Q40 52 30 60 Z" fill="#6e9446" stroke-width="2.6"/>
+    <g fill="#7ff0dc" stroke="#1b1714" stroke-width="1.4"><circle cx="34" cy="86" r="3.2"/><circle cx="96" cy="88" r="3"/><circle cx="76" cy="58" r="2.6"/></g>
+    <path d="M2 112 Q8 100 14 104 M120 104 Q126 100 128 108" fill="none" stroke="#8dbd78" stroke-width="3"/>
+  </g>
+</svg>

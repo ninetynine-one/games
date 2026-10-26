@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Muro de Hoy: riveted iron plate block. Exists only in the Present (square slate badge with a gear). -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="12"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M13 95 L115 94 L115 115 Q64 118 13 116 Z" fill="#2c2a28"/>
+    <path d="M13 99 L115 98 L115 104 L13 105 Z" fill="#8a6a3a" stroke-width="2.5"/>
+    <path d="M14 24 L114 23 L115 96 L13 97 Z" fill="#5e5a55"/>
+    <path d="M14 24 L64 24 L64 96 L13 97 Z" fill="#6b6660" stroke="none"/>
+    <path d="M14 24 L114 23 L115 96 L13 97 Z" fill="none"/>
+    <path d="M64 24 V96 M14 60 H114" fill="none" stroke-width="2.6"/>
+    <!-- hazard band (warm amber, not cold) -->
+    <path d="M14 70 L114 69 L114 80 L14 81 Z" fill="#d89a36" stroke-width="2.6"/>
+    <path d="M22 81 L30 70 M38 81 L46 70 M54 81 L62 70 M70 81 L78 70 M86 81 L94 70 M102 81 L110 70" fill="none" stroke-width="4"/>
+    <g fill="#b08a4a" stroke-width="1.6">
+      <circle cx="22" cy="32" r="3"/><circle cx="56" cy="32" r="3"/><circle cx="72" cy="32" r="3"/><circle cx="106" cy="32" r="3"/>
+      <circle cx="22" cy="52" r="3"/><circle cx="106" cy="52" r="3"/><circle cx="22" cy="89" r="3"/><circle cx="106" cy="88" r="3"/>
+    </g>
+    <path d="M84 40 l8 6 M30 44 l5 -3" fill="none" stroke-width="1.6"/>
+  </g>
+  <!-- era badge: Present = square slate with gear teeth -->
+  <g stroke="#1b1714" stroke-width="3" stroke-linejoin="round">
+    <rect x="91" y="7" width="26" height="26" fill="#9aa0a6"/>
+    <circle cx="104" cy="20" r="7" fill="#d8dce0" stroke-width="2.6"/>
+    <path d="M104 9 v4 M104 27 v4 M93 20 h4 M111 20 h4" fill="none" stroke-width="3"/>
+    <circle cx="104" cy="20" r="2.4" fill="#1b1714" stroke="none"/>
+  </g>
+</svg>

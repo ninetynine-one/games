@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 32" width="128" height="32">
+  <!-- Chatarra · terreno: canto del marco de tierra con hierba (borde interior del taller). Tira horizontal tileable; el suelo queda abajo. -->
+  <rect x="0" y="0" width="128" height="20" fill="#c67352"/>
+  <rect x="0" y="0" width="128" height="6" fill="#d88c68"/>
+  <path d="M0 20 H128" stroke="#1b1714" stroke-width="4"/>
+  <!-- hierba que cuelga sobre el canto -->
+  <g stroke="#1b1714" stroke-width="2.5" stroke-linejoin="round">
+    <path d="M-2 20 q6 -10 12 0 q4 -8 10 0 q5 10 -8 8 q-10 2 -14 -8z" fill="#6fae3a"/>
+    <path d="M40 20 q5 -9 10 0 q5 -7 10 0 q3 9 -10 8 q-9 1 -10 -8z" fill="#5f9e32"/>
+    <path d="M84 20 q6 -11 12 0 q4 -8 10 0 q4 10 -10 8 q-10 1 -12 -8z" fill="#6fae3a"/>
+    <path d="M118 20 q6 -10 12 0 q-2 9 -8 8 q-4 0 -4 -8z" fill="#6fae3a"/>
+  </g>
+  <!-- sombra que cae sobre el suelo -->
+  <rect x="0" y="22" width="128" height="10" fill="#000" opacity=".18"/>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Hoz del Jardinero: hoja curva plateada, mango de madera y musgo en la virola. Empuñadura en (24,104), apunta arriba a la derecha (dibujada en vertical y girada 45°) -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="31"/>
+      <feDisplacementMap in="SourceGraphic" scale="1.8"/>
+    </filter>
+  </defs>
+  <g filter="url(#wob)">
+    <g transform="translate(24 104) rotate(45)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+      <!-- hoja curva -->
+      <path d="M-3 -50 C 30 -62, 40 -104, 2 -124 C 22 -100, 16 -70, -4 -58 Z" fill="#c4ccd0"/>
+      <path d="M8 -60 C 28 -72, 32 -98, 14 -114 C 24 -96, 20 -76, 4 -64 Z" fill="#e8eef0" stroke="none"/>
+      <path d="M-1 -59 C 16 -70, 20 -96, 4 -118" fill="none" stroke="#8a969c" stroke-width="1.8"/>
+      <path d="M18 -88 l4 -2" fill="none" stroke="#7fe0d8" stroke-width="2.4"/>
+      <!-- mango -->
+      <path d="M-5 -48 H5 L4.5 10 H-4.5 Z" fill="#b07a48"/>
+      <path d="M1.5 -46 H4.5 L4 8 H1.5 Z" fill="#8c5c34" stroke="none"/>
+      <path d="M-2 -30 l1 6 M-1 -8 l1 6" fill="none" stroke="#7a5030" stroke-width="1.6"/>
+      <ellipse cx="0" cy="12" rx="6" ry="4.5" fill="#8c5c34"/>
+      <!-- virola y musgo -->
+      <rect x="-6.5" y="-56" width="13" height="8" rx="2" fill="#9aa3a8"/>
+      <path d="M-9 -54 Q-10 -62 -2 -61 Q2 -66 7 -61 Q12 -60 9 -54 Q8 -50 4 -51 L3 -47 Q0 -50 -2 -50 Q-8 -49 -9 -54 Z" fill="#8cc63a"/>
+      <circle cx="-3" cy="-57" r="1.4" fill="#c4e878" stroke="none"/>
+    </g>
+  </g>
+</svg>

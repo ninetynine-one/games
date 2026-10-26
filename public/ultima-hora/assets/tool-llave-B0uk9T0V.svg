@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Llave de resorte: clock-winding key with a brass butterfly bow and a stem with a square socket. Grip on the stem, bow up. -->
+  <g stroke="#1b1714" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="56" y="50" width="16" height="56" rx="4" fill="#b8873a"/>
+    <path d="M66 54 L66 102" stroke="#e8c06a" stroke-width="3" opacity="0.8"/>
+    <rect x="51" y="100" width="26" height="18" rx="4" fill="#d4a640"/>
+    <rect x="59" y="105" width="10" height="8" fill="#1b1714" stroke="none"/>
+    <rect x="49" y="48" width="30" height="11" rx="4" fill="#d4a640"/>
+    <!-- butterfly bow -->
+    <path d="M60 46 Q30 54 18 36 Q12 16 32 13 Q52 12 60 32 Z" fill="#e8b84a"/>
+    <path d="M68 46 Q98 54 110 36 Q116 16 96 13 Q76 12 68 32 Z" fill="#e8b84a"/>
+    <path d="M26 30 Q28 20 38 20" fill="none" stroke="#f8e2a0" stroke-width="4"/>
+    <path d="M90 20 Q100 20 102 28" fill="none" stroke="#f8e2a0" stroke-width="4"/>
+    <circle cx="64" cy="39" r="10" fill="#c8963e"/>
+    <circle cx="64" cy="39" r="3.5" fill="#1b1714" stroke="none"/>
+  </g>
+</svg>

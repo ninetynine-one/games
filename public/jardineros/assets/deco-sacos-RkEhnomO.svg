@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Decorado tras el Árbol Madre: sacos de semillas, una maceta y la regadera de repuesto (solo vista) -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="33"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="64" cy="112" rx="58" ry="10" fill="#14110f" stroke="none" opacity="0.6"/>
+    <path d="M10 108 Q6 76 20 62 Q26 54 34 60 Q50 70 46 108 Z" fill="#8a6a44"/>
+    <path d="M20 62 Q24 52 30 56" fill="none"/>
+    <path d="M14 84 Q28 88 44 84" fill="none" stroke="#6a4e30" stroke-width="3"/>
+    <circle cx="22" cy="58" r="3" fill="#c9a86a"/><circle cx="30" cy="56" r="3" fill="#c9a86a"/>
+    <path d="M52 108 L56 80 L92 80 L96 108 Z" fill="#a0583a"/>
+    <path d="M52 80 L96 80 L94 72 L54 72 Z" fill="#b8694a"/>
+    <path d="M66 72 Q60 54 70 46 Q76 56 72 72 M78 72 Q86 56 82 44 Q74 54 76 72" fill="#5fb84a"/>
+    <path d="M98 108 Q96 90 108 88 L118 88 Q124 92 122 108 Z" fill="#5f7f9a"/>
+    <path d="M118 92 Q126 86 124 78" fill="none" stroke-width="4"/>
+    <path d="M100 92 L88 84" fill="none" stroke-width="4"/>
+  </g>
+</svg>

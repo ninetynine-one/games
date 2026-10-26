@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · enemigo: Unidad Aislante. Alto y estrecho, cúpula de goma amarilla y anillos aislantes, sin brazos. Contorno claro. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="53"/><feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/></filter>
+    <filter id="rim" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144"><feMorphology in="SourceAlpha" operator="dilate" radius="3" result="d"/><feFlood flood-color="#f4efe6"/><feComposite in2="d" operator="in"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <ellipse cx="64" cy="114" rx="24" ry="6" fill="#000" opacity=".4"/>
+  <g filter="url(#rim)"><g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- base -->
+    <rect x="44" y="100" width="40" height="12" rx="6" fill="#4b4f53"/>
+    <!-- columna -->
+    <rect x="48" y="58" width="32" height="46" rx="10" fill="#f1efe9"/>
+    <path d="M70 60 h4 q6 0 6 8 v26 q0 8 -8 10 q4 -20 -2 -44z" fill="#c9c6bd" stroke="none"/>
+    <rect x="48" y="58" width="32" height="46" rx="10" fill="none"/>
+    <rect x="53" y="68" width="22" height="10" rx="5" fill="#1f2429"/>
+    <circle cx="64" cy="73" r="3" fill="#ff5a48" stroke="none"/>
+    <path d="M56 90 h16" stroke="#d8453a" stroke-width="4"/>
+    <!-- anillos aislantes -->
+    <path d="M58 56 v-34 h12 v34" fill="#8f969a"/>
+    <ellipse cx="64" cy="54" rx="21" ry="6" fill="#5c6166"/>
+    <ellipse cx="64" cy="43" rx="19" ry="5.5" fill="#8f969a"/>
+    <ellipse cx="64" cy="33" rx="17" ry="5" fill="#5c6166"/>
+    <!-- cúpula de goma -->
+    <path d="M42 28 q0 -22 22 -22 q22 0 22 22 q-22 6 -44 0z" fill="#f0c419"/>
+    <path d="M50 18 q4 -6 10 -7" fill="none" stroke="#fff3b0" stroke-width="4"/>
+  </g></g>
+</svg>

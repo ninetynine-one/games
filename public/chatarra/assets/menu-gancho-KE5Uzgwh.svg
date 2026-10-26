@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 220" width="80" height="220">
+  <!-- Chatarra · menú (key-art.jpg): gancho de la grúa con su cable, 80×220. -->
+  <!-- pivote arriba en 40,0: se balancea alrededor de ese punto -->
+  <g stroke="#1b1714" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 0 V130" stroke-width="5"/>
+    <rect x="20" y="126" width="40" height="30" rx="6" fill="#f2b632"/>
+    <path d="M28 136 h24" stroke-width="3"/>
+    <path d="M40 156 v14 q0 30 -20 30 q-14 0 -14 -16" fill="none" stroke-width="14"/>
+    <path d="M40 156 v14 q0 30 -20 30 q-14 0 -14 -16" fill="none" stroke="#8f9ca4" stroke-width="6"/>
+  </g>
+</svg>

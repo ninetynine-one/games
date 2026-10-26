@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · fx: explosión 1/4, destello. Núcleo claro irregular con chispas en trazo. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="77"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <defs><radialGradient id="gw"><stop offset="0" stop-color="#ffd24a" stop-opacity=".7"/><stop offset="1" stop-color="#ffd24a" stop-opacity="0"/></radialGradient></defs>
+  <circle cx="64" cy="64" r="52" fill="url(#gw)"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M74.3 35.8 L81.1 17.0" stroke-width="10"/><path d="M74.3 35.8 L81.1 17.0" stroke="#ffd24a" stroke-width="5"/>
+    <path d="M95.5 69.6 L107.3 71.6" stroke-width="10"/><path d="M95.5 69.6 L107.3 71.6" stroke="#ffd24a" stroke-width="5"/>
+    <path d="M42.8 85.2 L27.2 100.8" stroke-width="10"/><path d="M42.8 85.2 L27.2 100.8" stroke="#ffd24a" stroke-width="5"/>
+    <path d="M38.6 52.2 L29.6 47.9" stroke-width="10"/><path d="M38.6 52.2 L29.6 47.9" stroke="#ffd24a" stroke-width="5"/>
+    <circle cx="100" cy="88" r="3.4" fill="#ffd24a" stroke-width="2.6"/><circle cx="30" cy="34" r="3" fill="#ffd24a" stroke-width="2.6"/>
+    <g><g fill="#1b1714" stroke="#1b1714" stroke-width="8"><circle cx="64" cy="64" r="22"/><circle cx="50" cy="58" r="14"/><circle cx="78" cy="70" r="15"/><circle cx="70" cy="50" r="12"/><circle cx="54" cy="76" r="11"/></g><g fill="#ffd24a" stroke="none"><circle cx="64" cy="64" r="22"/><circle cx="50" cy="58" r="14"/><circle cx="78" cy="70" r="15"/><circle cx="70" cy="50" r="12"/><circle cx="54" cy="76" r="11"/></g></g>
+    <g fill="#fff6c8" stroke="none"><circle cx="62" cy="63" r="13"/><circle cx="70" cy="56" r="7"/></g>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Jardinero (concepto heroes.jpg, izquierda): sombrero de paja con cinta verde, pañuelo verde, camisa crema, chaleco y pantalón marrón. Sin herramienta: mano derecha libre en (88,92) -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="23"/>
+      <feDisplacementMap in="SourceGraphic" scale="2"/>
+    </filter>
+  </defs>
+  <ellipse cx="64" cy="116" rx="26" ry="6" fill="#000" opacity="0.3"/>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- botas y pantalón -->
+    <path d="M48 106 Q46 115 56 115 H63 V106 Z" fill="#3a2d24"/>
+    <path d="M66 106 V115 H73 Q83 115 80 106 Z" fill="#3a2d24"/>
+    <path d="M49 94 L48 107 H63 L64 98 L65 107 H80 L79 94 Z" fill="#8a5e3c"/>
+    <path d="M70 96 L72 106 H79 L78 95 Z" fill="#6e4a2e" stroke="none"/>
+    <!-- brazo izquierdo (del espectador) -->
+    <path d="M51 76 Q38 78 34 92 L46 96 Q47 89 53 86 Z" fill="#f3ead2"/>
+    <circle cx="40" cy="96" r="5" fill="#f6d9bf"/>
+    <!-- brazo derecho, mano libre en (88,92) -->
+    <path d="M77 76 Q90 78 93 89 L83 93 Q81 88 75 86 Z" fill="#f3ead2"/>
+    <circle cx="88" cy="92" r="5" fill="#f6d9bf"/>
+    <!-- camisa y chaleco -->
+    <path d="M47 77 Q45 90 49 96 H79 Q83 90 81 77 Q64 70 47 77 Z" fill="#f3ead2"/>
+    <path d="M47 77 Q45 90 49 96 H56 L55 77 Q51 76 47 77 Z" fill="#8a5e3c"/>
+    <path d="M81 77 Q83 90 79 96 H72 L73 77 Q77 76 81 77 Z" fill="#8a5e3c"/>
+    <path d="M66 80 Q74 84 72 95 H62 Q68 88 66 80 Z" fill="#ddd0b0" stroke="none"/>
+    <!-- cinturón -->
+    <path d="M48 93 H80 V99 H48 Z" fill="#5a3a24" stroke-width="3"/>
+    <rect x="60" y="92.5" width="8" height="7" rx="1" fill="#d8b04a" stroke-width="2.4"/>
+    <!-- pañuelo verde -->
+    <path d="M49 74 Q64 81 79 74 Q78 80 74 81 L65 92 L56 81 Q50 80 49 74 Z" fill="#4f9a4e"/>
+    <path d="M65 92 L60 82 L70 82 Z" fill="#3f8040" stroke="none"/>
+    <!-- orejas y cabeza -->
+    <circle cx="39" cy="56" r="5" fill="#f6d9bf"/>
+    <circle cx="89" cy="56" r="5" fill="#f6d9bf"/>
+    <path d="M39 50 Q39 30 64 30 Q89 30 89 50 Q89 76 64 76 Q39 76 39 50 Z" fill="#f6d9bf"/>
+    <path d="M84 52 Q88 66 78 72 Q72 75 66 75 Q82 68 84 52 Z" fill="#ebc4a4" stroke="none"/>
+    <!-- pelo negro -->
+    <path d="M39 56 Q37 42 46 43 H82 Q91 42 89 56 Q86 50 83 52 L80 46 Q75 53 69 47 Q63 55 57 47 Q52 53 47 49 Q43 52 39 56 Z" fill="#2a2320"/>
+    <!-- cara -->
+    <ellipse cx="54" cy="57" rx="3.8" ry="4.6" fill="#1b1714" stroke="none"/>
+    <ellipse cx="74" cy="57" rx="3.8" ry="4.6" fill="#1b1714" stroke="none"/>
+    <circle cx="52.8" cy="55.3" r="1.5" fill="#fff" stroke="none"/>
+    <circle cx="72.8" cy="55.3" r="1.5" fill="#fff" stroke="none"/>
+    <ellipse cx="46" cy="65" rx="4.5" ry="3" fill="#f0a088" stroke="none" opacity="0.75"/>
+    <ellipse cx="82" cy="65" rx="4.5" ry="3" fill="#f0a088" stroke="none" opacity="0.75"/>
+    <path d="M60 64 Q64 68 68 64" fill="none" stroke-width="2.4"/>
+    <!-- sombrero de paja -->
+    <path d="M14 42 Q16 30 64 29 Q112 30 114 42 Q110 50 64 47 Q18 50 14 42 Z" fill="#d6ad6c"/>
+    <path d="M22 44 Q64 50 106 44" fill="none" stroke="#b08850" stroke-width="2"/>
+    <path d="M40 38 Q38 10 64 9 Q90 10 88 38 Q64 43 40 38 Z" fill="#d6ad6c"/>
+    <path d="M78 12 Q90 18 88 38 Q83 40 79 40 Q84 24 78 12 Z" fill="#bf9454" stroke="none"/>
+    <path d="M40 30 Q64 35 88 30 L88 38 Q64 43 40 38 Z" fill="#3f8a4a" stroke-width="3"/>
+    <path d="M48 18 l3 1 M56 14 l3 0 M70 15 l3 1 M50 24 l2 2 M76 22 l3 1 M28 38 l3 0 M98 37 l3 1 M24 42 l2 1" fill="none" stroke="#a37c44" stroke-width="1.8"/>
+  </g>
+</svg>

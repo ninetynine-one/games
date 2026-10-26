@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Inspector de las Horas: a pocket-watch head under a conductor cap, sanction stamp and red lantern. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" seed="12"/>
+      <feDisplacementMap in="SourceGraphic" scale="3.4"/>
+    </filter>
+    <radialGradient id="lamp">
+      <stop offset="0" stop-color="#ff6a4a" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#ff6a4a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="128" cy="238" rx="78" ry="12" fill="#000" opacity="0.35"/>
+  <circle cx="218" cy="188" r="34" fill="url(#lamp)"/>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <!-- coat -->
+    <path d="M72 128 Q60 182 50 230 L76 224 L92 234 L128 228 L164 234 L180 224 L206 230 Q196 182 184 128 Q128 112 72 128 Z" fill="#2b2d55"/>
+    <path d="M150 122 Q184 128 184 128 Q196 182 206 230 L180 224 L164 234 Q172 180 150 122 Z" fill="#202247" stroke="none"/>
+    <path d="M72 128 Q60 182 50 230 L76 224 L92 234 L128 228 L164 234 L180 224 L206 230 Q196 182 184 128 Q128 112 72 128 Z" fill="none"/>
+    <path d="M128 132 L128 226" stroke-width="4"/>
+    <g fill="#d4a640" stroke-width="3">
+      <circle cx="140" cy="154" r="5"/><circle cx="140" cy="180" r="5"/><circle cx="140" cy="206" r="5"/>
+    </g>
+    <!-- collar -->
+    <path d="M92 124 L128 140 L164 124 L160 114 L96 114 Z" fill="#3a3d6e" stroke-width="5"/>
+    <path d="M92 124 L128 140 L164 124" fill="none" stroke="#d4a640" stroke-width="3"/>
+    <!-- epaulettes -->
+    <path d="M60 132 Q66 118 86 122 L82 138 Q70 140 60 132 Z" fill="#d4a640" stroke-width="5"/>
+    <path d="M196 132 Q190 118 170 122 L174 138 Q186 140 196 132 Z" fill="#d4a640" stroke-width="5"/>
+    <!-- left arm + sanction stamp -->
+    <path d="M66 136 Q48 156 46 178 L62 182 Q64 162 80 148 Z" fill="#2b2d55" stroke-width="5"/>
+    <rect x="44" y="164" width="14" height="22" rx="4" fill="#5a3e2a" stroke-width="4.5"/>
+    <circle cx="51" cy="160" r="9" fill="#5a3e2a" stroke-width="4.5"/>
+    <path d="M24 186 L80 186 L80 206 L24 206 Z" fill="#b8433a" stroke-width="5"/>
+    <path d="M24 200 L80 200 L80 206 L24 206 Z" fill="#7a2a24" stroke="none"/>
+    <path d="M24 186 L80 186 L80 206 L24 206 Z" fill="none" stroke-width="5"/>
+    <!-- right arm + lantern -->
+    <path d="M190 136 Q210 150 216 166 L202 172 Q194 158 176 148 Z" fill="#2b2d55" stroke-width="5"/>
+    <path d="M210 160 Q218 150 226 160" fill="none" stroke-width="4"/>
+    <path d="M204 168 L232 168 L230 206 L206 206 Z" fill="#e0503c" stroke-width="5"/>
+    <path d="M211 172 L225 172 L224 200 L212 200 Z" fill="#ffb08a" stroke="none"/>
+    <path d="M218 168 L218 206 M204 168 L232 168 L230 206 L206 206 Z" fill="none" stroke-width="4"/>
+    <path d="M200 166 L236 166 L236 172 L200 172 Z M202 204 L234 204 L234 212 L202 212 Z" fill="#8a6a3a" stroke-width="4"/>
+    <!-- watch head -->
+    <circle cx="128" cy="96" r="48" fill="#c69a50"/>
+    <path d="M170 76 Q184 120 146 140 Q120 148 98 136 Q140 134 160 104 Q170 90 170 76 Z" fill="#8a6a3a" stroke="none"/>
+    <circle cx="128" cy="96" r="48" fill="none"/>
+    <circle cx="128" cy="98" r="38" fill="#e6dcc0" stroke-width="5"/>
+    <path d="M160 82 Q170 112 146 126 Q130 134 112 130 Q142 124 154 104 Q160 94 160 82 Z" fill="#cfc19a" stroke="none"/>
+    <g stroke-width="3.5">
+      <path d="M90 98 h7 M159 98 h7 M128 129 v7 M101 125 l4 -4 M155 125 l-4 -4"/>
+    </g>
+    <!-- frozen hands behind the eye -->
+    <path d="M128 100 L128 70 M128 100 L108 84" stroke-width="5"/>
+    <!-- red eye -->
+    <ellipse cx="128" cy="104" rx="17" ry="14" fill="#f2ead6" stroke-width="4.5"/>
+    <circle cx="126" cy="105" r="10" fill="#c8463a" stroke-width="3.5"/>
+    <ellipse cx="126" cy="105" rx="3" ry="7" fill="#1b1714" stroke-width="1"/>
+    <path d="M106 90 L150 96" stroke-width="5"/>
+    <!-- crack in the glass -->
+    <path d="M150 108 L140 116 L144 124 L136 130" fill="none" stroke-width="2.5"/>
+    <!-- conductor cap -->
+    <path d="M82 52 Q82 16 128 14 Q174 16 174 52 Z" fill="#1f2142"/>
+    <path d="M150 18 Q174 22 174 52 L160 52 Q162 30 150 18 Z" fill="#15162c" stroke="none"/>
+    <path d="M82 52 Q82 16 128 14 Q174 16 174 52 Z" fill="none"/>
+    <path d="M78 48 L178 48 L176 62 L80 62 Z" fill="#3a3d6e" stroke-width="5"/>
+    <path d="M78 60 Q128 80 178 60 L172 70 Q128 86 84 70 Z" fill="#15162c" stroke-width="5"/>
+    <!-- badge -->
+    <path d="M118 24 L138 24 L128 36 L138 48 L118 48 L128 36 Z" fill="#e0b24a" stroke-width="3.5"/>
+  </g>
+  <circle cx="122" cy="101" r="2.4" fill="#fff"/>
+</svg>

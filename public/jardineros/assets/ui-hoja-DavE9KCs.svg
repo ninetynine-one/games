@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Hoja del título del menú: hoja verde con nervio y tallito, contorno de corteza oscura -->
+  <path d="M20 108 Q18 52 60 26 Q92 8 114 14 Q120 44 100 76 Q74 112 20 108 Z" fill="#6aa83e" stroke="#1b1714" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M34 92 Q40 56 72 36 Q90 26 104 24" fill="none" stroke="#94cc5a" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+  <path d="M20 108 Q56 70 100 26" fill="none" stroke="#3f6e24" stroke-width="6" stroke-linecap="round"/>
+  <path d="M20 108 L8 120" stroke="#1b1714" stroke-width="8" stroke-linecap="round"/>
+</svg>

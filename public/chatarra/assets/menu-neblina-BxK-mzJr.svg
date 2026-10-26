@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 400" width="1080" height="400">
+  <!-- Chatarra · menú (key-art.jpg): neblina en bandas suaves, 1080×400 (tileable en horizontal para el parallax). -->
+  <defs><linearGradient id="n" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d8ece8" stop-opacity="0"/><stop offset=".5" stop-color="#d8ece8" stop-opacity=".55"/><stop offset="1" stop-color="#d8ece8" stop-opacity="0"/></linearGradient></defs>
+  <path d="M0 200 q140 -60 280 -10 q140 40 260 -20 q150 -60 300 0 q120 40 240 -10 V320 H0 Z" fill="url(#n)"/>
+  <path d="M0 260 q180 -40 360 0 q180 40 360 -10 q180 -40 360 10 V400 H0 Z" fill="url(#n)" opacity=".8"/>
+  <path d="M0 399 H1080" stroke="#1b1714" stroke-opacity="0"/>
+</svg>

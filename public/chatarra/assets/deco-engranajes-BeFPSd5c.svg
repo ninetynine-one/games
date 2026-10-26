@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · decoración: engranaje grande de pared, simétrico y centrado en 64,64 para rotarlo en juego. Sin sombra. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="307"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M106.2 55.9 L117.7 57.9 L117.7 70.1 L106.2 72.1 L102.9 82.3 L111.0 90.6 L103.8 100.5 L93.4 95.3 L84.7 101.7 L86.4 113.1 L74.8 116.9 L69.4 106.7 L58.6 106.7 L53.2 116.9 L41.6 113.1 L43.3 101.7 L34.6 95.3 L24.2 100.5 L17.0 90.6 L25.1 82.3 L21.8 72.1 L10.3 70.1 L10.3 57.9 L21.8 55.9 L25.1 45.7 L17.0 37.4 L24.2 27.5 L34.6 32.7 L43.3 26.3 L41.6 14.9 L53.2 11.1 L58.6 21.3 L69.4 21.3 L74.8 11.1 L86.4 14.9 L84.7 26.3 L93.4 32.7 L103.8 27.5 L111.0 37.4 L102.9 45.7Z" fill="#8f887b"/>
+    <circle cx="64" cy="64" r="34" fill="#a39c8f" stroke-width="3"/>
+    <!-- agujeros de aligerado -->
+    <circle cx="64" cy="40" r="7" fill="#2c2825" stroke-width="3"/><circle cx="88" cy="64" r="7" fill="#2c2825" stroke-width="3"/>
+    <circle cx="64" cy="88" r="7" fill="#2c2825" stroke-width="3"/><circle cx="40" cy="64" r="7" fill="#2c2825" stroke-width="3"/>
+    <!-- buje -->
+    <circle cx="64" cy="64" r="14" fill="#c9652e"/>
+    <circle cx="64" cy="64" r="5" fill="#1b1714" stroke="none"/>
+    <circle cx="64" cy="54" r="1.8" fill="#1b1714" stroke="none"/><circle cx="64" cy="74" r="1.8" fill="#1b1714" stroke="none"/>
+    <circle cx="54" cy="64" r="1.8" fill="#1b1714" stroke="none"/><circle cx="74" cy="64" r="1.8" fill="#1b1714" stroke="none"/>
+  </g>
+</svg>

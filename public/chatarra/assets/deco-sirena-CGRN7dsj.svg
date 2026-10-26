@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · decoración: sirena/baliza roja de pared para la alarma de la Red. Base metálica y cúpula roja enjaulada. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="319"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <defs><radialGradient id="gr"><stop offset="0" stop-color="#e04a32" stop-opacity=".55"/><stop offset="1" stop-color="#e04a32" stop-opacity="0"/></radialGradient></defs>
+  <circle cx="64" cy="60" r="50" fill="url(#gr)"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- base -->
+    <rect x="26" y="86" width="76" height="14" rx="4" fill="#6c7d86"/>
+    <path d="M86 88 h14 v10 h-14z" fill="#56656d" stroke="none"/>
+    <rect x="26" y="86" width="76" height="14" rx="4" fill="none"/>
+    <rect x="36" y="98" width="56" height="16" rx="3" fill="#4b4540"/>
+    <circle cx="44" cy="106" r="2.4" fill="#1b1714" stroke="none"/><circle cx="84" cy="106" r="2.4" fill="#1b1714" stroke="none"/>
+    <!-- cúpula -->
+    <path d="M34 88 v-24 q0 -30 30 -30 q30 0 30 30 v24z" fill="#d8402e"/>
+    <path d="M76 38 q18 8 18 26 v24 h-14 q4 -30 -4 -50z" fill="#a52e20" stroke="none"/>
+    <path d="M34 88 v-24 q0 -30 30 -30 q30 0 30 30 v24z" fill="none"/>
+    <path d="M44 66 q0 -16 12 -22" fill="none" stroke="#ff9a82" stroke-width="5"/>
+    <!-- jaula -->
+    <path d="M50 88 v-40 q0 -12 14 -14 M78 88 v-40 q0 -12 -14 -14 M34 66 h60" fill="none" stroke-width="4.5"/>
+    <path d="M50 88 v-40 q0 -12 14 -14 M78 88 v-40 q0 -12 -14 -14 M34 66 h60" fill="none" stroke="#8f887b" stroke-width="2"/>
+    <circle cx="64" cy="30" r="5" fill="#8f887b" stroke-width="3"/>
+  </g>
+</svg>

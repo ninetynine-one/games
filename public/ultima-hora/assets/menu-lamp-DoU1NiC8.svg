@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 460" width="120" height="460">
+  <!-- Living menu: iron street lamp with a warm lantern. -->
+  <defs><filter id="rough" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="6"/><feDisplacementMap in="SourceGraphic" scale="2"/></filter>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff8d0"/><stop offset="1" stop-color="#ffc050"/></linearGradient></defs>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M48 130 L52 420 L68 420 L72 130 Z" fill="#2c2a3a"/>
+    <path d="M34 450 L38 418 L82 418 L86 450 Z" fill="#2c2a3a"/>
+    <rect x="44" y="200" width="32" height="14" rx="4" fill="#3a3848"/>
+    <path d="M40 132 L80 132 L74 120 L46 120 Z" fill="#2c2a3a"/>
+    <path d="M30 40 L90 40 L80 120 L40 120 Z" fill="url(#glass)"/>
+    <path d="M60 40 V120" fill="none" stroke-width="3"/>
+    <path d="M22 44 L60 10 L98 44 Z" fill="#2c2a3a"/>
+    <circle cx="60" cy="8" r="6" fill="#2c2a3a"/>
+  </g>
+  <path d="M40 56 L44 100" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+</svg>

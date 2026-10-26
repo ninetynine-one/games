@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Insignia de minijefe: corona de hojas y musgo con una gema de savia -->
+  <defs><filter id="wob" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="88"/><feDisplacementMap in="SourceGraphic" scale="2.2"/></filter></defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M18 92 L14 42 L40 66 L64 26 L88 66 L114 42 L110 92 Z" fill="#f0c040"/>
+    <path d="M22 86 L20 56 L40 74 L64 40 L88 74 L108 56 L106 86 Z" fill="#f6dc7a" stroke="none"/>
+    <path d="M16 92 Q64 104 112 92 L112 106 Q64 118 16 106 Z" fill="#6b8f3a"/>
+    <path d="M24 100 Q34 96 42 102 M58 104 Q66 98 76 104 M88 100 Q96 96 104 100" fill="none" stroke="#9cc45a" stroke-width="3"/>
+    <circle cx="64" cy="70" r="11" fill="#7fd35a"/>
+    <circle cx="60" cy="66" r="3.5" fill="#e6ffd2" stroke="none"/>
+    <circle cx="14" cy="40" r="7" fill="#e04848"/><circle cx="64" cy="24" r="8" fill="#e04848"/><circle cx="114" cy="40" r="7" fill="#e04848"/>
+  </g>
+</svg>

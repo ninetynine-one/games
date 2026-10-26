@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<linearGradient id="l5sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d2a3a"/><stop offset="0.55" stop-color="#3e5f78"/><stop offset="1" stop-color="#2a6a70"/></linearGradient>
+<radialGradient id="l5tq" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#9af0e0" stop-opacity="0.95"/><stop offset="0.3" stop-color="#3fc1b0" stop-opacity="0.65"/><stop offset="1" stop-color="#3fc1b0" stop-opacity="0"/></radialGradient>
+<linearGradient id="l5under" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b2a24"/><stop offset="1" stop-color="#4a3c2a"/></linearGradient>
+<linearGradient id="l5root" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a3c2a"/><stop offset="1" stop-color="#7a6648"/></linearGradient>
+<linearGradient id="l5cloud" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b8d4dc" stop-opacity="0.9"/><stop offset="1" stop-color="#6aa4ae" stop-opacity="0.9"/></linearGradient>
+<radialGradient id="l5halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8a5bb5" stop-opacity="0.35"/><stop offset="1" stop-color="#8a5bb5" stop-opacity="0"/></radialGradient>
+</defs>
+<g id="sky" data-name="Cielo">
+<rect id="lore5-cielo" data-name="Cielo nocturno" width="1600" height="900" fill="url(#l5sky)"/>
+<circle cx="160" cy="520" r="3" fill="#f3ead2" opacity="0.7"/><circle cx="1480" cy="480" r="3" fill="#f3ead2" opacity="0.6"/><circle cx="1320" cy="560" r="2" fill="#f3ead2" opacity="0.6"/><circle cx="90" cy="610" r="2" fill="#f3ead2" opacity="0.5"/>
+</g>
+<g id="background" data-name="Fondo">
+<ellipse id="lore5-luz-enorme" data-name="Luz turquesa enorme" cx="720" cy="830" rx="1000" ry="420" fill="url(#l5tq)"/>
+<ellipse id="lore5-luz-nucleo" data-name="Nucleo de la luz" cx="720" cy="870" rx="460" ry="190" fill="url(#l5tq)"/>
+</g>
+<g id="midground" data-name="Plano medio">
+<g id="lore5-nubes" data-name="Mar de nubes">
+<ellipse cx="100" cy="730" rx="330" ry="90" fill="url(#l5cloud)"/><ellipse cx="460" cy="770" rx="300" ry="80" fill="url(#l5cloud)"/><ellipse cx="860" cy="750" rx="320" ry="86" fill="url(#l5cloud)"/>
+
+</g>
+<g id="lore5-isla-inferior" data-name="Parte inferior de la isla">
+<path d="M-20 -20 L1620 -20 L1620 130 C1500 190 1400 170 1280 240 C1160 300 1020 270 900 330 C800 380 700 340 560 300 C400 260 240 280 120 210 C60 180 0 160 -20 150 Z" fill="url(#l5under)"/>
+<path d="M-20 130 C120 190 240 250 400 232 C560 270 700 310 800 300 C920 262 1060 240 1180 200 C1300 150 1420 150 1620 110 L1620 70 C1400 100 1300 90 1180 150 C1060 200 920 230 800 262 C700 270 560 230 400 200 C240 200 120 150 -20 100 Z" fill="#3a3224" opacity="0.7"/>
+</g>
+<g id="lore5-raices-laterales" data-name="Raices laterales">
+<path d="M200 190 C170 300 240 380 200 480 C186 540 210 600 196 660 L232 660 C250 600 232 540 248 480 C290 380 230 300 262 210 Z" fill="url(#l5root)"/>
+<path d="M360 250 C340 330 390 400 360 470 C350 520 366 570 356 620 L384 620 C396 570 380 520 392 470 C420 400 380 330 410 260 Z" fill="url(#l5root)"/>
+<path d="M1080 270 C1060 340 1110 400 1090 460 C1084 500 1096 540 1088 580 L1124 580 C1134 540 1118 500 1132 460 C1160 400 1112 340 1150 280 Z" fill="url(#l5root)"/>
+<path d="M1260 220 C1240 300 1290 360 1264 430 C1256 480 1270 520 1262 560 L1290 560 C1300 520 1288 480 1296 430 C1320 360 1280 300 1306 230 Z" fill="url(#l5root)"/>
+</g>
+</g>
+<g id="subject" data-name="Sujeto">
+<g id="lore5-arbol-madre" data-name="Raices del Arbol Madre">
+<path d="M560 200 C610 250 640 300 660 380 C690 480 650 560 670 650 C676 700 660 740 640 790 L700 790 C720 760 730 720 724 680 C730 600 760 540 770 470 C775 560 800 620 810 690 C820 730 810 770 800 820 L860 820 C884 760 880 720 872 680 C860 600 830 520 840 440 C860 520 920 560 940 640 C950 690 955 740 960 780 L1000 780 C990 720 985 680 980 630 C980 540 920 480 910 380 C900 330 920 280 960 210 Z" fill="url(#l5root)"/>
+<path d="M640 230 C680 300 700 350 706 420 C720 520 700 600 716 700 L744 700 C730 600 760 500 750 420 C742 340 720 290 700 230 Z" fill="#8a7650" opacity="0.5"/>
+<path d="M610 360 C560 420 520 440 470 520 C440 580 440 640 420 700 L460 700 C480 650 480 590 500 550 C540 480 600 450 640 410 Z" fill="url(#l5root)"/>
+<path d="M760 640 C740 720 760 780 740 850 L780 850 C800 780 780 720 800 650 Z" fill="#7a6648"/>
+<g id="lore5-brotes-luz" data-name="Puntas de raiz con brillo">
+<circle cx="672" cy="796" r="16" fill="#9af0e0" opacity="0.7"/><circle cx="830" cy="826" r="18" fill="#9af0e0" opacity="0.75"/><circle cx="440" cy="706" r="12" fill="#9af0e0" opacity="0.6"/>
+</g>
+</g>
+</g>
+<g id="foreground" data-name="Primer plano">
+<g id="lore5-bruma-baja" data-name="Bruma sobre la luz">
+<ellipse cx="340" cy="860" rx="360" ry="70" fill="#b8d4dc" opacity="0.75"/><ellipse cx="760" cy="890" rx="360" ry="60" fill="#9fc6cf" opacity="0.7"/>
+<ellipse cx="60" cy="820" rx="200" ry="50" fill="#cfe0e8" opacity="0.6"/>
+</g>
+</g>
+<g id="light" data-name="Luz">
+<ellipse id="lore5-respuesta" data-name="Resplandor que responde" cx="720" cy="820" rx="700" ry="300" fill="url(#l5tq)" opacity="0.7"/>
+<ellipse id="lore5-pulso-arbol" data-name="Pulso violeta del arbol" cx="760" cy="300" rx="420" ry="240" fill="url(#l5halo)"/>
+<g id="lore5-motas" data-name="Motas de luz">
+<circle cx="560" cy="650" r="5" fill="#d8fff6" opacity="0.8"/><circle cx="900" cy="600" r="4" fill="#d8fff6" opacity="0.7"/><circle cx="700" cy="560" r="3" fill="#d8fff6" opacity="0.7"/><circle cx="380" cy="740" r="4" fill="#d8fff6" opacity="0.6"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · torre: Relé de Control. Bobina de cobre con discos aislantes y esfera de energía, sobre caja de madera. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="57"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <defs><radialGradient id="glow"><stop offset="0" stop-color="#2ee6d0" stop-opacity=".6"/><stop offset="1" stop-color="#2ee6d0" stop-opacity="0"/></radialGradient></defs>
+  <ellipse cx="64" cy="123" rx="58" ry="6" fill="#000" opacity=".35"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- caja de madera baja (torres.jpg): tapa en 3/4 y frontal de tablas con esquineras y clavos -->
+    <path d="M18 74 H110 L118 88 H10 Z" fill="#dc9a58"/>
+    <path d="M22 79 H106 M16 84 H112" stroke="#a8652e" stroke-width="2"/>
+    <rect x="10" y="88" width="108" height="34" rx="4" fill="#c47a3e"/>
+    <path d="M24 99 H104 M24 110 H104" stroke="#8a4f24" stroke-width="2.5"/>
+    <rect x="10" y="88" width="15" height="34" rx="3" fill="#a8652e"/>
+    <rect x="103" y="88" width="15" height="34" rx="3" fill="#a8652e"/>
+    <circle cx="17.5" cy="94" r="2.4" fill="#d8d2c4" stroke-width="1.5"/><circle cx="17.5" cy="116" r="2.4" fill="#d8d2c4" stroke-width="1.5"/>
+    <circle cx="110.5" cy="94" r="2.4" fill="#d8d2c4" stroke-width="1.5"/><circle cx="110.5" cy="116" r="2.4" fill="#d8d2c4" stroke-width="1.5"/>
+    <path d="M12 88 l3 -8 l3 6 l3 -7 l3 9z" fill="#6fae3a" stroke-width="2.5"/>
+    <path d="M104 88 l3 -7 l3 6 l3 -8 l3 9z" fill="#6fae3a" stroke-width="2.5"/>
+  </g>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Relé (torres.jpg): torre de celosía con emisor y arcos de señal -->
+    <rect x="36" y="82" width="56" height="8" rx="3" fill="#36322f" stroke-width="3"/>
+    <path d="M40 86 L56 26 M88 86 L72 26" fill="none" stroke-width="9"/>
+    <path d="M40 86 L56 26 M88 86 L72 26" fill="none" stroke="#56656e" stroke-width="3.5"/>
+    <path d="M44 72 H84 M48 56 H80 M52 40 H76 M44 72 L80 56 M84 72 L48 56 M48 56 L76 40 M80 56 L52 40" fill="none" stroke-width="5.5"/>
+    <path d="M44 72 H84 M48 56 H80 M52 40 H76 M44 72 L80 56 M84 72 L48 56 M48 56 L76 40 M80 56 L52 40" fill="none" stroke="#6c7d86" stroke-width="2"/>
+    <!-- plataforma y emisor -->
+    <rect x="48" y="24" width="32" height="7" rx="2" fill="#36322f" stroke-width="3"/>
+    <rect x="54" y="8" width="20" height="18" rx="4" fill="#56656e"/>
+    <path d="M68 10 h4 v14 h-4z" fill="#3d4a52" stroke="none"/>
+    <rect x="54" y="8" width="20" height="18" rx="4" fill="none"/>
+    <path d="M54 18 H74" stroke-width="2.5"/>
+    <ellipse cx="64" cy="8" rx="10" ry="3.5" fill="#6c7d86" stroke-width="3"/>
+    <ellipse cx="64" cy="8" rx="4.5" ry="1.6" fill="#1b1714" stroke="none"/>
+    <circle cx="64" cy="21.5" r="2.4" fill="#2ee6d0" stroke="none"/>
+  </g>
+  <circle cx="64" cy="14" r="26" fill="url(#glow)"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- arcos de señal -->
+    <path d="M44 6 q-7 9 -1 20 M34 0 q-12 15 -3 32" fill="none" stroke="#2ee6d0" stroke-width="3.5"/>
+    <path d="M84 6 q7 9 1 20 M94 0 q12 15 3 32" fill="none" stroke="#2ee6d0" stroke-width="3.5"/>
+    <path d="M14 14 l-6 -2 M114 14 l6 -2 M20 36 l-6 2 M108 36 l6 2" stroke="#2ee6d0" stroke-width="3.5"/>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Torre del Gran Reloj wall segment (map edges): riveted brass cladding with a small gear boss and a stone coping on the bottom edge; FloorView rotates it so the coping faces the platform. Seamless left-right. -->
+  <rect width="128" height="128" fill="#4a3018"/>
+  <rect x="2" y="2" width="60" height="98" rx="3" fill="#a8783a"/>
+  <rect x="5" y="4" width="54" height="4" rx="2" fill="#efcf8a" opacity="0.55"/>
+  <rect x="6" y="48" width="52" height="3" fill="#6a4820" opacity="0.5"/>
+  <circle cx="8" cy="8" r="2.2" fill="#6a4820"/>
+  <circle cx="56" cy="8" r="2.2" fill="#6a4820"/>
+  <circle cx="8" cy="26" r="2.2" fill="#6a4820"/>
+  <circle cx="56" cy="26" r="2.2" fill="#6a4820"/>
+  <circle cx="8" cy="44" r="2.2" fill="#6a4820"/>
+  <circle cx="56" cy="44" r="2.2" fill="#6a4820"/>
+  <circle cx="8" cy="62" r="2.2" fill="#6a4820"/>
+  <circle cx="56" cy="62" r="2.2" fill="#6a4820"/>
+  <circle cx="8" cy="80" r="2.2" fill="#6a4820"/>
+  <circle cx="56" cy="80" r="2.2" fill="#6a4820"/>
+  <circle cx="8" cy="92" r="2.2" fill="#6a4820"/>
+  <circle cx="56" cy="92" r="2.2" fill="#6a4820"/>
+  <circle cx="32" cy="26" r="11" fill="#c89c52" stroke="#1b1714" stroke-width="2.5"/>
+  <circle cx="32" cy="26" r="4" fill="#6a4820"/>
+  <rect x="66" y="2" width="60" height="98" rx="3" fill="#b88a44"/>
+  <rect x="69" y="4" width="54" height="4" rx="2" fill="#efcf8a" opacity="0.55"/>
+  <rect x="70" y="48" width="52" height="3" fill="#6a4820" opacity="0.5"/>
+  <circle cx="72" cy="8" r="2.2" fill="#6a4820"/>
+  <circle cx="120" cy="8" r="2.2" fill="#6a4820"/>
+  <circle cx="72" cy="26" r="2.2" fill="#6a4820"/>
+  <circle cx="120" cy="26" r="2.2" fill="#6a4820"/>
+  <circle cx="72" cy="44" r="2.2" fill="#6a4820"/>
+  <circle cx="120" cy="44" r="2.2" fill="#6a4820"/>
+  <circle cx="72" cy="62" r="2.2" fill="#6a4820"/>
+  <circle cx="120" cy="62" r="2.2" fill="#6a4820"/>
+  <circle cx="72" cy="80" r="2.2" fill="#6a4820"/>
+  <circle cx="120" cy="80" r="2.2" fill="#6a4820"/>
+  <circle cx="72" cy="92" r="2.2" fill="#6a4820"/>
+  <circle cx="120" cy="92" r="2.2" fill="#6a4820"/>
+  <circle cx="96" cy="26" r="11" fill="#c89c52" stroke="#1b1714" stroke-width="2.5"/>
+  <circle cx="96" cy="26" r="4" fill="#6a4820"/>
+  <rect x="-2" y="104" width="132" height="24" fill="#a9a196" stroke="#1b1714" stroke-width="3.5"/>
+  <rect x="-2" y="107" width="132" height="4" fill="#d2cbbf"/>
+  <path d="M32 106 V126 M96 106 V126" stroke="#6f685e" stroke-width="2.4"/>
+  <path d="M0 126 H128" stroke="#1b1714" stroke-width="3"/>
+</svg>

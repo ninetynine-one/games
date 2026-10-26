@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Guardarraíz Desorientado: guardián de madera y musgo, ojos desparejos -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" seed="43"/>
+      <feDisplacementMap in="SourceGraphic" scale="3.4"/>
+    </filter>
+  </defs>
+  <ellipse cx="128" cy="232" rx="98" ry="16" fill="#000" opacity="0.38"/>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- astas -->
+    <path d="M86 70 Q70 40 46 30 M66 46 Q56 30 60 14 M170 70 Q186 40 210 30 M190 46 Q200 30 196 14" fill="none" stroke-width="13"/>
+    <path d="M86 70 Q70 40 46 30 M66 46 Q56 30 60 14 M170 70 Q186 40 210 30 M190 46 Q200 30 196 14" fill="none" stroke="#6b4a32" stroke-width="6"/>
+    <path d="M40 30 Q30 18 42 14 Q50 24 40 30 Z M216 30 Q226 18 214 14 Q206 24 216 30 Z" fill="#7d9a5a" stroke-width="3.4"/>
+    <!-- brazos de raíz -->
+    <path d="M62 118 Q14 140 26 206" fill="none" stroke-width="30"/>
+    <path d="M62 118 Q14 140 26 206" fill="none" stroke="#5a4130" stroke-width="20"/>
+    <path d="M194 118 Q242 140 230 206" fill="none" stroke-width="30"/>
+    <path d="M194 118 Q242 140 230 206" fill="none" stroke="#4a3526" stroke-width="20"/>
+    <!-- manos -->
+    <path d="M6 212 Q6 194 26 194 Q46 196 48 214 L42 234 L34 222 L26 238 L20 222 L10 232 Z" fill="#5a4130"/>
+    <path d="M208 214 Q210 196 230 194 Q250 194 250 212 L246 232 L236 222 L230 238 L222 222 L214 234 Z" fill="#4a3526"/>
+    <!-- cuerpo -->
+    <path d="M52 150 Q46 70 128 62 Q210 70 204 150 Q206 226 128 230 Q50 226 52 150 Z" fill="#5a4130"/>
+    <path d="M168 74 Q206 92 204 150 Q204 220 140 229 Q190 170 168 74 Z" fill="#4a3526" stroke="none"/>
+    <path d="M80 170 Q86 196 78 214 M176 168 Q170 196 180 214 M110 210 Q118 196 112 184" fill="none" stroke-width="3.4"/>
+    <!-- grieta del pecho -->
+    <path d="M118 150 L128 136 L138 152 L130 172 L122 166 Z" fill="#47d6c2" stroke-width="3.6"/>
+    <path d="M126 146 L130 156" fill="none" stroke="#d6fff7" stroke-width="2.4"/>
+    <!-- capa de musgo -->
+    <path d="M50 120 Q60 86 128 84 Q196 86 206 120 Q190 132 172 124 Q156 136 140 124 Q124 136 110 124 Q94 136 80 124 Q62 134 50 120 Z" fill="#4d6138"/>
+    <path d="M60 112 Q72 100 88 104 M150 100 Q168 96 186 108" fill="none" stroke="#7d9a5a" stroke-width="4"/>
+    <circle cx="96" cy="116" r="3" fill="#b58ee6" stroke="none"/>
+    <circle cx="164" cy="114" r="3" fill="#b58ee6" stroke="none"/>
+    <!-- máscara -->
+    <path d="M84 84 Q80 42 128 40 Q176 42 172 84 Q170 112 128 114 Q86 112 84 84 Z" fill="#6b4a32"/>
+    <path d="M150 46 Q174 56 172 84 Q168 108 140 113 Q160 84 150 46 Z" fill="#553a27" stroke="none"/>
+    <path d="M100 52 Q110 48 118 54 M140 52 Q148 46 158 52" fill="none" stroke-width="3.4"/>
+    <!-- ojo grande turquesa en espiral (desorientado) -->
+    <circle cx="106" cy="80" r="17" fill="#1b1714"/>
+    <circle cx="106" cy="80" r="11" fill="#47d6c2" stroke="none"/>
+    <path d="M106 80 Q110 76 112 82 Q110 90 102 88 Q96 82 100 74 Q108 68 116 74" fill="none" stroke="#1b1714" stroke-width="2.6"/>
+    <!-- ojo pequeño violeta -->
+    <circle cx="150" cy="86" r="9" fill="#1b1714"/>
+    <circle cx="152" cy="84" r="5" fill="#b58ee6" stroke="none"/>
+    <circle cx="150" cy="82" r="1.8" fill="#fff" stroke="none"/>
+    <!-- boca -->
+    <path d="M112 102 Q124 96 132 102 Q140 108 148 102" fill="none" stroke-width="3.6"/>
+    <!-- esporas sueltas -->
+    <circle cx="36" cy="80" r="4" fill="#b58ee6" stroke-width="2.4"/>
+    <circle cx="224" cy="88" r="3.4" fill="#47d6c2" stroke-width="2.2"/>
+    <circle cx="214" cy="64" r="2.4" fill="#b58ee6" stroke="none"/>
+  </g>
+</svg>

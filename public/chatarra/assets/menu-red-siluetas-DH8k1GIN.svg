@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 700" width="1080" height="700">
+  <!-- Chatarra · menú (key-art.jpg): siluetas de la Red al fondo, 1080×700 (abajo, a todo el ancho). Ojos rojos en los centros anotados. -->
+  <g fill="#3b6670" stroke="#1b1714" stroke-opacity=".35" stroke-width="4" stroke-linejoin="round">
+    <path d="M0 700 V420 H60 V300 H90 V420 H160 V360 L220 330 V420 H300 V700 Z"/>
+    <!-- robot gigante de la izquierda -->
+    <path d="M70 700 V330 q0 -40 40 -44 h60 q40 4 40 44 V700 Z"/>
+    <rect x="96" y="220" width="90" height="70" rx="16"/>
+    <path d="M210 360 l70 -50 l18 20 l-64 52 z"/>
+    <!-- chimeneas y nave -->
+    <path d="M380 700 V470 H440 V380 H470 V470 H560 V430 H600 V470 H700 V700 Z"/>
+    <!-- camión de recogida de la derecha -->
+    <path d="M760 700 V520 H860 V440 H960 q30 0 34 30 V520 H1080 V700 Z"/>
+    <rect x="880" y="380" width="14" height="60"/>
+    <!-- robot vigía de la derecha -->
+    <path d="M930 700 V300 q0 -30 30 -30 h60 q30 0 30 30 V700 Z"/>
+    <rect x="950" y="200" width="80" height="64" rx="14"/>
+  </g>
+  <!-- ojos rojos (la capa de efectos puede hacerlos parpadear encima: centros 122,250 · 160,250 · 978,228 · 1004,228 · 887,378) -->
+  <g fill="#ff4a3a" stroke="#1b1714" stroke-width="3">
+    <circle cx="122" cy="250" r="9"/><circle cx="160" cy="250" r="9"/>
+    <circle cx="978" cy="228" r="8"/><circle cx="1004" cy="228" r="8"/>
+    <circle cx="887" cy="378" r="10"/>
+  </g>
+</svg>

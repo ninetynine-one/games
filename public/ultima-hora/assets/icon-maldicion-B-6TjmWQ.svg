@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Maldicion: cracked clock face glowing red inside a dark purple-red aura. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="45"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+    </filter>
+    <radialGradient id="aura" cx="50%" cy="50%" r="50%">
+      <stop offset="0.45" stop-color="#e0483c" stop-opacity="0.85"/>
+      <stop offset="0.7" stop-color="#6a1e48" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#2a0e24" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="64" cy="64" r="62" fill="url(#aura)"/>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <circle cx="64" cy="64" r="40" fill="#5a1a2c"/>
+    <circle cx="64" cy="64" r="31" fill="#f6c8b4" stroke-width="3"/>
+    <path d="M64 64 m-26 0 a26 26 0 0 0 52 0" fill="#f0a08a" stroke="none"/>
+    <path d="M64 36 L64 42 M92 64 L86 64 M64 92 L64 86 M36 64 L42 64" fill="none" stroke-width="3"/>
+    <!-- cracks -->
+    <path d="M70 34 L66 46 L74 52 L64 64 L76 74 L70 84 L78 94" fill="none" stroke="#1b1714" stroke-width="3"/>
+    <path d="M64 64 L50 58 L44 66 L34 62" fill="none" stroke="#1b1714" stroke-width="2.6"/>
+    <!-- twisted hands -->
+    <path d="M64 64 L52 44" fill="none" stroke-width="5"/>
+    <path d="M64 64 L84 54" fill="none" stroke="#e0483c" stroke-width="6"/>
+    <path d="M64 64 L84 54" fill="none" stroke-width="2"/>
+    <circle cx="64" cy="64" r="5" fill="#e0483c" stroke-width="2.6"/>
+  </g>
+  <circle cx="64" cy="64" r="40" fill="none" stroke="#e0483c" stroke-opacity="0.9" stroke-width="2.5"/>
+  <path d="M42 46 Q48 38 58 36" fill="none" stroke="#fff" stroke-opacity="0.7" stroke-width="2.6" stroke-linecap="round"/>
+</svg>

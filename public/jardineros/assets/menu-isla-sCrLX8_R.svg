@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080" width="1080" height="1080">
+  <!-- Menú: isla flotante del key art (key-art.jpg). Copa grande del Árbol Madre, corazón turquesa en el tronco, raíces, lianas colgantes y roca con goteos. Sin personajes. Fondo transparente -->
+  <defs>
+    <filter id="wob" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.012" numOctaves="2" seed="9"/>
+      <feDisplacementMap in="SourceGraphic" scale="10"/>
+    </filter>
+    <radialGradient id="halo">
+      <stop offset="0" stop-color="#7ff5e0" stop-opacity="0.9"/>
+      <stop offset="0.45" stop-color="#4fe0d0" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#4fe0d0" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="roca" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a6448"/>
+      <stop offset="1" stop-color="#5a4238"/>
+    </linearGradient>
+    <g id="copa"><circle cx="540" cy="190" r="190"/><circle cx="360" cy="250" r="140"/><circle cx="720" cy="250" r="140"/><circle cx="230" cy="320" r="105"/><circle cx="850" cy="320" r="105"/><circle cx="430" cy="130" r="120"/><circle cx="650" cy="130" r="120"/><circle cx="540" cy="80" r="110"/><circle cx="320" cy="370" r="95"/><circle cx="760" cy="370" r="95"/><circle cx="450" cy="370" r="90"/><circle cx="630" cy="370" r="90"/></g>
+  </defs>
+  <g filter="url(#wob)" stroke-linejoin="round" stroke-linecap="round">
+    <!-- roca de la isla -->
+    <path d="M150 720 Q170 800 230 850 Q260 900 330 930 Q380 1000 450 1010 Q520 1060 590 1010 Q660 1000 700 930 Q790 890 830 830 Q900 780 930 720 Z" fill="url(#roca)" stroke="#1b1714" stroke-width="10"/>
+    <path d="M700 740 Q760 800 720 900 Q690 960 600 1000 Q680 920 690 840 Q690 780 700 740 Z" fill="#4a362e" opacity="0.6"/>
+    <path d="M300 760 L320 860 M420 770 L440 900 M560 780 L540 950 M650 770 L640 880" fill="none" stroke="#4a362e" stroke-width="7"/>
+    <!-- goteos de tierra -->
+    <path d="M230 840 Q226 880 236 900 Q246 880 242 846 Z M800 840 Q796 890 808 910 Q820 886 812 836 Z M480 1000 Q478 1040 488 1060 Q498 1040 496 1004 Z" fill="#5a4238" stroke="#1b1714" stroke-width="7"/>
+    <!-- lianas colgantes -->
+    <path d="M250 720 Q240 800 262 860 Q276 920 258 980" fill="none" stroke="#1b1714" stroke-width="16"/>
+    <path d="M250 720 Q240 800 262 860 Q276 920 258 980" fill="none" stroke="#5e9a3a" stroke-width="8"/>
+    <path d="M780 720 Q796 790 776 850 Q760 900 780 950" fill="none" stroke="#1b1714" stroke-width="16"/>
+    <path d="M780 720 Q796 790 776 850 Q760 900 780 950" fill="none" stroke="#5e9a3a" stroke-width="8"/>
+    <path d="M660 730 Q668 780 656 820" fill="none" stroke="#1b1714" stroke-width="14"/>
+    <path d="M660 730 Q668 780 656 820" fill="none" stroke="#5e9a3a" stroke-width="6"/>
+    <g fill="#7fc45a" stroke="#1b1714" stroke-width="5">
+      <ellipse cx="236" cy="800" rx="16" ry="9" transform="rotate(-30 236 800)"/>
+      <ellipse cx="282" cy="880" rx="16" ry="9" transform="rotate(30 282 880)"/>
+      <ellipse cx="252" cy="950" rx="15" ry="8" transform="rotate(-20 252 950)"/>
+      <ellipse cx="804" cy="790" rx="16" ry="9" transform="rotate(30 804 790)"/>
+      <ellipse cx="758" cy="870" rx="16" ry="9" transform="rotate(-30 758 870)"/>
+      <ellipse cx="794" cy="936" rx="15" ry="8" transform="rotate(20 794 936)"/>
+      <ellipse cx="672" cy="800" rx="13" ry="7" transform="rotate(30 672 800)"/>
+    </g>
+    <circle cx="258" cy="984" r="8" fill="#5fe0d0" stroke="#1b1714" stroke-width="5"/>
+    <!-- césped de la cima -->
+    <path d="M130 712 Q120 660 200 640 Q300 610 420 630 Q540 600 660 628 Q800 610 900 650 Q960 680 940 720 Q930 750 880 744 Q860 770 820 752 Q780 774 740 756 Q680 778 620 758 Q560 780 500 760 Q440 780 380 758 Q320 776 270 754 Q220 770 190 748 Q140 752 130 712 Z" fill="#6aa83e" stroke="#1b1714" stroke-width="10"/>
+    <path d="M170 690 Q300 640 540 640 Q780 640 910 690" fill="none" stroke="#94cc5a" stroke-width="12" opacity="0.8"/>
+    <path d="M200 740 Q200 760 210 770 M480 760 Q482 778 490 786 M860 742 Q858 760 866 770" fill="none" stroke="#4e8a2e" stroke-width="8"/>
+    <!-- tronco -->
+    <path d="M420 650 Q470 570 470 480 Q462 410 400 350 L460 330 Q500 360 510 390 L540 320 L572 390 Q596 350 660 330 L690 350 Q616 410 612 480 Q612 570 664 650 Z" fill="#8a5e3c" stroke="#1b1714" stroke-width="10"/>
+    <path d="M584 430 Q590 550 640 650 L660 650 Q612 570 612 480 Q614 410 670 352 Q610 380 584 430 Z" fill="#6e4a2e"/>
+    <path d="M506 590 Q520 610 512 636 M570 590 Q560 616 574 636" fill="none" stroke="#6e4a2e" stroke-width="7"/>
+    <!-- raíces sobre el césped (tapan la base del tronco) -->
+    <path d="M470 600 Q440 640 340 670 Q400 676 470 640 Q480 680 430 720 Q500 700 520 650 L560 650 Q590 700 650 716 Q610 676 610 640 Q690 670 750 664 Q640 630 610 600 Z" fill="#8a5e3c" stroke="#1b1714" stroke-width="10"/>
+    <!-- copa (contorno unido + relleno + luces) -->
+    <use href="#copa" fill="#1b1714" stroke="#1b1714" stroke-width="20"/>
+    <use href="#copa" fill="#3f7a3a"/>
+    <g fill="#5a9a46"><circle cx="492" cy="133" r="118"/><circle cx="325" cy="208" r="87"/><circle cx="685" cy="208" r="87"/><circle cx="204" cy="288" r="65"/><circle cx="824" cy="288" r="65"/><circle cx="400" cy="94" r="74"/><circle cx="620" cy="94" r="74"/><circle cx="512" cy="47" r="68"/></g>
+    <g fill="#7cba5a" opacity="0.9"><circle cx="468" cy="104" r="57"/><circle cx="307" cy="187" r="42"/><circle cx="667" cy="187" r="42"/><circle cx="190" cy="273" r="32"/><circle cx="810" cy="273" r="32"/><circle cx="384" cy="76" r="36"/><circle cx="604" cy="76" r="36"/><circle cx="498" cy="30" r="33"/></g>
+    <path d="M300 420 Q300 450 312 460 M770 420 Q774 446 762 458" fill="none" stroke="#2a5a2a" stroke-width="8"/>
+    <!-- lucecitas turquesa bajo la copa -->
+    <g fill="#7ff5e0" stroke="#1b1714" stroke-width="4">
+      <circle cx="420" cy="470" r="7"/><circle cx="470" cy="466" r="5"/><circle cx="640" cy="468" r="7"/><circle cx="690" cy="462" r="5"/>
+    </g>
+  </g>
+  <!-- corazón turquesa con halo -->
+  <circle cx="540" cy="530" r="130" fill="url(#halo)"/>
+  <path d="M540 590 Q480 550 478 512 Q478 482 506 480 Q528 480 540 502 Q552 480 574 480 Q602 482 602 512 Q600 550 540 590 Z" fill="#5ff0d8" stroke="#1b1714" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M496 506 Q500 492 514 492" fill="none" stroke="#e8fffa" stroke-width="8" stroke-linecap="round"/>
+  <path d="M540 502 Q536 476 552 460 M546 482 Q560 474 568 476" fill="none" stroke="#1b1714" stroke-width="12" stroke-linecap="round"/>
+  <path d="M540 502 Q536 476 552 460 M546 482 Q560 474 568 476" fill="none" stroke="#5ff0d8" stroke-width="5" stroke-linecap="round"/>
+  <!-- burbujas flotantes -->
+  <circle cx="150" cy="560" r="22" fill="#a8f0e0" opacity="0.75" stroke="#1b1714" stroke-opacity="0.4" stroke-width="4"/>
+  <circle cx="170" cy="610" r="9" fill="#a8f0e0" opacity="0.7"/>
+  <circle cx="940" cy="540" r="26" fill="#b49ae8" opacity="0.75" stroke="#1b1714" stroke-opacity="0.4" stroke-width="4"/>
+  <circle cx="912" cy="596" r="10" fill="#b49ae8" opacity="0.7"/>
+  <circle cx="1000" cy="610" r="14" fill="#a8f0e0" opacity="0.7"/>
+</svg>

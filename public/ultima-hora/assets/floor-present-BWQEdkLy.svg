@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <!-- Presente: muted night-blue station tiles with soft grout (paisaje.jpg), one tile per cell. Seamless 192px tile, no filter. -->
+  <rect width="192" height="192" fill="#42568e"/>
+  <rect x="3" y="3" width="90" height="90" rx="4" fill="#2a3c74"/>
+  <path d="M6 89 V7 Q7 6 8 6 H89" fill="none" stroke="#3a4f8a" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <path d="M90 8 V90 H8" fill="none" stroke="#1f2d5a" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="74.2" cy="74.6" r="2.2" fill="#4a5f98" opacity="0.4"/>
+  <circle cx="75.7" cy="65.8" r="1.4" fill="#4a5f98" opacity="0.4"/>
+  <circle cx="14.7" cy="30.9" r="1.1" fill="#4a5f98" opacity="0.4"/>
+  <circle cx="14.1" cy="55.9" r="1.3" fill="#4a5f98" opacity="0.4"/>
+  <circle cx="64.4" cy="47.3" r="2.0" fill="#4a5f98" opacity="0.4"/>
+  <path d="M29.5 30 l6 5 l-2 6" fill="none" stroke="#1f3270" stroke-width="1.4" stroke-linecap="round" opacity="0.5"/>
+  <rect x="99" y="3" width="90" height="90" rx="4" fill="#2d407b"/>
+  <path d="M102 89 V7 Q103 6 104 6 H185" fill="none" stroke="#3a4f8a" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <path d="M186 8 V90 H104" fill="none" stroke="#1f2d5a" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="170.0" cy="30.0" r="1.5" fill="#4a5f98" opacity="0.4"/>
+  <circle cx="170.8" cy="22.0" r="1.7" fill="#4a5f98" opacity="0.4"/>
+  <circle cx="110.2" cy="76.1" r="1.9" fill="#4a5f98" opacity="0.4"/>
+  <circle cx="172.7" cy="15.4" r="2.3" fill="#4a5f98" opacity="0.4"/>
+  <circle cx="122.8" cy="79.9" r="1.8" fill="#4a5f98" opacity="0.4"/>
+  <path d="M143.2 30 l6 5 l-2 6" fill="none" stroke="#1f3270" stroke-width="1.4" stroke-linecap="round" opacity="0.5"/>
+  <rect x="3" y="99" width="90" height="90" rx="4" fill="#283a70"/>
+  <path d="M6 185 V103 Q7 102 8 102 H89" fill="none" stroke="#3a4f8a" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <path d="M90 104 V186 H8" fill="none" stroke="#1f2d5a" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="32.1" cy="125.1" r="1.3" fill="#4a5f98" opacity="0.4"/>
+  <circle cx="52.4" cy="113.6" r="2.1" fill="#4a5f98" opacity="0.4"/>
+  <circle cx="61.6" cy="158.6" r="1.7" fill="#4a5f98" opacity="0.4"/>
+  <circle cx="16.2" cy="117.5" r="2.3" fill="#4a5f98" opacity="0.4"/>
+  <circle cx="22.9" cy="156.8" r="2.3" fill="#4a5f98" opacity="0.4"/>
+  <path d="M21.5 126 l6 5 l-2 6" fill="none" stroke="#1f3270" stroke-width="1.4" stroke-linecap="round" opacity="0.5"/>
+  <rect x="99" y="99" width="90" height="90" rx="4" fill="#2b3e77"/>
+  <path d="M102 185 V103 Q103 102 104 102 H185" fill="none" stroke="#3a4f8a" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <path d="M186 104 V186 H104" fill="none" stroke="#1f2d5a" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="170.1" cy="168.6" r="2.4" fill="#4a5f98" opacity="0.4"/>
+  <circle cx="174.9" cy="162.0" r="1.6" fill="#4a5f98" opacity="0.4"/>
+  <circle cx="126.9" cy="159.5" r="2.2" fill="#4a5f98" opacity="0.4"/>
+  <circle cx="137.1" cy="126.0" r="1.6" fill="#4a5f98" opacity="0.4"/>
+  <circle cx="170.3" cy="148.0" r="1.5" fill="#4a5f98" opacity="0.4"/>
+  <path d="M140.9 126 l6 5 l-2 6" fill="none" stroke="#1f3270" stroke-width="1.4" stroke-linecap="round" opacity="0.5"/>
+</svg>

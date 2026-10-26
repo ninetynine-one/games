@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+  <!-- Fase 5 · Tierra árida: tierra ocre agrietada con matas de musgo; se planta (habilita ramas). Las grietas la distinguen sin depender del color -->
+  <defs><filter id="wob" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="56"/><feDisplacementMap in="SourceGraphic" scale="2"/></filter></defs>
+  <rect width="96" height="96" fill="#c79a4e"/>
+  <g filter="url(#wob)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M8 60 Q24 50 40 58 Q42 70 24 72 Q10 70 8 60 Z" fill="#b98c44" opacity="0.7"/>
+    <g fill="none" stroke="#7a5426" stroke-width="2.4"><path d="M6 26 L22 30 L30 22 L44 30 L50 44 L66 46 L74 36 L90 40"/><path d="M30 22 L28 8"/><path d="M50 44 L44 60 L52 74 L48 90"/><path d="M66 46 L72 62 L88 66"/><path d="M22 30 L16 46"/></g>
+    <g fill="#6e9446" stroke="#3f5a26" stroke-width="1"><path d="M14 84 q2 -8 6 -1 q2 -7 5 1 z"/><path d="M76 18 q2 -8 6 -1 q2 -7 5 1 z"/><path d="M60 86 q2 -6 5 -1 q2 -5 4 1 z"/></g>
+  </g>
+</svg>

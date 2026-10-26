@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Tocón seco: planta marchita en su macetero, gris -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="64"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+    <path id="flor-petal" d="M0 0 Q-11 -16 -4 -34 Q0 -38 4 -34 Q11 -16 0 0 Z"/>
+    <path id="petal-long" d="M0 0 Q-12 -20 -2 -44 Q6 -40 7 -30 Q8 -14 0 0 Z"/>
+  </defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M12 90 H116 V116 H12 Z" fill="#46423e"/>
+    <path d="M12 104 H116 V116 H12 Z" fill="#37342f" stroke="none"/>
+    <path d="M44 92 V114 M84 92 V114" fill="none" stroke-width="2.2"/>
+    <path d="M12 30 H116 V92 H12 Z" fill="#6e6862"/>
+    <path d="M104 32 H114 V90 H104 Z" fill="#5a5550" stroke="none"/>
+    <path d="M23 40 H105 V82 H23 Z" fill="#2c2825"/>
+    <path d="M30 76 L38 72 L44 78 M84 74 L92 70 L98 76" fill="none" stroke="#4a4540" stroke-width="2"/>
+    <!-- tocón -->
+    <path d="M46 78 Q44 60 48 48 H80 Q84 60 82 78 Q64 82 46 78 Z" fill="#7d7770"/>
+    <path d="M72 50 H80 Q84 62 82 77 Q76 79 72 79 Q76 64 72 50 Z" fill="#625d57" stroke="none"/>
+    <ellipse cx="64" cy="48" rx="17" ry="6" fill="#9a948c"/>
+    <path d="M56 48 Q64 44 72 48" fill="none" stroke-width="1.8"/>
+    <path d="M54 58 L56 70 M66 56 L64 72" fill="none" stroke-width="2"/>
+    <!-- rama seca y hoja caída -->
+    <path d="M78 54 Q90 44 96 30 M90 42 L100 40" fill="none" stroke-width="3"/>
+    <path d="M30 70 Q36 62 44 68 Q38 74 30 70 Z" fill="#8a8070" stroke-width="2.2"/>
+    <path d="M48 44 Q44 36 46 28" fill="none" stroke-width="2.4"/>
+  </g>
+</svg>

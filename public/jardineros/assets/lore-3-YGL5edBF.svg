@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<linearGradient id="l3sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4f6f8c"/><stop offset="0.5" stop-color="#9db7c9"/><stop offset="1" stop-color="#2d5a63"/></linearGradient>
+<radialGradient id="l3tq" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#3fc1b0" stop-opacity="0.75"/><stop offset="0.5" stop-color="#3fc1b0" stop-opacity="0.3"/><stop offset="1" stop-color="#3fc1b0" stop-opacity="0"/></radialGradient>
+<linearGradient id="l3soil" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6b5a3a"/><stop offset="1" stop-color="#3a2f22"/></linearGradient>
+<linearGradient id="l3mist" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfe0e8" stop-opacity="0"/><stop offset="1" stop-color="#cfe0e8" stop-opacity="0.65"/></linearGradient>
+<radialGradient id="l3sun" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f3ead2" stop-opacity="0.8"/><stop offset="1" stop-color="#f3ead2" stop-opacity="0"/></radialGradient>
+</defs>
+<g id="sky" data-name="Cielo">
+<rect id="lore3-cielo" data-name="Cielo profundo" width="1600" height="900" fill="url(#l3sky)"/>
+<circle id="lore3-luz-alta" data-name="Luz alta" cx="1320" cy="120" r="260" fill="url(#l3sun)"/>
+<ellipse cx="300" cy="150" rx="180" ry="22" fill="#f3ead2" opacity="0.4"/><ellipse cx="560" cy="210" rx="110" ry="14" fill="#f3ead2" opacity="0.3"/>
+</g>
+<g id="background" data-name="Fondo">
+<g id="lore3-nubes-lejanas" data-name="Nubes lejanas">
+<ellipse cx="200" cy="620" rx="320" ry="80" fill="#b4c8d6"/><ellipse cx="620" cy="590" rx="260" ry="70" fill="#a9c0cf"/><ellipse cx="1060" cy="610" rx="320" ry="80" fill="#b4c8d6"/><ellipse cx="1460" cy="590" rx="280" ry="76" fill="#a9c0cf"/>
+</g>
+<ellipse id="lore3-brillo-turquesa" data-name="Brillo turquesa en la bruma" cx="800" cy="770" rx="760" ry="200" fill="url(#l3tq)"/>
+</g>
+<g id="midground" data-name="Plano medio">
+<g id="lore3-raices" data-name="Raices colgantes">
+<path d="M300 400 C260 480 330 560 290 650 C270 700 300 760 280 820 L330 820 C350 760 330 700 350 650 C390 560 330 470 380 400 Z" fill="#5a4630"/>
+<path d="M520 410 C500 500 560 580 530 680 C520 730 540 790 520 840 L576 840 C590 780 570 730 584 680 C620 580 560 500 600 410 Z" fill="#6b5538"/>
+<path d="M760 410 C740 480 790 540 770 620 C760 680 780 740 768 800 L812 800 C826 740 806 680 818 620 C840 540 800 480 840 410 Z" fill="#5a4630"/>
+<path d="M1000 410 C960 490 1030 570 990 670 C975 730 1000 790 982 850 L1040 850 C1058 790 1036 730 1050 670 C1090 570 1030 490 1080 410 Z" fill="#6b5538"/>
+<path d="M1230 400 C1200 470 1250 530 1230 610 C1220 670 1240 720 1228 780 L1268 780 C1280 720 1262 670 1272 610 C1296 530 1260 470 1300 400 Z" fill="#5a4630"/>
+<path d="M330 560 C400 590 440 600 470 650 M330 560 C300 600 250 620 220 670 M780 520 C830 540 890 560 920 620 M1010 580 C960 620 920 640 900 700 M540 600 C480 640 450 670 430 720" fill="none" stroke="#6b5538" stroke-width="12" stroke-linecap="round"/>
+</g>
+</g>
+<g id="subject" data-name="Sujeto">
+<g id="lore3-isla" data-name="Borde de la isla flotante">
+<path d="M-20 250 L-20 380 C100 400 200 420 330 410 C480 430 640 440 780 420 C960 440 1140 430 1300 410 C1440 420 1540 400 1620 380 L1620 250 Z" fill="url(#l3soil)"/>
+<path d="M-20 360 C100 392 200 410 330 400 C480 420 640 430 780 410 C960 430 1140 420 1300 400 C1440 410 1540 392 1620 372 L1620 396 C1540 416 1440 432 1300 424 C1140 444 960 454 780 434 C640 454 480 444 330 424 C200 434 100 412 -20 396 Z" fill="#4a3c28"/>
+<path d="M-20 250 L-20 306 C200 286 480 300 780 290 C1060 300 1340 284 1620 304 L1620 250 Z" fill="#5f7f3a"/>
+<path d="M-20 296 C200 276 480 290 780 280 C1060 290 1340 274 1620 294 L1620 316 C1340 296 1060 312 780 302 C480 312 200 298 -20 318 Z" fill="#7a9a52"/>
+<g id="lore3-hierba" data-name="Hierba del borde">
+<path d="M60 300 L70 268 L82 300 Z M110 298 L124 258 L136 298 Z M420 296 L430 266 L444 296 Z M900 292 L912 258 L924 292 Z M1400 296 L1412 262 L1426 296 Z" fill="#9cb08a"/>
+</g>
+</g>
+<g id="lore3-jardinera" data-name="Jardinera muy pequena">
+<ellipse cx="1180" cy="284" rx="22" ry="5" fill="#3a4a26" opacity="0.5"/>
+<path d="M1166 284 C1166 262 1170 246 1180 244 C1190 246 1194 262 1194 284 Z" fill="#9cb08a"/>
+<path d="M1160 252 C1166 230 1194 230 1200 252 Z" fill="#f3ead2"/>
+<circle cx="1180" cy="236" r="10" fill="#f3d9bd"/>
+<path d="M1168 230 C1170 218 1190 218 1192 230 Z" fill="#5a3a2a"/>
+<path d="M1196 250 L1208 232" stroke="#6b5538" stroke-width="3" stroke-linecap="round"/>
+<circle cx="1210" cy="230" r="5" fill="#8a5bb5"/>
+</g>
+</g>
+<g id="foreground" data-name="Primer plano">
+<g id="lore3-nubes-profundas" data-name="Nubes profundas">
+<ellipse cx="120" cy="840" rx="300" ry="120" fill="#cfe0e8"/><ellipse cx="460" cy="880" rx="300" ry="110" fill="#bfd3df"/><ellipse cx="820" cy="870" rx="340" ry="110" fill="#cfe0e8"/><ellipse cx="1180" cy="880" rx="320" ry="110" fill="#bfd3df"/><ellipse cx="1520" cy="850" rx="300" ry="120" fill="#cfe0e8"/>
+<ellipse cx="300" cy="730" rx="260" ry="70" fill="#d8e6ee"/><ellipse cx="1000" cy="740" rx="300" ry="76" fill="#d8e6ee"/><ellipse cx="1420" cy="720" rx="240" ry="64" fill="#d8e6ee"/>
+</g>
+<rect id="lore3-bruma" data-name="Bruma inferior" y="560" width="1600" height="340" fill="url(#l3mist)"/>
+</g>
+<g id="light" data-name="Luz">
+<ellipse id="lore3-turquesa-bruma" data-name="Leve brillo turquesa entre la bruma" cx="800" cy="780" rx="520" ry="150" fill="url(#l3tq)" opacity="0.8"/>
+<ellipse id="lore3-turquesa-raices" data-name="Brillo en la punta de las raices" cx="620" cy="720" rx="260" ry="90" fill="url(#l3tq)" opacity="0.7"/>
+<circle cx="1210" cy="230" r="28" fill="#c9a4ee" opacity="0.35"/>
+</g>
+</svg>

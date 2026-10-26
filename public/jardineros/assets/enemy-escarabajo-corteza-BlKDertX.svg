@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Escarabajo de Corteza: blindado y lento; caparazón de placas de madera -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="41"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+    </filter>
+  </defs>
+  <ellipse cx="64" cy="112" rx="40" ry="8" fill="#000" opacity="0.35"/>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- patas -->
+    <path d="M24 70 L10 66 L6 76 M22 84 L8 88 L8 98 M30 98 L20 108 M104 70 L118 66 L122 76 M106 84 L120 88 L120 98 M98 98 L108 108" fill="none" stroke-width="4.5"/>
+    <!-- caparazón -->
+    <path d="M20 68 Q20 26 64 22 Q108 26 108 68 Q108 104 64 106 Q20 104 20 68 Z" fill="#6b4a32"/>
+    <path d="M84 28 Q108 40 107 70 Q104 100 70 105 Q98 82 84 28 Z" fill="#553a27" stroke="none"/>
+    <path d="M64 24 V104" fill="none" stroke-width="3"/>
+    <!-- placas de corteza -->
+    <path d="M30 46 L44 40 L52 50 L40 58 Z M76 40 L92 44 L96 58 L80 54 Z M28 72 L42 66 L50 78 L36 86 Z M80 70 L96 68 L98 84 L84 88 Z" fill="#7a5638" stroke-width="2.4"/>
+    <path d="M44 30 Q48 36 46 44 M86 34 Q82 40 84 46 M48 88 Q52 94 50 100 M78 92 L82 100" fill="none" stroke-width="2"/>
+    <!-- musgo -->
+    <path d="M52 30 Q56 22 64 26 Q72 22 76 30 Q68 34 64 32 Q58 36 52 30 Z" fill="#5a7040" stroke-width="2.4"/>
+    <path d="M24 62 Q26 56 32 58 Q30 64 24 62 Z" fill="#5a7040" stroke-width="2"/>
+    <!-- cabeza -->
+    <path d="M40 92 Q40 76 64 76 Q88 76 88 92 Q86 110 64 110 Q42 110 40 92 Z" fill="#2e2622"/>
+    <path d="M56 78 L50 64 L60 72 M72 78 L78 64 L68 72" fill="#c9b796" stroke-width="2.4"/>
+    <!-- ojos -->
+    <ellipse cx="54" cy="92" rx="7" ry="8" fill="#fff"/>
+    <ellipse cx="74" cy="92" rx="7" ry="8" fill="#fff"/>
+    <circle cx="55" cy="94" r="4" fill="#1b1714" stroke="none"/>
+    <circle cx="73" cy="94" r="4" fill="#1b1714" stroke="none"/>
+    <circle cx="54" cy="92" r="1.4" fill="#fff" stroke="none"/>
+    <circle cx="72" cy="92" r="1.4" fill="#fff" stroke="none"/>
+    <path d="M46 84 L58 88 M82 84 L70 88" fill="none" stroke-width="2.6"/>
+  </g>
+</svg>

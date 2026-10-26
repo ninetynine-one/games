@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Mascota: abeja de polen, redonda y peluda, con un saquito de polen -->
+  <defs><filter id="wob" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="72"/><feDisplacementMap in="SourceGraphic" scale="2.2"/></filter></defs>
+  <ellipse cx="64" cy="114" rx="28" ry="6" fill="#000" opacity="0.35"/>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M58 46 Q40 14 22 26 Q30 46 58 50 Z" fill="#dff2f0" opacity="0.9"/>
+    <path d="M70 46 Q88 14 106 26 Q98 46 70 50 Z" fill="#dff2f0" opacity="0.9"/>
+    <path d="M24 76 Q24 48 64 46 Q104 48 104 76 Q102 104 64 104 Q26 104 24 76 Z" fill="#f0c040"/>
+    <path d="M30 66 Q64 58 98 66 L100 76 Q64 68 28 76 Z" fill="#3a2a1a" stroke="none"/>
+    <path d="M30 90 Q64 82 98 90 L94 98 Q64 92 34 98 Z" fill="#3a2a1a" stroke="none"/>
+    <path d="M52 46 Q48 30 40 26 M76 46 Q80 30 88 26" fill="none" stroke-width="3"/>
+    <circle cx="40" cy="25" r="4" fill="#3a2a1a"/><circle cx="88" cy="25" r="4" fill="#3a2a1a"/>
+    <ellipse cx="50" cy="60" rx="7" ry="8" fill="#fff"/><ellipse cx="78" cy="60" rx="7" ry="8" fill="#fff"/>
+    <circle cx="51" cy="62" r="4" fill="#1b1714" stroke="none"/><circle cx="79" cy="62" r="4" fill="#1b1714" stroke="none"/>
+    <path d="M100 96 Q112 98 112 108 Q102 112 96 104 Z" fill="#f6e27a"/>
+    <circle cx="106" cy="102" r="2" fill="#fff8c0" stroke="none"/>
+  </g>
+</svg>

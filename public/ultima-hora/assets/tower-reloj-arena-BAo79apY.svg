@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Reloj de Arena: hourglass inside a brass ring, celestial sand. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="11"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- pedestal -->
+    <path d="M13 95 L115 94 L115 115 Q64 118 13 116 Z" fill="#2a2a31"/>
+    <path d="M13 99 L115 98 L115 104 L13 105 Z" fill="#8a6a3a" stroke-width="2.5"/>
+    <path d="M14 24 L114 23 L115 96 L13 97 Z" fill="#4a4b54"/>
+    <path d="M24 32 L104 31 L105 88 L23 89 Z" fill="#5b5c66" stroke-width="2.5"/>
+    <path d="M24 82 L105 81 L105 88 L23 89 Z" fill="#45464f" stroke="none"/>
+    <path d="M14 24 L29 24 L29 38 L14 38 Z M99 23 L114 23 L114 37 L99 37 Z M13 83 L28 83 L28 97 L13 97 Z M100 82 L115 82 L115 96 L100 96 Z" fill="#9c7a42" stroke-width="2.5"/>
+    <g fill="#d4a640" stroke-width="1.6">
+      <circle cx="26" cy="110" r="2.6"/><circle cx="64" cy="110" r="2.6"/><circle cx="102" cy="110" r="2.6"/>
+    </g>
+    <path d="M36 40 l-4 5 l2 5 M96 64 l-5 3" fill="none" stroke-width="1.6"/>
+    <!-- ring (the "anillo") -->
+    <ellipse cx="64" cy="50" rx="35" ry="37" fill="none" stroke-width="12"/>
+    <ellipse cx="64" cy="50" rx="35" ry="37" fill="none" stroke="#b08a4a" stroke-width="6"/>
+    <path d="M90 76 Q99 64 99 50" fill="none" stroke="#7d6032" stroke-width="5"/>
+    <g fill="#e0b24a" stroke-width="1.8">
+      <circle cx="64" cy="13" r="3.2"/><circle cx="29" cy="50" r="3.2"/><circle cx="99" cy="50" r="3.2"/>
+    </g>
+    <!-- glass -->
+    <path d="M50 21 C50 38 60 44 62 50 C60 56 50 62 50 80 L78 80 C78 62 68 56 66 50 C68 44 78 38 78 21 Z" fill="#a9d6e0"/>
+    <path d="M70 21 L78 21 C78 38 68 44 66 50 C68 56 78 62 78 80 L70 80 C72 62 64 56 64 50 C66 44 72 36 70 21 Z" fill="#86b6c4" stroke="none"/>
+    <!-- sand -->
+    <path d="M53 31 Q64 35 75 31 C74 40 67 44 64 48 C61 44 54 40 53 31 Z" fill="#5fd4e6" stroke-width="2.4"/>
+    <path d="M64 48 L64 72" stroke="#5fd4e6" stroke-width="2.6"/>
+    <path d="M51 79 Q64 62 77 79 Z" fill="#5fd4e6" stroke-width="2.4"/>
+    <path d="M57 76 Q63 69 66 70" fill="none" stroke="#c9f6fb" stroke-width="2"/>
+    <path d="M50 21 C50 38 60 44 62 50 C60 56 50 62 50 80 L78 80 C78 62 68 56 66 50 C68 44 78 38 78 21 Z" fill="none"/>
+    <path d="M54 25 C54 34 57 39 59 42" fill="none" stroke="#ffffff" stroke-opacity="0.7" stroke-width="2"/>
+    <!-- frame -->
+    <path d="M43 21 L48 21 L48 80 L43 80 Z M80 21 L85 21 L85 80 L80 80 Z" fill="#8a6a3a" stroke-width="2.6"/>
+    <path d="M40 11 L88 11 L88 22 L40 22 Z" fill="#b08a4a"/>
+    <path d="M40 18 L88 18 L88 22 L40 22 Z" fill="#7d6032" stroke="none"/>
+    <path d="M40 11 L88 11 L88 22 L40 22 Z" fill="none"/>
+    <path d="M38 80 L90 80 L90 92 L38 92 Z" fill="#b08a4a"/>
+    <path d="M38 88 L90 88 L90 92 L38 92 Z" fill="#7d6032" stroke="none"/>
+    <path d="M38 80 L90 80 L90 92 L38 92 Z" fill="none"/>
+  </g>
+</svg>

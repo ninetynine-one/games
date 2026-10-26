@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 128" width="256" height="128">
+  <!-- Chatarra · entrada de arriba (paisaje.jpg): persiana enrollable medio subida en un marco rojo. El hueco de abajo es transparente (se ve el boquete). -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="272" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="401"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- lamas de la persiana -->
+    <rect x="34" y="50" width="188" height="40" fill="#a3aeb7"/>
+    <path d="M36 60 H220 M36 68 H220 M36 76 H220 M36 84 H220" stroke="#6c7d86" stroke-width="2.5"/>
+    <path d="M36 54 H220" stroke="#c9d2d9" stroke-width="2"/>
+    <rect x="34" y="88" width="188" height="9" rx="2" fill="#5f6e78"/>
+    <rect x="112" y="90" width="32" height="5" rx="2" fill="#f2b632" stroke-width="2"/>
+    <!-- postes -->
+    <rect x="10" y="40" width="26" height="88" rx="3" fill="#d4643a"/>
+    <rect x="220" y="40" width="26" height="88" rx="3" fill="#d4643a"/>
+    <path d="M28 46 v78 M238 46 v78" stroke="#a8462a" stroke-width="5"/>
+    <!-- base de los postes con rayas de peligro -->
+    <rect x="10" y="104" width="26" height="22" fill="#f2b632" stroke-width="3"/><rect x="220" y="104" width="26" height="22" fill="#f2b632" stroke-width="3"/>
+    <path d="M12 118 l10 -12 M22 124 l12 -16 M222 118 l10 -12 M232 124 l12 -16" stroke-width="4"/>
+    <!-- caja del rollo -->
+    <rect x="4" y="26" width="248" height="26" rx="7" fill="#e2733f"/>
+    <path d="M12 32 H244" stroke="#f29a63" stroke-width="3"/>
+    <path d="M10 46 H246" stroke="#a8462a" stroke-width="3"/>
+    <circle cx="20" cy="39" r="4" fill="#8f9ca4" stroke-width="2"/><circle cx="236" cy="39" r="4" fill="#8f9ca4" stroke-width="2"/>
+    <rect x="96" y="31" width="64" height="15" rx="3" fill="#3a3533" stroke-width="3"/>
+    <circle cx="106" cy="38.5" r="3" fill="#f2b632" stroke="none"/>
+  </g>
+</svg>

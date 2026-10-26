@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 540" width="1080" height="540">
+  <!-- Menú: banco de nubes de atardecer bajo la isla (crema con vientre rosado, contorno suave). Fondo transparente, parte de abajo plana para apoyar en el borde de la pantalla -->
+  <defs>
+    <filter id="wob" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.015" numOctaves="2" seed="17"/>
+      <feDisplacementMap in="SourceGraphic" scale="10"/>
+    </filter>
+    <g id="nb"><circle cx="120" cy="330" r="120"/><circle cx="270" cy="280" r="140"/><circle cx="440" cy="320" r="120"/><circle cx="600" cy="270" r="150"/><circle cx="780" cy="320" r="130"/><circle cx="950" cy="290" r="130"/><circle cx="60" cy="400" r="90"/><circle cx="1040" cy="380" r="90"/><circle cx="190" cy="250" r="70"/><circle cx="360" cy="230" r="80"/><circle cx="520" cy="250" r="70"/><circle cx="690" cy="215" r="85"/><circle cx="870" cy="250" r="75"/><circle cx="1010" cy="270" r="70"/><circle cx="30" cy="320" r="60"/><rect x="0" y="330" width="1080" height="210"/></g>
+    <linearGradient id="vientre" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fbefdc" stop-opacity="0"/>
+      <stop offset="1" stop-color="#e8b4a8"/>
+    </linearGradient>
+  </defs>
+  <g filter="url(#wob)">
+    <use href="#nb" fill="#1b1714" stroke="#1b1714" stroke-width="10" opacity="0.35"/>
+    <use href="#nb" fill="#fbefdc"/>
+    <rect x="0" y="300" width="1080" height="240" fill="url(#vientre)"/>
+    <path d="M180 230 Q240 180 320 190 M560 180 Q620 140 700 160 M880 220 Q930 190 990 200" fill="none" stroke="#fffaf0" stroke-width="16" stroke-linecap="round"/>
+  </g>
+</svg>

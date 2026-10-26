@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · icono de poder Descarga: piezas que vuelan con un rayo teal hacia un reactor con núcleo teal. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="441"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="70" y="40" width="44" height="66" rx="8" fill="#6c7d86"/>
+    <rect x="80" y="52" width="24" height="42" rx="10" fill="#2ee6d0"/>
+    <path d="M94 58 l-6 14 h8 l-6 14" fill="none" stroke="#1b1714" stroke-width="3.5"/>
+    <rect x="66" y="100" width="52" height="12" rx="3" fill="#4b4540"/>
+    <path d="M14 30 q30 0 50 26" fill="none" stroke="#2ee6d0" stroke-width="5" stroke-dasharray="8 8"/>
+    <polygon points="22,58 30,62 30,70 22,74 14,70 14,62" fill="#c9c3b5"/>
+    <circle cx="42" cy="88" r="9" fill="#d8a24a"/><circle cx="42" cy="88" r="3.5" fill="#4b4540"/>
+    <rect x="36" y="20" width="18" height="14" rx="2" fill="#a39c8f" transform="rotate(-15 45 27)"/>
+  </g>
+</svg>

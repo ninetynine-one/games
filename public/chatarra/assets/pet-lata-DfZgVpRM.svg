@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · mascota: Lata-robot. Lata gris abierta con cara y bracitos. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="45"/><feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/></filter>
+  </defs>
+  <ellipse cx="64" cy="114" rx="32" ry="7" fill="#000" opacity=".3"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- bracitos -->
+    <ellipse cx="32" cy="72" rx="6" ry="13" fill="#7f8a92" transform="rotate(18 32 72)"/>
+    <ellipse cx="96" cy="72" rx="6" ry="13" fill="#7f8a92" transform="rotate(-18 96 72)"/>
+    <!-- lata -->
+    <path d="M36 28 v74 q0 8 28 8 q28 0 28 -8 v-74z" fill="#a9b4bc"/>
+    <path d="M78 30 h14 v72 q0 6 -16 8 q6 -30 2 -80z" fill="#87939b" stroke="none"/>
+    <path d="M44 38 v52" fill="none" stroke="#dde3e7" stroke-width="4"/>
+    <path d="M36 28 v74 q0 8 28 8 q28 0 28 -8 v-74z" fill="none"/>
+    <path d="M36 96 q28 8 56 0" fill="none" stroke-width="3"/>
+    <ellipse cx="64" cy="28" rx="28" ry="8" fill="#c7d0d6"/>
+    <ellipse cx="64" cy="29" rx="21" ry="5" fill="#8d979e" stroke-width="3"/>
+    <!-- cara -->
+    <circle cx="54" cy="62" r="5.5" fill="#1b1714" stroke="none"/>
+    <circle cx="74" cy="62" r="5.5" fill="#1b1714" stroke="none"/>
+    <circle cx="56" cy="60" r="1.8" fill="#fff" stroke="none"/>
+    <circle cx="76" cy="60" r="1.8" fill="#fff" stroke="none"/>
+    <path d="M58 74 q6 5 12 0" fill="none" stroke-width="3"/>
+  </g>
+</svg>

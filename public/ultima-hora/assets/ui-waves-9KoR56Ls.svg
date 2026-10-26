@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Custodio phase Eco: cyan concentric waves. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="16"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+
+    <circle cx="64" cy="64" r="48" fill="none" stroke-width="9"/>
+    <circle cx="64" cy="64" r="48" fill="none" stroke="#5fd4e6" stroke-width="4" stroke-dasharray="10 8"/>
+    <circle cx="64" cy="64" r="33" fill="none" stroke-width="10"/>
+    <circle cx="64" cy="64" r="33" fill="none" stroke="#5fd4e6" stroke-width="5"/>
+    <circle cx="64" cy="64" r="18" fill="none" stroke-width="10"/>
+    <circle cx="64" cy="64" r="18" fill="none" stroke="#a8f0f7" stroke-width="5"/>
+    <circle cx="64" cy="64" r="7" fill="#5fd4e6" stroke-width="3"/>
+  </g>
+</svg>

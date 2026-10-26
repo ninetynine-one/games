@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · icono: flecha de mejora disponible. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="97"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M64 10 L112 60 H84 V114 H44 V60 H16 Z" fill="#8fd3f4"/>
+    <path d="M84 60 H112 L64 10 L76 60 V114 H84 Z" fill="#4f9fc4" stroke="none"/>
+    <path d="M64 10 L112 60 H84 V114 H44 V60 H16 Z" fill="none"/>
+    <path d="M30 56 L58 26" stroke="#e6f6ff" stroke-width="5"/>
+  </g>
+</svg>

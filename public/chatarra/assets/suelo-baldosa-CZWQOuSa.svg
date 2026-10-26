@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384" width="384" height="384">
+  <!-- Chatarra · suelo del Depósito de la Red (nivel 5): baldosa blanca fría, pequeña y limpia, con juntas azuladas. Tileable. -->
+  <rect width="384" height="384" fill="#8c9cb0"/>
+  <g stroke="#1b1714" stroke-opacity=".3" stroke-width="2.5" fill="#dfe7ef">
+    <rect x="3" y="3" width="90" height="90" rx="5"/><rect x="99" y="3" width="90" height="90" rx="5" fill="#d6dfe9"/><rect x="195" y="3" width="90" height="90" rx="5"/><rect x="291" y="3" width="90" height="90" rx="5" fill="#d9e2ec"/>
+    <rect x="3" y="99" width="90" height="90" rx="5" fill="#d8e1eb"/><rect x="99" y="99" width="90" height="90" rx="5"/><rect x="195" y="99" width="90" height="90" rx="5" fill="#d3dce7"/><rect x="291" y="99" width="90" height="90" rx="5"/>
+    <rect x="3" y="195" width="90" height="90" rx="5"/><rect x="99" y="195" width="90" height="90" rx="5" fill="#dae3ed"/><rect x="195" y="195" width="90" height="90" rx="5"/><rect x="291" y="195" width="90" height="90" rx="5" fill="#d5dee8"/>
+    <rect x="3" y="291" width="90" height="90" rx="5" fill="#d7e0ea"/><rect x="99" y="291" width="90" height="90" rx="5"/><rect x="195" y="291" width="90" height="90" rx="5" fill="#d9e2ec"/><rect x="291" y="291" width="90" height="90" rx="5"/>
+  </g>
+  <g fill="none" stroke="#f4f8fc" stroke-width="3" stroke-linecap="round" opacity=".9">
+    <path d="M9 80 V12 q0 -3 3 -3 H80"/><path d="M105 176 V108 q0 -3 3 -3 H176"/><path d="M201 272 V204 q0 -3 3 -3 H272"/><path d="M297 368 V300 q0 -3 3 -3 H368"/>
+    <path d="M201 80 V12 q0 -3 3 -3 H272"/><path d="M9 272 V204 q0 -3 3 -3 H80"/><path d="M297 176 V108 q0 -3 3 -3 H368"/><path d="M105 368 V300 q0 -3 3 -3 H176"/>
+  </g>
+  <!-- marca de la Red en algunas baldosas -->
+  <g fill="none" stroke="#b9c6d4" stroke-width="3">
+    <circle cx="144" cy="48" r="14"/><path d="M134 48 h20 M144 38 v20"/>
+    <circle cx="240" cy="336" r="14"/><path d="M230 336 h20 M240 326 v20"/>
+  </g>
+  <g fill="none" stroke="#a9b6c4" stroke-width="2" stroke-linecap="round"><path d="M330 130 l14 10"/><path d="M40 230 l18 -6"/></g>
+</svg>

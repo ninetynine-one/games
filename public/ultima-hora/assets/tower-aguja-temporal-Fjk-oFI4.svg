@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Aguja Temporal: long clock hand on a dial, brass-and-stone pedestal. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="7"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- pedestal -->
+    <path d="M13 95 L115 94 L115 115 Q64 118 13 116 Z" fill="#2a2a31"/>
+    <path d="M13 99 L115 98 L115 104 L13 105 Z" fill="#8a6a3a" stroke-width="2.5"/>
+    <path d="M14 24 L114 23 L115 96 L13 97 Z" fill="#4a4b54"/>
+    <path d="M24 32 L104 31 L105 88 L23 89 Z" fill="#5b5c66" stroke-width="2.5"/>
+    <path d="M24 82 L105 81 L105 88 L23 89 Z" fill="#45464f" stroke="none"/>
+    <path d="M14 24 L29 24 L29 38 L14 38 Z M99 23 L114 23 L114 37 L99 37 Z M13 83 L28 83 L28 97 L13 97 Z M100 82 L115 82 L115 96 L100 96 Z" fill="#9c7a42" stroke-width="2.5"/>
+    <g fill="#d4a640" stroke-width="1.6">
+      <circle cx="26" cy="110" r="2.6"/><circle cx="64" cy="110" r="2.6"/><circle cx="102" cy="110" r="2.6"/>
+    </g>
+    <path d="M90 36 l5 6 l-2 6 M30 60 l6 3" fill="none" stroke-width="1.6"/>
+    <!-- dial -->
+    <ellipse cx="64" cy="66" rx="33" ry="21" fill="#d8ccaa"/>
+    <path d="M33 70 Q64 92 95 70 Q92 84 64 87 Q37 84 33 70 Z" fill="#bcae88" stroke="none"/>
+    <g stroke-width="2.4" fill="none">
+      <path d="M64 47 v4 M64 81 v4 M33 66 h4 M91 66 h4 M42 52 l3 2 M86 52 l-3 2 M42 80 l3 -2 M86 80 l-3 -2"/>
+    </g>
+    <!-- gear pivot -->
+    <path d="M77.0 64.0 L81.7 66.6 L80.6 69.2 L74.8 69.4 L73.2 70.9 L74.0 75.2 L70.9 76.5 L66.5 73.6 L64.0 73.8 L60.5 77.2 L57.1 76.5 L56.8 72.1 L54.8 70.9 L49.0 71.5 L47.4 69.2 L51.2 65.9 L51.0 64.0 L46.3 61.4 L47.4 58.8 L53.2 58.6 L54.8 57.1 L54.0 52.8 L57.1 51.5 L61.5 54.4 L64.0 54.2 L67.5 50.8 L70.9 51.5 L71.2 55.9 L73.2 57.1 L79.0 56.5 L80.6 58.8 L76.8 62.1 Z" fill="#b08a4a" stroke-width="2.6"/>
+    <!-- counterweight tail -->
+    <path d="M61 66 L59 80 L69 80 L67 66 Z" fill="#a97e2a" stroke-width="2.6"/>
+    <circle cx="64" cy="83" r="5.5" fill="#d9a93e" stroke-width="2.8"/>
+    <!-- the needle -->
+    <path d="M60 64 L56 36 L66 3 L73 36 L68 64 Z" fill="#e0b24a"/>
+    <path d="M66 5 L72 36 L68 63 L64.5 63 L66 36 Z" fill="#a97e2a" stroke="none"/>
+    <path d="M60 64 L56 36 L66 3 L73 36 L68 64 Z" fill="none"/>
+    <circle cx="64.5" cy="33" r="4.5" fill="#5fd4e6" stroke-width="2.6"/>
+    <circle cx="64" cy="64" r="5" fill="#6b5230" stroke-width="2.6"/>
+  </g>
+  <!-- tip glint -->
+  <path d="M66 0 L67.6 4.4 L72 6 L67.6 7.6 L66 12 L64.4 7.6 L60 6 L64.4 4.4 Z" fill="#a8f0f7" stroke="#1b1714" stroke-width="1.5" stroke-linejoin="round"/>
+  <circle cx="63.4" cy="31.8" r="1.4" fill="#ffffff"/>
+</svg>

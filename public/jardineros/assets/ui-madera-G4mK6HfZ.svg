@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <!-- Panel de madera con musgo en las esquinas superiores. 9-slice con cortes de 48 px: marco de corteza de 20 px, musgo solo arriba (≤ 40 px), centro liso de madera media-oscura para texto crema -->
+  <!-- marco de corteza -->
+  <rect x="3" y="5" width="186" height="184" rx="22" fill="#3e2a1c" stroke="#1b1714" stroke-width="4"/>
+  <path d="M14 30 L12 60 M10 130 L13 160 M180 34 L178 64 M181 126 L179 156 M34 180 L64 182 M128 182 L158 180" fill="none" stroke="#2a1c12" stroke-width="3" stroke-linecap="round"/>
+  <path d="M8 26 Q8 9 26 9 M184 26 Q184 9 166 9" fill="none" stroke="#5a3e28" stroke-width="3" stroke-linecap="round"/>
+  <!-- tabla interior -->
+  <rect x="20" y="22" width="152" height="150" rx="10" fill="#6b4a2e" stroke="#1b1714" stroke-width="3"/>
+  <path d="M24 28 H168" fill="none" stroke="#8a6440" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M24 166 H168" fill="none" stroke="#4e3420" stroke-width="3" stroke-linecap="round"/>
+  <!-- vetas (solo en la banda del borde, horizontales para que estiren bien) -->
+  <path d="M26 38 Q60 35 96 38 T166 37 M26 156 Q70 159 110 156 T166 157" fill="none" stroke="#5a3d25" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <ellipse cx="34" cy="150" rx="5" ry="2.6" fill="none" stroke="#5a3d25" stroke-width="2" opacity="0.7"/>
+  <ellipse cx="160" cy="44" rx="4.5" ry="2.4" fill="none" stroke="#5a3d25" stroke-width="2" opacity="0.7"/>
+  <!-- clavos -->
+  <circle cx="30" cy="160" r="3" fill="#9aa3a8" stroke="#1b1714" stroke-width="2"/>
+  <circle cx="162" cy="160" r="3" fill="#9aa3a8" stroke="#1b1714" stroke-width="2"/>
+  <!-- musgo -->
+  <g stroke="#1b1714" stroke-width="3" stroke-linejoin="round">
+    <path d="M4 26 Q2 8 18 6 Q24 0 34 4 Q42 0 48 6 Q56 6 54 14 Q52 20 46 18 Q44 26 38 22 Q34 30 30 22 Q24 28 20 24 Q18 32 14 26 Q8 34 4 26 Z" fill="#7fb83a"/>
+    <path d="M150 8 Q156 0 166 4 Q176 2 182 10 Q190 14 188 24 Q186 32 182 26 Q178 32 174 24 Q168 28 166 20 Q158 22 158 16 Q148 16 150 8 Z" fill="#7fb83a"/>
+    <path d="M12 12 Q18 8 26 9 M160 8 Q168 6 176 10" fill="none" stroke="#b4e070" stroke-width="2.4" stroke-linecap="round"/>
+  </g>
+</svg>

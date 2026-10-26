@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<filter id="blur2"><feGaussianBlur stdDeviation="2"/></filter>
+<filter id="blur30"><feGaussianBlur stdDeviation="30"/></filter>
+<radialGradient id="glowWarm"><stop offset="0" stop-color="#F2C230" stop-opacity=".75"/><stop offset="1" stop-color="#F2C230" stop-opacity="0"/></radialGradient>
+<radialGradient id="glowGreen"><stop offset="0" stop-color="#6fe08a" stop-opacity=".8"/><stop offset="1" stop-color="#6fe08a" stop-opacity="0"/></radialGradient>
+<radialGradient id="glowTeal"><stop offset="0" stop-color="#22B8B0" stop-opacity=".7"/><stop offset="1" stop-color="#22B8B0" stop-opacity="0"/></radialGradient>
+</defs>
+<g id="fondo"><rect width="1600" height="900" fill="#4a3b30"/>
+<g opacity=".25"><rect y="0" width="1600" height="3" fill="#2B2620"/><rect y="80" width="1600" height="3" fill="#2B2620"/><rect y="160" width="1600" height="3" fill="#2B2620"/><rect y="240" width="1600" height="3" fill="#2B2620"/><rect y="320" width="1600" height="3" fill="#2B2620"/><rect y="400" width="1600" height="3" fill="#2B2620"/><rect y="480" width="1600" height="3" fill="#2B2620"/><rect y="560" width="1600" height="3" fill="#2B2620"/><rect y="640" width="1600" height="3" fill="#2B2620"/><rect y="720" width="1600" height="3" fill="#2B2620"/><rect y="800" width="1600" height="3" fill="#2B2620"/><rect y="880" width="1600" height="3" fill="#2B2620"/></g>
+<rect y="780" width="1600" height="120" fill="#2B2620"/><rect x="80" y="120" width="260" height="50" rx="25" fill="#C8642B" opacity="0.45"/><rect x="1250" y="620" width="260" height="60" rx="30" fill="#C8642B" opacity="0.4"/>
+</g>
+<g id="medio">
+<g id="placa"><rect x="430" y="170" width="740" height="360" rx="30" fill="#8da0ae" stroke="#5a3418" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="452" y="192" width="696" height="316" rx="20" fill="#a9bac6"/>
+<path d="M452 420 Q700 380 1148 440" fill="none" stroke="#6f8494" stroke-width="3" opacity=".5"/>
+<rect x="470" y="440" width="200" height="50" rx="25" fill="#C8642B" opacity="0.4"/></g>
+</g>
+<g id="personajes"></g>
+<g id="detalles">
+<g id="tornillos"><g><circle cx="470" cy="210" r="15" fill="#6f8494" stroke="#5a3418" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M461 207 L479 213" stroke="#5a3418" stroke-width="4" stroke-linecap="round"/></g><g><circle cx="1130" cy="210" r="15" fill="#6f8494" stroke="#5a3418" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M1121 207 L1139 213" stroke="#5a3418" stroke-width="4" stroke-linecap="round"/></g><g><circle cx="470" cy="490" r="15" fill="#6f8494" stroke="#5a3418" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M461 487 L479 493" stroke="#5a3418" stroke-width="4" stroke-linecap="round"/></g><g><circle cx="1130" cy="490" r="15" fill="#6f8494" stroke="#5a3418" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M1121 487 L1139 493" stroke="#5a3418" stroke-width="4" stroke-linecap="round"/></g></g>
+<g id="texto-manuscrito" filter="url(#blur2)"><path d="M520 330 q66.66666666666667 -14 133.33333333333334 0 t133.33333333333334 0 t133.33333333333334 0" fill="none" stroke="#2f2a24" stroke-width="5" stroke-linecap="round" opacity=".6"/><path d="M526 382 q63.333333333333336 -14 126.66666666666667 0 t126.66666666666667 0 t126.66666666666667 0" fill="none" stroke="#2f2a24" stroke-width="5" stroke-linecap="round" opacity=".6"/><path d="M520 434 q70 -14 140 0 t140 0 t140 0" fill="none" stroke="#2f2a24" stroke-width="5" stroke-linecap="round" opacity=".6"/><path d="M526 486 q55 -14 110 0 t110 0 t110 0" fill="none" stroke="#2f2a24" stroke-width="5" stroke-linecap="round" opacity=".6"/></g>
+<g id="fecha-ilegible" filter="url(#blur2)"><path d="M880 462 q10 -22 22 0 t22 0 t22 0 M960 462 q8 -20 18 0 t18 0 M1020 462 q12 -18 24 0 t22 0" fill="none" stroke="#2f2a24" stroke-width="6" stroke-linecap="round" opacity=".55"/></g>
+<g id="cartel"><path d="M640 530 L700 650 M960 530 L900 650" stroke="#d9c9a0" stroke-width="5" fill="none" stroke-linecap="round"/>
+<rect x="520" y="640" width="560" height="140" rx="22" fill="#e8d3a2" stroke="#5a3418" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" transform="rotate(-2 800 710)"/>
+<rect x="540" y="658" width="520" height="104" rx="14" fill="none" stroke="#C8642B" stroke-width="5" stroke-dasharray="3 14" stroke-linecap="round" transform="rotate(-2 800 710)"/>
+<text x="800" y="738" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="64" fill="#22B8B0" stroke="#5a3418" stroke-width="2" transform="rotate(-2 800 710)">TALLER LIBRE</text>
+<circle cx="700" cy="650" r="8" fill="#4A6E8C" stroke="#5a3418" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><circle cx="900" cy="650" r="8" fill="#4A6E8C" stroke="#5a3418" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></g>
+<g id="tuberia"><rect x="0" y="60" width="1600" height="36" rx="18" fill="#4A6E8C" opacity=".6" stroke="#5a3418" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/></g>
+</g>
+<g id="luz"><ellipse id="foco" cx="800" cy="420" rx="620" ry="420" fill="url(#glowWarm)" opacity=".5"/><rect width="1600" height="900" fill="#2B2620" opacity=".12"/></g>
+</svg>

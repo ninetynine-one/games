@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Marco redondo de corteza para retratos: anillo de corteza (hueco interior radio 46, centro 64,64) con musgo y una hoja arriba -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="61"/>
+      <feDisplacementMap in="SourceGraphic" scale="2"/>
+    </filter>
+  </defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M64 4 A60 60 0 1 1 63.9 4 Z M64 18 A46 46 0 1 0 64.1 18 Z" fill="#5a3e28" fill-rule="evenodd" stroke-width="3.5"/>
+    <path d="M64 10 A54 54 0 0 1 116 50" fill="none" stroke="#7a5638" stroke-width="3"/>
+    <path d="M14 50 l6 2 M10 76 l6 -1 M26 104 l4 -4 M54 120 l1 -6 M88 118 l-2 -6 M112 92 l-5 -3 M118 64 l-6 0" fill="none" stroke="#2a1c12" stroke-width="2.6"/>
+    <path d="M30 22 Q36 6 54 8 Q64 0 76 6 Q92 4 98 18 Q92 24 86 18 Q80 24 74 16 Q66 22 60 14 Q52 22 46 16 Q38 28 30 22 Z" fill="#7fb83a" stroke-width="3"/>
+    <path d="M40 14 Q48 9 56 10" fill="none" stroke="#b4e070" stroke-width="2.2"/>
+    <path d="M96 16 Q112 4 122 14 Q112 26 96 16 Z" fill="#6ab04a" stroke-width="3"/>
+    <path d="M100 16 Q110 13 118 14" fill="none" stroke="#4e8a36" stroke-width="1.8"/>
+  </g>
+</svg>

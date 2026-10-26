@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Otra época: eye. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="13"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+
+    <path d="M12 64 Q64 16 116 64 Q64 112 12 64 Z" fill="#ece2c6"/>
+    <circle cx="64" cy="64" r="22" fill="#5fd4e6" stroke-width="3"/>
+    <path d="M78 48 Q90 64 78 80 Q70 86 60 86 Q82 74 78 48 Z" fill="#3aa9bd" stroke="none"/>
+    <circle cx="64" cy="64" r="10" fill="#1b1714"/>
+    <path d="M12 64 Q64 16 116 64 Q64 112 12 64 Z" fill="none"/>
+  </g>
+  <circle cx="58" cy="57" r="4" fill="#fff"/>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 256" width="512" height="256">
+  <!-- Concepto fase 4 · Nube de atardecer (parallax lento): crema cálido con vientre rosado y contorno suave -->
+  <defs><filter id="wob" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="5b"/><feDisplacementMap in="SourceGraphic" scale="6"/></filter></defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-opacity="0.35" stroke-width="4" stroke-linejoin="round">
+    <path d="M40 190 Q40 150 90 150 Q110 110 170 120 Q220 80 280 110 Q340 100 360 150 Q420 150 410 190 Z" fill="#fbefdc"/>
+    <path d="M60 196 Q160 170 260 186 Q360 172 470 196 Z" fill="#f0c4b0" stroke="none" opacity="0.8"/>
+    <path d="M110 120 Q140 100 180 108" fill="none" stroke="#fffaf0" stroke-opacity="1" stroke-width="6"/>
+  </g>
+</svg>

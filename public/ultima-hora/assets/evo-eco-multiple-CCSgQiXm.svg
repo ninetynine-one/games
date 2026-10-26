@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Eco Múltiple: three tuning forks on one yoke; gold trim. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="41"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- pedestal -->
+    <path d="M13 95 L115 94 L115 115 Q64 118 13 116 Z" fill="#2a2a31"/>
+    <path d="M13 99 L115 98 L115 104 L13 105 Z" fill="#8a6a3a" stroke-width="2.5"/>
+    <path d="M14 24 L114 23 L115 96 L13 97 Z" fill="#4a4b54"/>
+    <path d="M24 32 L104 31 L105 88 L23 89 Z" fill="#5b5c66" stroke-width="2.5"/>
+    <path d="M24 82 L105 81 L105 88 L23 89 Z" fill="#45464f" stroke="none"/>
+    <path d="M14 24 L29 24 L29 38 L14 38 Z M99 23 L114 23 L114 37 L99 37 Z M13 83 L28 83 L28 97 L13 97 Z M100 82 L115 82 L115 96 L100 96 Z" fill="#e0b24a" stroke-width="2.5"/>
+    <path d="M24 32 L104 31 L105 88 L23 89 Z" fill="none" stroke="#e0b24a" stroke-width="1.8"/>
+    <path d="M13 99 L115 98 L115 104 L13 105 Z" fill="#d4a640" stroke-width="2.5"/>
+    <g fill="#fff1c4" stroke-width="1.6">
+      <circle cx="26" cy="110" r="2.6"/><circle cx="64" cy="110" r="2.6"/><circle cx="102" cy="110" r="2.6"/>
+    </g>
+    <path d="M58 40 l4 4 l-1 5" fill="none" stroke-width="1.6"/>
+    <g fill="none" stroke-width="6" stroke-opacity="0.85"><path d="M26 20 Q38 6 50 20M52 20 Q64 6 76 20M78 20 Q90 6 102 20"/></g>
+    <g fill="none" stroke="#5fd4e6" stroke-width="2.6" stroke-dasharray="5 4"><path d="M26 20 Q38 6 50 20M52 20 Q64 6 76 20M78 20 Q90 6 102 20"/></g>
+    <path d="M30 80 Q64 92 98 80 L98 86 Q64 98 30 86 Z" fill="#e0b24a" stroke-width="2.8"/>
+    <ellipse cx="38" cy="84" rx="9" ry="5" fill="#7d6032" stroke-width="2.8"/>
+    <path d="M29 22 L29 56 Q29 64 35 66 L35 84 L41 84 L41 66 Q47 64 47 56 L47 22 L42 22 L42 54 Q42 58 38 58 Q34 58 34 54 L34 22 Z" fill="#c69a50"/>
+    <path d="M42 22 L47 22 L47 56 Q47 64 41 66 L41 84 L38.5 84 L38.5 64 Q43 62 44 56 L44 22 Z" fill="#8a6a3a" stroke="none"/>
+    <path d="M29 22 L29 56 Q29 64 35 66 L35 84 L41 84 L41 66 Q47 64 47 56 L47 22 L42 22 L42 54 Q42 58 38 58 Q34 58 34 54 L34 22 Z" fill="none"/>
+    <ellipse cx="64" cy="84" rx="9" ry="5" fill="#7d6032" stroke-width="2.8"/>
+    <path d="M55 22 L55 56 Q55 64 61 66 L61 84 L67 84 L67 66 Q73 64 73 56 L73 22 L68 22 L68 54 Q68 58 64 58 Q60 58 60 54 L60 22 Z" fill="#c69a50"/>
+    <path d="M68 22 L73 22 L73 56 Q73 64 67 66 L67 84 L64.5 84 L64.5 64 Q69 62 70 56 L70 22 Z" fill="#8a6a3a" stroke="none"/>
+    <path d="M55 22 L55 56 Q55 64 61 66 L61 84 L67 84 L67 66 Q73 64 73 56 L73 22 L68 22 L68 54 Q68 58 64 58 Q60 58 60 54 L60 22 Z" fill="none"/>
+    <ellipse cx="90" cy="84" rx="9" ry="5" fill="#7d6032" stroke-width="2.8"/>
+    <path d="M81 22 L81 56 Q81 64 87 66 L87 84 L93 84 L93 66 Q99 64 99 56 L99 22 L94 22 L94 54 Q94 58 90 58 Q86 58 86 54 L86 22 Z" fill="#c69a50"/>
+    <path d="M94 22 L99 22 L99 56 Q99 64 93 66 L93 84 L90.5 84 L90.5 64 Q95 62 96 56 L96 22 Z" fill="#8a6a3a" stroke="none"/>
+    <path d="M81 22 L81 56 Q81 64 87 66 L87 84 L93 84 L93 66 Q99 64 99 56 L99 22 L94 22 L94 54 Q94 58 90 58 Q86 58 86 54 L86 22 Z" fill="none"/>
+    <path d="M64 67 L68.9 74 L64 81 L59.1 74 Z" fill="#5fd4e6" stroke-width="2.8"/>
+    <path d="M64 67 L68.9 74 L64 81 Z" fill="#3aa9bd" stroke="none"/>
+    <path d="M64 67 L68.9 74 L64 81 L59.1 74 Z" fill="none" stroke-width="2.8"/>
+  </g>
+</svg>

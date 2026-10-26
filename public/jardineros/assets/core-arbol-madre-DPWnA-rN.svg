@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Brote del Árbol Madre: núcleo a defender, corazón turquesa latente -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="29"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+    </filter>
+    <radialGradient id="core-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#5ff0dc" stop-opacity="0.55"/>
+      <stop offset="0.6" stop-color="#47d6c2" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#47d6c2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="64" cy="64" r="62" fill="url(#core-glow)"/>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- montículo y anillo de piedras -->
+    <ellipse cx="64" cy="102" rx="44" ry="15" fill="#3a2d24"/>
+    <ellipse cx="64" cy="99" rx="34" ry="9" fill="#4d3c2f" stroke="none"/>
+    <path d="M18 100 Q16 92 26 92 Q32 96 28 104 Q20 106 18 100 Z" fill="#76706a" stroke-width="2.6"/>
+    <path d="M36 112 Q34 104 44 104 Q50 108 46 116 Q38 118 36 112 Z" fill="#6a655f" stroke-width="2.6"/>
+    <path d="M78 114 Q76 106 86 106 Q92 110 88 118 Q80 120 78 114 Z" fill="#6a655f" stroke-width="2.6"/>
+    <path d="M100 102 Q98 94 108 94 Q114 98 110 106 Q102 108 100 102 Z" fill="#76706a" stroke-width="2.6"/>
+    <path d="M30 88 Q34 82 42 86 M88 86 Q96 82 100 88" fill="none" stroke-width="2.4"/>
+    <!-- raíces -->
+    <path d="M52 98 Q40 100 32 96 M76 98 Q90 100 98 94 M60 100 Q58 108 52 112" fill="none" stroke-width="5"/>
+    <!-- tronco -->
+    <path d="M50 100 Q56 80 54 64 Q52 52 60 42 L70 42 Q76 52 74 64 Q72 80 80 100 Q64 104 50 100 Z" fill="#6b5040"/>
+    <path d="M68 44 Q76 54 73 66 Q71 82 79 99 Q74 101 70 101 Q66 80 68 44 Z" fill="#54402f" stroke="none"/>
+    <!-- corazón -->
+    <path d="M56 72 Q56 62 64 60 Q72 62 72 72 Q72 82 64 84 Q56 82 56 72 Z" fill="#1f3a3a"/>
+    <path d="M60 72 Q60 66 64 65 Q68 66 68 72 Q68 78 64 80 Q60 78 60 72 Z" fill="#5ff0dc" stroke-width="2"/>
+    <circle cx="62.5" cy="69.5" r="1.6" fill="#fff" stroke="none"/>
+    <!-- ramas -->
+    <path d="M60 44 Q48 34 38 36 M70 44 Q80 32 92 34 M64 42 V22" fill="none" stroke-width="5"/>
+    <!-- copa -->
+    <path d="M26 40 Q20 26 34 22 Q38 10 52 14 Q60 4 72 12 Q86 8 92 20 Q106 22 102 38 Q96 48 84 42 Q74 50 64 44 Q52 50 44 42 Q30 50 26 40 Z" fill="#6f8a54"/>
+    <path d="M80 14 Q90 12 92 22 Q104 24 101 38 Q96 46 84 42 Q92 30 80 14 Z" fill="#55703f" stroke="none"/>
+    <path d="M34 30 Q42 26 48 30 M58 20 Q66 16 72 22 M76 32 Q84 28 88 32" fill="none" stroke="#a8bf88" stroke-width="2.6"/>
+    <!-- frutos de luz -->
+    <circle cx="40" cy="38" r="3.4" fill="#47d6c2" stroke-width="2"/>
+    <circle cx="88" cy="36" r="3.4" fill="#b58ee6" stroke-width="2"/>
+    <circle cx="66" cy="28" r="3" fill="#47d6c2" stroke-width="2"/>
+    <!-- chispas -->
+    <circle cx="16" cy="60" r="2.4" fill="#5ff0dc" stroke="none"/>
+    <circle cx="112" cy="56" r="2.4" fill="#b58ee6" stroke="none"/>
+    <circle cx="104" cy="72" r="1.6" fill="#5ff0dc" stroke="none"/>
+    <circle cx="22" cy="76" r="1.6" fill="#b58ee6" stroke="none"/>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Pet reloj: walking pocket watch with big eyes, tiny legs and a chain tail, facing right. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="41"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+    </filter>
+  </defs>
+  <ellipse cx="62" cy="114" rx="28" ry="6" fill="#000" opacity="0.3"/>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- chain tail -->
+    <path d="M34 76 Q20 80 18 92 Q16 102 8 104" fill="none" stroke-width="8"/>
+    <path d="M34 76 Q20 80 18 92 Q16 102 8 104" fill="none" stroke="#d0a24c" stroke-width="3.5" stroke-dasharray="5 3"/>
+    <circle cx="8" cy="104" r="4.5" fill="#d0a24c" stroke-width="2.6"/>
+    <!-- legs -->
+    <path d="M52 92 L50 108 L44 110" fill="none" stroke-width="7"/>
+    <path d="M52 92 L50 108 L44 110" fill="none" stroke="#7a5232" stroke-width="3"/>
+    <path d="M72 92 L74 108 L82 110" fill="none" stroke-width="7"/>
+    <path d="M72 92 L74 108 L82 110" fill="none" stroke="#7a5232" stroke-width="3"/>
+    <!-- crown and bow -->
+    <circle cx="62" cy="18" r="8" fill="none" stroke-width="7"/>
+    <circle cx="62" cy="18" r="8" fill="none" stroke="#d0a24c" stroke-width="3"/>
+    <rect x="55" y="25" width="14" height="10" rx="3" fill="#a07a40" stroke-width="3"/>
+    <!-- case -->
+    <circle cx="62" cy="64" r="34" fill="#d0a24c"/>
+    <path d="M80 36 Q100 56 88 86 Q78 98 60 98 Q92 84 80 36 Z" fill="#a07a40" stroke="none"/>
+    <circle cx="62" cy="64" r="34" fill="none"/>
+    <!-- face -->
+    <circle cx="64" cy="64" r="26" fill="#f3e6c4" stroke-width="3"/>
+    <path d="M64 41 L64 45 M87 64 L83 64 M64 87 L64 83 M41 64 L45 64" fill="none" stroke-width="2.6"/>
+    <path d="M64 64 L57 50 M64 64 L74 46" fill="none" stroke="#a07a40" stroke-width="2.4"/>
+    <!-- eyes and mouth -->
+    <ellipse cx="62" cy="66" rx="6" ry="8" fill="#1b1714" stroke-width="1"/>
+    <ellipse cx="79" cy="66" rx="6" ry="8" fill="#1b1714" stroke-width="1"/>
+    <path d="M68 78 Q71 81 74 78" fill="none" stroke-width="2.6"/>
+  </g>
+  <circle cx="64" cy="62" r="2.4" fill="#fff"/>
+  <circle cx="81" cy="62" r="2.4" fill="#fff"/>
+  <ellipse cx="52" cy="76" rx="4" ry="2.5" fill="#e39a8a" opacity="0.7"/>
+  <ellipse cx="86" cy="76" rx="3.5" ry="2.5" fill="#e39a8a" opacity="0.7"/>
+  <path d="M38 52 Q40 40 50 34" fill="none" stroke="#fff3c4" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<linearGradient id="l1sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6f8fa8"/><stop offset="0.55" stop-color="#9db7c9"/><stop offset="1" stop-color="#ecc78e"/></linearGradient>
+<radialGradient id="l1sun" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fff3cf" stop-opacity="1"/><stop offset="0.35" stop-color="#f3ead2" stop-opacity="0.7"/><stop offset="1" stop-color="#ecc78e" stop-opacity="0"/></radialGradient>
+<radialGradient id="l1glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#c9a4ee" stop-opacity="0.95"/><stop offset="0.4" stop-color="#8a5bb5" stop-opacity="0.45"/><stop offset="1" stop-color="#8a5bb5" stop-opacity="0"/></radialGradient>
+<linearGradient id="l1floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a4c3c"/><stop offset="1" stop-color="#2b2a22"/></linearGradient>
+<linearGradient id="l1beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff0c4" stop-opacity="0.5"/><stop offset="1" stop-color="#fff0c4" stop-opacity="0"/></linearGradient>
+<radialGradient id="l1vig" cx="0.5" cy="0.5" r="0.7"><stop offset="0.6" stop-color="#1c1a2a" stop-opacity="0"/><stop offset="1" stop-color="#1c1a2a" stop-opacity="0.55"/></radialGradient>
+</defs>
+<g id="sky" data-name="Cielo">
+<rect id="lore1-cielo" data-name="Degradado de atardecer" width="1600" height="900" fill="url(#l1sky)"/>
+<circle id="lore1-sol" data-name="Sol bajo" cx="1180" cy="520" r="260" fill="url(#l1sun)"/>
+<ellipse id="lore1-nube-a" data-name="Nube alargada" cx="360" cy="190" rx="230" ry="26" fill="#f3ead2" opacity="0.55"/>
+<ellipse id="lore1-nube-b" data-name="Nube pequena" cx="620" cy="250" rx="130" ry="16" fill="#f3ead2" opacity="0.4"/>
+<ellipse id="lore1-nube-c" data-name="Nube lejana" cx="1330" cy="150" rx="200" ry="22" fill="#f3ead2" opacity="0.45"/>
+</g>
+<g id="background" data-name="Fondo">
+<g id="lore1-estructura" data-name="Estructura de hierro curvo">
+<path d="M-40 760 C-40 300 200 70 520 40 C560 36 600 34 640 34" fill="none" stroke="#3a3a3f" stroke-width="30" stroke-linecap="round"/>
+<path d="M1640 760 C1640 300 1400 70 1080 40 C1040 36 1000 34 960 34" fill="none" stroke="#3a3a3f" stroke-width="30" stroke-linecap="round"/>
+<path d="M640 34 C720 28 880 28 960 34" fill="none" stroke="#3a3a3f" stroke-width="28" stroke-linecap="round"/>
+<path d="M230 790 C250 420 380 160 560 60" fill="none" stroke="#4a4a50" stroke-width="16" stroke-linecap="round"/>
+<path d="M520 790 C530 480 580 220 640 40" fill="none" stroke="#4a4a50" stroke-width="14" stroke-linecap="round"/>
+<path d="M1080 790 C1070 480 1020 220 960 40" fill="none" stroke="#4a4a50" stroke-width="14" stroke-linecap="round"/>
+<path d="M1370 790 C1350 420 1220 160 1040 60" fill="none" stroke="#4a4a50" stroke-width="16" stroke-linecap="round"/>
+<path d="M60 330 C400 250 700 215 800 213 C900 215 1200 250 1540 330" fill="none" stroke="#4a4a50" stroke-width="12" stroke-linecap="round"/>
+<path d="M-10 560 C400 520 700 505 800 504 C900 505 1200 520 1610 560" fill="none" stroke="#4a4a50" stroke-width="12" stroke-linecap="round"/>
+</g>
+<g id="lore1-cristales" data-name="Cristales rotos">
+<polygon points="250,300 330,262 345,380 262,410" fill="#9db7c9" opacity="0.28"/>
+<polygon points="560,120 640,80 650,210 570,230" fill="#9db7c9" opacity="0.22"/>
+<polygon points="1000,130 1070,90 1062,225 990,240" fill="#9db7c9" opacity="0.26"/>
+<polygon points="1260,330 1350,300 1342,440 1255,455" fill="#9db7c9" opacity="0.3"/>
+<polygon points="110,520 190,490 200,600 120,620" fill="#9db7c9" opacity="0.25"/>
+<polygon points="690,330 760,300 780,420 700,440" fill="#9db7c9" opacity="0.2"/>
+<polygon points="930,330 1000,310 990,440 920,430" fill="#9db7c9" opacity="0.2"/>
+</g>
+<g id="lore1-hiedra" data-name="Hiedra seca colgante">
+<path d="M300 150 C290 220 320 280 300 360 C290 400 310 430 300 470" fill="none" stroke="#5f7f3a" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+<ellipse cx="292" cy="250" rx="16" ry="9" fill="#5f7f3a" transform="rotate(-30 292 250)"/>
+<ellipse cx="318" cy="330" rx="15" ry="8" fill="#9cb08a" transform="rotate(30 318 330)"/>
+<ellipse cx="296" cy="420" rx="14" ry="8" fill="#5f7f3a" transform="rotate(-20 296 420)"/>
+<path d="M1300 140 C1310 210 1285 270 1300 340" fill="none" stroke="#5f7f3a" stroke-width="9" stroke-linecap="round" opacity="0.8"/>
+<ellipse cx="1312" cy="230" rx="16" ry="9" fill="#9cb08a" transform="rotate(25 1312 230)"/>
+<ellipse cx="1290" cy="310" rx="15" ry="8" fill="#5f7f3a" transform="rotate(-30 1290 310)"/>
+</g>
+</g>
+<g id="midground" data-name="Plano medio">
+<rect id="lore1-suelo" data-name="Suelo de baldosas" x="0" y="640" width="1600" height="260" fill="url(#l1floor)"/>
+<path d="M0 640 C300 626 600 650 900 636 C1200 624 1400 646 1600 634 L1600 660 L0 660 Z" fill="#6b5a46"/>
+<g id="lore1-mesa-izq" data-name="Mesa de cultivo izquierda">
+<rect x="90" y="540" width="520" height="26" rx="10" fill="#4a4a50"/>
+<rect x="120" y="566" width="22" height="100" rx="6" fill="#3a3a3f"/>
+<rect x="560" y="566" width="22" height="100" rx="6" fill="#3a3a3f"/>
+<path d="M130 540 L146 470 L214 470 L226 540 Z" fill="#b5694a"/><ellipse cx="180" cy="470" rx="38" ry="9" fill="#2b2a22"/>
+<path d="M270 540 L282 454 L362 454 L376 540 Z" fill="#a85f42"/><ellipse cx="322" cy="454" rx="42" ry="10" fill="#2b2a22"/>
+<path d="M430 540 L442 486 L500 486 L512 540 Z" fill="#b5694a"/><ellipse cx="471" cy="486" rx="31" ry="8" fill="#2b2a22"/>
+<path d="M322 454 C330 420 342 400 356 388" fill="none" stroke="#7a6a4a" stroke-width="5" stroke-linecap="round"/>
+<path d="M471 486 C466 462 470 446 480 436" fill="none" stroke="#7a6a4a" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g id="lore1-mesa-der" data-name="Mesa de cultivo derecha">
+<rect x="990" y="540" width="520" height="26" rx="10" fill="#4a4a50"/>
+<rect x="1020" y="566" width="22" height="100" rx="6" fill="#3a3a3f"/>
+<rect x="1460" y="566" width="22" height="100" rx="6" fill="#3a3a3f"/>
+<path d="M1050 540 L1062 478 L1124 478 L1136 540 Z" fill="#a85f42"/><ellipse cx="1093" cy="478" rx="35" ry="8" fill="#2b2a22"/>
+<path d="M1200 540 L1214 450 L1296 450 L1310 540 Z" fill="#b5694a"/><ellipse cx="1255" cy="450" rx="43" ry="10" fill="#2b2a22"/>
+<path d="M1370 540 L1382 490 L1440 490 L1452 540 Z" fill="#a85f42"/><ellipse cx="1411" cy="490" rx="31" ry="8" fill="#2b2a22"/>
+<path d="M1255 450 C1244 428 1248 410 1236 396 M1255 450 C1262 424 1276 410 1290 404" fill="none" stroke="#7a6a4a" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g id="lore1-tiestos-suelo" data-name="Macetas vacias en el suelo">
+<path d="M690 660 L704 600 L770 600 L784 660 Z" fill="#b5694a"/><ellipse cx="737" cy="600" rx="33" ry="8" fill="#2b2a22"/>
+<path d="M1140 668 L1150 612 L1204 612 L1214 668 Z" fill="#a85f42"/><ellipse cx="1177" cy="612" rx="27" ry="7" fill="#2b2a22"/>
+<path d="M30 690 L48 626 L120 650 L110 700 Z" fill="#9a5538"/>
+</g>
+</g>
+<g id="subject" data-name="Sujeto">
+<g id="lore1-hongo" data-name="Hongo violeta">
+<ellipse id="lore1-hongo-sombra" data-name="Sombra del hongo" cx="800" cy="716" rx="120" ry="18" fill="#1c1a2a" opacity="0.5"/>
+<g id="lore1-maceta-central" data-name="Maceta central">
+<path d="M700 716 L722 600 L878 600 L900 716 Z" fill="#b5694a"/>
+<path d="M706 690 L894 690 L900 716 L700 716 Z" fill="#8f4f36"/>
+<rect x="712" y="586" width="176" height="26" rx="12" fill="#c77a58"/>
+<ellipse cx="800" cy="590" rx="82" ry="10" fill="#2b2a22"/>
+</g>
+<path d="M786 596 C784 560 788 530 796 508 L814 508 C818 534 820 564 816 596 Z" fill="#f3ead2"/>
+<path d="M792 560 C798 566 810 566 818 560 L818 570 C808 578 796 578 790 570 Z" fill="#d8caa8"/>
+<path d="M696 512 C696 436 744 396 800 396 C858 396 906 436 906 512 C906 526 888 530 868 524 C836 534 764 534 734 524 C714 530 696 526 696 512 Z" fill="#8a5bb5"/>
+<path d="M722 470 C740 428 772 410 800 408 C770 424 748 450 740 488 Z" fill="#a780cf" opacity="0.8"/>
+<circle cx="760" cy="446" r="16" fill="#c9a4ee"/><circle cx="830" cy="430" r="11" fill="#c9a4ee"/><circle cx="858" cy="478" r="14" fill="#c9a4ee"/><circle cx="792" cy="490" r="9" fill="#c9a4ee"/><circle cx="728" cy="496" r="8" fill="#c9a4ee"/>
+<path d="M740 524 C770 534 830 534 862 524" fill="none" stroke="#5e3a82" stroke-width="6" stroke-linecap="round"/>
+<g id="lore1-mini-hongos" data-name="Hongos pequenos">
+<path d="M846 594 C846 576 854 566 864 566 C876 566 882 576 882 594 Z" fill="#8a5bb5"/><rect x="860" y="594" width="8" height="0" fill="#f3ead2"/>
+<path d="M722 594 C722 580 728 572 736 572 C746 572 750 580 750 594 Z" fill="#a780cf"/>
+</g>
+</g>
+</g>
+<g id="foreground" data-name="Primer plano">
+<g id="lore1-libreta" data-name="Libreta abierta">
+<ellipse cx="800" cy="852" rx="360" ry="24" fill="#1c1a2a" opacity="0.45"/>
+<path d="M440 790 C560 770 710 776 800 800 L800 880 C710 858 560 852 430 874 Z" fill="#e6dab8"/>
+<path d="M1160 790 C1040 770 890 776 800 800 L800 880 C890 858 1040 852 1170 874 Z" fill="#f3ead2"/>
+<path d="M436 874 C560 852 710 858 800 880 C890 858 1040 852 1164 874 L1170 888 C1040 868 890 872 800 896 C710 872 560 868 430 888 Z" fill="#5f7f3a"/>
+<path d="M800 800 L800 880" stroke="#bfae86" stroke-width="6" stroke-linecap="round"/>
+<path d="M480 806 C560 796 660 800 760 818" fill="none" stroke="#bfae86" stroke-width="4" stroke-linecap="round"/>
+<path d="M486 830 C560 820 660 824 756 840" fill="none" stroke="#bfae86" stroke-width="4" stroke-linecap="round"/>
+<path d="M850 818 C940 800 1040 798 1120 806" fill="none" stroke="#bfae86" stroke-width="4" stroke-linecap="round"/>
+<path d="M850 842 C930 826 1030 824 1110 832" fill="none" stroke="#bfae86" stroke-width="4" stroke-linecap="round"/>
+<path d="M880 822 L1060 806" stroke="#8a5bb5" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+<circle cx="520" cy="846" r="18" fill="#8a5bb5" opacity="0.3"/>
+</g>
+<g id="lore1-hojas-primer-plano" data-name="Hojas del primer plano">
+<path d="M-20 900 C-10 760 40 700 120 680 C110 740 90 800 80 900 Z" fill="#3b5a28"/>
+<path d="M-20 900 C20 800 80 760 150 760 C120 800 100 850 110 900 Z" fill="#5f7f3a"/>
+<path d="M1620 900 C1610 770 1560 710 1480 690 C1490 750 1510 810 1520 900 Z" fill="#3b5a28"/>
+<path d="M1620 900 C1580 810 1520 770 1450 770 C1480 810 1500 850 1490 900 Z" fill="#5f7f3a"/>
+</g>
+</g>
+<g id="light" data-name="Luz">
+<polygon id="lore1-rayo-a" data-name="Rayo de sol a" points="1000,60 1100,60 700,640 560,640" fill="url(#l1beam)"/>
+<polygon id="lore1-rayo-b" data-name="Rayo de sol b" points="1180,100 1250,100 1010,640 920,640" fill="url(#l1beam)" opacity="0.7"/>
+<ellipse id="lore1-halo-hongo" data-name="Brillo del hongo" cx="800" cy="470" rx="330" ry="270" fill="url(#l1glow)"/>
+<ellipse id="lore1-halo-suelo" data-name="Brillo sobre macetas" cx="800" cy="690" rx="420" ry="70" fill="url(#l1glow)" opacity="0.6"/>
+<circle cx="680" cy="390" r="5" fill="#e0c9f7" opacity="0.9"/><circle cx="930" cy="360" r="4" fill="#e0c9f7" opacity="0.8"/><circle cx="880" cy="300" r="6" fill="#e0c9f7" opacity="0.7"/><circle cx="740" cy="320" r="4" fill="#e0c9f7" opacity="0.8"/><circle cx="960" cy="450" r="3" fill="#e0c9f7" opacity="0.9"/>
+<rect id="lore1-vineta" data-name="Vineta" width="1600" height="900" fill="url(#l1vig)"/>
+</g>
+</svg>

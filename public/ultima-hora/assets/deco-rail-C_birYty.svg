@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 96" width="192" height="96">
+  <!-- Station track (paisaje.jpg), seamless horizontally (192px): gravel bed, wooden sleepers, two steel rails with bolts. No filter so tiles join. -->
+  <g stroke="#1b1714" stroke-width="3" stroke-linejoin="round">
+    <path d="M0 16 H192 V80 H0 Z" fill="#3b3631" stroke="none"/>
+    <g fill="#5a524a" stroke="none" opacity="0.8">
+      <circle cx="44" cy="24" r="2.5"/><circle cx="92" cy="72" r="2"/><circle cx="140" cy="26" r="2.4"/><circle cx="188" cy="70" r="2"/><circle cx="20" cy="70" r="2.2"/><circle cx="116" cy="48" r="1.8"/>
+    </g>
+    <g fill="#8a5c32">
+      <path d="M8 14 L36 13 L37 83 L9 84 Z"/><path d="M56 13 L84 14 L83 84 L55 83 Z"/>
+      <path d="M104 14 L132 13 L133 83 L105 84 Z"/><path d="M152 13 L180 14 L179 84 L151 83 Z"/>
+    </g>
+    <path d="M14 26 L14 72 M30 22 L30 76 M62 24 L62 70 M78 28 L78 74 M110 22 L110 76 M126 26 L126 70 M158 24 L158 74 M174 28 L174 72" fill="none" stroke="#6a4424" stroke-width="1.8"/>
+    <path d="M-2 28 H194 V38 H-2 Z" fill="#8f949c"/>
+    <path d="M-2 58 H194 V68 H-2 Z" fill="#8f949c"/>
+    <path d="M-2 30.5 H194 M-2 60.5 H194" stroke="#d4d8de" stroke-width="2" fill="none"/>
+    <g fill="#4a4e56" stroke-width="1.4"><circle cx="16" cy="33" r="2.2"/><circle cx="28" cy="33" r="2.2"/><circle cx="64" cy="63" r="2.2"/><circle cx="76" cy="63" r="2.2"/><circle cx="112" cy="33" r="2.2"/><circle cx="124" cy="33" r="2.2"/><circle cx="160" cy="63" r="2.2"/><circle cx="172" cy="63" r="2.2"/></g>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 760" width="580" height="760">
+  <!-- Living menu, Presente: night-blue buildings with cyan windows and the celestial clock on the roof, right of the clock (key-art.jpg). -->
+  <defs><filter id="rough" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.02" numOctaves="2" seed="5"/><feDisplacementMap in="SourceGraphic" scale="3"/></filter>
+    <radialGradient id="halo"><stop offset="0" stop-color="#9ff4ff" stop-opacity="0.6"/><stop offset="0.6" stop-color="#52d3ee" stop-opacity="0.18"/><stop offset="1" stop-color="#52d3ee" stop-opacity="0"/></radialGradient>
+    <radialGradient id="face"><stop offset="0" stop-color="#e8fdff"/><stop offset="0.7" stop-color="#8ae8f6"/><stop offset="1" stop-color="#4cc4e0"/></radialGradient>
+    <linearGradient id="cpane" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c8faff"/><stop offset="1" stop-color="#5ccfe6"/></linearGradient>
+    <radialGradient id="cool"><stop offset="0" stop-color="#7fe6f2" stop-opacity="0.35"/><stop offset="1" stop-color="#52d3ee" stop-opacity="0"/></radialGradient>
+  </defs>
+  <circle cx="400" cy="170" r="160" fill="url(#halo)"/>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <!-- back tower with a pointed roof -->
+    <rect x="30" y="250" width="220" height="510" fill="#33456e"/>
+    <path d="M20 256 L70 170 L210 170 L260 256 Z" fill="#26355a"/>
+    <path d="M110 170 L140 90 L170 170 Z" fill="#26355a"/>
+    <rect x="70" y="300" width="40" height="60" rx="3" fill="#5a8aa8"/><rect x="170" y="300" width="40" height="60" rx="3" fill="#5a8aa8"/>
+    <rect x="70" y="420" width="40" height="60" rx="3" fill="#4a7898"/><rect x="170" y="420" width="40" height="60" rx="3" fill="#4a7898"/>
+    <!-- celestial clock on its roof frame -->
+    <path d="M340 320 L360 230 M460 320 L440 230" fill="none" stroke-width="7"/>
+    <circle cx="400" cy="170" r="74" fill="#2a3a60"/>
+    <circle cx="400" cy="170" r="62" fill="url(#face)"/>
+    <path d="M458 170 L468 170 M450.2 199 L458.9 204 M429 220.2 L434 228.9 M400 228 L400 238 M371 220.2 L366 228.9 M349.8 199 L341.1 204 M342 170 L332 170 M349.8 141 L341.1 136 M371 119.8 L366 111.1 M400 112 L400 102 M429 119.8 L434 111.1 M450.2 141 L458.9 136 " fill="none" stroke="#1d4a64" stroke-width="5"/>
+    <path d="M400 170 L400 124 M400 170 L432 182" fill="none" stroke="#1d4a64" stroke-width="7"/>
+    <!-- front building -->
+    <rect x="210" y="330" width="370" height="430" fill="#4a6494"/>
+    <rect x="196" y="310" width="400" height="34" fill="#36497a"/>
+    <path d="M196 310 L230 286 L596 286 L596 310 Z" fill="#26355a"/>
+    <rect x="200" y="500" width="390" height="16" fill="#3a5084"/>
+  </g>
+  <ellipse cx="400" cy="480" rx="200" ry="130" fill="url(#cool)"/>
+  <ellipse cx="400" cy="620" rx="200" ry="130" fill="url(#cool)"/>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="5" stroke-linejoin="round"><path d="M250 486 V423 A23 23 0 0 1 296 423 V486 Z" fill="url(#cpane)"/><path d="M273 404 V486" fill="none" stroke-width="3.5"/><path d="M330 486 V423 A23 23 0 0 1 376 423 V486 Z" fill="url(#cpane)"/><path d="M353 404 V486" fill="none" stroke-width="3.5"/><path d="M410 486 V423 A23 23 0 0 1 456 423 V486 Z" fill="url(#cpane)"/><path d="M433 404 V486" fill="none" stroke-width="3.5"/><path d="M490 486 V423 A23 23 0 0 1 536 423 V486 Z" fill="url(#cpane)"/><path d="M513 404 V486" fill="none" stroke-width="3.5"/><path d="M250 626 V563 A23 23 0 0 1 296 563 V626 Z" fill="url(#cpane)"/><path d="M273 544 V626" fill="none" stroke-width="3.5"/><path d="M330 626 V563 A23 23 0 0 1 376 563 V626 Z" fill="url(#cpane)"/><path d="M353 544 V626" fill="none" stroke-width="3.5"/><path d="M410 626 V563 A23 23 0 0 1 456 563 V626 Z" fill="url(#cpane)"/><path d="M433 544 V626" fill="none" stroke-width="3.5"/><path d="M490 626 V563 A23 23 0 0 1 536 563 V626 Z" fill="url(#cpane)"/><path d="M513 544 V626" fill="none" stroke-width="3.5"/></g>
+  <circle cx="378" cy="148" r="14" fill="#ffffff" opacity="0.5"/>
+</svg>

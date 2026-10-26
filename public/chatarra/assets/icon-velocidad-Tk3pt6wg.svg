@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · icono: velocidad de juego (avance rápido). -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="101"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M12 24 L62 64 L12 104 Z" fill="#ece6da"/>
+    <path d="M62 24 L114 64 L62 104 Z" fill="#ece6da"/>
+    <path d="M62 64 L114 64 L62 104 Z M12 64 L62 64 L12 104 Z" fill="#c9c2b4" stroke="none"/>
+    <path d="M12 24 L62 64 L12 104 Z M62 24 L114 64 L62 104 Z" fill="none"/>
+  </g>
+</svg>

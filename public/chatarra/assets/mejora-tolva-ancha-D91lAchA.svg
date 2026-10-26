@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · mejora: Tolva ancha para todos los Cañones; también acepta placas. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="107"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <ellipse cx="64" cy="116" rx="40" ry="7" fill="#000" opacity=".35"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M18 34 l20 -10 18 8 -6 8z" fill="#5f7a8c" stroke-width="5"/>
+    <circle cx="74" cy="26" r="9" fill="#c9652e" stroke-width="5"/>
+    <circle cx="74" cy="26" r="3" fill="#1b1714" stroke="none"/>
+    <path d="M86 32 l10 -14 14 10 -8 8z" fill="#a9b6be" stroke-width="5"/>
+    <path d="M6 36 H122 L96 86 H32 Z" fill="#f2b632"/>
+    <path d="M100 38 h22 l-26 48 h-10z" fill="#c48a1c" stroke="none"/>
+    <path d="M6 36 H122 L96 86 H32 Z" fill="none"/>
+    <path d="M14 46 h100" stroke-width="3.4"/>
+    <rect x="52" y="86" width="24" height="20" rx="3" fill="#6c7d86"/>
+    <path d="M30 104 h-20 M18 96 l-8 8 8 8 M98 104 h20 M110 96 l8 8 -8 8" fill="none" stroke-width="10"/>
+    <path d="M30 104 h-20 M18 96 l-8 8 8 8 M98 104 h20 M110 96 l8 8 -8 8" fill="none" stroke="#2ee6d0" stroke-width="4.5"/>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Flor Tormenta de polen: pétalos cargados de polen amarillo y chispas -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="51"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+    <path id="flor-petal" d="M0 0 Q-11 -16 -4 -34 Q0 -38 4 -34 Q11 -16 0 0 Z"/>
+    <path id="petal-long" d="M0 0 Q-12 -20 -2 -44 Q6 -40 7 -30 Q8 -14 0 0 Z"/>
+  </defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- parterre vegetal: montículo de tierra viva con borde de musgo, tréboles y guijarros -->
+    <ellipse cx="64" cy="110" rx="56" ry="12" fill="#1b1714" opacity="0.3" stroke="none"/>
+    <path d="M10 92 Q12 70 40 68 Q64 62 88 68 Q116 70 118 92 Q114 112 64 114 Q14 112 10 92 Z" fill="#7a5434"/>
+    <path d="M12 96 Q16 110 64 112 Q112 110 116 96 Q110 104 64 106 Q18 104 12 96 Z" fill="#5c3c24" stroke="none"/>
+    <path d="M18 86 Q22 72 44 70 Q64 66 84 70 Q106 72 110 86 Q92 94 64 94 Q36 94 18 86 Z" fill="#4a3322"/>
+    <path d="M24 84 Q40 80 64 84 T106 82 Q96 90 64 91 Q34 90 24 84 Z" fill="#3a281a" stroke="none"/>
+    <path d="M10 90 Q6 80 16 76 Q22 84 20 92 Z" fill="#7fae4e"/>
+    <path d="M118 90 Q122 80 112 76 Q106 84 108 92 Z" fill="#7fae4e"/>
+    <path d="M26 100 Q20 94 26 88 Q32 92 32 100 Z" fill="#9cc45a"/>
+    <path d="M96 102 Q102 94 108 98 Q104 106 96 104 Z" fill="#9cc45a"/>
+    <path d="M44 106 Q40 100 46 96 Q52 100 50 106 Z" fill="#6f9a48"/>
+    <path d="M78 106 Q82 98 88 100 Q86 108 78 108 Z" fill="#6f9a48"/>
+    <circle cx="60" cy="104" r="3.2" fill="#d8ccb0" stroke-width="2"/>
+    <circle cx="112" cy="70" r="2.4" fill="#f2ead6" stroke="none"/><circle cx="16" cy="66" r="2" fill="#f6d27a" stroke="none"/>
+    <path d="M64 70 Q34 84 24 66 Q44 58 64 70 Z" fill="#6f8a54"/>
+    <path d="M64 70 Q94 86 104 64 Q84 58 64 70 Z" fill="#6f8a54"/>
+    <path d="M64 70 Q90 82 103 66 Q96 76 80 77 Z" fill="#55703f" stroke="none"/>
+    <path d="M30 68 Q46 70 60 70 M98 67 Q82 71 68 71" fill="none" stroke-width="2"/>
+    <path d="M64 74 Q60 62 64 50" fill="none" stroke-width="4"/>
+    <g transform="translate(64 46)">
+      <use href="#flor-petal" fill="#e9d27a" transform="rotate(0)"/>
+      <use href="#flor-petal" fill="#d9bd5a" transform="rotate(60)"/>
+      <use href="#flor-petal" fill="#c4a443" transform="rotate(120)"/>
+      <use href="#flor-petal" fill="#e9d27a" transform="rotate(180)"/>
+      <use href="#flor-petal" fill="#d9bd5a" transform="rotate(240)"/>
+      <use href="#flor-petal" fill="#c4a443" transform="rotate(300)"/>
+      <g fill="#fff3b0" stroke="none">
+        <circle cx="0" cy="-26" r="2.6"/><circle cx="22" cy="-13" r="2.6"/><circle cx="22" cy="13" r="2.6"/>
+        <circle cx="0" cy="26" r="2.6"/><circle cx="-22" cy="13" r="2.6"/><circle cx="-22" cy="-13" r="2.6"/>
+      </g>
+      <circle r="11" fill="#f0b43c"/>
+      <circle r="5" fill="#a86a1c" stroke="none"/>
+      <circle cx="-3" cy="-4" r="2.2" fill="#fff6d0" stroke="none"/>
+    </g>
+    <!-- chispas -->
+    <path d="M20 10 L26 18 L22 20 L28 28" fill="none" stroke="#f6e45a" stroke-width="3"/>
+    <path d="M106 8 L100 16 L105 18 L98 26" fill="none" stroke="#f6e45a" stroke-width="3"/>
+    <path d="M112 50 L104 54 L110 58" fill="none" stroke="#f6e45a" stroke-width="2.6"/>
+    <g stroke-width="1.6">
+      <circle cx="14" cy="40" r="3" fill="#f0d468"/><circle cx="34" cy="6" r="2.4" fill="#f0d468"/>
+      <circle cx="90" cy="6" r="2.6" fill="#f0d468"/><circle cx="116" cy="30" r="2.4" fill="#f0d468"/>
+    </g>
+    <circle cx="64" cy="8" r="2.2" fill="#b58ee6" stroke="none"/>
+  </g>
+</svg>

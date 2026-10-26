@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · torre: Cañón Reciclador con tolva de restos, sobre caja de madera. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="9"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <ellipse cx="64" cy="123" rx="58" ry="6" fill="#000" opacity=".35"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- caja de madera baja (torres.jpg): tapa en 3/4 y frontal de tablas con esquineras y clavos -->
+    <path d="M18 74 H110 L118 88 H10 Z" fill="#dc9a58"/>
+    <path d="M22 79 H106 M16 84 H112" stroke="#a8652e" stroke-width="2"/>
+    <rect x="10" y="88" width="108" height="34" rx="4" fill="#c47a3e"/>
+    <path d="M24 99 H104 M24 110 H104" stroke="#8a4f24" stroke-width="2.5"/>
+    <rect x="10" y="88" width="15" height="34" rx="3" fill="#a8652e"/>
+    <rect x="103" y="88" width="15" height="34" rx="3" fill="#a8652e"/>
+    <circle cx="17.5" cy="94" r="2.4" fill="#d8d2c4" stroke-width="1.5"/><circle cx="17.5" cy="116" r="2.4" fill="#d8d2c4" stroke-width="1.5"/>
+    <circle cx="110.5" cy="94" r="2.4" fill="#d8d2c4" stroke-width="1.5"/><circle cx="110.5" cy="116" r="2.4" fill="#d8d2c4" stroke-width="1.5"/>
+    <path d="M12 88 l3 -8 l3 6 l3 -7 l3 9z" fill="#6fae3a" stroke-width="2.5"/>
+    <path d="M104 88 l3 -7 l3 6 l3 -8 l3 9z" fill="#6fae3a" stroke-width="2.5"/>
+  </g>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- caballete en A sobre la tapa -->
+    <path d="M40 86 L58 50 L72 86 M58 86 L74 50 L92 86" fill="none" stroke-width="9"/>
+    <path d="M40 86 L58 50 L72 86 M58 86 L74 50 L92 86" fill="none" stroke="#56656e" stroke-width="3.5"/>
+    <path d="M47 72 H66 M63 72 H85" stroke-width="3"/>
+    <rect x="36" y="82" width="58" height="8" rx="3" fill="#36322f" stroke-width="3"/>
+    <!-- cañón: recámara con banda amarilla y tubo hacia la izquierda -->
+    <g transform="translate(0 -12) rotate(-10 72 60)">
+      <path d="M22 50 H66 V70 H22 Z" fill="#56656e"/>
+      <path d="M26 64 H66" stroke="#3d4a52" stroke-width="5"/>
+      <path d="M22 50 H66 V70 H22 Z" fill="none"/>
+      <rect x="14" y="45" width="14" height="30" rx="5" fill="#6c7d86"/>
+      <ellipse cx="14" cy="60" rx="4" ry="11" fill="#1b1714" stroke="none"/>
+      <rect x="60" y="42" width="40" height="36" rx="14" fill="#6c7d86"/>
+      <path d="M90 46 q8 6 8 14 q0 10 -8 15z" fill="#4c5a62" stroke="none"/>
+      <rect x="60" y="42" width="40" height="36" rx="14" fill="none"/>
+      <rect x="72" y="42" width="11" height="36" fill="#f2b632" stroke-width="3"/>
+      <path d="M80 44 v32" stroke="#c48a1c" stroke-width="3"/>
+      <circle cx="102" cy="60" r="5" fill="#36322f" stroke-width="3"/>
+    </g>
+    <circle cx="72" cy="52" r="5" fill="#f2b632" stroke-width="3"/>
+  </g>
+</svg>

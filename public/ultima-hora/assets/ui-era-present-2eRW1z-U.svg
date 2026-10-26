@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Era badge Presente: steel medallion with a cyan gear. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="8"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+
+    <circle cx="64" cy="64" r="48" fill="#8e9aa6"/>
+    <path d="M100 34 Q116 64 96 96 Q72 118 40 106 Q86 104 100 34 Z" fill="#6f7c8a" stroke="none"/>
+    <circle cx="64" cy="64" r="48" fill="none"/>
+    <circle cx="64" cy="64" r="37" fill="#5b6774" stroke-width="2.6"/>
+    <path d="M86.0 57.2 L93.6 59.3 L93.6 68.7 L86.0 70.8 L85.8 71.5 L90.7 77.6 L85.2 85.2 L77.8 82.4 L77.2 82.8 L77.6 90.7 L68.7 93.6 L64.4 87.0 L63.6 87.0 L59.3 93.6 L50.4 90.7 L50.8 82.8 L50.2 82.4 L42.8 85.2 L37.3 77.6 L42.2 71.5 L42.0 70.8 L34.4 68.7 L34.4 59.3 L42.0 57.2 L42.2 56.5 L37.3 50.4 L42.8 42.8 L50.2 45.6 L50.8 45.2 L50.4 37.3 L59.3 34.4 L63.6 41.0 L64.4 41.0 L68.7 34.4 L77.6 37.3 L77.2 45.2 L77.8 45.6 L85.2 42.8 L90.7 50.4 L85.8 56.5 Z" fill="#5fd4e6" stroke-width="3"/>
+    <circle cx="64" cy="64" r="10" fill="#2b3240" stroke-width="3"/>
+  </g>
+  <path d="M38 40 Q46 30 58 28" fill="none" stroke="#e8f4f8" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+</svg>

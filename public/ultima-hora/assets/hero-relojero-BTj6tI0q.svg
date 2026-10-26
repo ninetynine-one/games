@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Relojero aprendiz: chibi apprentice with goggle cap and winding key. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="2"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+    </filter>
+  </defs>
+  <ellipse cx="64" cy="116" rx="26" ry="6" fill="#000" opacity="0.3"/>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- legs -->
+    <rect x="51" y="98" width="10" height="14" rx="4" fill="#2a2638"/>
+    <rect x="67" y="98" width="10" height="14" rx="4" fill="#2a2638"/>
+    <!-- coat -->
+    <path d="M44 104 Q42 82 54 75 L74 75 Q86 82 84 104 Q64 108 44 104 Z" fill="#363b74"/>
+    <path d="M74 75 Q86 82 84 104 Q76 106 72 106 Q78 90 70 76 Z" fill="#272a58" stroke="none"/>
+    <!-- apron -->
+    <path d="M53 82 L75 82 L77 104 Q64 107 51 104 Z" fill="#7a5232" stroke-width="2.8"/>
+    <path d="M58 92 L70 92 L70 99 L58 99 Z" fill="#5e3e25" stroke-width="2.2"/>
+    <path d="M62 92 L62 86" stroke-width="2.2"/>
+    <!-- arms -->
+    <circle cx="43" cy="92" r="6" fill="#efd6b0" stroke-width="3"/>
+    <circle cx="85" cy="92" r="6" fill="#efd6b0" stroke-width="3"/>
+    <!-- scarf -->
+    <path d="M50 76 L38 88 L45 91 L56 80 Z" fill="#3fb0c6" stroke-width="2.8"/>
+    <path d="M45 70 Q64 80 83 70 L83 78 Q64 88 45 78 Z" fill="#5fd4e6"/>
+    <!-- head -->
+    <circle cx="64" cy="48" r="30" fill="#efd6b0"/>
+    <path d="M90 58 Q82 76 60 78 Q80 82 92 66 Z" fill="#d9b88f" stroke="none"/>
+    <circle cx="64" cy="48" r="30" fill="none"/>
+    <path d="M35 44 Q34 54 38 58 M92 44 Q95 52 91 58" fill="#5a3e2a" stroke-width="2.8"/>
+    <!-- cap -->
+    <path d="M32 46 Q30 16 64 15 Q96 16 96 43 Q64 34 32 46 Z" fill="#2e3266"/>
+    <path d="M78 22 Q94 26 96 43 Q90 41 84 40 Q86 30 78 22 Z" fill="#22254d" stroke="none"/>
+    <path d="M32 46 Q30 16 64 15 Q96 16 96 43 Q64 34 32 46 Z" fill="none"/>
+    <path d="M72 40 Q94 34 106 44 Q94 48 74 45 Z" fill="#1d2044"/>
+    <!-- goggles -->
+    <path d="M42 30 Q61 24 80 28" fill="none" stroke-width="4"/>
+    <circle cx="52" cy="29" r="8" fill="#b08a4a" stroke-width="3"/>
+    <circle cx="71" cy="27" r="8" fill="#b08a4a" stroke-width="3"/>
+    <circle cx="52" cy="29" r="4.5" fill="#7fe0ee" stroke-width="2"/>
+    <circle cx="71" cy="27" r="4.5" fill="#7fe0ee" stroke-width="2"/>
+    <!-- face -->
+    <ellipse cx="55" cy="55" rx="6.5" ry="8.5" fill="#1b1714" stroke-width="1"/>
+    <ellipse cx="77" cy="55" rx="6.5" ry="8.5" fill="#1b1714" stroke-width="1"/>
+    <path d="M63 67 Q66 70 69 67" fill="none" stroke-width="2.6"/>
+    <!-- winding key held in the right hand -->
+    <g transform="translate(102 62) rotate(25)">
+      <rect x="-3" y="0" width="6" height="36" fill="#8a6a3a" stroke-width="2.8"/>
+      <ellipse cx="-9" cy="-5" rx="9" ry="6.5" fill="#e0b24a" stroke-width="2.8"/>
+      <ellipse cx="9" cy="-5" rx="9" ry="6.5" fill="#e0b24a" stroke-width="2.8"/>
+      <circle cx="0" cy="-3" r="4" fill="#b08a4a" stroke-width="2.4"/>
+    </g>
+    <circle cx="86" cy="93" r="6" fill="#efd6b0" stroke-width="3"/>
+  </g>
+  <circle cx="57" cy="51" r="2.6" fill="#ffffff"/>
+  <circle cx="79" cy="51" r="2.6" fill="#ffffff"/>
+  <circle cx="53.5" cy="59" r="1.2" fill="#ffffff"/>
+  <circle cx="75.5" cy="59" r="1.2" fill="#ffffff"/>
+  <circle cx="50" cy="26.5" r="1.6" fill="#ffffff"/>
+  <circle cx="69" cy="24.5" r="1.6" fill="#ffffff"/>
+  <ellipse cx="45" cy="64" rx="5" ry="3" fill="#e39a8a" opacity="0.7"/>
+  <ellipse cx="86" cy="64" rx="5" ry="3" fill="#e39a8a" opacity="0.7"/>
+</svg>

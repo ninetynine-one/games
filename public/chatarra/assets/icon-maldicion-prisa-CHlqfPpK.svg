@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · maldición: Los recolectores corren más. Garra de Recolector roja con líneas de velocidad. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="223"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M64 8 L116 30 V66 q0 34 -52 54 q-52 -20 -52 -54 V30z" fill="#36322f"/>
+    <path d="M64 18 L106 36 V66 q0 26 -42 44 q-42 -18 -42 -44 V36z" fill="none" stroke="#5c564e" stroke-width="3"/>
+    <path d="M18 46 h22 M14 62 h26 M20 78 h20" stroke="#e04a32" stroke-width="5"/>
+    <path d="M52 92 l10 -44 q6 -14 20 -8 l10 6 -6 10 -10 -4 -6 26 18 6 -4 10z" fill="#e04a32"/>
+    <path d="M86 46 l12 -8 M90 54 l14 -2 M88 62 l12 6" stroke="#d8d2c4" stroke-width="5"/>
+    <path d="M44 96 h44" stroke-width="6"/>
+  </g>
+</svg>

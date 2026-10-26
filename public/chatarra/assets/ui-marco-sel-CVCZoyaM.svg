@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+  <!-- Chatarra · HUD: marco turquesa de lo elegido (centro transparente). Nine-slice con márgenes de 24. -->
+  <rect x="3" y="3" width="90" height="90" rx="11" fill="none" stroke="#1b1714" stroke-width="12"/>
+  <rect x="3" y="3" width="90" height="90" rx="11" fill="none" stroke="#2ee6d0" stroke-width="6"/>
+  <rect x="9" y="9" width="78" height="78" rx="7" fill="none" stroke="#1b1714" stroke-width="2.5"/>
+  <path d="M10 4 H30 M66 4 H86" stroke="#c9fff6" stroke-width="2" stroke-linecap="round"/>
+</svg>

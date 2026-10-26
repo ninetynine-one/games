@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Present warmth: soft amber lamp pool, drawn additively/under units. -->
+  <defs>
+    <radialGradient id="lamp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffb24a" stop-opacity="0.35"/>
+      <stop offset="0.55" stop-color="#ffa63a" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#ff9a30" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="256" height="256" fill="url(#lamp)"/>
+</svg>

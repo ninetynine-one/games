@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Brujula de epocas: brass pocket compass with the lid open above and a celeste wind rose. Grip under the case. -->
+  <g stroke="#1b1714" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <!-- open lid -->
+    <rect x="58" y="36" width="12" height="10" rx="3" fill="#b8873a"/>
+    <ellipse cx="64" cy="26" rx="34" ry="16" fill="#d4a640"/>
+    <ellipse cx="64" cy="26" rx="25" ry="10" fill="#8a6a3a" stroke-width="4"/>
+    <path d="M48 23 Q56 18 66 19" fill="none" stroke="#c8a466" stroke-width="3"/>
+    <!-- case and dial -->
+    <circle cx="64" cy="76" r="32" fill="#d4a640"/>
+    <circle cx="64" cy="76" r="24" fill="#efe4c6" stroke-width="4"/>
+    <circle cx="64" cy="76" r="17" fill="#1d2a52" stroke-width="3"/>
+    <path d="M64 54 L64 58 M64 94 L64 98 M42 76 L46 76 M82 76 L86 76 M48.4 60.4 L51 63 M79.6 60.4 L77 63 M48.4 91.6 L51 89 M79.6 91.6 L77 89" stroke-width="2.5"/>
+    <!-- wind rose -->
+    <path d="M64 60 L68 72 L80 76 L68 80 L64 92 L60 80 L48 76 L60 72 Z" fill="#52d3ee" stroke-width="2.5"/>
+    <path d="M64 60 L68 72 L64 76 Z M80 76 L68 80 L64 76 Z M64 92 L60 80 L64 76 Z M48 76 L60 72 L64 76 Z" fill="#a8f0fb" stroke="none"/>
+    <path d="M64 76 L74 64" stroke="#f0b43c" stroke-width="3"/>
+    <circle cx="64" cy="76" r="3.5" fill="#efe4c6" stroke-width="2.5"/>
+    <path d="M40 62 Q44 52 54 48" fill="none" stroke="#f8e2a0" stroke-width="4"/>
+  </g>
+</svg>

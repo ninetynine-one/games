@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- El Inventor de bobinas: chibi inventor with slicked hair, a big moustache, dark suit and a small sparking coil at the belt. Body only: the tool is a separate layer (tool-*.svg) held at HAND. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="11"/>
+      <feDisplacementMap in="SourceGraphic" scale="2"/>
+    </filter>
+  </defs>
+  <g stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <g filter="url(#rough)">
+      <!-- legs and shoes -->
+      <rect x="51" y="95" width="10" height="13" rx="3" fill="#2a2e44"/>
+      <rect x="67" y="95" width="10" height="13" rx="3" fill="#2a2e44"/>
+      <ellipse cx="55" cy="109.5" rx="8" ry="4.5" fill="#14121c"/>
+      <ellipse cx="73" cy="109.5" rx="8" ry="4.5" fill="#14121c"/>
+      <!-- shirt, vest and suit -->
+      <path d="M46 100 Q44 78 54 69 L74 69 Q84 78 82 100 Q64 104 46 100 Z" fill="#252a48"/>
+      <path d="M74 69 Q84 78 82 100 Q77 102 73 102 Q79 86 70 70 Z" fill="#1b1f38" stroke="none"/>
+      <path d="M46 100 Q44 78 54 69 L74 69 Q84 78 82 100 Q64 104 46 100 Z" fill="none"/>
+      <path d="M56 70 L72 70 L70 96 L58 96 Z" fill="#4a4e66" stroke-width="2.6"/>
+      <path d="M58 70 L64 77 L70 70 Z" fill="#f1efe6" stroke-width="2.2"/>
+      <path d="M64 76 L61.5 82 L64 87 L66.5 82 Z" fill="#14121c" stroke-width="1.8"/>
+      <path d="M55 70 L60 84 L54 80 Z M73 70 L68 84 L74 80 Z" fill="#323858" stroke-width="2.2"/>
+      <!-- sparking coil at the left hip -->
+      <circle cx="42" cy="98" r="10" fill="#52d3ee" opacity="0.28" stroke="none"/>
+      <rect x="37" y="91" width="10" height="15" rx="2" fill="#b8733a" stroke-width="2.4"/>
+      <path d="M37 95 L47 95 M37 98.5 L47 98.5 M37 102 L47 102" stroke="#7a4420" stroke-width="1.6"/>
+      <path d="M42 91 L42 87" stroke-width="2.4"/>
+      <circle cx="42" cy="86" r="2.4" fill="#d4a640" stroke-width="1.8"/>
+      <path d="M38 84 L34 80 L37 79 L33 74 M46 84 L50 81 L48 79 L52 76" fill="none" stroke="#52d3ee" stroke-width="2"/>
+      <!-- arms -->
+      <path d="M51 73 Q40 79 39 89 L46 91 Q48 84 55 80 Z" fill="#252a48"/>
+      <circle cx="42" cy="90" r="5.2" fill="#efd6b0" stroke-width="3"/>
+      <path d="M77 73 Q88 77 91 85 L85 89 Q81 83 73 80 Z" fill="#252a48"/>
+    </g>
+    <circle cx="64" cy="46" r="23" fill="#efd6b0"/>
+    <path d="M84 56 Q78 68 62 69 Q80 72 86.5 58 Z" fill="#d9b88f" stroke="none"/>
+    <circle cx="64" cy="46" r="23" fill="none"/>
+    <!-- slicked hair with a tuft -->
+    <path d="M41 46 Q37 20 58 18 Q64 8 74 14 Q90 17 88 42 Q82 31 68 31 Q52 30 41 46 Z" fill="#5a3a26"/>
+    <path d="M60 18 Q66 12 72 16" fill="none" stroke="#7a5236" stroke-width="2"/>
+    <!-- brows and moustache -->
+    <path d="M53 43 Q57 41 61 43 M69 43 Q73 41 77 43" fill="none" stroke-width="2.8"/>
+    <ellipse cx="58" cy="51" rx="3.8" ry="4.8" fill="#1b1714" stroke="none"/>
+    <ellipse cx="73" cy="51" rx="3.8" ry="4.8" fill="#1b1714" stroke="none"/>
+    <circle cx="59.3" cy="49.3" r="1.5" fill="#fff" stroke="none"/>
+    <circle cx="74.3" cy="49.3" r="1.5" fill="#fff" stroke="none"/>
+    <ellipse cx="51" cy="57" rx="4" ry="2.3" fill="#e39a8a" opacity="0.65" stroke="none"/>
+    <ellipse cx="80" cy="57" rx="4" ry="2.3" fill="#e39a8a" opacity="0.65" stroke="none"/>
+    <path d="M52 62 Q58 56 65.5 60 Q73 56 80 62 Q84 66 78 65 Q72 61 65.5 63 Q59 61 53 65 Q48 66 52 62 Z" fill="#4a2e1e" stroke-width="2.4"/>
+    <circle cx="90" cy="88" r="5.5" fill="#efd6b0" stroke-width="3"/>
+  </g>
+</svg>

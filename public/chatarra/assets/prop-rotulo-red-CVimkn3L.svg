@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 128" width="256" height="128">
+  <!-- Chatarra · narrativa ambiental: rótulo metálico antiguo «PROPIEDAD DE LA RED», tachado a mano. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="272" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="139"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <ellipse cx="128" cy="118" rx="100" ry="7" fill="#000" opacity=".35"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- poste -->
+    <rect x="122" y="96" width="12" height="20" rx="2" fill="#56656e"/>
+    <!-- placa -->
+    <path d="M14 16 h228 v78 q0 4 -4 4 h-220 q-4 0 -4 -4z" fill="#8f9ca4"/>
+    <path d="M206 18 h34 v76 h-34z" fill="#6c7d86" stroke="none"/>
+    <path d="M14 16 h228 v78 q0 4 -4 4 h-220 q-4 0 -4 -4z" fill="none"/>
+    <rect x="24" y="25" width="208" height="64" rx="3" fill="none" stroke-width="2.4"/>
+    <!-- esquina doblada -->
+    <path d="M242 74 l-18 24 h14 q4 0 4 -4z" fill="#c3ced5" stroke-width="3"/>
+    <circle cx="20" cy="22" r="3.4" fill="#c3ced5" stroke-width="2.4"/><circle cx="236" cy="22" r="3.4" fill="#c3ced5" stroke-width="2.4"/>
+    <circle cx="20" cy="90" r="3.4" fill="#c3ced5" stroke-width="2.4"/>
+    <!-- texto estampado -->
+    <g font-family="Arial, Helvetica, sans-serif" font-weight="900" text-anchor="middle" fill="#2c3943" stroke="none">
+      <text x="128" y="55" font-size="26" textLength="176" lengthAdjust="spacingAndGlyphs">PROPIEDAD</text>
+      <text x="128" y="82" font-size="22" textLength="140" lengthAdjust="spacingAndGlyphs">DE LA RED</text>
+    </g>
+    <!-- óxido -->
+    <path d="M30 92 q10 -6 22 -2 q-6 4 -22 2z M196 30 q8 4 6 12 q-6 -4 -6 -12z" fill="#93451f" stroke="none" opacity=".7"/>
+    <!-- tachón a mano: una raya por línea y arañazos -->
+    <path d="M32 50 q50 -5 96 0 t98 -3 M50 77 q40 -4 80 0 t80 -3" fill="none" stroke="#e04a32" stroke-width="4"/>
+    <path d="M186 88 l22 -14 M194 90 l20 -12 M36 34 l14 -6" fill="none" stroke="#e8e2d2" stroke-width="1.8" opacity=".8"/>
+  </g>
+</svg>

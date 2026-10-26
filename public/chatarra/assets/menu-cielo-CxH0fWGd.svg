@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920">
+  <!-- Chatarra · menú (key-art.jpg): cielo turquesa de anochecer, 1080×1920. Se puede estirar: es un gradiente. -->
+  <defs>
+    <linearGradient id="c" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3f8794"/><stop offset=".45" stop-color="#6aaab4"/><stop offset=".8" stop-color="#9ac8c4"/><stop offset="1" stop-color="#c8d8b8"/>
+    </linearGradient>
+    <radialGradient id="s" cx=".5" cy=".85" r=".6"><stop offset="0" stop-color="#ffd890" stop-opacity=".35"/><stop offset="1" stop-color="#ffd890" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1080" height="1920" fill="url(#c)"/>
+  <rect width="1080" height="1920" fill="url(#s)"/>
+  <g fill="#e8f6f4" opacity=".7"><circle cx="120" cy="160" r="3"/><circle cx="860" cy="90" r="2.5"/><circle cx="640" cy="260" r="2"/><circle cx="300" cy="380" r="2"/><circle cx="980" cy="420" r="2.5"/></g>
+  <path d="M0 0 H1080" stroke="#1b1714" stroke-opacity="0" />
+</svg>

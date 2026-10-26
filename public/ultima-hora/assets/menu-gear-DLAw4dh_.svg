@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Living menu: far copper gear with a clock hand, turning slowly in the sky (key-art.jpg). -->
+  <defs><filter id="rough" x="-5%" y="-5%" width="110%" height="110%"><feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="2" seed="4"/><feDisplacementMap in="SourceGraphic" scale="3"/></filter></defs>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M222.7 102.6 L225.5 117.8 L245.7 119.4 L245.7 136.6 L225.5 138.2 L222.7 153.4 L217.5 167.9 L234.2 179.4 L225.6 194.3 L207.3 185.6 L197.3 197.3 L185.6 207.3 L194.3 225.6 L179.4 234.2 L167.9 217.5 L153.4 222.7 L138.2 225.5 L136.6 245.7 L119.4 245.7 L117.8 225.5 L102.6 222.7 L88.1 217.5 L76.6 234.2 L61.7 225.6 L70.4 207.3 L58.7 197.3 L48.7 185.6 L30.4 194.3 L21.8 179.4 L38.5 167.9 L33.3 153.4 L30.5 138.2 L10.3 136.6 L10.3 119.4 L30.5 117.8 L33.3 102.6 L38.5 88.1 L21.8 76.6 L30.4 61.7 L48.7 70.4 L58.7 58.7 L70.4 48.7 L61.7 30.4 L76.6 21.8 L88.1 38.5 L102.6 33.3 L117.8 30.5 L119.4 10.3 L136.6 10.3 L138.2 30.5 L153.4 33.3 L167.9 38.5 L179.4 21.8 L194.3 30.4 L185.6 48.7 L197.3 58.7 L207.3 70.4 L225.6 61.7 L234.2 76.6 L217.5 88.1 Z" fill="#8a563a"/>
+    <circle cx="128" cy="128" r="70" fill="#5e3826"/>
+    <circle cx="128" cy="128" r="46" fill="none" stroke="#8a563a" stroke-width="9"/>
+    <path d="M128 128 L168 82" stroke="#a86c48" stroke-width="12"/>
+    <path d="M128 128 L168 82" stroke="#1b1714" stroke-width="4"/>
+    <circle cx="128" cy="128" r="15" fill="#a86c48"/>
+  </g>
+  <path d="M60 74 A80 80 0 0 1 110 44" fill="none" stroke="#c48a62" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+</svg>

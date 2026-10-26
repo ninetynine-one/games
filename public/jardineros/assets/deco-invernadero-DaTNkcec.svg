@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Decorado nivel 1: ruina de invernadero de hierro y cristal -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="41"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="64" cy="114" rx="58" ry="9" fill="#14110f" stroke="none" opacity="0.5"/>
+    <path d="M10 112 V66 L64 26 L118 66 V112 Z" fill="#8fd4d0"/>
+    <path d="M64 26 L118 66 V112 H92 V60 Z" fill="#6fb8b8" stroke="none"/>
+    <path d="M10 66 L64 26 L118 66 M10 66 H118 M37 46 V112 M64 26 V112 M91 46 V112 M10 90 H118" fill="none" stroke="#6b4a32" stroke-width="3.6"/>
+    <path d="M14 70 L24 62 L26 80 Z M70 92 L84 90 L80 106 Z" fill="#e8f6f2" stroke-width="1.8" opacity="0.7"/>
+    <path d="M44 112 V84 Q44 76 52 76 H76 Q84 76 84 84 V112 Z" fill="#3a281a"/>
+    <path d="M58 44 L74 38 L70 52 Z" fill="#1b1714" stroke="none" opacity="0.5"/>
+    <path d="M10 112 Q12 98 24 100 Q28 108 40 106 L44 112 Z M84 112 Q90 100 104 102 Q112 100 118 108 V112 Z" fill="#7fae4e" stroke-width="3"/>
+    <path d="M104 100 Q112 80 108 62 M108 80 Q116 76 118 70" fill="none" stroke="#5c7a3e" stroke-width="3"/>
+    <circle cx="108" cy="64" r="3" fill="#f2ead6" stroke-width="1.6"/>
+  </g>
+</svg>

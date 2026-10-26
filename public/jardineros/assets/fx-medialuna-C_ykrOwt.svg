@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Tajo de la hoz: medialuna verde-turquesa con borde blanco (filo arriba), centrada; las puntas abajo a izquierda y derecha -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7fd05a" stop-opacity="0.2"/>
+      <stop offset="0.45" stop-color="#5fe0c8"/>
+      <stop offset="1" stop-color="#8ef0e0"/>
+    </linearGradient>
+  </defs>
+  <path d="M10 92 Q20 22 64 18 Q108 22 118 92 Q100 60 64 58 Q28 60 10 92 Z" fill="url(#g)" stroke="#1b1714" stroke-width="3" stroke-linejoin="round" stroke-opacity="0.8"/>
+  <path d="M16 80 Q30 26 64 23 Q98 26 113 80" fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="104" cy="30" r="3" fill="#fff"/>
+  <circle cx="114" cy="44" r="2" fill="#e8fff8"/>
+</svg>

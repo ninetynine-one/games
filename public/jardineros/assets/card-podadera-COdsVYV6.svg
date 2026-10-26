@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Herramienta: podadera vieja de hojas curvas y mango de madera -->
+  <defs><filter id="wob" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="76"/><feDisplacementMap in="SourceGraphic" scale="2.2"/></filter></defs>
+  <ellipse cx="64" cy="114" rx="28" ry="6" fill="#000" opacity="0.35"/>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M30 100 L58 70" fill="none" stroke="#7a5236" stroke-width="12"/>
+    <path d="M30 100 L58 70" fill="none" stroke="#9a6c44" stroke-width="6"/>
+    <path d="M98 100 L70 70" fill="none" stroke="#7a5236" stroke-width="12"/>
+    <path d="M98 100 L70 70" fill="none" stroke="#9a6c44" stroke-width="6"/>
+    <path d="M60 72 Q40 40 56 16 Q72 30 68 66 Z" fill="#c9c0b4"/>
+    <path d="M68 72 Q88 44 76 20 Q60 36 60 66 Z" fill="#a8a096"/>
+    <circle cx="64" cy="68" r="6" fill="#5a524a"/>
+    <path d="M54 26 Q58 40 62 56" fill="none" stroke="#f2ece4" stroke-width="2.4"/>
+  </g>
+</svg>

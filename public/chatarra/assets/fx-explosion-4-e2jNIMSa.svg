@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · fx: explosión 4/4, humo disipándose en bocanadas sueltas. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="83"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <g opacity=".75"><g fill="#1b1714" stroke="#1b1714" stroke-width="6"><circle cx="40" cy="60" r="17"/><circle cx="52" cy="70" r="12"/><circle cx="78" cy="46" r="15"/><circle cx="88" cy="80" r="13"/><circle cx="54" cy="92" r="10"/><circle cx="66" cy="64" r="9"/></g><g fill="#8a8379" stroke="none"><circle cx="40" cy="60" r="17"/><circle cx="52" cy="70" r="12"/><circle cx="78" cy="46" r="15"/><circle cx="88" cy="80" r="13"/><circle cx="54" cy="92" r="10"/><circle cx="66" cy="64" r="9"/></g></g>
+    <g fill="#a39c8f" stroke="none"><circle cx="36" cy="55" r="8"/><circle cx="74" cy="42" r="7"/><circle cx="84" cy="76" r="6"/></g>
+    <g opacity=".6"><g fill="#1b1714" stroke="#1b1714" stroke-width="6"><circle cx="20" cy="36" r="5"/><circle cx="110" cy="28" r="4"/><circle cx="108" cy="104" r="4"/><circle cx="22" cy="100" r="3"/></g><g fill="#8a8379" stroke="none"><circle cx="20" cy="36" r="5"/><circle cx="110" cy="28" r="4"/><circle cx="108" cy="104" r="4"/><circle cx="22" cy="100" r="3"/></g></g>
+  </g>
+</svg>

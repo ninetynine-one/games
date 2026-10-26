@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · icono de poder Recarga aérea: tolva con flecha amarilla hacia abajo y piezas cayendo dentro. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="431"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M24 64 h80 l-24 34 h-32z" fill="#6c7d86"/>
+    <path d="M84 64 h20 l-24 34 h-10z" fill="#56656d" stroke="none"/>
+    <path d="M24 64 h80 l-24 34 h-32z" fill="none"/>
+    <rect x="48" y="98" width="32" height="16" rx="3" fill="#4b4540"/>
+    <path d="M64 10 v32 M50 30 l14 14 l14 -14" fill="none" stroke="#1b1714" stroke-width="12"/>
+    <path d="M64 10 v32 M50 30 l14 14 l14 -14" fill="none" stroke="#f2b632" stroke-width="6"/>
+    <polygon points="32,44 40,48 40,56 32,60 24,56 24,48" fill="#c9c3b5"/>
+    <circle cx="98" cy="50" r="10" fill="#d8a24a"/><circle cx="98" cy="50" r="4" fill="#4b4540"/>
+  </g>
+</svg>

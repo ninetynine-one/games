@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · decoración de suelo: franjas de peligro amarillo/negro pintadas, gastadas y planas. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="315"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <defs><clipPath id="fz"><rect x="8" y="40" width="112" height="48" rx="3"/></clipPath></defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" opacity=".9">
+    <rect x="8" y="40" width="112" height="48" rx="3" fill="#d9a22e"/>
+    <g clip-path="url(#fz)" fill="#1b1714" stroke="none">
+      <path d="M0 88 l40 -48 h14 l-40 48z M28 88 l40 -48 h14 l-40 48z M56 88 l40 -48 h14 l-40 48z M84 88 l40 -48 h14 l-40 48z M112 88 l40 -48 h14 l-40 48z"/>
+      <!-- desgaste: pintura levantada -->
+      <path d="M18 48 q10 -4 14 4 q-6 8 -14 -4z M70 74 q12 -4 18 4 q-8 8 -18 -4z M96 46 q6 -2 8 4 q-4 4 -8 -4z M40 80 q4 -3 8 1 q-4 4 -8 -1z" fill="#3d3833" opacity=".85"/>
+    </g>
+    <rect x="8" y="40" width="112" height="48" rx="3" fill="none"/>
+    <path d="M24 60 l18 6 M86 52 l14 10" stroke="#3d3833" stroke-width="2" opacity=".7"/>
+  </g>
+</svg>

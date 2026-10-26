@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+  <!-- Fase 5 · Borde de hierba del sendero: flecos de musgo a lo largo del lado de arriba (se gira para cada lado que no es camino) -->
+  <defs><filter id="wob" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="55"/><feDisplacementMap in="SourceGraphic" scale="2"/></filter></defs>
+  <g filter="url(#wob)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-2 0 L98 0 L98 7 Q90 13 84 8 Q78 15 70 9 Q62 14 56 8 Q48 15 40 9 Q32 14 26 8 Q18 15 10 9 Q4 13 -2 8 Z" fill="#74843f"/>
+    <path d="M-2 7 Q4 13 10 9 Q18 15 26 8 Q32 14 40 9 Q48 15 56 8 Q62 14 70 9 Q78 15 84 8 Q90 13 98 7" fill="none" stroke="#4f5e2c" stroke-width="1.6"/>
+    <g fill="none" stroke="#8a9a4e" stroke-width="2"><path d="M18 14 l-2 4 M18 14 l1 5"/><path d="M62 14 l-2 4 M62 14 l2 5"/><path d="M88 12 l1 5"/></g>
+  </g>
+</svg>

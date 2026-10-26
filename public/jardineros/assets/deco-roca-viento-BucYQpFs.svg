@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Decorado nivel 4: roca árida con hierba doblada por el viento -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="43"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="64" cy="114" rx="58" ry="9" fill="#14110f" stroke="none" opacity="0.5"/>
+    <path d="M10 112 Q8 80 30 62 Q40 40 62 38 Q88 36 98 60 Q120 78 118 112 Z" fill="#9a8f94"/>
+    <path d="M80 42 Q100 50 100 62 Q118 80 116 111 L92 111 Q100 80 80 42 Z" fill="#7b7078" stroke="none"/>
+    <path d="M42 62 Q50 54 60 56 M30 96 Q44 88 56 94 M72 74 L66 90 L76 100" fill="none" stroke="#5f555d" stroke-width="2.6"/>
+    <path d="M44 48 Q52 42 62 42" fill="none" stroke="#c9c0c4" stroke-width="3"/>
+    <path d="M16 112 Q16 96 34 94 Q30 106 40 112 Z" fill="#c9b36a" stroke-width="2.6"/>
+    <path d="M12 112 Q12 94 4 82 M20 112 Q22 92 12 78 M28 112 Q32 94 24 82 M100 112 Q104 96 120 90 M108 112 Q114 100 126 98 M116 112 Q122 104 128 106" fill="none" stroke-width="7"/>
+    <path d="M12 112 Q12 94 4 82 M20 112 Q22 92 12 78 M28 112 Q32 94 24 82 M100 112 Q104 96 120 90 M108 112 Q114 100 126 98 M116 112 Q122 104 128 106" fill="none" stroke="#b6a458" stroke-width="3"/>
+    <path d="M4 40 Q20 34 34 40 M90 24 Q104 18 118 26" fill="none" stroke="#f2f0ea" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · carta: Sobrecarga del reactor. Núcleo cian que revienta en un rayo amarillo. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="213"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <circle cx="64" cy="66" r="56" fill="#2ee6d0" opacity=".18"/>
+  <ellipse cx="64" cy="117" rx="38" ry="7" fill="#000" opacity=".35"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M30 108 l8 -28 h52 l8 28z" fill="#5c564e"/>
+    <path d="M38 96 h52" fill="none" stroke-width="3"/>
+    <circle cx="64" cy="58" r="34" fill="#36322f"/>
+    <circle cx="64" cy="58" r="24" fill="#2ee6d0"/>
+    <circle cx="56" cy="50" r="6" fill="#d8fff8" stroke="none"/>
+    <path d="M70 18 l-20 42 h16 l-8 40 30 -50 h-17 l12 -32z" fill="#f2b632" stroke-width="5"/>
+    <path d="M18 40 l-10 -4 M110 40 l10 -4 M16 70 h-10 M112 70 h10" stroke="#f2b632" stroke-width="5"/>
+  </g>
+</svg>

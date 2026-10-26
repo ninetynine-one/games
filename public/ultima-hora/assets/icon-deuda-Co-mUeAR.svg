@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Deuda temporal: cracked hourglass with a red tag. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="22"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+
+    <path d="M44 22 C44 42 56 50 58 62 C56 74 44 82 44 104 L84 104 C84 82 72 74 70 62 C72 50 84 42 84 22 Z" fill="#a9d6e0"/>
+    <path d="M47 34 Q64 39 81 34 C79 46 68 52 64 58 C60 52 49 46 47 34 Z" fill="#e0a43a" stroke-width="2.4"/>
+    <path d="M64 58 L64 88" stroke="#e0a43a" stroke-width="2.6"/>
+    <path d="M46 103 Q64 84 82 103 Z" fill="#e0a43a" stroke-width="2.4"/>
+    <path d="M44 22 C44 42 56 50 58 62 C56 74 44 82 44 104 L84 104 C84 82 72 74 70 62 C72 50 84 42 84 22 Z" fill="none"/>
+    <path d="M74 40 L66 48 L72 54 L62 62 L68 70 L60 78" fill="none" stroke-width="2.4"/>
+    <path d="M34 12 L94 12 L94 23 L34 23 Z M34 103 L94 103 L94 114 L34 114 Z" fill="#b08a4a"/>
+    <path d="M36 23 L41 23 L41 103 L36 103 Z M87 23 L92 23 L92 103 L87 103 Z" fill="#8a6a3a" stroke-width="2.6"/>
+    <!-- red debt tag -->
+    <path d="M92 18 Q104 22 104 46" fill="none" stroke-width="2.2"/>
+    <path d="M94 50 L108 44 L120 66 L106 74 Z" fill="#c8463a"/>
+    <path d="M108 44 L120 66 L113 70 Z" fill="#9a2f28" stroke="none"/>
+    <path d="M94 50 L108 44 L120 66 L106 74 Z" fill="none"/>
+    <circle cx="103" cy="51" r="2.6" fill="#ece2c6" stroke-width="1.6"/>
+    <path d="M104 62 l8 -3" fill="none" stroke="#ece2c6" stroke-width="2.4"/>
+  </g>
+  <path d="M48 27 C48 36 51 41 53 44" fill="none" stroke="#fff" stroke-opacity="0.7" stroke-width="2" stroke-linecap="round"/>
+</svg>

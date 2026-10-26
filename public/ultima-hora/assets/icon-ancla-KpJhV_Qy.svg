@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Ancla de latón: brass anchor with a clock face. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="20"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+
+    <circle cx="64" cy="17" r="9" fill="none" stroke-width="9"/>
+    <circle cx="64" cy="17" r="9" fill="none" stroke="#e0b24a" stroke-width="4"/>
+    <path d="M24 76 Q28 110 64 110 Q100 110 104 76" fill="none" stroke-width="16"/>
+    <path d="M24 76 Q28 110 64 110 Q100 110 104 76" fill="none" stroke="#e0b24a" stroke-width="9"/>
+    <path d="M12 82 L24 66 L36 82 Z M92 82 L104 66 L116 82 Z" fill="#e0b24a" stroke-width="3"/>
+    <path d="M58 26 L70 26 L70 108 L58 108 Z" fill="#e0b24a"/>
+    <path d="M65 26 L70 26 L70 108 L65 108 Z" fill="#a97e2a" stroke="none"/>
+    <path d="M58 26 L70 26 L70 108 L58 108 Z" fill="none"/>
+    <path d="M36 32 L92 32 L92 41 L36 41 Z" fill="#c69a50" stroke-width="3"/>
+    <circle cx="64" cy="66" r="16" fill="#ece2c6" stroke-width="3.2"/>
+    <path d="M64 66 L64 56 M64 66 L71 70" fill="none" stroke-width="2.6"/>
+    <circle cx="64" cy="66" r="2" fill="#1b1714" stroke="none"/>
+  </g>
+</svg>

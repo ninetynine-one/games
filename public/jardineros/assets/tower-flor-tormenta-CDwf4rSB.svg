@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Flor Tormenta de polen: pétalos cargados de polen amarillo y chispas -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="51"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+    <path id="flor-petal" d="M0 0 Q-11 -16 -4 -34 Q0 -38 4 -34 Q11 -16 0 0 Z"/>
+    <path id="petal-long" d="M0 0 Q-12 -20 -2 -44 Q6 -40 7 -30 Q8 -14 0 0 Z"/>
+  </defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- macetero de piedra -->
+    <path d="M12 90 H116 V116 H12 Z" fill="#4c4844"/>
+    <path d="M12 104 H116 V116 H12 Z" fill="#3b3835" stroke="none"/>
+    <path d="M38 92 L36 102 L40 114 M90 92 L92 100 M70 106 L76 114" fill="none" stroke-width="2"/>
+    <path d="M12 30 H116 V92 H12 Z" fill="#76706a"/>
+    <path d="M104 32 H114 V90 H104 Z" fill="#5f5a55" stroke="none"/>
+    <path d="M23 40 H105 V82 H23 Z" fill="#2f2620"/>
+    <path d="M14 60 L20 62 M108 40 L104 46 M30 88 L36 86" fill="none" stroke-width="1.8"/>
+    <path d="M64 70 Q34 84 24 66 Q44 58 64 70 Z" fill="#6f8a54"/>
+    <path d="M64 70 Q94 86 104 64 Q84 58 64 70 Z" fill="#6f8a54"/>
+    <path d="M64 70 Q90 82 103 66 Q96 76 80 77 Z" fill="#55703f" stroke="none"/>
+    <path d="M30 68 Q46 70 60 70 M98 67 Q82 71 68 71" fill="none" stroke-width="2"/>
+    <path d="M64 74 Q60 62 64 50" fill="none" stroke-width="4"/>
+    <g transform="translate(64 46)">
+      <use href="#flor-petal" fill="#e9d27a" transform="rotate(0)"/>
+      <use href="#flor-petal" fill="#d9bd5a" transform="rotate(60)"/>
+      <use href="#flor-petal" fill="#c4a443" transform="rotate(120)"/>
+      <use href="#flor-petal" fill="#e9d27a" transform="rotate(180)"/>
+      <use href="#flor-petal" fill="#d9bd5a" transform="rotate(240)"/>
+      <use href="#flor-petal" fill="#c4a443" transform="rotate(300)"/>
+      <g fill="#fff3b0" stroke="none">
+        <circle cx="0" cy="-26" r="2.6"/><circle cx="22" cy="-13" r="2.6"/><circle cx="22" cy="13" r="2.6"/>
+        <circle cx="0" cy="26" r="2.6"/><circle cx="-22" cy="13" r="2.6"/><circle cx="-22" cy="-13" r="2.6"/>
+      </g>
+      <circle r="11" fill="#f0b43c"/>
+      <circle r="5" fill="#a86a1c" stroke="none"/>
+      <circle cx="-3" cy="-4" r="2.2" fill="#fff6d0" stroke="none"/>
+    </g>
+    <!-- chispas -->
+    <path d="M20 10 L26 18 L22 20 L28 28" fill="none" stroke="#f6e45a" stroke-width="3"/>
+    <path d="M106 8 L100 16 L105 18 L98 26" fill="none" stroke="#f6e45a" stroke-width="3"/>
+    <path d="M112 50 L104 54 L110 58" fill="none" stroke="#f6e45a" stroke-width="2.6"/>
+    <g stroke-width="1.6">
+      <circle cx="14" cy="40" r="3" fill="#f0d468"/><circle cx="34" cy="6" r="2.4" fill="#f0d468"/>
+      <circle cx="90" cy="6" r="2.6" fill="#f0d468"/><circle cx="116" cy="30" r="2.4" fill="#f0d468"/>
+    </g>
+    <circle cx="64" cy="8" r="2.2" fill="#b58ee6" stroke="none"/>
+  </g>
+</svg>

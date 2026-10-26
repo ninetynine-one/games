@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Bloque en ruina: broken crate pedestal, planks, bricks and a cracked gear. Restorable by Rebobinar. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="17"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <path d="M14 24 L114 23 L115 96 L13 97 Z" fill="none" stroke="#e0a43a" stroke-width="2.5" stroke-dasharray="7 6" stroke-linejoin="round" opacity="0.45"/>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- base slab survives, cracked band -->
+    <path d="M13 99 L115 98 L115 115 Q64 118 13 116 Z" fill="#2a2a31"/>
+    <path d="M13 102 L58 101 L56 108 L13 109 Z M64 101 L115 101 L115 107 L66 108 Z" fill="#8a6a3a" stroke-width="2.5"/>
+    <!-- broken stubs of the crate -->
+    <path d="M14 100 L14 58 L22 52 L27 64 L31 100 Z" fill="#4a4b54"/>
+    <path d="M14 58 L22 52 L25 60 L14 66 Z" fill="#9c7a42" stroke-width="2.5"/>
+    <path d="M98 100 L100 70 L108 64 L114 74 L115 100 Z" fill="#4a4b54"/>
+    <path d="M28 100 L30 84 L40 89 L48 78 L58 87 L70 80 L80 88 L90 81 L100 90 L100 100 Z" fill="#5b5c66"/>
+    <path d="M40 89 l4 6 M80 88 l-2 7" fill="none" stroke-width="1.8"/>
+    <!-- cracked gear leaning on the rubble -->
+    <path d="M73.8 69.9 L78.0 72.1 L76.8 78.2 L72.1 78.5 L71.8 78.9 L73.3 83.4 L68.1 86.8 L64.5 83.7 L64.1 83.8 L61.9 88.0 L55.8 86.8 L55.5 82.1 L55.1 81.8 L50.6 83.3 L47.2 78.1 L50.3 74.5 L50.2 74.1 L46.0 71.9 L47.2 65.8 L51.9 65.5 L52.2 65.1 L50.7 60.6 L55.9 57.2 L59.5 60.3 L59.9 60.2 L62.1 56.0 L68.2 57.2 L68.5 61.9 L68.9 62.2 L73.4 60.7 L76.8 65.9 L73.7 69.5 Z" fill="#b08a4a" stroke-width="3"/>
+    <circle cx="62" cy="72" r="5" fill="#6b5230" stroke-width="2.4"/>
+    <path d="M58 58 L62 66 L58 70 L62 72" fill="none" stroke-width="2.2"/>
+    <!-- scattered planks and bricks -->
+    <path d="M24 94 L66 80 L69 87 L27 101 Z" fill="#8a6a3a" stroke-width="3"/>
+    <path d="M32 92 l8 -3 M52 86 l6 -2" fill="none" stroke-width="1.6"/>
+    <path d="M70 96 L104 88 L106 95 L72 103 Z" fill="#7d6032" stroke-width="3"/>
+    <path d="M84 72 L98 70 L99 80 L85 82 Z" fill="#8c4f33" stroke-width="2.8"/>
+    <path d="M6 104 L18 100 L21 109 L9 113 Z" fill="#8c4f33" stroke-width="2.8"/>
+    <path d="M108 110 L120 108 L121 116 L109 118 Z" fill="#a5623f" stroke-width="2.8"/>
+    <g fill="#d4a640" stroke-width="1.6"><circle cx="44" cy="110" r="2.6"/><circle cx="92" cy="112" r="2.6"/><circle cx="34" cy="78" r="2.2"/></g>
+  </g>
+  <g fill="#cfc6b4" opacity="0.35">
+    <ellipse cx="34" cy="82" rx="14" ry="7"/><ellipse cx="94" cy="78" rx="12" ry="6"/><ellipse cx="64" cy="56" rx="10" ry="5"/>
+  </g>
+</svg>

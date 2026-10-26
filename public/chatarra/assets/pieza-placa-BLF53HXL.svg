@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · pieza: Placa de blindaje doblada y remachada. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="35"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <ellipse cx="64" cy="112" rx="50" ry="8" fill="#000" opacity=".35"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M12 36 L92 18 L118 40 L112 98 L30 110 L8 84 Z" fill="#5f7a8c"/>
+    <path d="M92 18 L118 40 L112 98 L84 102 Z" fill="#435868" stroke="none"/>
+    <path d="M12 36 L92 18 L118 40 L112 98 L30 110 L8 84 Z" fill="none"/>
+    <path d="M92 18 L84 102" stroke-width="5"/>
+    <circle cx="28" cy="48" r="6" fill="#c3ced5" stroke-width="4"/>
+    <circle cx="72" cy="38" r="6" fill="#c3ced5" stroke-width="4"/>
+    <circle cx="34" cy="90" r="6" fill="#c3ced5" stroke-width="4"/>
+    <circle cx="70" cy="90" r="6" fill="#c3ced5" stroke-width="4"/>
+    <path d="M100 52 l8 10 -6 4" fill="#c9652e" stroke-width="4"/>
+  </g>
+</svg>

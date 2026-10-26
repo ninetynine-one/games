@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Rebobinar: counter-clockwise amber arrow around a tiny clock hub. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="10"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+
+    <path d="M93.5 45.4 A36 36 0 1 0 96.6 81.2" fill="none" stroke-width="20"/>
+    <path d="M93.5 45.4 A36 36 0 1 0 96.6 81.2" fill="none" stroke="#e0a43a" stroke-width="12"/>
+    <path d="M103.4 66.7 L108.5 88.9 L83.1 77.1 Z" fill="#e0a43a"/>
+    <path d="M64 66 L64 52 M64 66 L54 72" fill="none" stroke="#e0a43a" stroke-width="5"/>
+    <circle cx="64" cy="66" r="5" fill="#e0a43a" stroke-width="3"/>
+  </g>
+</svg>

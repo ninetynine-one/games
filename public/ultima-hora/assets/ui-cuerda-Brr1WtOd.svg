@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Cuerda (currency): brass wind-up key. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="4"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+
+    <ellipse cx="38" cy="40" rx="24" ry="17" fill="#e0b24a"/>
+    <ellipse cx="90" cy="40" rx="24" ry="17" fill="#e0b24a"/>
+    <path d="M38 52 Q58 52 60 44 L60 50 Q50 58 30 56 Z M90 52 Q110 50 112 42 Q112 56 90 57 Z" fill="#a97e2a" stroke="none"/>
+    <ellipse cx="38" cy="40" rx="24" ry="17" fill="none"/>
+    <ellipse cx="90" cy="40" rx="24" ry="17" fill="none"/>
+    <ellipse cx="36" cy="40" rx="8" ry="5" fill="#a97e2a" stroke-width="2.6"/>
+    <ellipse cx="92" cy="40" rx="8" ry="5" fill="#a97e2a" stroke-width="2.6"/>
+    <path d="M56 54 L72 54 L72 60 L56 60 Z" fill="#c69a50" stroke-width="2.8"/>
+    <path d="M58 60 L70 60 L70 112 L58 112 Z" fill="#e0b24a"/>
+    <path d="M65 60 L70 60 L70 112 L65 112 Z" fill="#a97e2a" stroke="none"/>
+    <path d="M58 60 L70 60 L70 112 L58 112 Z" fill="none"/>
+    <path d="M70 88 L84 88 L84 96 L78 96 L78 102 L70 102 Z" fill="#c69a50" stroke-width="3"/>
+    <circle cx="64" cy="40" r="11" fill="#c69a50" stroke-width="3"/>
+  </g>
+  <path d="M26 32 Q32 27 40 28" fill="none" stroke="#fff3c4" stroke-width="3" stroke-linecap="round"/>
+</svg>

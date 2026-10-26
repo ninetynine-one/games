@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · enemigo: Grúa Recuperadora. Brazo articulado con gancho sobre base de orugas. Contorno claro. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="55"/><feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/></filter>
+    <filter id="rim" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144"><feMorphology in="SourceAlpha" operator="dilate" radius="3" result="d"/><feFlood flood-color="#f4efe6"/><feComposite in2="d" operator="in"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <ellipse cx="80" cy="115" rx="40" ry="6" fill="#000" opacity=".4"/>
+  <g filter="url(#rim)"><g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- cable y gancho -->
+    <path d="M28 28 V78" fill="none" stroke-width="3"/>
+    <circle cx="28" cy="84" r="7" fill="#d8453a" stroke-width="3"/>
+    <path d="M28 91 q0 12 -10 8" fill="none" stroke-width="5"/>
+    <!-- orugas -->
+    <rect x="56" y="94" width="62" height="20" rx="10" fill="#3a3d40"/>
+    <circle cx="68" cy="104" r="5" fill="#8f969a" stroke-width="3"/>
+    <circle cx="87" cy="104" r="5" fill="#8f969a" stroke-width="3"/>
+    <circle cx="106" cy="104" r="5" fill="#8f969a" stroke-width="3"/>
+    <!-- torreta -->
+    <rect x="64" y="70" width="46" height="28" rx="7" fill="#f1efe9"/>
+    <rect x="94" y="78" width="10" height="8" rx="3" fill="#1f2429" stroke-width="3"/>
+    <circle cx="99" cy="82" r="2.2" fill="#ff5a48" stroke="none"/>
+    <!-- brazo articulado -->
+    <path d="M84 76 L70 22 L28 28" fill="none" stroke-width="18"/>
+    <path d="M84 76 L70 22 L28 28" fill="none" stroke="#5c6166" stroke-width="10"/>
+    <circle cx="84" cy="76" r="8" fill="#d8453a"/>
+    <circle cx="70" cy="22" r="8" fill="#d8453a"/>
+    <circle cx="28" cy="28" r="6" fill="#d8453a"/>
+    <circle cx="84" cy="76" r="2.5" fill="#1b1714" stroke="none"/>
+    <circle cx="70" cy="22" r="2.5" fill="#1b1714" stroke="none"/>
+  </g></g>
+</svg>

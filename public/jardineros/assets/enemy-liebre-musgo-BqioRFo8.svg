@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Liebre de Musgo: rápida, cuerpo redondo cubierto de musgo, orejas largas -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="31"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+    </filter>
+  </defs>
+  <ellipse cx="64" cy="112" rx="30" ry="7" fill="#000" opacity="0.35"/>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- orejas -->
+    <path d="M44 50 Q30 22 38 8 Q50 14 56 46 Z" fill="#5a7040"/>
+    <path d="M44 44 Q38 26 41 16 Q48 22 51 42 Z" fill="#c9a0a0" stroke="none"/>
+    <path d="M70 46 Q80 14 98 14 Q100 30 80 52 Z" fill="#5a7040"/>
+    <path d="M76 44 Q84 24 94 20 Q94 30 81 46 Z" fill="#c9a0a0" stroke="none"/>
+    <!-- patas traseras -->
+    <path d="M88 96 Q108 98 112 110 Q96 114 82 108 Z" fill="#4b5e36"/>
+    <!-- cuerpo -->
+    <path d="M24 78 Q22 44 62 40 Q100 42 102 80 Q100 108 62 110 Q26 108 24 78 Z" fill="#6d8a4a"/>
+    <path d="M82 46 Q102 56 101 82 Q98 104 72 109 Q94 88 82 46 Z" fill="#55703a" stroke="none"/>
+    <!-- musgo -->
+    <path d="M34 54 Q38 46 46 50 Q52 44 58 50 Q50 58 42 56 Q38 60 34 54 Z" fill="#8aa660" stroke-width="2.4"/>
+    <path d="M78 52 Q84 46 90 52 Q94 58 86 60 Q80 60 78 52 Z" fill="#8aa660" stroke-width="2.4"/>
+    <circle cx="30" cy="66" r="2" fill="#a8bf88" stroke="none"/>
+    <circle cx="96" cy="70" r="2" fill="#a8bf88" stroke="none"/>
+    <!-- barriga -->
+    <path d="M50 98 Q52 92 63 92 Q76 92 76 99 Q74 106 63 106 Q52 106 50 98 Z" fill="#a8bf88" stroke="none"/>
+    <path d="M58 86 Q63 90 68 86" fill="none" stroke-width="2.4"/>
+    <!-- ojos grandes -->
+    <ellipse cx="50" cy="70" rx="9" ry="11" fill="#fff"/>
+    <ellipse cx="76" cy="70" rx="9" ry="11" fill="#fff"/>
+    <ellipse cx="52" cy="72" rx="5" ry="7" fill="#1b1714" stroke="none"/>
+    <ellipse cx="78" cy="72" rx="5" ry="7" fill="#1b1714" stroke="none"/>
+    <circle cx="50" cy="69" r="1.8" fill="#fff" stroke="none"/>
+    <circle cx="76" cy="69" r="1.8" fill="#fff" stroke="none"/>
+    <path d="M61 80 L64 83 L67 80 Z" fill="#c97a7a" stroke-width="2"/>
+    <!-- patas delanteras corriendo -->
+    <path d="M30 98 Q18 102 16 110 Q28 112 38 104 Z" fill="#4b5e36"/>
+    <!-- líneas de velocidad -->
+    <path d="M114 60 H124 M110 76 H122 M112 90 H120" fill="none" stroke="#e8dcc0" stroke-width="2.4"/>
+  </g>
+</svg>

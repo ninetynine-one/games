@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Pala (concepto herramientas.jpg, centro): mango de madera con asa en D y musgo, hoja de acero redondeada. Empuñadura en (24,104), apunta arriba a la derecha -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="37"/>
+      <feDisplacementMap in="SourceGraphic" scale="1.8"/>
+    </filter>
+  </defs>
+  <g filter="url(#wob)">
+    <g transform="translate(24 104) rotate(45)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+      <!-- asa en D -->
+      <path d="M-5 -6 Q-13 6 -11 18 Q0 22 11 18 Q13 6 5 -6 Z M-5 13 Q0 15 5 13 Q5 6 0 3 Q-5 6 -5 13 Z" fill="#b07a48" fill-rule="evenodd"/>
+            <!-- mango -->
+      <path d="M-4.5 -6 H4.5 V-62 H-4.5 Z" fill="#b07a48"/>
+      <path d="M1.5 -8 H4.5 V-60 H1.5 Z" fill="#8c5c34" stroke="none"/>
+      <path d="M-2 -40 l1 6 M-1 -22 l1 5" fill="none" stroke="#7a5030" stroke-width="1.6"/>
+      <path d="M-6 -4 Q-8 -12 -2 -12 Q2 -16 6 -11 Q10 -8 6 -4 Z" fill="#8cc63a"/>
+      <!-- hoja -->
+      <path d="M-17 -66 H17 Q21 -98 0 -110 Q-21 -98 -17 -66 Z" fill="#b4bcc0"/>
+      <path d="M4 -68 H15 Q17 -94 4 -104 Z" fill="#8e989e" stroke="none"/>
+      <path d="M0 -68 V-96" fill="none" stroke="#8e989e" stroke-width="2.4"/>
+      <path d="M-10 -82 Q-11 -92 -6 -98" fill="none" stroke="#eef2f3" stroke-width="2.6"/>
+      <!-- virola -->
+      <rect x="-6" y="-70" width="12" height="9" rx="2" fill="#9aa3a8"/>
+    </g>
+  </g>
+</svg>

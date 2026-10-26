@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+<linearGradient id="l4sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8aa6bb"/><stop offset="1" stop-color="#d8dcc6"/></linearGradient>
+<linearGradient id="l4wall" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3a3a3a"/><stop offset="1" stop-color="#5a5446"/></linearGradient>
+<linearGradient id="l4ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5f6f3a"/><stop offset="1" stop-color="#2f3a22"/></linearGradient>
+<radialGradient id="l4glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#c9a4ee" stop-opacity="0.8"/><stop offset="0.5" stop-color="#8a5bb5" stop-opacity="0.35"/><stop offset="1" stop-color="#8a5bb5" stop-opacity="0"/></radialGradient>
+<linearGradient id="l4leaf" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7a9a52"/><stop offset="1" stop-color="#4a6a2c"/></linearGradient>
+</defs>
+<g id="sky" data-name="Cielo">
+<rect id="lore4-cielo" data-name="Cielo del barranco" width="1600" height="900" fill="url(#l4sky)"/>
+<ellipse cx="800" cy="130" rx="260" ry="24" fill="#f3ead2" opacity="0.55"/><ellipse cx="1000" cy="240" rx="150" ry="16" fill="#f3ead2" opacity="0.4"/>
+<path d="M500 90 C620 70 700 110 820 90 M1100 170 C1180 150 1250 180 1330 160" fill="none" stroke="#f3ead2" stroke-width="5" stroke-linecap="round" opacity="0.6"/>
+</g>
+<g id="background" data-name="Fondo">
+<g id="lore4-paredes-lejanas" data-name="Paredes lejanas del barranco">
+<path d="M-20 0 L400 0 C360 200 420 340 380 520 L330 900 L-20 900 Z" fill="#6a6a62"/>
+<path d="M1620 0 L1200 0 C1240 200 1190 340 1230 520 L1280 900 L1620 900 Z" fill="#6a6a62"/>
+</g>
+</g>
+<g id="midground" data-name="Plano medio">
+<path id="lore4-pared-izq" data-name="Pared izquierda" d="M-20 0 L250 0 C210 180 270 330 220 500 C200 640 230 780 200 900 L-20 900 Z" fill="url(#l4wall)"/>
+<path id="lore4-pared-der" data-name="Pared derecha" d="M1620 0 L1350 0 C1390 180 1330 330 1380 500 C1400 640 1370 780 1400 900 L1620 900 Z" fill="url(#l4wall)"/>
+<g id="lore4-vegetacion" data-name="Matas del barranco">
+<path d="M230 520 C250 480 290 470 320 490 C330 520 300 540 260 540 Z" fill="#5f7f3a"/>
+<path d="M1370 560 C1350 520 1310 510 1280 530 C1270 560 1300 580 1340 580 Z" fill="#5f7f3a"/>
+<path d="M200 640 C220 600 262 596 290 618 C290 650 250 668 210 660 Z" fill="#7a9a52"/>
+</g>
+<path id="lore4-suelo" data-name="Suelo del refugio" d="M0 640 C300 600 600 620 800 610 C1000 620 1300 600 1600 640 L1600 900 L0 900 Z" fill="url(#l4ground)"/>
+</g>
+<g id="subject" data-name="Sujeto">
+<g id="lore4-cria-izq" data-name="Cria izquierda">
+<ellipse cx="610" cy="770" rx="72" ry="58" fill="#9cb08a"/>
+<ellipse cx="610" cy="788" rx="48" ry="34" fill="#f3ead2"/>
+<circle cx="578" cy="716" r="20" fill="#9cb08a"/><circle cx="642" cy="716" r="20" fill="#9cb08a"/><circle cx="578" cy="718" r="10" fill="#d9a7a0"/><circle cx="642" cy="718" r="10" fill="#d9a7a0"/>
+<path d="M592 750 C600 756 608 756 612 750 M612 750 C616 756 624 756 632 750" fill="none" stroke="#2f3a22" stroke-width="4" stroke-linecap="round"/>
+<circle cx="574" cy="764" r="9" fill="#8a5bb5"/><circle cx="596" cy="742" r="7" fill="#a780cf"/><circle cx="640" cy="752" r="8" fill="#8a5bb5"/>
+</g>
+<g id="lore4-cria-centro" data-name="Cria central">
+<ellipse cx="800" cy="790" rx="64" ry="50" fill="#9cb08a"/>
+<ellipse cx="800" cy="804" rx="42" ry="28" fill="#f3ead2"/>
+<circle cx="774" cy="744" r="18" fill="#9cb08a"/><circle cx="826" cy="744" r="18" fill="#9cb08a"/><circle cx="774" cy="746" r="9" fill="#d9a7a0"/><circle cx="826" cy="746" r="9" fill="#d9a7a0"/>
+<path d="M784 776 C792 782 798 782 800 776 M800 776 C802 782 808 782 816 776" fill="none" stroke="#2f3a22" stroke-width="4" stroke-linecap="round"/>
+<circle cx="784" cy="778" r="8" fill="#8a5bb5"/><circle cx="820" cy="772" r="7" fill="#a780cf"/>
+</g>
+<g id="lore4-cria-der" data-name="Cria derecha">
+<ellipse cx="990" cy="772" rx="70" ry="56" fill="#9cb08a"/>
+<ellipse cx="990" cy="790" rx="46" ry="32" fill="#f3ead2"/>
+<circle cx="960" cy="720" r="19" fill="#9cb08a"/><circle cx="1020" cy="720" r="19" fill="#9cb08a"/><circle cx="960" cy="722" r="9" fill="#d9a7a0"/><circle cx="1020" cy="722" r="9" fill="#d9a7a0"/>
+<path d="M972 754 C980 760 988 760 990 754 M990 754 C994 760 1000 760 1008 754" fill="none" stroke="#2f3a22" stroke-width="4" stroke-linecap="round"/>
+<circle cx="1022" cy="764" r="9" fill="#8a5bb5"/><circle cx="970" cy="744" r="7" fill="#a780cf"/>
+</g>
+<g id="lore4-criatura-grande" data-name="Criatura grande que las cubre">
+<ellipse cx="800" cy="520" rx="470" ry="150" fill="#4a5a34" opacity="0.0"/>
+<path d="M300 700 C290 560 380 440 520 410 C640 330 960 330 1080 410 C1220 440 1310 560 1300 700 C1300 770 1240 800 1180 790 C1100 740 1000 700 800 700 C600 700 500 740 420 790 C360 800 300 770 300 700 Z" fill="#6f8c52"/>
+<path d="M330 700 C330 580 410 480 540 450 C640 380 960 380 1060 450 C1190 480 1270 580 1270 700 C1200 650 1000 640 800 640 C600 640 400 650 330 700 Z" fill="#82a062"/>
+<path d="M360 780 C350 720 400 690 440 720 C460 760 440 800 400 800 Z" fill="#6f8c52"/>
+<path d="M1240 780 C1250 720 1200 690 1160 720 C1140 760 1160 800 1200 800 Z" fill="#6f8c52"/>
+<circle cx="560" cy="470" r="30" fill="#8a5bb5"/><circle cx="640" cy="420" r="38" fill="#8a5bb5"/><circle cx="750" cy="395" r="30" fill="#a780cf"/><circle cx="850" cy="392" r="40" fill="#8a5bb5"/><circle cx="960" cy="412" r="32" fill="#a780cf"/><circle cx="1050" cy="460" r="36" fill="#8a5bb5"/><circle cx="1130" cy="520" r="26" fill="#a780cf"/><circle cx="480" cy="540" r="26" fill="#a780cf"/>
+<circle cx="640" cy="420" r="14" fill="#c9a4ee"/><circle cx="850" cy="392" r="15" fill="#c9a4ee"/><circle cx="1050" cy="460" r="13" fill="#c9a4ee"/>
+<g id="lore4-cabeza" data-name="Cabeza gentil">
+<ellipse cx="410" cy="650" rx="110" ry="92" fill="#6f8c52"/>
+<circle cx="350" cy="580" r="34" fill="#6f8c52"/><circle cx="350" cy="582" r="18" fill="#d9a7a0"/>
+<path d="M350 636 C368 652 388 652 404 636 M408 636 C424 652 444 650 458 632" fill="none" stroke="#2f3a22" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="412" cy="690" rx="44" ry="26" fill="#f3ead2"/><circle cx="406" cy="680" r="9" fill="#2f3a22"/>
+</g>
+</g>
+</g>
+<g id="foreground" data-name="Primer plano">
+<g id="lore4-hoja-gigante" data-name="Hoja gigante">
+<path d="M1460 90 C1400 40 1140 20 800 90 C500 150 250 250 180 420 C300 360 560 300 800 280 C1100 262 1360 280 1480 370 C1500 270 1500 160 1460 90 Z" fill="url(#l4leaf)"/>
+<path d="M1460 90 C1400 40 1140 20 800 90 C500 150 250 250 180 420 C340 330 600 240 820 200 C1100 150 1340 120 1460 90 Z" fill="#8aaa60" opacity="0.5"/>
+<path d="M1470 110 C1100 180 600 250 200 420" fill="none" stroke="#3b5a28" stroke-width="10" stroke-linecap="round"/>
+<path d="M1000 160 C1060 200 1130 260 1170 330 M700 210 C750 250 800 290 830 330 M420 290 C450 330 470 360 480 400 M1280 130 C1330 180 1380 240 1420 330" fill="none" stroke="#3b5a28" stroke-width="5" stroke-linecap="round"/>
+</g>
+<path d="M-20 900 C0 840 60 800 130 790 C110 830 100 870 110 900 Z" fill="#3b5a28"/>
+<path d="M1620 900 C1600 840 1540 800 1470 790 C1490 830 1500 870 1490 900 Z" fill="#3b5a28"/>
+</g>
+<g id="light" data-name="Luz">
+<ellipse id="lore4-brillo-nido" data-name="Brillo violeta del nido" cx="800" cy="600" rx="620" ry="300" fill="url(#l4glow)" opacity="0.5"/>
+<g id="lore4-esporas" data-name="Esporas flotantes">
+<circle cx="440" cy="330" r="9" fill="#c9a4ee" opacity="0.85"/><circle cx="560" cy="250" r="6" fill="#e0c9f7" opacity="0.8"/><circle cx="700" cy="330" r="8" fill="#c9a4ee" opacity="0.8"/><circle cx="900" cy="320" r="7" fill="#e0c9f7" opacity="0.85"/><circle cx="1040" cy="290" r="10" fill="#c9a4ee" opacity="0.8"/><circle cx="1180" cy="380" r="6" fill="#e0c9f7" opacity="0.8"/><circle cx="1290" cy="470" r="8" fill="#c9a4ee" opacity="0.75"/><circle cx="1220" cy="620" r="5" fill="#e0c9f7" opacity="0.8"/><circle cx="360" cy="450" r="6" fill="#e0c9f7" opacity="0.8"/><circle cx="270" cy="560" r="8" fill="#c9a4ee" opacity="0.7"/><circle cx="600" cy="560" r="5" fill="#e0c9f7" opacity="0.7"/><circle cx="1120" cy="700" r="5" fill="#e0c9f7" opacity="0.7"/><circle cx="480" cy="690" r="4" fill="#e0c9f7" opacity="0.7"/>
+</g>
+</g>
+</svg>

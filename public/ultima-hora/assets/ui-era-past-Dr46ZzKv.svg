@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Era badge Pasado: brass medallion with a candle-flame sun. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="6"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+
+    <circle cx="64" cy="64" r="48" fill="#e0a43a"/>
+    <path d="M100 34 Q116 64 96 96 Q72 118 40 106 Q86 104 100 34 Z" fill="#b97f26" stroke="none"/>
+    <circle cx="64" cy="64" r="48" fill="none"/>
+    <circle cx="64" cy="64" r="37" fill="#c98a2a" stroke-width="2.6"/>
+    <path d="M90.1 71.0 L95.9 72.5 M83.1 83.1 L87.3 87.3 M71.0 90.1 L72.5 95.9 M57.0 90.1 L55.5 95.9 M44.9 83.1 L40.7 87.3 M37.9 71.0 L32.1 72.5 M37.9 57.0 L32.1 55.5 M44.9 44.9 L40.7 40.7 M57.0 37.9 L55.5 32.1 M71.0 37.9 L72.5 32.1 M83.1 44.9 L87.3 40.7 M90.1 57.0 L95.9 55.5" fill="none" stroke="#fff1c4" stroke-width="3.5"/>
+    <path d="M90.1 71.0 L95.9 72.5 M83.1 83.1 L87.3 87.3 M71.0 90.1 L72.5 95.9 M57.0 90.1 L55.5 95.9 M44.9 83.1 L40.7 87.3 M37.9 71.0 L32.1 72.5 M37.9 57.0 L32.1 55.5 M44.9 44.9 L40.7 40.7 M57.0 37.9 L55.5 32.1 M71.0 37.9 L72.5 32.1 M83.1 44.9 L87.3 40.7 M90.1 57.0 L95.9 55.5" fill="none" stroke-width="1.2" stroke-opacity="0"/>
+    <path d="M64 38 Q80 56 74 72 Q70 82 64 82 Q55 82 53 72 Q50 58 64 38 Z" fill="#ffcf5a" stroke-width="3"/>
+    <path d="M64 56 Q71 66 68 74 Q66 78 63 78 Q58 77 58 72 Q58 64 64 56 Z" fill="#fff1c4" stroke-width="2"/>
+  </g>
+</svg>

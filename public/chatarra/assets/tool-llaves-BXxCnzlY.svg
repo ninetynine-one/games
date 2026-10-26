@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · herramienta: Llaves multipropósito. Dos llaves en abanico; agarre en (40,96), apuntan arriba a la derecha. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="31"/><feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/></filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- llave de anilla, detrás -->
+    <g transform="translate(40 96) rotate(-68)">
+      <rect x="-6" y="-6" width="70" height="12" rx="6" fill="#8d979e"/>
+      <circle cx="72" cy="0" r="13" fill="#8d979e"/>
+      <circle cx="72" cy="0" r="5.5" fill="#3b3430" stroke-width="3"/>
+    </g>
+    <!-- llave fija, delante -->
+    <g transform="translate(40 96) rotate(-42)">
+      <rect x="-8" y="-7" width="80" height="14" rx="7" fill="#b7c0c6"/>
+      <path d="M16 0 h44" stroke="#7f8a90" stroke-width="3"/>
+      <path d="M70 -10 C72 -24 98 -26 102 -11 L89 -6 L89 6 L102 11 C98 26 72 24 70 10 Z" fill="#b7c0c6"/>
+      <path d="M76 -14 q8 -6 16 -2" fill="none" stroke="#e6ecef" stroke-width="2.5"/>
+    </g>
+  </g>
+</svg>

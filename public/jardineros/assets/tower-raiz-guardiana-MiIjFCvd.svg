@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Raíz Guardiana: tocón ancho de corteza con venas turquesa -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="56"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+    <path id="flor-petal" d="M0 0 Q-11 -16 -4 -34 Q0 -38 4 -34 Q11 -16 0 0 Z"/>
+    <path id="petal-long" d="M0 0 Q-12 -20 -2 -44 Q6 -40 7 -30 Q8 -14 0 0 Z"/>
+  </defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- bloque -->
+    <path d="M12 86 H116 V116 H12 Z" fill="#4c4844"/>
+    <path d="M12 102 H116 V116 H12 Z" fill="#3b3835" stroke="none"/>
+    <path d="M12 26 H116 V88 H12 Z" fill="#6a655f"/>
+    <path d="M104 28 H114 V86 H104 Z" fill="#57524d" stroke="none"/>
+    <path d="M20 34 H108 V80 H20 Z" fill="#2f2620" stroke-width="2.2"/>
+    <!-- raíces de apoyo -->
+    <path d="M24 86 Q14 96 10 110 M104 86 Q114 96 118 110 M50 92 Q48 104 52 114 M80 92 Q84 104 78 114" fill="none" stroke-width="11"/>
+    <path d="M24 86 Q14 96 10 110 M104 86 Q114 96 118 110 M50 92 Q48 104 52 114 M80 92 Q84 104 78 114" fill="none" stroke="#6b4a32" stroke-width="5"/>
+    <!-- tocón -->
+    <path d="M20 44 Q18 86 30 92 Q64 102 98 92 Q110 86 108 44 Z" fill="#6b4a32"/>
+    <path d="M90 50 Q100 70 98 90 Q104 86 106 70 Q106 54 104 46 Z" fill="#553a27" stroke="none"/>
+    <path d="M34 56 Q32 74 36 88 M50 60 Q48 78 52 94 M78 60 Q80 78 76 94 M94 56 Q96 72 92 88" fill="none" stroke-width="2.2"/>
+    <!-- venas turquesa -->
+    <path d="M42 58 Q46 70 42 84 M64 62 Q60 76 66 94 M86 58 Q82 70 88 82" fill="none" stroke="#3fc8b8" stroke-width="3"/>
+    <!-- cara superior: anillos -->
+    <ellipse cx="64" cy="44" rx="44" ry="16" fill="#a8845c"/>
+    <ellipse cx="64" cy="44" rx="32" ry="11" fill="none" stroke-width="2"/>
+    <ellipse cx="64" cy="44" rx="20" ry="7" fill="none" stroke-width="2"/>
+    <ellipse cx="64" cy="44" rx="8" ry="3" fill="#3fc8b8" stroke-width="2"/>
+    <path d="M64 44 L74 36 M64 44 L48 52" fill="none" stroke="#3fc8b8" stroke-width="2.4"/>
+    <!-- musgo y brote -->
+    <path d="M22 44 Q30 36 40 40 Q34 48 24 48 Z M88 54 Q98 50 106 54 Q100 58 90 58 Z" fill="#5a6b45" stroke-width="2"/>
+    <path d="M92 34 Q90 24 94 18" fill="none" stroke-width="3"/>
+    <path d="M94 22 Q104 12 110 18 Q104 26 94 22 Z" fill="#7d9a5a" stroke-width="2.4"/>
+    <circle cx="36" cy="70" r="2.2" fill="#d6fff7" stroke="none"/>
+    <circle cx="80" cy="76" r="2.2" fill="#d6fff7" stroke="none"/>
+  </g>
+</svg>

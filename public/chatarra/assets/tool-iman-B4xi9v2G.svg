@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · herramienta: Imán portátil. Herradura roja con puntas turquesa; agarre en la curva (40,96), abre arriba a la derecha. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="33"/><feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/></filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="translate(40 96) rotate(45)">
+      <path d="M-17 -74 V-22 A17 17 0 0 0 17 -22 V-74" fill="none" stroke-width="26"/>
+      <path d="M-17 -74 V-22 A17 17 0 0 0 17 -22 V-74" fill="none" stroke="#e0483a" stroke-width="18"/>
+      <path d="M-17 -56 V-74 M17 -56 V-74" fill="none" stroke="#3cc6b8" stroke-width="18" stroke-linecap="butt"/>
+      <circle cx="-17" cy="-74" r="9" fill="#3cc6b8" stroke="none"/>
+      <circle cx="17" cy="-74" r="9" fill="#3cc6b8" stroke="none"/>
+      <path d="M-26 -56 h18 M8 -56 h18" stroke-width="3"/>
+      <path d="M-21 -70 V-62 M-21 -46 V-28" fill="none" stroke="#fff" stroke-width="3" opacity=".7"/>
+      <!-- chispa de atracción -->
+      <path d="M0 -106 l4 9 9 -4 -4 9 9 4 -9 4 4 9 -9 -4 -4 9 -4 -9 -9 4 4 -9 -9 -4 9 -4 -4 -9 9 4z" fill="#f6d24a" stroke-width="3" transform="rotate(-45 0 -95)"/>
+    </g>
+  </g>
+</svg>

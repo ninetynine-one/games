@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <!-- Panel de madera con borde superior cubierto de musgo (botones principales). 9-slice con cortes de 48 px: marco de corteza de 20 px, musgo solo arriba (≤ 40 px), centro liso de madera media-oscura para texto crema -->
+  <!-- marco de corteza -->
+  <rect x="3" y="5" width="186" height="184" rx="22" fill="#3e2a1c" stroke="#1b1714" stroke-width="4"/>
+  <path d="M14 30 L12 60 M10 130 L13 160 M180 34 L178 64 M181 126 L179 156 M34 180 L64 182 M128 182 L158 180" fill="none" stroke="#2a1c12" stroke-width="3" stroke-linecap="round"/>
+  <path d="M8 26 Q8 9 26 9 M184 26 Q184 9 166 9" fill="none" stroke="#5a3e28" stroke-width="3" stroke-linecap="round"/>
+  <!-- tabla interior -->
+  <rect x="20" y="22" width="152" height="150" rx="10" fill="#6b4a2e" stroke="#1b1714" stroke-width="3"/>
+  <path d="M24 28 H168" fill="none" stroke="#8a6440" stroke-width="3" stroke-linecap="round" opacity="0.8"/>
+  <path d="M24 166 H168" fill="none" stroke="#4e3420" stroke-width="3" stroke-linecap="round"/>
+  <!-- vetas (solo en la banda del borde, horizontales para que estiren bien) -->
+  <path d="M26 38 Q60 35 96 38 T166 37 M26 156 Q70 159 110 156 T166 157" fill="none" stroke="#5a3d25" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <ellipse cx="34" cy="150" rx="5" ry="2.6" fill="none" stroke="#5a3d25" stroke-width="2" opacity="0.7"/>
+  <ellipse cx="160" cy="44" rx="4.5" ry="2.4" fill="none" stroke="#5a3d25" stroke-width="2" opacity="0.7"/>
+  <!-- clavos -->
+  <circle cx="30" cy="160" r="3" fill="#9aa3a8" stroke="#1b1714" stroke-width="2"/>
+  <circle cx="162" cy="160" r="3" fill="#9aa3a8" stroke="#1b1714" stroke-width="2"/>
+  <!-- musgo -->
+  <g stroke="#1b1714" stroke-width="3" stroke-linejoin="round">
+    <path d="M4 30 Q0 8 18 6 Q26 0 38 4 Q50 -2 62 4 Q76 0 88 4 Q100 -1 112 4 Q126 0 138 4 Q152 -1 164 4 Q178 2 184 10 Q192 16 188 28 Q186 36 180 30 Q176 38 170 30 Q164 34 160 26 Q152 30 148 22 Q140 26 134 20 Q126 24 120 18 Q112 22 106 18 Q98 24 92 18 Q84 22 78 18 Q70 24 64 18 Q56 24 50 20 Q44 30 38 24 Q32 34 26 26 Q20 36 16 28 Q8 38 4 30 Z" fill="#7fb83a"/>
+    <path d="M14 30 Q14 40 18 38 Q20 34 18 28 M174 32 Q176 40 179 38 Q181 34 178 28" fill="#6aa02e"/>
+    <path d="M12 12 Q20 7 30 8 M52 7 Q62 5 72 7 M110 7 Q122 5 132 7 M160 7 Q170 5 178 10" fill="none" stroke="#b4e070" stroke-width="2.4" stroke-linecap="round"/>
+    <circle cx="96" cy="10" r="3" fill="#f6efdc" stroke-width="2"/>
+    <circle cx="42" cy="12" r="2.4" fill="#f0c4d8" stroke-width="2"/>
+  </g>
+</svg>

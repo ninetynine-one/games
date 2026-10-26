@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · terreno: Cinta transportadora, una celda vista desde arriba. Sentido: hacia la derecha (chevrones = forma, no solo color). Sin muro: los enemigos la pisan. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="41"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <clipPath id="belt"><rect x="0" y="50" width="128" height="58"/></clipPath>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- banda -->
+    <rect x="0" y="46" width="128" height="66" fill="#2b2826" stroke="none"/>
+    <g clip-path="url(#belt)">
+      <path d="M-6 52 l20 27 -20 27 M26 52 l20 27 -20 27 M58 52 l20 27 -20 27 M90 52 l20 27 -20 27 M122 52 l20 27 -20 27" fill="none" stroke="#4b4540" stroke-width="9"/>
+      <path d="M58 60 l14 19 -14 19" fill="none" stroke="#f2b632" stroke-width="6"/>
+    </g>
+    <!-- rieles laterales -->
+    <rect x="-4" y="34" width="136" height="16" rx="3" fill="#5f7a8c"/>
+    <rect x="-4" y="108" width="136" height="14" rx="3" fill="#435868"/>
+    <circle cx="16" cy="42" r="3" fill="#1b1714" stroke="none"/><circle cx="64" cy="42" r="3" fill="#1b1714" stroke="none"/><circle cx="112" cy="42" r="3" fill="#1b1714" stroke="none"/>
+    <circle cx="16" cy="115" r="3" fill="#1b1714" stroke="none"/><circle cx="64" cy="115" r="3" fill="#1b1714" stroke="none"/><circle cx="112" cy="115" r="3" fill="#1b1714" stroke="none"/>
+    <path d="M-4 50 h136 M-4 108 h136" stroke-width="3"/>
+  </g>
+</svg>

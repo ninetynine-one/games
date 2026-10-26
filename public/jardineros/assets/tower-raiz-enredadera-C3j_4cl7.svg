@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Raíz Enredadera: maraña de lianas que se desborda del macetero -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="55"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+    <path id="flor-petal" d="M0 0 Q-11 -16 -4 -34 Q0 -38 4 -34 Q11 -16 0 0 Z"/>
+    <path id="petal-long" d="M0 0 Q-12 -20 -2 -44 Q6 -40 7 -30 Q8 -14 0 0 Z"/>
+  </defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- bloque -->
+    <path d="M12 86 H116 V116 H12 Z" fill="#4c4844"/>
+    <path d="M12 102 H116 V116 H12 Z" fill="#3b3835" stroke="none"/>
+    <path d="M12 26 H116 V88 H12 Z" fill="#6a655f"/>
+    <path d="M104 28 H114 V86 H104 Z" fill="#57524d" stroke="none"/>
+    <path d="M20 34 H108 V80 H20 Z" fill="#2f2620" stroke-width="2.2"/>
+    <path d="M24 70 Q40 40 64 58 Q88 76 104 44" fill="none" stroke-width="12"/>
+    <path d="M24 70 Q40 40 64 58 Q88 76 104 44" fill="none" stroke="#5c7a3e" stroke-width="6"/>
+    <path d="M28 40 Q50 74 72 46 Q90 26 104 70" fill="none" stroke-width="12"/>
+    <path d="M28 40 Q50 74 72 46 Q90 26 104 70" fill="none" stroke="#6b8a47" stroke-width="6"/>
+    <path d="M30 80 Q20 96 6 98 Q2 110 12 118" fill="none" stroke-width="10"/>
+    <path d="M30 80 Q20 96 6 98 Q2 110 12 118" fill="none" stroke="#5c7a3e" stroke-width="5"/>
+    <path d="M96 82 Q110 94 122 92 Q126 104 116 112" fill="none" stroke-width="10"/>
+    <path d="M96 82 Q110 94 122 92 Q126 104 116 112" fill="none" stroke="#6b8a47" stroke-width="5"/>
+    <path d="M62 84 Q58 102 66 120" fill="none" stroke-width="9"/>
+    <path d="M62 84 Q58 102 66 120" fill="none" stroke="#5c7a3e" stroke-width="4"/>
+    <path d="M46 34 Q40 16 52 8 Q60 4 58 14" fill="none" stroke-width="9"/>
+    <path d="M46 34 Q40 16 52 8 Q60 4 58 14" fill="none" stroke="#6b8a47" stroke-width="4"/>
+    <path d="M90 34 Q100 16 114 18" fill="none" stroke-width="9"/>
+    <path d="M90 34 Q100 16 114 18" fill="none" stroke="#5c7a3e" stroke-width="4"/>
+    <!-- hojas -->
+    <g stroke-width="2.4">
+      <path d="M52 8 Q44 0 38 6 Q44 12 52 8 Z" fill="#9cc06a"/>
+      <path d="M114 18 Q122 10 126 18 Q120 24 114 18 Z" fill="#7d9a5a"/>
+      <path d="M6 98 Q0 90 -2 98 Q2 104 6 98 Z" fill="#9cc06a"/>
+      <path d="M44 56 Q34 48 30 56 Q38 62 44 56 Z" fill="#7d9a5a"/>
+      <path d="M84 52 Q94 44 98 52 Q90 58 84 52 Z" fill="#9cc06a"/>
+      <path d="M66 120 Q58 114 56 122 Q62 126 66 120 Z" fill="#7d9a5a"/>
+      <path d="M116 112 Q124 108 124 116 Q118 120 116 112 Z" fill="#9cc06a"/>
+    </g>
+    <!-- zarcillos -->
+    <path d="M72 46 Q78 38 74 34 Q70 34 72 38 M24 70 Q16 64 18 58 Q22 56 22 60" fill="none" stroke-width="2.2"/>
+    <circle cx="64" cy="58" r="2.4" fill="#5ff0dc" stroke="none"/>
+    <circle cx="40" cy="44" r="2.4" fill="#b58ee6" stroke="none"/>
+  </g>
+</svg>

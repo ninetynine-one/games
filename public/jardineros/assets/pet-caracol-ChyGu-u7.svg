@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Mascota: caracol de musgo, con la concha cubierta de musgo y una setita -->
+  <defs><filter id="wob" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="73"/><feDisplacementMap in="SourceGraphic" scale="2.2"/></filter></defs>
+  <ellipse cx="64" cy="114" rx="28" ry="6" fill="#000" opacity="0.35"/>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M14 104 Q16 92 36 90 L92 90 Q108 92 110 104 Q64 112 14 104 Z" fill="#c9b08a"/>
+    <path d="M24 96 Q20 70 34 66 Q44 64 46 90" fill="#c9b08a"/>
+    <path d="M30 66 L24 48 M40 66 L44 48" fill="none" stroke-width="3"/>
+    <circle cx="24" cy="46" r="5" fill="#fff"/><circle cx="44" cy="46" r="5" fill="#fff"/>
+    <circle cx="25" cy="47" r="2.6" fill="#1b1714" stroke="none"/><circle cx="45" cy="47" r="2.6" fill="#1b1714" stroke="none"/>
+    <path d="M30 80 Q35 84 40 80" fill="none" stroke-width="2.4"/>
+    <path d="M50 92 Q44 54 74 46 Q106 44 108 72 Q108 94 84 94 Q62 92 64 74 Q66 62 78 64 Q88 68 84 78" fill="#7a9a4a"/>
+    <path d="M58 58 Q66 48 80 48 Q96 50 102 62" fill="none" stroke="#a8c878" stroke-width="5"/>
+    <path d="M80 46 L80 34" fill="none" stroke-width="3"/>
+    <path d="M70 36 Q80 22 92 36 Z" fill="#c95a4a"/>
+    <circle cx="78" cy="32" r="2" fill="#fff" stroke="none"/><circle cx="86" cy="33" r="1.6" fill="#fff" stroke="none"/>
+  </g>
+</svg>

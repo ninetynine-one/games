@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Station wall segment (map edges): red brick with a stone coping on the bottom edge; FloorView rotates it so the coping faces the platform. Not buildable, blocks paths. Seamless left-right. -->
+  <rect width="128" height="128" fill="#5a2e22"/>
+  <rect x="-62" y="2" width="60" height="22" rx="2" fill="#ad5038"/>
+  <rect x="-60" y="3" width="54" height="3" fill="#d9805e" opacity="0.6"/>
+  <rect x="2" y="2" width="60" height="22" rx="2" fill="#b9583c"/>
+  <rect x="4" y="3" width="54" height="3" fill="#d9805e" opacity="0.6"/>
+  <rect x="66" y="2" width="60" height="22" rx="2" fill="#9e4430"/>
+  <rect x="68" y="3" width="54" height="3" fill="#d9805e" opacity="0.6"/>
+  <rect x="-30" y="28" width="60" height="22" rx="2" fill="#c0603f"/>
+  <rect x="-28" y="29" width="54" height="3" fill="#d9805e" opacity="0.6"/>
+  <rect x="34" y="28" width="60" height="22" rx="2" fill="#9e4430"/>
+  <rect x="36" y="29" width="54" height="3" fill="#d9805e" opacity="0.6"/>
+  <rect x="98" y="28" width="60" height="22" rx="2" fill="#c0603f"/>
+  <rect x="100" y="29" width="54" height="3" fill="#d9805e" opacity="0.6"/>
+  <circle cx="120.5" cy="44.4" r="1.6" fill="#7a3424" opacity="0.6"/>
+  <rect x="-62" y="54" width="60" height="22" rx="2" fill="#b9583c"/>
+  <rect x="-60" y="55" width="54" height="3" fill="#d9805e" opacity="0.6"/>
+  <rect x="2" y="54" width="60" height="22" rx="2" fill="#9e4430"/>
+  <rect x="4" y="55" width="54" height="3" fill="#d9805e" opacity="0.6"/>
+  <rect x="66" y="54" width="60" height="22" rx="2" fill="#a84a34"/>
+  <rect x="68" y="55" width="54" height="3" fill="#d9805e" opacity="0.6"/>
+  <circle cx="110.3" cy="59.5" r="1.6" fill="#7a3424" opacity="0.6"/>
+  <rect x="-30" y="80" width="60" height="22" rx="2" fill="#9e4430"/>
+  <rect x="-28" y="81" width="54" height="3" fill="#d9805e" opacity="0.6"/>
+  <rect x="34" y="80" width="60" height="22" rx="2" fill="#ad5038"/>
+  <rect x="36" y="81" width="54" height="3" fill="#d9805e" opacity="0.6"/>
+  <rect x="98" y="80" width="60" height="22" rx="2" fill="#ad5038"/>
+  <rect x="100" y="81" width="54" height="3" fill="#d9805e" opacity="0.6"/>
+  <rect x="-2" y="104" width="132" height="24" fill="#a9a196" stroke="#1b1714" stroke-width="3.5"/>
+  <rect x="-2" y="107" width="132" height="4" fill="#d2cbbf"/>
+  <path d="M32 106 V126 M96 106 V126" stroke="#6f685e" stroke-width="2.4"/>
+  <path d="M0 126 H128" stroke="#1b1714" stroke-width="3"/>
+</svg>

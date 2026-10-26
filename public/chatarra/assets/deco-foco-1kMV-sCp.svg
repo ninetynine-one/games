@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · decoración: foco de pared (paisaje.jpg), bombilla amarilla grande en un brazo de tubo, mirando a la sala (derecha). -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="303"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <radialGradient id="gw"><stop offset="0" stop-color="#ffe070" stop-opacity=".7"/><stop offset="1" stop-color="#ffe070" stop-opacity="0"/></radialGradient>
+  </defs>
+  <circle cx="76" cy="64" r="56" fill="url(#gw)"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- placa de pared y brazo -->
+    <rect x="6" y="44" width="20" height="40" rx="4" fill="#6c7d86"/>
+    <circle cx="16" cy="52" r="2.4" fill="#1b1714" stroke="none"/><circle cx="16" cy="76" r="2.4" fill="#1b1714" stroke="none"/>
+    <path d="M24 64 H50" stroke-width="13"/><path d="M24 64 H50" stroke="#8f9ca4" stroke-width="6"/>
+    <!-- casquillo -->
+    <rect x="46" y="50" width="16" height="28" rx="4" fill="#5f6e78"/>
+    <!-- bombilla -->
+    <circle cx="82" cy="64" r="26" fill="#ffd23c"/>
+    <circle cx="86" cy="68" r="16" fill="#fff0a0" stroke="none"/>
+    <ellipse cx="74" cy="54" rx="7" ry="5" fill="#fffbe0" stroke="none"/>
+  </g>
+</svg>

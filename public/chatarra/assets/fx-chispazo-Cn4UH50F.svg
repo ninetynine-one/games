@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · fx: chispazo de la placa. Rayo en zigzag amarillo con halo turquesa, de izquierda a derecha. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144"><feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="39"/><feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/></filter>
+  </defs>
+  <g filter="url(#sk)" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M6 64 L28 50 L40 74 L60 46 L72 78 L92 52 L104 72 L122 62" stroke="#3cc6b8" stroke-width="16" opacity=".45"/>
+    <path d="M6 64 L28 50 L40 74 L60 46 L72 78 L92 52 L104 72 L122 62" stroke="#1b1714" stroke-width="10"/>
+    <path d="M6 64 L28 50 L40 74 L60 46 L72 78 L92 52 L104 72 L122 62" stroke="#f6d24a" stroke-width="5"/>
+    <path d="M6 64 L28 50 L40 74 L60 46 L72 78 L92 52 L104 72 L122 62" stroke="#fffbe6" stroke-width="1.6"/>
+    <path d="M60 46 l-6 -18 M72 78 l4 18 M92 52 l10 -14" stroke="#1b1714" stroke-width="7"/>
+    <path d="M60 46 l-6 -18 M72 78 l4 18 M92 52 l10 -14" stroke="#5fe8da" stroke-width="3"/>
+  </g>
+</svg>

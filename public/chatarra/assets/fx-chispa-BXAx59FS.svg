@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · fx: chispa de impacto. Núcleo claro y chispas en trazo. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="87"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <defs><radialGradient id="gw"><stop offset="0" stop-color="#ffd24a" stop-opacity=".55"/><stop offset="1" stop-color="#ffd24a" stop-opacity="0"/></radialGradient></defs>
+  <circle cx="64" cy="64" r="40" fill="url(#gw)"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M57.2 49.5 L47.1 27.7" stroke-width="10"/><path d="M57.2 49.5 L47.1 27.7" stroke="#ffd24a" stroke-width="5"/>
+    <path d="M70.8 49.5 L83.4 22.3" stroke-width="10"/><path d="M70.8 49.5 L83.4 22.3" stroke="#ffd24a" stroke-width="5"/>
+    <path d="M79.0 58.5 L99.7 51.0" stroke-width="10"/><path d="M79.0 58.5 L99.7 51.0" stroke="#ffd24a" stroke-width="5"/>
+    <path d="M78.5 70.8 L91.2 76.7" stroke-width="10"/><path d="M78.5 70.8 L91.2 76.7" stroke="#ffd24a" stroke-width="5"/>
+    <g><g fill="#1b1714" stroke="#1b1714" stroke-width="8"><circle cx="64" cy="64" r="11"/><circle cx="70" cy="60" r="6"/></g><g fill="#ffd24a" stroke="none"><circle cx="64" cy="64" r="11"/><circle cx="70" cy="60" r="6"/></g></g>
+    <g fill="#fff6c8" stroke="none"><circle cx="63" cy="63" r="6"/></g>
+    <circle cx="98" cy="38" r="3" fill="#ffd24a" stroke-width="2.6"/><circle cx="30" cy="92" r="2.6" fill="#ffd24a" stroke-width="2.4"/>
+  </g>
+</svg>

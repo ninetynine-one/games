@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Street facade along the wall (level 4, lore 4): gabled house front with warm lit windows (Pasado). -->
+  <ellipse cx="64" cy="118" rx="52" ry="6" fill="#000" opacity="0.35"/>
+  <g stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="16" y="40" width="96" height="76" rx="3" fill="#c08a5a"/>
+    <path d="M8 44 L64 8 L120 44 Z" fill="#7a3a2a"/>
+    <rect x="28" y="54" width="26" height="24" rx="2" fill="#f6c862"/>
+    <rect x="74" y="54" width="26" height="24" rx="2" fill="#f6c862"/>
+    <path d="M41 54 V78 M28 66 H54 M87 54 V78 M74 66 H100" fill="none" stroke-width="2.4"/>
+    <path d="M52 116 V94 Q64 84 76 94 V116" fill="#5a3a22"/>
+    <circle cx="64" cy="28" r="7" fill="#f6c862" stroke-width="2.4"/>
+  </g>
+  <path d="M30 56 L36 56" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round" opacity="0.7"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · icono: rayo tachado (torre sin conexión). -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="95"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M74 8 L30 70 H58 L46 120 L98 52 H68 Z" fill="#2ee6d0"/>
+    <path d="M20 20 L108 108" stroke-width="20"/>
+    <path d="M20 20 L108 108" stroke="#e04a32" stroke-width="9"/>
+  </g>
+</svg>

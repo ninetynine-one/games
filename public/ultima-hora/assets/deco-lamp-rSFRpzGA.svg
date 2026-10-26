@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Street lamp on the wall (level 3, 4): iron bracket and a lantern with warm glass. -->
+  <ellipse cx="64" cy="116" rx="26" ry="6" fill="#000" opacity="0.35"/>
+  <g stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="56" y="70" width="16" height="44" rx="3" fill="#3d3a3a"/>
+    <rect x="48" y="106" width="32" height="10" rx="3" fill="#2c2a2a"/>
+    <path d="M40 30 L88 30 L80 72 L48 72 Z" fill="#f6c862"/>
+    <path d="M50 34 L56 34 L54 68 L50 68 Z" fill="#fff2c0" stroke="none"/>
+    <path d="M64 30 V72" fill="none" stroke-width="2.4"/>
+    <path d="M34 30 L94 30 L64 10 Z" fill="#3d3a3a"/>
+    <circle cx="64" cy="8" r="5" fill="#c89a3c" stroke-width="2.4"/>
+    <path d="M44 72 H84" stroke-width="5"/>
+  </g>
+</svg>

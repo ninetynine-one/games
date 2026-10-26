@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+  <!-- Nube: cielo nocturno con nubes oscuras y suaves -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="10"/>
+      <feDisplacementMap in="SourceGraphic" scale="2"/>
+    </filter>
+  </defs>
+  <rect width="96" height="96" fill="#1a2032"/>
+  <g filter="url(#wob)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-8 30 Q2 18 18 24 Q28 12 44 20 Q54 14 62 24 Q70 34 56 40 Q40 46 24 40 Q6 44 -8 36 Z" fill="#2a3249"/>
+    <path d="M40 74 Q50 62 66 68 Q76 58 92 66 Q106 64 104 78 Q100 90 82 86 Q66 94 52 86 Q36 86 40 74 Z" fill="#2a3249"/>
+    <path d="M-8 80 Q0 70 14 76 Q20 88 6 92 Q-4 94 -8 88 Z" fill="#262d43"/>
+    <path d="M12 26 Q20 22 28 24 M50 70 Q58 66 66 68" fill="none" stroke="#3a4566" stroke-width="2"/>
+    <path d="M70 34 Q80 30 92 34" fill="none" stroke="#2a3249" stroke-width="5" opacity="0.6"/>
+    <circle cx="80" cy="12" r="1.2" fill="#c8d2e8"/><circle cx="28" cy="60" r="1" fill="#c8d2e8"/><circle cx="88" cy="50" r="1.4" fill="#c8d2e8" opacity="0.8"/>
+  </g>
+</svg>

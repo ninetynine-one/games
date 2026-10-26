@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Fase 5 · Decorado nivel 2: tocón de corteza con musgo encima y un tronco caído al lado -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="71"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="64" cy="114" rx="58" ry="9" fill="#14110f" stroke="none" opacity="0.5"/>
+    <path d="M6 112 Q4 96 12 92 L70 92 Q78 100 74 112 Z" fill="#7a5534"/>
+    <ellipse cx="72" cy="102" rx="8" ry="10" fill="#c99a62"/>
+    <ellipse cx="72" cy="102" rx="4" ry="5" fill="none" stroke="#8a6438" stroke-width="2"/>
+    <path d="M18 98 L52 98 M14 106 L46 106" fill="none" stroke="#5a3e28" stroke-width="2.4"/>
+    <path d="M54 112 L56 50 Q58 42 70 42 L104 42 Q116 42 116 52 L118 112 Z" fill="#8a6038"/>
+    <path d="M66 58 L66 108 M84 54 L84 108 M102 58 L102 108" fill="none" stroke="#5a3e28" stroke-width="2.6"/>
+    <ellipse cx="86" cy="44" rx="30" ry="10" fill="#d8b07a"/>
+    <ellipse cx="86" cy="44" rx="18" ry="6" fill="none" stroke="#9a6e40" stroke-width="2"/>
+    <ellipse cx="86" cy="44" rx="8" ry="3" fill="none" stroke="#9a6e40" stroke-width="2"/>
+    <path d="M56 46 Q60 30 76 34 Q86 26 98 32 Q114 30 116 46 Q104 40 92 46 Q80 38 68 46 Q62 42 56 46 Z" fill="#6e9446"/>
+    <path d="M12 92 Q20 84 30 90 Q40 84 46 92 Z" fill="#6e9446" stroke-width="2.6"/>
+    <path d="M110 108 Q120 92 124 96 M116 110 Q124 100 128 104" fill="none" stroke="#8dbd78" stroke-width="3"/>
+  </g>
+</svg>

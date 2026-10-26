@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · obstáculo fijo: chatarra apilada con un bidón. Ocupa una celda; no se construye encima ni se rompe. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="52"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <ellipse cx="64" cy="122" rx="58" ry="6" fill="#000" opacity=".35"/>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- chapas apiladas al fondo -->
+    <path d="M14 70 L40 40 L98 34 L118 62 L116 112 L12 114 Z" fill="#4b4540"/>
+    <path d="M24 64 L52 46 L96 48" fill="none" stroke-width="3"/>
+    <path d="M70 36 L104 22 L114 40" fill="#5f7a8c"/>
+    <!-- neumático tumbado -->
+    <ellipse cx="88" cy="96" rx="28" ry="14" fill="#2b2826"/>
+    <ellipse cx="88" cy="94" rx="12" ry="5" fill="#141110"/>
+    <!-- bidón oxidado -->
+    <path d="M22 58 h40 v54 q-20 8 -40 0 Z" fill="#c9652e"/>
+    <path d="M50 58 h12 v54 q-6 3 -12 4 Z" fill="#8f4422" stroke="none"/>
+    <path d="M22 58 h40 v54 q-20 8 -40 0 Z" fill="none"/>
+    <ellipse cx="42" cy="58" rx="20" ry="7" fill="#d98a52"/>
+    <ellipse cx="34" cy="57" rx="4" ry="2" fill="#1b1714" stroke="none"/>
+    <path d="M22 76 q20 6 40 0 M22 96 q20 6 40 0" fill="none" stroke-width="3"/>
+    <!-- franja de peligro en una chapa -->
+    <path d="M70 66 h40 v10 h-40z" fill="#f2b632" stroke-width="3"/>
+    <path d="M76 76 l8 -10 M90 76 l8 -10 M104 76 l6 -8" stroke-width="3"/>
+    <!-- tubo doblado -->
+    <path d="M96 52 q10 -20 24 -18" fill="none" stroke-width="9"/><path d="M96 52 q10 -20 24 -18" fill="none" stroke="#8f887b" stroke-width="4"/>
+  </g>
+</svg>

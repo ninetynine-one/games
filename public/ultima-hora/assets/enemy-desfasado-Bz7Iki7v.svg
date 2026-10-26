@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Desfasado: hooded pilgrim one instant ahead of its own shadow (offset twin outline). Faces left.
+       The game draws it at ~40% opacity with dashed outline while out of its era. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="9"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <ellipse cx="70" cy="114" rx="30" ry="6" fill="#000" opacity="0.3"/>
+  <!-- the lagging shadow-self, offset right -->
+  <path d="M50 110 Q42 70 58 48 Q76 28 96 48 Q112 70 106 110 Z" fill="#8fe3ee" opacity="0.28" stroke="#5fd4e6" stroke-width="3" stroke-dasharray="6 5"/>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- cloak -->
+    <path d="M34 110 Q26 70 42 48 Q60 28 80 48 Q96 70 90 110 L82 105 L74 111 L66 105 L58 111 L50 105 L42 111 Z" fill="#6e6480"/>
+    <path d="M80 48 Q96 70 90 110 L82 105 L74 111 Q82 80 74 52 Z" fill="#574e68" stroke="none"/>
+    <path d="M34 110 Q26 70 42 48 Q60 28 80 48 Q96 70 90 110 L82 105 L74 111 L66 105 L58 111 L50 105 L42 111 Z" fill="none"/>
+    <!-- hood opening -->
+    <path d="M44 66 Q46 46 62 44 Q78 46 80 66 Q62 76 44 66 Z" fill="#241f2c"/>
+    <!-- clock-face mask: hands point to two different hours -->
+    <circle cx="62" cy="61" r="12" fill="#ece2c6" stroke-width="3"/>
+    <path d="M62 61 L62 52 M62 61 L69 64" fill="none" stroke-width="2.4"/>
+    <path d="M62 61 L54 56" fill="none" stroke="#5fd4e6" stroke-width="2.4"/>
+    <circle cx="62" cy="61" r="2" fill="#1b1714"/>
+    <!-- staff with hanging lantern-clock -->
+    <path d="M30 40 L28 108" fill="none" stroke="#7a5232" stroke-width="5"/>
+    <path d="M30 40 L28 108" fill="none" stroke-width="1.5"/>
+    <path d="M30 42 Q22 44 22 52" fill="none" stroke-width="2.4"/>
+    <rect x="15" y="52" width="14" height="16" rx="3" fill="#e0a43a" stroke-width="2.8"/>
+    <path d="M18 60 h8" fill="none" stroke-width="2"/>
+    <circle cx="36" cy="78" r="5" fill="#574e68" stroke-width="2.8"/>
+  </g>
+  <!-- phase sparkle -->
+  <path d="M100 30 l3 7 l7 3 l-7 3 l-3 7 l-3 -7 l-7 -3 l7 -3 Z" fill="#a8f0f7" stroke="#1b1714" stroke-width="2.4" stroke-linejoin="round"/>
+</svg>

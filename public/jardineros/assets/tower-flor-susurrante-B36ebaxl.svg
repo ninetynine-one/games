@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Flor Susurrante: macetero de piedra + flor radial de pétalos bruma -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="11"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+    <path id="flor-petal" d="M0 0 Q-11 -16 -4 -34 Q0 -38 4 -34 Q11 -16 0 0 Z"/>
+  </defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- macetero de piedra -->
+    <path d="M12 90 H116 V116 H12 Z" fill="#4c4844"/>
+    <path d="M12 104 H116 V116 H12 Z" fill="#3b3835" stroke="none"/>
+    <path d="M38 92 L36 102 L40 114 M90 92 L92 100 M70 106 L76 114" fill="none" stroke-width="2"/>
+    <path d="M12 30 H116 V92 H12 Z" fill="#76706a"/>
+    <path d="M104 32 H114 V90 H104 Z" fill="#5f5a55" stroke="none"/>
+    <path d="M23 40 H105 V82 H23 Z" fill="#2f2620"/>
+    <path d="M14 60 L20 62 M108 40 L104 46 M30 88 L36 86" fill="none" stroke-width="1.8"/>
+    <!-- hojas -->
+    <path d="M64 70 Q34 84 24 66 Q44 58 64 70 Z" fill="#6f8a54"/>
+    <path d="M64 70 Q94 86 104 64 Q84 58 64 70 Z" fill="#6f8a54"/>
+    <path d="M64 70 Q90 82 103 66 Q96 76 80 77 Z" fill="#55703f" stroke="none"/>
+    <path d="M30 68 Q46 70 60 70 M98 67 Q82 71 68 71" fill="none" stroke-width="2"/>
+    <!-- tallo -->
+    <path d="M64 74 Q60 62 64 50" fill="none" stroke-width="4"/>
+    <!-- pétalos -->
+    <g transform="translate(64 46)">
+      <use href="#flor-petal" fill="#d6e4ea" transform="rotate(0)"/>
+      <use href="#flor-petal" fill="#c3d6df" transform="rotate(60)"/>
+      <use href="#flor-petal" fill="#a9c0cc" transform="rotate(120)"/>
+      <use href="#flor-petal" fill="#a9c0cc" transform="rotate(180)"/>
+      <use href="#flor-petal" fill="#c3d6df" transform="rotate(240)"/>
+      <use href="#flor-petal" fill="#d6e4ea" transform="rotate(300)"/>
+      <g fill="#b58ee6" stroke="none">
+        <circle cx="0" cy="-30" r="3"/>
+        <circle cx="26" cy="-15" r="3"/>
+        <circle cx="26" cy="15" r="3"/>
+        <circle cx="0" cy="30" r="3"/>
+        <circle cx="-26" cy="15" r="3"/>
+        <circle cx="-26" cy="-15" r="3"/>
+      </g>
+      <circle r="11" fill="#3fc8b8"/>
+      <circle r="5" fill="#1f7f7a" stroke="none"/>
+      <circle cx="-3" cy="-4" r="2.2" fill="#d6fff7" stroke="none"/>
+    </g>
+    <!-- corrientes de viento -->
+    <path d="M90 10 Q104 6 110 14 Q114 22 104 22" fill="none" stroke="#e8dcc0" stroke-width="2.6"/>
+    <path d="M10 30 Q18 22 30 26" fill="none" stroke="#e8dcc0" stroke-width="2.6"/>
+    <path d="M100 30 Q112 30 118 24" fill="none" stroke="#e8dcc0" stroke-width="2.2"/>
+    <circle cx="112" cy="40" r="2.4" fill="#d6e4ea" stroke-width="1.6"/>
+    <circle cx="18" cy="12" r="2" fill="#d6e4ea" stroke="none"/>
+  </g>
+</svg>

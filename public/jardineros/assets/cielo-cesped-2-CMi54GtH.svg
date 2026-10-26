@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+  <!-- Concepto fase 4 · Jardín (variante): musgo con hojitas de salvia y un brote -->
+  <defs><filter id="wob" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="32"/><feDisplacementMap in="SourceGraphic" scale="2"/></filter></defs>
+  <rect width="96" height="96" fill="#6e9446"/>
+  <g filter="url(#wob)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 30 Q48 18 66 28 Q72 46 50 50 Q28 48 30 30 Z" fill="#5f8a3c" opacity="0.5"/>
+    <path d="M2 70 Q14 62 28 68 Q30 84 14 86 Q2 84 2 70 Z" fill="#83a95a" opacity="0.45"/>
+    <path d="M66 74 Q80 66 94 74 Q92 90 78 90 Q66 88 66 74 Z" fill="#5f8a3c" opacity="0.5"/>
+    <path d="M14 18 Q20 10 26 18 Q20 24 14 18 Z" fill="#9fbf86" stroke="#1b1714" stroke-width="1"/>
+    <path d="M76 40 Q84 32 90 40 Q84 46 76 40 Z" fill="#9fbf86" stroke="#1b1714" stroke-width="1"/>
+    <g fill="none" stroke="#a6c77a" stroke-width="2"><path d="M50 70 l-3 -7 M50 70 l1 -8 M50 70 l5 -6"/><path d="M84 14 l-3 -7 M84 14 l1 -8"/><path d="M8 46 l-2 -6 M8 46 l2 -7"/></g>
+    <g fill="#f4ecd4" stroke="#1b1714" stroke-width="1"><circle cx="58" cy="86" r="2.4"/><circle cx="40" cy="10" r="2.2"/></g>
+  </g>
+</svg>

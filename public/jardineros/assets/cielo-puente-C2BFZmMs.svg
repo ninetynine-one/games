@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">
+  <!-- Concepto fase 4 · Puente vegetal colgante por el que llega la horda desde otras islas (fondo transparente: se ve el cielo) -->
+  <defs><filter id="wob" x="-10%" y="-10%" width="120%" height="120%"><feTurbulence type="fractalNoise" baseFrequency="0.06" numOctaves="2" seed="37"/><feDisplacementMap in="SourceGraphic" scale="2"/></filter></defs>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M16 0 Q12 48 18 96 M80 0 Q84 48 78 96" fill="none" stroke="#5a7a3a" stroke-width="7"/>
+    <path d="M16 0 Q12 48 18 96 M80 0 Q84 48 78 96" fill="none" stroke="#7fae4e" stroke-width="3"/>
+    <g fill="#9a6a42"><path d="M18 6 H78 V20 H18 Z"/><path d="M17 28 H79 V42 H17 Z"/><path d="M17 50 H80 V64 H17 Z"/><path d="M18 72 H79 V86 H18 Z"/></g>
+    <g fill="none" stroke="#7a5434" stroke-width="2"><path d="M30 10 H64 M28 34 H60 M34 56 H70 M28 78 H62"/></g>
+    <path d="M10 40 Q4 52 10 60 M86 20 Q92 30 88 40" fill="none" stroke="#7fae4e" stroke-width="3"/>
+    <path d="M6 58 Q2 66 8 70 Q12 64 6 58 Z" fill="#9cc45a"/>
+  </g>
+</svg>

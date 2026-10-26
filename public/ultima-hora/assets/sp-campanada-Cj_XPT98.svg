@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Campanada forzada: bronze bell mid-swing with amber (past) and cyan (present) sound waves. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="49"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+    </filter>
+  </defs>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- sound waves: amber left, cyan right -->
+    <path d="M22 50 Q12 66 22 84 M11 40 Q0 66 11 94" fill="none" stroke-width="9"/>
+    <path d="M22 50 Q12 66 22 84 M11 40 Q0 66 11 94" fill="none" stroke="#f0b43c" stroke-width="4"/>
+    <path d="M106 50 Q116 66 106 84 M117 40 Q128 66 117 94" fill="none" stroke-width="9"/>
+    <path d="M106 50 Q116 66 106 84 M117 40 Q128 66 117 94" fill="none" stroke="#52d3ee" stroke-width="4"/>
+    <g transform="translate(64 66) scale(0.84) translate(-64 -62) rotate(-12 64 18)">
+      <!-- yoke -->
+      <circle cx="64" cy="18" r="7" fill="none" stroke-width="7"/>
+      <circle cx="64" cy="18" r="7" fill="none" stroke="#a07a40" stroke-width="3"/>
+      <!-- clapper swung out -->
+      <path d="M64 70 L80 104" fill="none" stroke-width="6"/>
+      <circle cx="81" cy="106" r="8" fill="#8a5428" stroke-width="3"/>
+      <!-- bell -->
+      <path d="M38 88 Q36 32 64 26 Q92 32 90 88 L102 96 L26 96 Z" fill="#c0803c"/>
+      <path d="M74 29 Q92 38 90 88 L102 96 L84 96 Q84 50 74 29 Z" fill="#8a5428" stroke="none"/>
+      <path d="M38 88 Q36 32 64 26 Q92 32 90 88 L102 96 L26 96 Z" fill="none"/>
+      <path d="M24 94 L104 94 L104 102 L24 102 Z" fill="#d89a52" stroke-width="3"/>
+      <path d="M40 72 Q64 78 88 72" fill="none" stroke-width="2.4"/>
+      <path d="M52 50 L76 50" fill="none" stroke-width="2.4"/>
+    </g>
+  </g>
+  <path d="M48 46 Q46 58 49 70" fill="none" stroke="#ffe0a8" stroke-width="3.5" stroke-linecap="round"/>
+</svg>

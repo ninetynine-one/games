@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Bloque sincronizado: crate with a double rivet, half amber (Pasado) half cyan (Presente). -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="18"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+  </defs>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+
+    <path d="M16 100 L112 99 L112 114 Q64 117 16 115 Z" fill="#2a2a31"/>
+    <path d="M17 26 L111 25 L112 102 L16 103 Z" fill="#4a4b54"/>
+    <path d="M27 35 L101 34 L102 93 L26 94 Z" fill="#5b5c66" stroke-width="2.5"/>
+    <path d="M17 26 L31 26 L31 40 L17 40 Z M97 25 L111 25 L111 39 L97 39 Z M16 89 L30 89 L30 103 L16 103 Z M98 88 L112 88 L112 102 L98 102 Z" fill="#9c7a42" stroke-width="2.5"/>
+    <circle cx="51" cy="64" r="21" fill="#e0a43a"/>
+    <circle cx="77" cy="64" r="21" fill="#5fd4e6"/>
+    <path d="M64 47.4 A21 21 0 0 0 64 80.6 A21 21 0 0 0 64 47.4 Z" fill="#a9c9a0" stroke-width="2.6"/>
+    <circle cx="51" cy="64" r="6" fill="#7a4e1a" stroke-width="2.6"/>
+    <circle cx="77" cy="64" r="6" fill="#2a6a78" stroke-width="2.6"/>
+  </g>
+</svg>

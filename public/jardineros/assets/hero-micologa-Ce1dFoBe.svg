@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Micóloga (concepto micologa.jpg): sombrero-hongo violeta con manchas turquesa, chaqueta crema, bolsa con frascos, farol violeta en la mano izquierda. Mano derecha libre en (88,92) -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="41"/>
+      <feDisplacementMap in="SourceGraphic" scale="2"/>
+    </filter>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#c9a0ff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#9a5cf0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="64" cy="116" rx="26" ry="6" fill="#000" opacity="0.3"/>
+  <circle cx="29" cy="104" r="14" fill="url(#glow)"/>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- botas y pantalón -->
+    <path d="M47 106 Q45 115 55 115 H63 V106 Z" fill="#4e382e"/>
+    <path d="M66 106 V115 H74 Q84 115 81 106 Z" fill="#4e382e"/>
+    <path d="M49 95 L47 107 H63 L64 99 L65 107 H81 L79 95 Z" fill="#8c6250"/>
+    <path d="M71 97 L73 106 H80 L78 96 Z" fill="#74503f" stroke="none"/>
+    <!-- pelo por detrás -->
+    <path d="M36 52 Q32 70 36 80 Q42 84 46 78 L46 56 Z" fill="#5a3a2a"/>
+    <path d="M92 52 Q96 70 92 80 Q86 84 82 78 L82 56 Z" fill="#5a3a2a"/>
+    <!-- brazo izquierdo con el farol -->
+    <path d="M50 77 Q38 80 33 90 L42 96 Q45 89 52 86 Z" fill="#efe2c2"/>
+    <circle cx="36" cy="94" r="5" fill="#f6d9bf"/>
+    <path d="M30 95 Q29 92 31 90" fill="none" stroke-width="2"/>
+    <path d="M30 97 V99" fill="none" stroke-width="2"/>
+    <path d="M24 102 Q24 98 30 98 Q36 98 36 102 V107 Q36 110 30 110 Q24 110 24 107 Z" fill="#8a56c8"/>
+    <ellipse cx="30" cy="104.5" rx="2.6" ry="3" fill="#e8dcff" stroke="none"/>
+    <path d="M23 110 H37" fill="none" stroke="#4a2f72" stroke-width="3.5"/>
+    <!-- brazo derecho, mano libre en (88,92) -->
+    <path d="M77 76 Q90 78 93 89 L83 93 Q81 88 75 86 Z" fill="#efe2c2"/>
+    <path d="M84 87 L92 85" fill="none" stroke="#c9b48c" stroke-width="2.6"/>
+    <circle cx="88" cy="92" r="5" fill="#f6d9bf"/>
+    <!-- chaqueta crema -->
+    <path d="M47 76 Q44 90 48 98 H80 Q84 90 81 76 Q64 70 47 76 Z" fill="#efe2c2"/>
+    <path d="M58 76 L60 97 H68 L70 76 Q64 74 58 76 Z" fill="#f8f1de" stroke-width="2.4"/>
+    <path d="M73 80 Q80 82 80 94 L79 97 H74 Q77 88 73 80 Z" fill="#d9c8a2" stroke="none"/>
+    <rect x="71" y="84" width="7" height="5" rx="1" fill="none" stroke="#c9b48c" stroke-width="2"/>
+    <path d="M48 94 H80 V98.5 H48 Z" fill="#5e4434" stroke-width="2.6"/>
+    <!-- bandolera y bolsa con frascos -->
+    <path d="M78 76 L50 96" fill="none" stroke="#7a5236" stroke-width="5.5"/>
+    <path d="M78 76 L50 96" fill="none" stroke="#9a6c44" stroke-width="2"/>
+    <path d="M45 90 l2 -8 l3 0 l1 8 Z" fill="#a8d8c8" stroke-width="2.2"/>
+    <path d="M51 90 l2 -9 l3 0 l1 9 Z" fill="#a8d8c8" stroke-width="2.2"/>
+    <circle cx="47.7" cy="88" r="1.6" fill="#5e9a3a" stroke="none"/>
+    <circle cx="54" cy="87.5" r="1.6" fill="#5e9a3a" stroke="none"/>
+    <path d="M41 90 H59 Q60 104 50 105 Q40 104 41 90 Z" fill="#9a6c44"/>
+    <path d="M41 90 H59 Q58 96 50 96 Q42 96 41 90 Z" fill="#7a5236" stroke-width="2.6"/>
+    <circle cx="50" cy="95" r="1.6" fill="#4e382e" stroke="none"/>
+    <!-- broche del cuello -->
+    <circle cx="64" cy="77" r="2.4" fill="#b8c4c8" stroke-width="2"/>
+    <!-- cabeza -->
+    <path d="M40 54 Q40 36 64 36 Q88 36 88 54 Q88 76 64 76 Q40 76 40 54 Z" fill="#f6d9bf"/>
+    <path d="M84 56 Q87 68 78 73 Q72 76 66 75 Q82 68 84 56 Z" fill="#ebc4a4" stroke="none"/>
+    <!-- flequillo -->
+    <path d="M40 58 Q38 44 50 43 H78 Q90 44 88 58 Q86 52 83 52 L81 47 Q78 52 73 49 Q70 52 66 48 Q60 53 54 48 Q50 53 45 50 Q42 53 40 58 Z" fill="#5a3a2a"/>
+    <!-- cara -->
+    <ellipse cx="54" cy="59" rx="3.8" ry="4.6" fill="#1b1714" stroke="none"/>
+    <ellipse cx="74" cy="59" rx="3.8" ry="4.6" fill="#1b1714" stroke="none"/>
+    <path d="M50 55 l-2 -1.5 M78 55 l2 -1.5" fill="none" stroke-width="1.8"/>
+    <circle cx="52.8" cy="57.3" r="1.5" fill="#fff" stroke="none"/>
+    <circle cx="72.8" cy="57.3" r="1.5" fill="#fff" stroke="none"/>
+    <ellipse cx="46" cy="66" rx="4.5" ry="3" fill="#f0a088" stroke="none" opacity="0.75"/>
+    <ellipse cx="82" cy="66" rx="4.5" ry="3" fill="#f0a088" stroke="none" opacity="0.75"/>
+    <path d="M60 66 Q64 70 68 66" fill="none" stroke="#b0503c" stroke-width="2.4"/>
+    <!-- sombrero-hongo -->
+    <path d="M16 44 Q24 52 64 52 Q104 52 112 44 Q104 38 64 38 Q24 38 16 44 Z" fill="#ddd2d6"/>
+    <path d="M30 44 L34 49 M42 43 L44 50 M54 42 L55 51 M74 42 L73 51 M86 43 L84 50 M98 44 L94 49" fill="none" stroke="#a89aa4" stroke-width="1.8"/>
+    <path d="M10 42 Q8 8 64 6 Q120 8 118 42 Q114 46 106 44 Q90 38 64 38 Q38 38 22 44 Q14 46 10 42 Z" fill="#8a56c8"/>
+    <path d="M90 12 Q118 20 118 42 Q114 46 106 44 Q108 26 90 12 Z" fill="#7444ae" stroke="none"/>
+    <path d="M20 28 Q30 14 50 10" fill="none" stroke="#a97ee0" stroke-width="3"/>
+    <ellipse cx="40" cy="22" rx="6" ry="4.5" fill="#5fe0e0" stroke-width="2.4"/>
+    <ellipse cx="62" cy="16" rx="5" ry="3.8" fill="#5fe0e0" stroke-width="2.4"/>
+    <ellipse cx="86" cy="22" rx="7" ry="5" fill="#5fe0e0" stroke-width="2.4"/>
+    <ellipse cx="24" cy="34" rx="4" ry="3" fill="#5fe0e0" stroke-width="2.2"/>
+    <ellipse cx="62" cy="31" rx="5.5" ry="3.8" fill="#5fe0e0" stroke-width="2.4"/>
+    <ellipse cx="104" cy="34" rx="4.5" ry="3.2" fill="#5fe0e0" stroke-width="2.2"/>
+  </g>
+</svg>
