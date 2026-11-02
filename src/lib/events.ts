@@ -74,3 +74,21 @@ export function isSameOrigin(request: Request, origin: string) {
   if (header) return header === origin
   return request.headers.get("sec-fetch-site") === "same-origin"
 }
+
+// Las apps de Capacitor (iOS: capacitor://localhost, Android: https://localhost) envían desde su propio origen.
+// Solo se acepta con la cabecera Origin; es telemetría anónima, no una credencial.
+const APP_ORIGINS = ["capacitor://localhost", "https://localhost"]
+
+export function appOrigin(request: Request) {
+  const header = request.headers.get("origin")
+  return header && APP_ORIGINS.includes(header) ? header : null
+}
+
+export const isAllowedOrigin = (request: Request, origin: string) =>
+  isSameOrigin(request, origin) || appOrigin(request) !== null
+
+// CORS solo para las apps; el propio sitio no lo necesita.
+export function corsHeaders(request: Request): Record<string, string> {
+  const app = appOrigin(request)
+  return app ? { "Access-Control-Allow-Origin": app, Vary: "Origin" } : {}
+}
