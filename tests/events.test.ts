@@ -1,7 +1,13 @@
 import assert from "node:assert/strict"
 import { test } from "node:test"
 
-import { isSameOrigin, parseBatch } from "../src/lib/events.ts"
+import {
+  appOrigin,
+  corsHeaders,
+  isAllowedOrigin,
+  isSameOrigin,
+  parseBatch,
+} from "../src/lib/events.ts"
 
 const slugs = ["jardineros", "chatarra"] as const
 const uuid = "3f1c2a4e-8b7d-4c3a-9e2f-1a2b3c4d5e6f"
@@ -59,4 +65,28 @@ test("only same origin", () => {
   assert.ok(!isSameOrigin(req({ origin: "https://evil.example" }), origin))
   assert.ok(isSameOrigin(req({ "sec-fetch-site": "same-origin" }), origin))
   assert.ok(!isSameOrigin(req({}), origin))
+})
+
+test("Capacitor app origins are allowed, others are not", () => {
+  const req = (origin?: string) =>
+    new Request("https://games.example/api/events", {
+      method: "POST",
+      headers: origin ? { origin } : {},
+    })
+  const site = "https://games.example"
+  assert.ok(isAllowedOrigin(req("capacitor://localhost"), site))
+  assert.ok(isAllowedOrigin(req("https://localhost"), site))
+  assert.ok(!isAllowedOrigin(req("https://evil.example"), site))
+  assert.ok(!isAllowedOrigin(req(), site))
+  assert.equal(appOrigin(req("http://localhost")), null)
+})
+
+test("CORS headers only for app origins", () => {
+  const req = (origin: string) =>
+    new Request("https://games.example/api/events", { headers: { origin } })
+  assert.equal(
+    corsHeaders(req("capacitor://localhost"))["Access-Control-Allow-Origin"],
+    "capacitor://localhost"
+  )
+  assert.deepEqual(corsHeaders(req("https://games.example")), {})
 })
