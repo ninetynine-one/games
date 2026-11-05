@@ -93,3 +93,17 @@ test("only session_start gets the context, overriding the client", () => {
   assert.equal(out[0].data.device, "mobile")
   assert.deepEqual(out[1].data, {})
 })
+
+test("session_start from a Capacitor app shows as App <platform>, not as the WebView's Chrome", () => {
+  const [e] = withDevice(
+    [{ type: "session_start", data: { platform: "android" } }],
+    headers({ "user-agent": ANDROID_REDUCED })
+  )
+  assert.equal(e.data.browser, "App Android")
+  assert.equal(e.data.os, "Android")
+  const [web] = withDevice(
+    [{ type: "session_start", data: { platform: "web" } }],
+    headers({ "user-agent": ANDROID_REDUCED })
+  )
+  assert.equal(web.data.browser, "Chrome")
+})

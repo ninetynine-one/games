@@ -11,6 +11,9 @@ export const site = {
   privacy: "https://ninetynineone.studio/privacidad",
   email: "hola@ninetynineone.studio",
   legalName: "Ninety Nine One SpA",
+  location: "Santiago de Chile",
+  // Contacto de la política de privacidad de los juegos (provisorio).
+  privacyEmail: "soy@eduardoalvarez.dev",
 }
 
 // Cada juego vive en public/<slug>/ (scripts/sync-game.sh). Añadir uno es

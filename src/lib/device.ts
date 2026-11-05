@@ -70,12 +70,26 @@ export function deviceContext(headers: HeaderBag) {
   }
 }
 
+// En las apps (Capacitor) el User-Agent del WebView se ve igual que Chrome en
+// Android; el juego manda su plataforma y aquí la mostramos como "navegador".
+const appBrowser = (platform: unknown) =>
+  platform === "android"
+    ? { browser: "App Android" }
+    : platform === "ios"
+      ? { browser: "App iOS" }
+      : {}
+
 // Solo session_start lleva el contexto; pisa lo que haya mandado el cliente.
 export function withDevice<
   T extends { type: string; data: Record<string, unknown> },
 >(events: T[], headers: HeaderBag): T[] {
   const context = deviceContext(headers)
   return events.map((e) =>
-    e.type === "session_start" ? { ...e, data: { ...e.data, ...context } } : e
+    e.type === "session_start"
+      ? {
+          ...e,
+          data: { ...e.data, ...context, ...appBrowser(e.data.platform) },
+        }
+      : e
   )
 }
