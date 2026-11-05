@@ -3,6 +3,7 @@ import { Image } from "astro:assets"
 
 import Layout from "@/layouts/Layout.astro"
 import ThemeImage from "@/components/ThemeImage.astro"
+import ThemeToggle from "@/components/ThemeToggle.astro"
 import { SubscribeForm } from "@/components/SubscribeForm"
 import { buttonVariants } from "@/components/ui/button"
 import { games, site } from "@/data/games"
@@ -34,6 +35,7 @@ const year = new Date().getFullYear()
       >
         Avísame
       </a>
+      <ThemeToggle />
     </nav>
   </header>
 
