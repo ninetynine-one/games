@@ -1,0 +1,177 @@
+---
+import Layout from "@/layouts/Layout.astro"
+import ThemeImage from "@/components/ThemeImage.astro"
+import { games, site } from "@/data/games"
+import logo from "@/assets/logo/nno-horizontal.svg"
+import logoDark from "@/assets/logo/nno-horizontal-dark.svg"
+
+const updated = "4 de noviembre de 2026"
+const mail = `mailto:${site.privacyEmail}`
+---
+
+<Layout
+  title={`Privacidad de los juegos — ${site.name}`}
+  description={`Qué datos tratan los juegos de ${site.legalName}, en el navegador y en las apps, para qué y cómo pedir que los borremos.`}
+>
+  <header class="border-b bg-muted/85 dark:bg-background/85">
+    <nav class="container-page flex h-18 items-center" aria-label="Principal">
+      <a href="/" class="flex shrink-0">
+        <ThemeImage
+          light={logo}
+          dark={logoDark}
+          alt={site.name}
+          loading="eager"
+          class="h-7 w-auto"
+        />
+      </a>
+    </nav>
+  </header>
+
+  <main class="container-page py-14 md:py-20">
+    <article class="mx-auto flex max-w-3xl flex-col gap-8 text-body [&_a]:text-primary [&_a]:underline [&_h2]:mb-3 [&_h2]:text-2xl [&_h2]:tracking-display [&_h2]:text-foreground [&_li]:ml-5 [&_li]:list-disc [&_p+p]:mt-3 [&_section]:text-[17px] [&_section]:leading-7">
+      <header class="flex flex-col gap-3">
+        <h1 class="text-4xl tracking-display text-balance text-foreground md:text-5xl">
+          Privacidad de los juegos
+        </h1>
+        <p class="text-sm text-muted-foreground">
+          Última actualización: {updated}
+        </p>
+        <p>
+          Esta política cubre {games.map((g) => g.title).join(", ")}, tanto
+          jugados en el navegador como en las apps de Android (y de iOS cuando
+          estén disponibles).
+        </p>
+      </header>
+
+      <section>
+        <h2>Quiénes somos</h2>
+        <p>
+          Los juegos son de {site.legalName}, un estudio de software en{" "}
+          {site.location}. Somos responsables de los datos que se tratan en
+          ellos. Para cualquier consulta de privacidad, escríbanos a{" "}
+          <a href={mail}>{site.privacyEmail}</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>Lo que se guarda en su dispositivo</h2>
+        <p>
+          Su progreso, sus récords, sus ajustes, su decisión sobre los datos de
+          partida y un identificador aleatorio se guardan solo en su dispositivo
+          (en el almacenamiento local del navegador o de la app). No hay cuenta
+          ni registro. Si borra los datos del sitio en el navegador, o los datos
+          o desinstala la app, el juego empieza de cero con un identificador
+          nuevo.
+        </p>
+      </section>
+
+      <section>
+        <h2>Datos de partida (opcionales)</h2>
+        <p>
+          La primera vez que abre un juego le preguntamos si quiere enviarnos
+          datos de sus partidas. Solo los enviamos si acepta, y puede cambiar de
+          opinión cuando quiera en los ajustes del juego ("Enviar datos de juego
+          anónimos"). Si no acepta, el juego funciona igual.
+        </p>
+        <p>Si acepta, enviamos:</p>
+        <ul>
+          <li>
+            qué nivel juega, hasta qué oleada llega, si gana o pierde y cuánto
+            dura la partida;
+          </li>
+          <li>
+            qué elige (premios, héroe, herramienta, mascota) y el avance del
+            tutorial;
+          </li>
+          <li>los cambios de ajustes;</li>
+          <li>
+            la versión del juego, si juega en el navegador o en la app, el tipo
+            de dispositivo, el tamaño de la pantalla y el idioma;
+          </li>
+          <li>
+            un identificador aleatorio de jugador y otro de sesión, que no
+            permiten saber quién es usted.
+          </li>
+        </ul>
+        <p>
+          Nuestro servidor agrega, a partir de la conexión, el país, el sistema
+          operativo, el navegador y la marca y el modelo del celular. No
+          guardamos su dirección IP.
+        </p>
+        <p>
+          No enviamos su nombre, su correo, su ubicación exacta, sus contactos,
+          el identificador publicitario ni nada que lo identifique. No usamos
+          publicidad ni herramientas de seguimiento de terceros, no vendemos los
+          datos y no los cruzamos con otros.
+        </p>
+      </section>
+
+      <section>
+        <h2>Para qué los usamos y cuánto los guardamos</h2>
+        <p>
+          Solo para entender cómo se juega y mejorar los juegos: qué niveles
+          cuestan más, dónde se abandona y qué opciones se usan. Se guardan en
+          nuestro panel de gestión, en Supabase, y los conservamos hasta 24
+          meses desde que los recibimos. Después los borramos o los dejamos como
+          totales que no se pueden asociar a nadie. Los datos viajan cifrados
+          (HTTPS).
+        </p>
+      </section>
+
+      <section>
+        <h2>Avisos de nuevas versiones</h2>
+        <p>
+          Si se inscribe en el sitio para recibir avisos, tratamos su correo,
+          los juegos que eligió y su consentimiento como explica nuestra{" "}
+          <a href={site.privacy}>política general</a>. Las apps no le piden su
+          correo.
+        </p>
+      </section>
+
+      <section>
+        <h2>Anuncios, compras y niños</h2>
+        <p>
+          Los juegos no muestran anuncios y no tienen compras dentro de la app.
+          No están dirigidos a menores de 13 años y no recopilamos a sabiendas
+          datos de ellos; si cree que un menor nos envió datos, escríbanos y los
+          borramos.
+        </p>
+      </section>
+
+      <section>
+        <h2>Sus derechos y cómo pedir el borrado</h2>
+        <p>
+          Puede pedirnos acceder a sus datos, corregirlos o borrarlos. Para
+          dejar de enviar datos, basta con desactivar la opción en los ajustes
+          del juego. Para borrar lo ya enviado, escríbanos a{" "}
+          <a href={mail}>{site.privacyEmail}</a>. Como los datos no llevan su
+          nombre ni su correo, díganos desde qué juego y qué dispositivo jugó, y
+          le ayudamos a encontrarlos.
+        </p>
+      </section>
+
+      <section>
+        <h2>Cambios</h2>
+        <p>
+          Si cambiamos esta política, actualizamos la fecha de arriba. Los
+          cambios que afecten a lo que enviamos se le preguntarán de nuevo en el
+          juego.
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="border-t">
+    <div class="container-page flex flex-col gap-3 py-10 text-[15px] text-muted-foreground sm:flex-row sm:items-center sm:gap-6">
+      <span>
+        © {new Date().getFullYear()} {site.legalName}
+      </span>
+      <a href="/" class="text-muted-foreground">
+        Juegos
+      </a>
+      <a href={site.home} class="text-muted-foreground">
+        ninetynineone.studio
+      </a>
+    </div>
+  </footer>
+</Layout>
