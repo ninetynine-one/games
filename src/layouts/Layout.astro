@@ -39,10 +39,29 @@ const canonical = new URL(Astro.url.pathname, Astro.site)
     <meta property="og:site_name" content={site.name} />
     <title>{title}</title>
     <script is:inline>
-      // Sin selector de tema ni cookies: sigue al sistema, antes de pintar.
+      // Tema: ?theme= (viene de ninetynineone.studio) > elección de esta pestaña > sistema.
+      // Sin cookies ni almacenamiento persistente: sessionStorage muere con la pestaña.
       const media = window.matchMedia("(prefers-color-scheme: dark)")
-      const apply = () =>
-        document.documentElement.classList.toggle("dark", media.matches)
+      const url = new URL(location.href)
+      const param = url.searchParams.get("theme")
+      try {
+        if (param === "dark" || param === "light")
+          sessionStorage.setItem("theme", param)
+      } catch {}
+      if (param) {
+        url.searchParams.delete("theme")
+        history.replaceState(null, "", url)
+      }
+      const apply = () => {
+        let theme = param
+        try {
+          theme = sessionStorage.getItem("theme") ?? param
+        } catch {}
+        document.documentElement.classList.toggle(
+          "dark",
+          theme ? theme === "dark" : media.matches
+        )
+      }
       apply()
       media.addEventListener("change", apply)
     </script>

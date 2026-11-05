@@ -1,0 +1,34 @@
+---
+import { MoonIcon, SunIcon } from "lucide-react"
+
+import { buttonVariants } from "@/components/ui/button"
+import { cn } from "@/lib/utils"
+---
+
+<button
+  type="button"
+  data-theme-toggle
+  aria-label="Cambiar entre modo claro y oscuro"
+  title="Cambiar tema"
+  class={cn(
+    buttonVariants({ variant: "ghost", size: "icon-sm" }),
+    "text-muted-foreground"
+  )}
+>
+  <MoonIcon className="dark:hidden" aria-hidden="true" />
+  <SunIcon className="hidden dark:block" aria-hidden="true" />
+</button>
+
+<script>
+  const root = document.documentElement
+
+  document.querySelectorAll("[data-theme-toggle]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const dark = !root.classList.contains("dark")
+      root.classList.toggle("dark", dark)
+      try {
+        sessionStorage.setItem("theme", dark ? "dark" : "light")
+      } catch {}
+    })
+  })
+</script>

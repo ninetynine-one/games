@@ -1,6 +1,7 @@
 ---
 import Layout from "@/layouts/Layout.astro"
 import ThemeImage from "@/components/ThemeImage.astro"
+import ThemeToggle from "@/components/ThemeToggle.astro"
 import { games, site } from "@/data/games"
 import logo from "@/assets/logo/nno-horizontal.svg"
 import logoDark from "@/assets/logo/nno-horizontal-dark.svg"
@@ -24,6 +25,7 @@ const mail = `mailto:${site.privacyEmail}`
           class="h-7 w-auto"
         />
       </a>
+      <span class="ml-auto"><ThemeToggle /></span>
     </nav>
   </header>
 
