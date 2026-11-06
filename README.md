@@ -52,11 +52,11 @@ Sin ellas, el formulario responde «No pudimos guardar tu inscripción.» y los 
 
 ## Sentry y analítica
 
-Igual que en `website`: `PUBLIC_SENTRY_DSN` (navegador, al compilar), `SENTRY_DSN` (servidor, al ejecutar) y `SENTRY_AUTH_TOKEN`, `SENTRY_ORG`, `SENTRY_PROJECT` para los source maps. Sin DSN, Sentry no hace nada. Vercel Web Analytics cuenta visitas sin cookies. No hay Google Analytics ni panel de cookies, y el tema sigue al del sistema.
+Igual que en `website`: `PUBLIC_SENTRY_DSN` (navegador, al compilar), `SENTRY_DSN` (servidor, al ejecutar) y `SENTRY_AUTH_TOKEN`, `SENTRY_ORG`, `SENTRY_PROJECT` para los source maps. Sin DSN, Sentry no hace nada. Vercel Web Analytics cuenta visitas sin cookies. No hay Google Analytics ni panel de cookies, y el tema sigue al del sistema o al que traiga `?theme=` desde ninetynineone.studio (se guarda solo en `sessionStorage`).
 
 ## Despliegue
 
-`vercel.json` da caché larga a `/<slug>/assets/*` (nombres con hash) y desactiva los despliegues automáticos de ramas `feat/*`, `fix/*`, etc. El proyecto de Vercel y el dominio `games.ninetynineone.studio` todavía no existen: crearlos requiere el visto bueno del autor.
+`vercel.json` da caché larga a `/<slug>/assets/*` (nombres con hash) y desactiva los despliegues automáticos de ramas `feat/*`, `fix/*`, etc. El proyecto de Vercel `ninetynineone-games` (dominio `games.ninetynineone.studio`) está conectado a este repo: cada merge a `main` despliega a producción.
 
 ## Estructura
 
