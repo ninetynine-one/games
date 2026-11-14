@@ -4,6 +4,7 @@ import { Image } from "astro:assets"
 import Layout from "@/layouts/Layout.astro"
 import ThemeImage from "@/components/ThemeImage.astro"
 import ThemeToggle from "@/components/ThemeToggle.astro"
+import Footer from "@/components/Footer.astro"
 import { SubscribeForm } from "@/components/SubscribeForm"
 import { buttonVariants } from "@/components/ui/button"
 import { games, site } from "@/data/games"
@@ -11,7 +12,6 @@ import { cn } from "@/lib/utils"
 import logo from "@/assets/logo/nno-horizontal.svg"
 import logoDark from "@/assets/logo/nno-horizontal-dark.svg"
 
-const year = new Date().getFullYear()
 ---
 
 <Layout>
@@ -126,17 +126,5 @@ const year = new Date().getFullYear()
     </section>
   </main>
 
-  <footer class="border-t">
-    <div class="container-page flex flex-col gap-3 py-10 text-[15px] text-muted-foreground sm:flex-row sm:items-center sm:gap-6">
-      <span>
-        © {year} {site.legalName}
-      </span>
-      <a href={site.home} class="text-muted-foreground">
-        ninetynineone.studio
-      </a>
-      <a href="/privacidad" class="text-muted-foreground">
-        Privacidad
-      </a>
-    </div>
-  </footer>
+  <Footer />
 </Layout>

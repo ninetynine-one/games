@@ -1,0 +1,51 @@
+---
+import ThemeImage from "./ThemeImage.astro"
+import { navLinks, site, socialLinks } from "@/data/games"
+import lockup from "@/assets/logo/nno-lockup.svg"
+import lockupDark from "@/assets/logo/nno-lockup-dark.svg"
+
+const year = new Date().getFullYear()
+const linkClass = "self-start text-foreground no-underline hover:text-link"
+---
+
+<footer class="border-t">
+  <div class="container-page grid items-start gap-10 py-14 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
+    <div class="flex flex-col gap-3.5">
+      <ThemeImage
+        light={lockup}
+        dark={lockupDark}
+        alt={site.name}
+        class="h-16 w-auto self-start"
+      />
+      <span class="text-[15px] text-muted-foreground">{site.location}</span>
+    </div>
+    <nav class="flex flex-col gap-3 text-[15px]" aria-label="Estudio">
+      <strong class="mb-1 text-[13px] font-semibold text-foreground">
+        Estudio
+      </strong>
+      {navLinks.map((link) => (
+        <a href={link.href} class={linkClass}>
+          {link.label}
+        </a>
+      ))}
+    </nav>
+    <nav class="flex flex-col gap-3 text-[15px]" aria-label="Redes">
+      <strong class="mb-1 text-[13px] font-semibold text-foreground">
+        En otros lugares
+      </strong>
+      {socialLinks.map((link) => (
+        <a href={link.href} class={linkClass} target="_blank" rel="noopener">
+          {link.label}
+        </a>
+      ))}
+    </nav>
+    <div class="flex flex-col gap-3 text-[15px] text-muted-foreground">
+      <span>
+        © {year} {site.legalName}
+      </span>
+      <a href="/privacidad" class="text-muted-foreground">
+        Privacidad
+      </a>
+    </div>
+  </div>
+</footer>

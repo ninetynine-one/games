@@ -16,6 +16,32 @@ export const site = {
   privacyEmail: "contacto@ninetynineone.studio",
 }
 
+// Mismos links que el footer de ninetynineone.studio, apuntando al sitio principal.
+export const navLinks = [
+  { href: `${site.home}/#como`, label: "Cómo trabajamos" },
+  { href: `${site.home}/#hacemos`, label: "Qué hacemos" },
+  { href: `${site.home}/#proyectos`, label: "Proyectos" },
+  { href: `${site.home}/#valores`, label: "Valores" },
+  { href: `${site.home}/#preguntas`, label: "Preguntas" },
+  { href: "/", label: "Juegos" },
+]
+
+export const socialLinks = [
+  {
+    href: "https://www.instagram.com/ninetynineone.studio",
+    label: "Instagram",
+  },
+  {
+    href: "https://www.linkedin.com/company/ninetynineone-studio",
+    label: "LinkedIn",
+  },
+  { href: "https://github.com/ninetynine-one", label: "GitHub" },
+  {
+    href: "https://www.youtube.com/@ninetynineone.studio",
+    label: "YouTube",
+  },
+]
+
 // Cada juego vive en public/<slug>/ (scripts/sync-game.sh). Añadir uno es
 // una entrada aquí más un sync. El slug también es el de la tabla games del panel.
 export const games = [
