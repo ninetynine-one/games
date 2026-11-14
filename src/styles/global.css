@@ -22,7 +22,7 @@
     @apply scroll-smooth scheme-light font-sans antialiased dark:scheme-dark;
   }
   body {
-    @apply bg-dots text-base text-foreground;
+    @apply bg-page text-base text-foreground;
   }
   h1,
   h2,
@@ -48,15 +48,9 @@
   @apply mx-auto w-full max-w-300 px-5 md:px-8 lg:px-12;
 }
 
-/* Trama de puntos del fondo: el cuaderno del taller. */
-@utility bg-dots {
+/* Fondo de la página: arena suave en claro, superficie base en oscuro. */
+@utility bg-page {
   background-color: var(--surface-muted);
-  background-image: radial-gradient(
-    circle,
-    var(--border-strong) 1.1px,
-    transparent 1.5px
-  );
-  background-size: 22px 22px;
 
   &:where(.dark, .dark *) {
     background-color: var(--surface-page);
