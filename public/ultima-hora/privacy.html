@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>Política de privacidad · La última hora</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #120f0d; color: #f3e9d2; font: 17px/1.55 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    padding: max(16px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) max(24px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left)); }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { color: #f0c656; font-size: 1.6em; line-height: 1.2; }
+  h2 { color: #f0c656; font-size: 1.15em; margin-top: 1.8em; }
+  a { color: #f0c656; }
+  code { background: #2a2420; padding: 0 4px; border-radius: 4px; font-size: .92em; word-break: break-all; }
+  table { border-collapse: collapse; width: 100%; font-size: .92em; }
+  th, td { border: 1px solid #4a3f36; padding: 6px 8px; text-align: left; vertical-align: top; }
+  .back { display: inline-block; margin: 8px 0 16px; padding: 12px 18px; background: #6b4a1c; color: #fff2b8; border-radius: 10px; text-decoration: none; font-weight: 600; }
+  .muted { color: #b8ab95; font-size: .92em; }
+</style>
+</head>
+<body>
+<main>
+<a class="back" href="./index.html">← Volver al juego</a>
+<h1>Política de privacidad de «La última hora»</h1>
+<p class="muted">Última actualización: 20 de noviembre de 2026 · Versión del juego 1.3.0</p>
+
+<p>«La última hora» es un juego de [NOMBRE DE LA EMPRESA] («nosotros»). Esta política explica qué datos trata el juego, para qué y cómo puedes controlarlos. Se aplica a la app para Android y iOS y a la versión web.</p>
+
+<h2>1. Resumen</h2>
+<ul>
+  <li>El juego <strong>no pide cuenta, nombre, correo, teléfono, contactos, fotos ni ubicación</strong>.</li>
+  <li>Tu progreso se guarda <strong>solo en tu dispositivo</strong>.</li>
+  <li>Solo si aceptas el aviso «¿Nos ayudas a mejorar el juego?» (o activas «Enviar datos de juego anónimos» en Ajustes), el juego envía <strong>datos de uso de las partidas</strong> a nuestro servidor. Si no aceptas, no se envía nada.</li>
+  <li>No hay publicidad, ni compras, ni SDK de terceros de analítica o anuncios.</li>
+</ul>
+
+<h2>2. Datos guardados en tu dispositivo</h2>
+<p>El juego guarda en el almacenamiento local de la app (o del navegador): niveles superados, récords, la run en curso para poder continuarla, la moneda y los desbloqueos permanentes, la cuadrilla elegida, los ajustes (volúmenes, efectos) y tu respuesta al aviso de datos. También guarda un registro local de tus últimas 50 partidas que solo sale del dispositivo si tú lo exportas desde Ajustes («Exportar telemetría»). En Android, estos datos pueden incluirse en la copia de seguridad automática de Google de tu dispositivo si la tienes activada.</p>
+
+<h2>3. Datos que se envían si das tu consentimiento</h2>
+<p>Se envían en lotes (cada 20 segundos, al llegar a 20 eventos, al cerrar la página o al pasar la app a segundo plano) por HTTPS a:</p>
+<p><code>https://games.ninetynineone.studio/api/events</code> (app). En la versión web se envían a la dirección <code>/api/events</code> del mismo sitio que sirve el juego.</p>
+<table>
+  <tr><th>Dato</th><th>Detalle</th></tr>
+  <tr><td>Identificador de jugador</td><td>Un número aleatorio (UUID v4) creado por el juego la primera vez que envía datos y guardado en tu dispositivo. No está ligado a tu nombre, cuenta de Google/Apple, ni al identificador publicitario.</td></tr>
+  <tr><td>Identificador de sesión</td><td>Otro UUID aleatorio, nuevo cada vez que abres el juego.</td></tr>
+  <tr><td>Juego y versión</td><td><code>ultima-hora</code> y el número de versión.</td></tr>
+  <tr><td>Datos del dispositivo (al empezar la sesión)</td><td>Tipo (móvil u ordenador), plataforma (web, Android o iOS), tamaño de la ventana en píxeles e idioma del sistema.</td></tr>
+  <tr><td>Eventos de juego</td><td>Fecha y hora de cada evento y: inicio y fin de nivel o encuentro (resultado, duración, Cuerda, bajas), hora alcanzada, elecciones de recompensas y mejoras, inicio, avance y fin de una ronda (tipo de nodo, fila, escenario, modificador, nivel de ascensión, resultado, Paradojas), opciones ofrecidas y elegidas en el draft y la tienda, cuadrilla y mascota elegidas, pasos del tutorial y cambios de ajustes, y el uso de la racha diaria y las Chispas (reclamar, ganar) y de los cosméticos (comprar, equipar).</td></tr>
+  <tr><td>Dirección IP</td><td>Como en cualquier conexión a internet, nuestro servidor recibe tu dirección IP. La usamos solo para deducir el <strong>país</strong> y la descartamos; no guardamos la IP junto a los eventos. [A CONFIRMAR POR [NOMBRE DE LA EMPRESA] según la configuración real del servidor.]</td></tr>
+</table>
+<p>No enviamos: nombre, correo, contactos, ubicación precisa, identificador publicitario, lista de apps ni contenido de tu dispositivo.</p>
+
+<h2>4. Para qué los usamos</h2>
+<p>Solo para entender cómo se juega (qué niveles resultan difíciles, cuánto duran las partidas, qué opciones se eligen) y mejorar el equilibrio y la estabilidad del juego. No los vendemos, no los usamos para publicidad y no los compartimos con terceros, salvo el proveedor que aloja nuestro servidor, que los trata por cuenta nuestra.</p>
+
+<h2>5. Base legal y conservación</h2>
+<p>La base es tu consentimiento, que puedes retirar en cualquier momento. Conservamos los eventos un máximo de [PLAZO, p. ej. 24 meses] y después los borramos o los agregamos de forma que ya no se relacionen con ningún identificador.</p>
+
+<h2>6. Tus opciones y derechos</h2>
+<ul>
+  <li><strong>Retirar el consentimiento:</strong> Ajustes → «Enviar datos de juego anónimos» → No. Los datos pendientes de envío se descartan en ese momento.</li>
+  <li><strong>Borrar los datos locales:</strong> Ajustes → «Borrar progreso», o desinstala la app / borra los datos del sitio.</li>
+  <li><strong>Acceso o borrado de lo enviado:</strong> escríbenos a [CORREO DE CONTACTO] indicando, si puedes, tu identificador de jugador (está en los datos locales del juego). Responderemos en el plazo que marque la ley aplicable.</li>
+</ul>
+
+<h2>7. Menores</h2>
+<p>El juego no está dirigido específicamente a menores de 13 años y no recoge a sabiendas datos personales de ellos. El envío de datos de uso requiere el consentimiento del aviso inicial.</p>
+
+<h2>8. Seguridad</h2>
+<p>Todo envío se hace cifrado (HTTPS). El acceso al servidor está restringido al equipo de [NOMBRE DE LA EMPRESA].</p>
+
+<h2>9. Cambios y contacto</h2>
+<p>Si cambiamos esta política, actualizaremos la fecha de arriba y, si el cambio es importante, te lo indicaremos en el juego. Contacto: [NOMBRE DE LA EMPRESA], [CORREO DE CONTACTO].</p>
+
+<a class="back" href="./index.html">← Volver al juego</a>
+</main>
+</body>
+</html>

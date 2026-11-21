@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Cosmetic core «Luna»: a night-blue moon-phase dial in a brass bezel, crescent moon and cream stars. Same frame and anchor as core-nucleo-reloj. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" seed="13"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#f6ecd2" stop-opacity="0.6"/>
+      <stop offset="0.55" stop-color="#c8c4e8" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#c8c4e8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="64" cy="52" r="64" fill="url(#glow)"/>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- night stone plinth -->
+    <path d="M18 100 Q20 88 64 86 Q108 88 110 100 L110 109 Q64 121 18 109 Z" fill="#232a4a"/>
+    <ellipse cx="64" cy="97" rx="45" ry="10" fill="#363e66"/>
+    <path d="M30 101 Q64 110 98 101" fill="none" stroke="#2b3256" stroke-width="3"/>
+    <!-- struts -->
+    <path d="M46 96 L52 78 L59 78 L55 96 Z M82 96 L76 78 L69 78 L73 96 Z" fill="#b08a4a" stroke-width="2.8"/>
+    <!-- side gears -->
+    <circle cx="26" cy="100" r="11" fill="#b08a4a" stroke-width="2.6" stroke-dasharray="5 2.4"/>
+    <circle cx="26" cy="100" r="3.5" fill="#1b1714" stroke-width="1"/>
+    <circle cx="102" cy="102" r="10" fill="#9c7a42" stroke-width="2.6" stroke-dasharray="5 2.4"/>
+    <circle cx="102" cy="102" r="3" fill="#1b1714" stroke-width="1"/>
+    <!-- crown knob: a little star -->
+    <path d="M64 5 L66.5 11 L72 12 L67.5 15.5 L69 21 L64 18 L59 21 L60.5 15.5 L56 12 L61.5 11 Z" fill="#f6ecd2" stroke-width="2.4"/>
+    <!-- clock -->
+    <circle cx="64" cy="52" r="35" fill="#c69a50"/>
+    <path d="M95 40 Q104 66 80 84 Q64 92 46 86 Q74 86 88 64 Q96 52 95 40 Z" fill="#8a6a3a" stroke="none"/>
+    <circle cx="64" cy="52" r="35" fill="none"/>
+    <circle cx="64" cy="52" r="27" fill="#26305c" stroke-width="3"/>
+    <!-- moon-phase window: crescent over a night arc -->
+    <path d="M44 48 A20 20 0 0 1 84 48 Z" fill="#1a2044" stroke-width="2.4"/>
+    <path d="M58 30 A10 10 0 1 0 70 44 A8 8 0 1 1 58 30 Z" fill="#f6ecd2" stroke-width="2"/>
+    <g stroke-width="2.6" stroke="#f6ecd2">
+      <path d="M64 71 v5 M40 52 h5 M83 52 h5"/>
+    </g>
+    <!-- hands: 11:59, brass -->
+    <path d="M64 52 L52 37" stroke-width="5"/>
+    <path d="M64 52 L52 37" stroke="#e0b24a" stroke-width="2"/>
+    <path d="M64 52 L62 29" stroke-width="4"/>
+    <path d="M64 52 L62 29" stroke="#e0b24a" stroke-width="1.6"/>
+    <circle cx="64" cy="52" r="5.5" fill="#e0b24a" stroke-width="2.8"/>
+  </g>
+  <!-- cream stars on the dial and around it -->
+  <g fill="#fff3c4" stroke="#1b1714" stroke-width="1.5" stroke-linejoin="round">
+    <path d="M76 60 L77.5 63 L76 66 L74.5 63 Z"/>
+    <path d="M50 62 L51.5 65 L50 68 L48.5 65 Z"/>
+    <path d="M22 26 L25 31 L22 36 L19 31 Z"/>
+    <path d="M106 20 L108.5 24 L106 28 L103.5 24 Z"/>
+    <path d="M108 60 L110 63 L108 66 L106 63 Z"/>
+  </g>
+</svg>

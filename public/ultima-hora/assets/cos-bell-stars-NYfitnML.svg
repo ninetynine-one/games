@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Bell cosmetic thumbnail «stars» (Constelación): night-blue clock face with star ticks and silver hands. -->
+  <circle cx="64" cy="64" r="52" fill="#c89c52" stroke="#1b1714" stroke-width="4"/>
+  <circle cx="64" cy="64" r="52" fill="none" stroke="#efcf8a" stroke-width="2" opacity="0.6" transform="translate(-1.5 -1.5)"/>
+  <circle cx="64" cy="64" r="44" fill="#1c2450" stroke="#7a5420" stroke-width="3"/>
+  <path d="M64 24.5 L66 29.1 L70.5 31 L66 33 L64 37.5 L62 33 L57.5 31 L62 29.1 Z" fill="#fff3c4" stroke="#1b1714" stroke-width="1"/>
+  <path d="M80.5 31.4 L81.7 34.2 L84.5 35.4 L81.7 36.6 L80.5 39.4 L79.3 36.6 L76.5 35.4 L79.3 34.2 Z" fill="#d8d2f0" stroke="#1b1714" stroke-width="1"/>
+  <path d="M92.6 43.5 L93.8 46.3 L96.6 47.5 L93.8 48.7 L92.6 51.5 L91.4 48.7 L88.6 47.5 L91.4 46.3 Z" fill="#d8d2f0" stroke="#1b1714" stroke-width="1"/>
+  <path d="M97 57.5 L99 62 L103.5 64 L99 66 L97 70.5 L95 66 L90.5 64 L95 62 Z" fill="#fff3c4" stroke="#1b1714" stroke-width="1"/>
+  <path d="M92.6 76.5 L93.8 79.3 L96.6 80.5 L93.8 81.7 L92.6 84.5 L91.4 81.7 L88.6 80.5 L91.4 79.3 Z" fill="#d8d2f0" stroke="#1b1714" stroke-width="1"/>
+  <path d="M80.5 88.6 L81.7 91.4 L84.5 92.6 L81.7 93.8 L80.5 96.6 L79.3 93.8 L76.5 92.6 L79.3 91.4 Z" fill="#d8d2f0" stroke="#1b1714" stroke-width="1"/>
+  <path d="M64 90.5 L66 95 L70.5 97 L66 99 L64 103.5 L62 99 L57.5 97 L62 95 Z" fill="#fff3c4" stroke="#1b1714" stroke-width="1"/>
+  <path d="M47.5 88.6 L48.7 91.4 L51.5 92.6 L48.7 93.8 L47.5 96.6 L46.3 93.8 L43.5 92.6 L46.3 91.4 Z" fill="#d8d2f0" stroke="#1b1714" stroke-width="1"/>
+  <path d="M35.4 76.5 L36.6 79.3 L39.4 80.5 L36.6 81.7 L35.4 84.5 L34.2 81.7 L31.4 80.5 L34.2 79.3 Z" fill="#d8d2f0" stroke="#1b1714" stroke-width="1"/>
+  <path d="M31 57.5 L33 62 L37.5 64 L33 66 L31 70.5 L29.1 66 L24.5 64 L29.1 62 Z" fill="#fff3c4" stroke="#1b1714" stroke-width="1"/>
+  <path d="M35.4 43.5 L36.6 46.3 L39.4 47.5 L36.6 48.7 L35.4 51.5 L34.2 48.7 L31.4 47.5 L34.2 46.3 Z" fill="#d8d2f0" stroke="#1b1714" stroke-width="1"/>
+  <path d="M47.5 31.4 L48.7 34.2 L51.5 35.4 L48.7 36.6 L47.5 39.4 L46.3 36.6 L43.5 35.4 L46.3 34.2 Z" fill="#d8d2f0" stroke="#1b1714" stroke-width="1"/>
+  <path d="M64 64 L64 37 M64 64 L83 73" stroke="#e8e4f4" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="64" cy="64" r="4.5" fill="#e8e4f4" stroke="#1b1714" stroke-width="1.5"/>
+  <circle cx="52" cy="80" r="1.6" fill="#d8d2f0" opacity="0.7"/>
+  <circle cx="80" cy="50" r="1.4" fill="#d8d2f0" opacity="0.7"/>
+</svg>

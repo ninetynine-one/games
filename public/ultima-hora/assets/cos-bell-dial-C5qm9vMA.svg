@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Bell cosmetic thumbnail «dial» (default era bell): brass clock face with 12 ticks and hands. -->
+  <circle cx="64" cy="64" r="52" fill="#c89c52" stroke="#1b1714" stroke-width="4"/>
+  <circle cx="64" cy="64" r="52" fill="none" stroke="#efcf8a" stroke-width="2" opacity="0.6" transform="translate(-1.5 -1.5)"/>
+  <circle cx="64" cy="64" r="44" fill="#f6ecd2" stroke="#7a5420" stroke-width="3"/>
+  <path d="M64 26 L64 35" stroke="#1b1714" stroke-width="4" stroke-linecap="round"/>
+  <path d="M83 31.1 L80.5 35.4" stroke="#1b1714" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M96.9 45 L92.6 47.5" stroke="#1b1714" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M102 64 L93 64" stroke="#1b1714" stroke-width="4" stroke-linecap="round"/>
+  <path d="M96.9 83 L92.6 80.5" stroke="#1b1714" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M83 96.9 L80.5 92.6" stroke="#1b1714" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M64 102 L64 93" stroke="#1b1714" stroke-width="4" stroke-linecap="round"/>
+  <path d="M45 96.9 L47.5 92.6" stroke="#1b1714" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M31.1 83 L35.4 80.5" stroke="#1b1714" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M26 64 L35 64" stroke="#1b1714" stroke-width="4" stroke-linecap="round"/>
+  <path d="M31.1 45 L35.4 47.5" stroke="#1b1714" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M45 31.1 L47.5 35.4" stroke="#1b1714" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M64 64 L64 37 M64 64 L83 73" stroke="#1b1714" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="64" cy="64" r="4.5" fill="#1b1714" stroke="#1b1714" stroke-width="1.5"/>
+</svg>

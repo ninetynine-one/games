@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chispa (cosmetic currency): a spark of time, a four-point star over a tiny brass gear. -->
+  <defs>
+    <filter id="rough" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="6"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+    </filter>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fff3c4" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffb84a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="64" cy="64" r="58" fill="url(#glow)"/>
+  <g filter="url(#rough)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M64 30 l6 6 8-3 2 8 8 2-3 8 6 6-6 6 3 8-8 2-2 8-8-3-6 6-6-6-8 3-2-8-8-2 3-8-6-6 6-6-3-8 8-2 2-8 8 3 Z" fill="#c69a50"/>
+    <path d="M64 8 L74 54 L120 64 L74 74 L64 120 L54 74 L8 64 L54 54 Z" fill="#ffc94a"/>
+    <path d="M64 30 L69 59 L98 64 L69 69 L64 98 L59 69 L30 64 L59 59 Z" fill="#fff3c4" stroke-width="2.4"/>
+  </g>
+  <circle cx="64" cy="64" r="5" fill="#ffffff"/>
+</svg>
