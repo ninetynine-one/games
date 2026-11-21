@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Solid terrain (level 6): a city-gate barricade, sandbag-and-plank block with a brass-banded cart wheel. Blocks paths. -->
+  <ellipse cx="64" cy="114" rx="56" ry="11" fill="#000" opacity="0.4"/>
+  <g stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M10 62 H118 V112 H10 Z" fill="#8a5c32"/>
+    <path d="M10 78 H118 M10 95 H118" fill="none" stroke-width="2.4"/>
+    <path d="M10 62 L118 112 M118 62 L10 112" fill="none" stroke="#6a4424" stroke-width="5"/>
+    <path d="M10 62 L118 112 M118 62 L10 112" fill="none" stroke-width="1.4"/>
+    <path d="M14 34 L50 30 L54 62 H14 Z" fill="#b8a888"/><path d="M54 30 L92 34 L94 62 H54 Z" fill="#a89878"/><path d="M92 34 L116 36 L116 62 H94 Z" fill="#b8a888"/>
+    <path d="M24 44 H40 M64 46 H80" fill="none" stroke-width="2"/>
+    <g fill="#e0b450" stroke-width="2"><circle cx="16" cy="68" r="3"/><circle cx="112" cy="68" r="3"/><circle cx="16" cy="106" r="3"/><circle cx="112" cy="106" r="3"/></g>
+  </g>
+</svg>
