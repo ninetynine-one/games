@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · pegatina cosmética para torres: flor. Vinilo con borde blanco. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="119"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <circle cx="64" cy="64" r="54" fill="#fff8ec"/>
+    <g fill="#e889b5"><circle cx="64" cy="34" r="16"/><circle cx="94" cy="58" r="16"/><circle cx="82" cy="92" r="16"/><circle cx="46" cy="92" r="16"/><circle cx="34" cy="58" r="16"/></g>
+    <circle cx="64" cy="66" r="14" fill="#f5c542"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · pegatina cosmética para torres: la Red tachada (exclusivo). Vinilo con borde blanco. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="123"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <circle cx="64" cy="64" r="56" fill="#fff8ec"/>
+    <circle cx="64" cy="64" r="44" fill="#3a4450"/>
+    <g fill="none" stroke="#e04a32" stroke-width="5"><path d="M40 52 h48 M40 76 h48 M52 40 v48 M76 40 v48"/></g>
+    <path d="M30 98 l68 -68" stroke="#e04a32" stroke-width="12"/>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Chatarra · jefe del Acto 2: Demoledora de la Red. Megamáquina sobre orugas con dos órdenes a la vez:
+       un brazo con maza (derribar) y el otro sujetando una maceta con cuidado (conservar). Contorno claro. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-16" y="-16" width="288" height="288"><feTurbulence type="fractalNoise" baseFrequency="0.0225" numOctaves="2" seed="83"/><feDisplacementMap in="SourceGraphic" scale="5" xChannelSelector="R" yChannelSelector="G"/></filter>
+    <filter id="rim" filterUnits="userSpaceOnUse" x="-16" y="-16" width="288" height="288"><feMorphology in="SourceAlpha" operator="dilate" radius="5" result="d"/><feFlood flood-color="#f4efe6"/><feComposite in2="d" operator="in"/><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <ellipse cx="128" cy="242" rx="98" ry="11" fill="#000" opacity=".4"/>
+  <g filter="url(#rim)"><g filter="url(#sk)" stroke="#1b1714" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <!-- orugas -->
+    <rect x="40" y="200" width="176" height="38" rx="19" fill="#3a3d40"/>
+    <circle cx="62" cy="219" r="11" fill="#8f969a" stroke-width="5"/>
+    <circle cx="100" cy="219" r="11" fill="#8f969a" stroke-width="5"/>
+    <circle cx="156" cy="219" r="11" fill="#8f969a" stroke-width="5"/>
+    <circle cx="194" cy="219" r="11" fill="#8f969a" stroke-width="5"/>
+    <!-- brazo de la maza (derribar), alzado a la izquierda -->
+    <path d="M78 128 q-34 -10 -44 -52" fill="none" stroke-width="28"/>
+    <path d="M78 128 q-34 -10 -44 -52" fill="none" stroke="#8f969a" stroke-width="18"/>
+    <rect x="10" y="34" width="50" height="44" rx="8" fill="#5c6166"/>
+    <path d="M14 48 h42 M14 64 h42" stroke="#3a3d40" stroke-width="4"/>
+    <!-- cuerpo amarillo de obra con franjas de peligro -->
+    <rect x="60" y="112" width="140" height="94" rx="18" fill="#e3a72f"/>
+    <path d="M176 116 q22 6 22 32 v34 q0 22 -26 22 q12 -36 4 -88z" fill="#b9821f" stroke="none"/>
+    <rect x="60" y="112" width="140" height="94" rx="18" fill="none"/>
+    <path d="M70 184 l16 -16 M94 184 l16 -16 M118 184 l16 -16 M142 184 l16 -16 M166 184 l16 -16" stroke="#1b1714" stroke-width="7"/>
+    <rect x="66" y="166" width="128" height="22" rx="4" fill="none" stroke-width="5"/>
+    <!-- sello de la Red en el pecho -->
+    <circle cx="130" cy="140" r="15" fill="#f1efe9" stroke-width="5"/>
+    <path d="M122 140 h16 M130 132 v16" stroke="#d8453a" stroke-width="5"/>
+    <!-- brazo que conserva: sujeta una maceta con un brote -->
+    <path d="M196 132 q30 10 26 46" fill="none" stroke-width="24"/>
+    <path d="M196 132 q30 10 26 46" fill="none" stroke="#8f969a" stroke-width="14"/>
+    <path d="M206 176 h34 l-5 26 h-24z" fill="#c8693a"/>
+    <path d="M223 176 q-2 -14 -12 -20 M223 176 q4 -16 16 -18" fill="none" stroke-width="5"/>
+    <path d="M211 156 q-6 -2 -8 -8 q8 0 8 8z M239 158 q6 -2 8 -8 q-8 0 -8 8z" fill="#7cc35a" stroke-width="4"/>
+    <!-- cabina con dos ojos: uno rojo (derribar) y otro ámbar, que duda -->
+    <rect x="94" y="62" width="72" height="54" rx="12" fill="#e3a72f"/>
+    <rect x="102" y="72" width="56" height="32" rx="8" fill="#1f2a2e"/>
+    <circle cx="117" cy="88" r="8" fill="#ff5a3c" stroke-width="4"/>
+    <circle cx="143" cy="88" r="8" fill="#ffd36a" stroke-width="4"/>
+    <path d="M128 62 v-16" stroke-width="6"/>
+    <circle cx="128" cy="42" r="7" fill="#d8453a" stroke-width="5"/>
+  </g></g>
+</svg>
