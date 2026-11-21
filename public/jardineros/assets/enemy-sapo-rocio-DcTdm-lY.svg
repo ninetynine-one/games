@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Sapo de Rocío: rechoncho, verde azulado, ojos grandes arriba, bocaza abierta y sonriente, vientre crema, manchas y gotas de rocío en el lomo -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="17"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+    </filter>
+  </defs>
+  <ellipse cx="64" cy="114" rx="48" ry="8" fill="#000" opacity="0.35"/>
+  <g filter="url(#wob)" stroke="#1f1614" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- cuerpo -->
+    <path d="M10 86 Q6 48 34 34 Q44 22 60 24 Q80 30 100 24 Q120 30 118 60 Q124 88 112 104 Q64 116 18 106 Q8 98 10 86 Z" fill="#5aab9a"/>
+    <!-- manchas -->
+    <g fill="#36806f" stroke="none">
+      <ellipse cx="26" cy="64" rx="7" ry="6"/>
+      <ellipse cx="42" cy="48" rx="6" ry="5"/>
+      <ellipse cx="22" cy="84" rx="5" ry="6"/>
+      <ellipse cx="40" cy="72" rx="6" ry="5"/>
+    </g>
+    <!-- vientre crema -->
+    <path d="M42 58 Q46 48 60 50 L108 48 Q118 62 112 86 Q106 108 76 108 Q52 106 46 86 Q40 72 42 58 Z" fill="#f5e3bf" stroke-width="2.6"/>
+    <!-- patas traseras -->
+    <path d="M10 88 Q2 104 16 110 L36 110 Q38 94 24 86 Z" fill="#5aab9a"/>
+    <path d="M110 86 Q124 92 122 106 L108 108 Z" fill="#5aab9a"/>
+    <!-- patas delanteras -->
+    <path d="M38 84 Q52 84 54 100 L58 110 L36 112 Q32 104 38 98 Z" fill="#5aab9a"/>
+    <path d="M100 80 Q88 82 88 98 L84 110 L104 110 Q108 98 100 92 Z" fill="#5aab9a"/>
+    <path d="M42 112 L44 106 M50 112 L50 106 M92 110 L92 104 M98 110 L98 104" fill="none" stroke-width="2.2"/>
+    <ellipse cx="46" cy="94" rx="4" ry="4" fill="#36806f" stroke="none"/>
+    <!-- bocaza abierta -->
+    <path d="M52 50 Q80 50 112 44 Q110 66 86 72 Q62 72 52 50 Z" fill="#8c2f2f"/>
+    <path d="M64 64 Q84 56 104 60 Q96 72 84 72 Q70 72 64 64 Z" fill="#f08b86" stroke="none"/>
+    <!-- ojos grandes arriba -->
+    <circle cx="62" cy="28" r="15" fill="#5aab9a"/>
+    <circle cx="102" cy="26" r="14" fill="#5aab9a"/>
+    <circle cx="63" cy="28" r="11" fill="#fbf1d8" stroke-width="2.4"/>
+    <circle cx="103" cy="27" r="10" fill="#fbf1d8" stroke-width="2.4"/>
+    <circle cx="65" cy="29" r="7" fill="#2a1a16" stroke="none"/>
+    <circle cx="104" cy="28" r="6.4" fill="#2a1a16" stroke="none"/>
+    <circle cx="67" cy="26" r="2.4" fill="#fff" stroke="none"/>
+    <circle cx="106" cy="25" r="2.2" fill="#fff" stroke="none"/>
+    <circle cx="76" cy="41" r="1.6" fill="#1f1614" stroke="none"/>
+    <circle cx="86" cy="41" r="1.6" fill="#1f1614" stroke="none"/>
+    <!-- gotas de rocío en el lomo -->
+    <g fill="#a9dcf4" stroke="#2a5a80" stroke-width="2">
+      <path d="M22 40 Q30 30 40 32 Q40 42 30 44 Q22 46 22 40 Z"/>
+      <path d="M12 58 Q14 50 22 48 Q24 58 18 62 Q12 62 12 58 Z"/>
+      <circle cx="31" cy="62" r="4"/>
+    </g>
+    <path d="M28 36 L32 35 M15 56 L17 53" fill="none" stroke="#fff" stroke-width="2"/>
+  </g>
+</svg>

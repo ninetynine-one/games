@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Vencejo de Corriente: aéreo y veloz; azul oscuro, alas largas en hoz, garganta blanca, ojo verde, estela de viento (mira a la izquierda) -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="52"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+    </filter>
+  </defs>
+  <ellipse cx="64" cy="118" rx="22" ry="5" fill="#000" opacity="0.28"/>
+  <!-- estela de viento -->
+  <path d="M50 60 Q84 38 122 40 Q110 30 92 34 M70 54 Q98 44 116 46" fill="none" stroke="#cfe6ee" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+  <g filter="url(#wob)" stroke="#141a30" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- ala trasera: hoz que sube a la izquierda -->
+    <path d="M50 66 Q22 62 8 40 Q4 26 16 12 Q14 34 30 48 Q40 56 54 58 Z" fill="#2f3e6e"/>
+    <path d="M14 28 Q18 44 32 54 M22 40 Q30 50 44 58" fill="none" stroke="#4a5d96" stroke-width="2.2"/>
+    <!-- cola bífida hacia arriba a la derecha -->
+    <path d="M62 64 L70 44 L72 58 L88 52 L74 70 Z" fill="#2a3864"/>
+    <!-- cuerpo -->
+    <path d="M30 84 Q38 66 62 62 Q80 62 78 72 Q72 86 50 94 Q36 98 30 84 Z" fill="#34467c"/>
+    <!-- ala delantera: hoz larga a la derecha -->
+    <path d="M56 72 Q84 64 106 58 Q118 52 124 44 Q118 66 100 80 Q82 92 60 86 Z" fill="#3b5090"/>
+    <path d="M70 82 Q92 80 112 62 M76 72 Q94 70 110 58" fill="none" stroke="#5a70b0" stroke-width="2.2"/>
+    <!-- cabeza -->
+    <circle cx="40" cy="86" r="12" fill="#34467c"/>
+    <path d="M30 78 Q38 72 48 75" fill="none" stroke="#5a70b0" stroke-width="2"/>
+    <!-- garganta blanca -->
+    <path d="M31 92 Q40 96 50 91 Q48 98 40 99 Q33 98 31 92 Z" fill="#f4f1e8" stroke-width="2.2"/>
+    <!-- pico -->
+    <path d="M30 87 L19 94 L31 93 Z" fill="#5c6680" stroke-width="2.4"/>
+    <!-- ojo verde con ceño -->
+    <ellipse cx="40" cy="86" rx="4.6" ry="4" fill="#a6d83a" stroke-width="2"/>
+    <circle cx="39.5" cy="86.5" r="2" fill="#141a30" stroke="none"/>
+    <path d="M34 81 L46 83" fill="none" stroke-width="2.6"/>
+  </g>
+</svg>
