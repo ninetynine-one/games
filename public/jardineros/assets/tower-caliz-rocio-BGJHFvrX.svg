@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Cáliz de Rocío: macetero de piedra + cáliz de pétalos bruma con una gran gota de rocío turquesa -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="11"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.4"/>
+    </filter>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#7ff0e0" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#7ff0e0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- resplandor turquesa -->
+  <circle cx="64" cy="40" r="40" fill="url(#halo)"/>
+  <g filter="url(#wob)" stroke="#1b1714" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- macetero de piedra -->
+    <path d="M12 90 H116 V116 H12 Z" fill="#4c4844"/>
+    <path d="M12 104 H116 V116 H12 Z" fill="#3b3835" stroke="none"/>
+    <path d="M38 92 L36 102 L40 114 M90 92 L92 100 M70 106 L76 114" fill="none" stroke-width="2"/>
+    <path d="M12 30 H116 V92 H12 Z" fill="#76706a"/>
+    <path d="M104 32 H114 V90 H104 Z" fill="#5f5a55" stroke="none"/>
+    <path d="M23 40 H105 V82 H23 Z" fill="#2f2620"/>
+    <path d="M14 60 L20 62 M108 40 L104 46 M30 88 L36 86" fill="none" stroke-width="1.8"/>
+    <!-- hojas redondas -->
+    <path d="M62 78 Q40 90 24 78 Q22 62 42 62 Q60 64 62 78 Z" fill="#7fae4e"/>
+    <path d="M66 78 Q88 90 104 78 Q106 62 86 62 Q68 64 66 78 Z" fill="#7fae4e"/>
+    <path d="M26 76 Q34 86 56 80 Q40 82 26 76 Z" fill="#55703f" stroke="none"/>
+    <path d="M102 76 Q94 86 72 80 Q88 82 102 76 Z" fill="#55703f" stroke="none"/>
+    <path d="M32 74 Q46 70 58 76 M96 74 Q82 70 70 76" fill="none" stroke-width="2" stroke="#d6f0a8"/>
+    <!-- tallo -->
+    <path d="M60 78 Q62 64 62 54 H66 Q66 64 68 78 Z" fill="#a8764a"/>
+    <!-- sépalos -->
+    <path d="M64 62 Q50 62 46 52 Q56 54 64 60 Z M64 62 Q78 62 82 52 Q72 54 64 60 Z" fill="#6f9a48" stroke-width="2.6"/>
+    <!-- cáliz: pétalos traseros y laterales -->
+    <path d="M34 36 Q24 30 20 22 Q36 20 46 32 Z" fill="#a9c0cc"/>
+    <path d="M94 36 Q104 30 108 22 Q92 20 82 32 Z" fill="#a9c0cc"/>
+    <path d="M40 34 Q30 40 40 52 Q52 60 64 60 Q76 60 88 52 Q98 40 88 34 Q76 44 64 44 Q52 44 40 34 Z" fill="#c3d6df"/>
+    <!-- gota de rocío -->
+    <path d="M64 8 Q52 26 46 36 Q42 50 54 54 Q64 58 74 54 Q86 50 82 36 Q76 26 64 8 Z" fill="#3fc8b8"/>
+    <path d="M64 20 Q56 34 52 40 Q50 50 60 52 Q54 44 58 36 Q62 28 64 20 Z" fill="#1f7f7a" stroke="none" opacity="0.55"/>
+    <path d="M56 30 Q54 38 58 42" fill="none" stroke="#d6fff7" stroke-width="3.4"/>
+    <circle cx="70" cy="46" r="2.4" fill="#d6fff7" stroke="none"/>
+    <!-- pétalos delanteros -->
+    <path d="M40 40 Q28 40 24 52 Q34 62 56 64 Q60 64 62 62 Q50 56 44 46 Z" fill="#d6e4ea"/>
+    <path d="M88 40 Q100 40 104 52 Q94 62 72 64 Q68 64 66 62 Q78 56 84 46 Z" fill="#d6e4ea"/>
+    <path d="M44 56 Q64 72 84 56 Q74 66 64 70 Q54 66 44 56 Z" fill="#a9c0cc" stroke="none"/>
+    <path d="M46 50 Q54 58 60 60 M82 50 Q74 58 68 60" fill="none" stroke-width="2"/>
+    <!-- burbujas -->
+    <circle cx="36" cy="18" r="5" fill="#bff5ee" stroke-width="2.4"/><circle cx="34.5" cy="16.5" r="1.4" fill="#fff" stroke="none"/>
+    <circle cx="96" cy="14" r="4" fill="#bff5ee" stroke-width="2.2"/><circle cx="95" cy="13" r="1.2" fill="#fff" stroke="none"/>
+    <circle cx="26" cy="36" r="2.6" fill="#bff5ee" stroke-width="1.8"/>
+  </g>
+</svg>
