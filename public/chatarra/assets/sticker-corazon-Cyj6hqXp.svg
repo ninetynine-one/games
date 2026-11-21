@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · pegatina cosmética para torres: corazón. Vinilo con borde blanco. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="111"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M64 112 q-52 -30 -50 -64 q2 -26 28 -28 q16 0 22 14 q6 -14 22 -14 q26 2 28 28 q2 34 -50 64z" fill="#fff8ec"/>
+    <path d="M64 100 q-40 -24 -38 -50 q2 -18 18 -18 q12 0 20 14 q8 -14 20 -14 q16 0 18 18 q2 26 -38 50z" fill="#e0533d"/>
+    <path d="M40 44 q4 -6 12 -6" fill="none" stroke="#ffd0c4" stroke-width="5"/>
+  </g>
+</svg>

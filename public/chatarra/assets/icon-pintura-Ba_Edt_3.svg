@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · icono: bote de pintura (cosmético de pintura; se tiñe con el color de la pintura). -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="125"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M26 44 h76 v56 q0 14 -14 14 h-48 q-14 0 -14 -14z" fill="#ffffff"/>
+    <path d="M102 60 v40 q0 14 -14 14 h-24 q36 -12 38 -54z" fill="#d8d8d8" stroke="none"/>
+    <path d="M26 44 h76 v56 q0 14 -14 14 h-48 q-14 0 -14 -14z" fill="none"/>
+    <ellipse cx="64" cy="44" rx="38" ry="12" fill="#f2f2f2"/>
+    <path d="M44 46 q4 22 10 6 q4 18 10 0 q6 22 12 2" fill="#ffffff" stroke-width="5"/>
+    <path d="M30 40 q34 -40 68 0" fill="none" stroke-width="5"/>
+  </g>
+</svg>

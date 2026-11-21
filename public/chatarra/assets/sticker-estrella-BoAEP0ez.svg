@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · pegatina cosmética para torres: estrella. Vinilo con borde blanco. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="113"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M64 8 l15 32 35 4 -26 24 7 35 -31 -18 -31 18 7 -35 -26 -24 35 -4z" fill="#fff8ec"/>
+    <path d="M64 22 l11 23 25 3 -19 17 5 25 -22 -13 -22 13 5 -25 -19 -17 25 -3z" fill="#f5c542"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · icono: caja de regalo del día 7 (cajón de repuestos con lazo de cable). -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="107"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M20 54 h88 v52 q0 8 -8 8 h-72 q-8 0 -8 -8z" fill="#c9652e"/>
+    <path d="M108 70 v36 q0 8 -8 8 h-40 q40 -10 48 -44z" fill="#9c4a1f" stroke="none"/>
+    <path d="M20 54 h88 v52 q0 8 -8 8 h-72 q-8 0 -8 -8z" fill="none"/>
+    <path d="M14 38 h100 v18 h-100z" fill="#e07a3c"/>
+    <path d="M56 38 h16 v76 h-16z" fill="#2fb3a6"/>
+    <path d="M64 38 q-26 -30 -34 -12 q-4 12 34 12 q38 0 34 -12 q-8 -18 -34 12z" fill="#2fb3a6"/>
+    <circle cx="40" cy="80" r="4" fill="#1b1714" stroke="none"/><circle cx="88" cy="80" r="4" fill="#1b1714" stroke="none"/>
+  </g>
+</svg>

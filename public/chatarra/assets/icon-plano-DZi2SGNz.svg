@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · icono: Plano (meta de la Expedición). Hoja azul enrollada con trazos de torre. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="103"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M22 26 h76 q10 0 10 10 v66 h-76 q-10 0 -10 -10z" fill="#3f7fb8"/>
+    <path d="M22 26 q-10 0 -10 10 v56 q0 10 10 10" fill="#2c5f8c"/>
+    <path d="M108 70 v32 h-76 q30 -4 76 -32z" fill="#2f6597" stroke="none"/>
+    <path d="M22 26 h76 q10 0 10 10 v66 h-76 q-10 0 -10 -10z" fill="none"/>
+    <path d="M44 86 v-34 h28 v34 M50 52 v-12 h16 v12 M40 86 h40" fill="none" stroke="#e6f1fb" stroke-width="5"/>
+    <path d="M86 44 h12 M86 56 h12 M86 68 h8" stroke="#e6f1fb" stroke-width="4"/>
+  </g>
+</svg>

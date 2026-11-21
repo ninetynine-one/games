@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chatarra · Política de privacidad</title>
+  <style>
+    :root { --bg: #f6efe2; --fg: #2a211b; --soft: #6b5a4c; --line: #d8c9b3; --accent: #b4532a; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #1b1816; --fg: #f3e3c3; --soft: #cdbfa8; --line: #3d342d; --accent: #f5a623; } }
+    html { -webkit-text-size-adjust: 100%; }
+    body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.55 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 720px; margin: 0 auto; padding: max(24px, env(safe-area-inset-top)) 16px 48px; }
+    h1 { font-size: 1.7rem; line-height: 1.2; margin: 0 0 4px; }
+    h2 { font-size: 1.2rem; margin: 2rem 0 .5rem; color: var(--accent); }
+    p, li { color: var(--fg); }
+    .meta { color: var(--soft); margin: 0 0 1.5rem; }
+    table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+    th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid var(--line); }
+    th { color: var(--soft); font-weight: 600; }
+    code { font-size: .9em; overflow-wrap: anywhere; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad de Chatarra</h1>
+  <p class="meta">Responsable: [NOMBRE DE LA EMPRESA] · Contacto: [CORREO DE CONTACTO] · Última actualización: 20 de noviembre de 2026</p>
+
+  <p>Chatarra es un juego sin cuentas, sin anuncios y sin compras. No te pedimos nombre, correo, teléfono ni ubicación, y la app solo usa el permiso de Internet. Esta página explica exactamente qué datos usa el juego y para qué.</p>
+
+  <h2>1. Datos que se quedan en tu dispositivo</h2>
+  <p>El juego guarda en el almacenamiento local del navegador o de la app:</p>
+  <ul>
+    <li>Tu progreso: niveles superados, récords, desbloqueos, moneda de memorias, ajustes y la partida (run) en curso.</li>
+    <li>Un registro local de partidas que solo sale del dispositivo si tú lo exportas desde Ajustes («Exportar telemetría»). Nunca se envía solo.</li>
+  </ul>
+  <p>En Android, la copia de seguridad automática del sistema puede incluir estos datos en la copia de tu cuenta de Google, como con cualquier app que la permite. Puedes borrarlos desde Ajustes («Borrar progreso») o desinstalando el juego.</p>
+
+  <h2>2. Datos de juego anónimos (solo si aceptas)</h2>
+  <p>La primera vez que abres el juego te preguntamos si quieres enviar datos de juego anónimos. Si respondes «No, gracias», no se envía nada. Puedes cambiar la respuesta cuando quieras en Ajustes («Enviar datos de juego anónimos»); al desactivarlo se descarta lo que estuviera pendiente de envío.</p>
+  <p>Si aceptas, el juego envía por HTTPS, en lotes, a <code>https://games.ninetynineone.studio/api/events</code>:</p>
+  <table>
+    <tr><th>Dato</th><th>Detalle</th></tr>
+    <tr><td>Identificador de jugador</td><td>Un número aleatorio (UUID) que se crea en el primer envío y se guarda en el dispositivo. No está ligado a tu nombre, a tu cuenta de Google ni al identificador publicitario.</td></tr>
+    <tr><td>Identificador de sesión</td><td>Otro número aleatorio que cambia cada vez que abres el juego.</td></tr>
+    <tr><td>Juego y versión</td><td>«chatarra» y el número de versión.</td></tr>
+    <tr><td>Dispositivo</td><td>Al empezar la sesión: tipo (móvil o escritorio), plataforma (web, Android o iOS), tamaño de la ventana en píxeles e idioma del sistema.</td></tr>
+    <tr><td>Eventos de juego</td><td>Inicio y fin de nivel o de run (resultado, duración, oleada, puntuación del juego), oleadas alcanzadas, mejoras y premios elegidos, cuadrilla equipada, pasos del tutorial y cambios de ajustes. Cada evento lleva la hora.</td></tr>
+  </table>
+  <p>Como cualquier conexión a Internet, nuestro servidor recibe tu dirección IP. La usamos solo para deducir el país desde el que juegas. No usamos cookies ni herramientas de terceros de analítica o publicidad, y no vendemos ni compartimos estos datos.</p>
+  <p><strong>Para qué:</strong> saber dónde se atasca la gente, equilibrar la dificultad y detectar errores.</p>
+  <p><strong>Cuánto tiempo:</strong> [PLAZO DE CONSERVACIÓN]; después se borran o se agregan sin identificador.</p>
+
+  <h2>3. Tus derechos</h2>
+  <p>Puedes pedir acceso o borrado de los datos enviados escribiendo a [CORREO DE CONTACTO]. Como no sabemos quién eres, indícanos el identificador de jugador que aparece al pie de Ajustes; sin él no podemos encontrar tus datos. También puedes presentar una reclamación ante la autoridad de protección de datos de tu país.</p>
+
+  <h2>4. Menores</h2>
+  <p>El juego no está dirigido específicamente a menores de 13 años y no recoge datos personales que permitan identificarlos. El envío de datos de juego es opcional y anónimo.</p>
+
+  <h2>5. Cambios</h2>
+  <p>Si cambiamos lo que se envía, actualizaremos esta página y la fecha de arriba antes de publicar la versión del juego que lo haga.</p>
+</main>
+</body>
+</html>

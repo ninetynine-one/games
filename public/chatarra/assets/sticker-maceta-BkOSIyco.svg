@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Chatarra · pegatina cosmética para torres: la maceta del lore (exclusivo). Vinilo con borde blanco. -->
+  <defs>
+    <filter id="sk" filterUnits="userSpaceOnUse" x="-8" y="-8" width="144" height="144">
+      <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="121"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.6" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <g filter="url(#sk)" stroke="#1b1714" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M30 60 h68 l-10 58 h-48z" fill="#fff8ec" stroke-width="12" stroke="#fff8ec"/>
+    <path d="M34 66 h60 l-9 46 h-42z" fill="#c9652e"/>
+    <path d="M30 60 h68 v10 h-68z" fill="#e07a3c"/>
+    <path d="M64 60 v-30" fill="none" stroke="#4f7a36"/>
+    <path d="M64 40 q-22 -18 -26 -2 q10 10 26 2z M64 32 q18 -20 26 -6 q-8 12 -26 6z" fill="#7fa65a"/>
+  </g>
+</svg>

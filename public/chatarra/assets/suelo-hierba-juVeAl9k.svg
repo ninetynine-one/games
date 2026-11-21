@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 384" width="384" height="384">
+  <!-- Chatarra · suelo del tema «Jardín del taller» (cosmético): baldosas de hormigón con musgo y hierba en las juntas. Tileable. -->
+  <rect width="384" height="384" fill="#5d7a4c"/>
+  <g stroke="#1b1714" stroke-opacity=".4" stroke-width="3">
+    <rect x="4" y="4" width="184" height="184" rx="9" fill="#b3b59c"/>
+    <rect x="196" y="4" width="184" height="184" rx="9" fill="#a9ad93"/>
+    <rect x="4" y="196" width="184" height="184" rx="9" fill="#adb197"/>
+    <rect x="196" y="196" width="184" height="184" rx="9" fill="#b7b9a0"/>
+  </g>
+  <g fill="none" stroke-width="4" stroke-linecap="round">
+    <path d="M12 180 V14 q0 -4 4 -4 H180" stroke="#cfd1bb"/><path d="M204 180 V14 q0 -4 4 -4 H372" stroke="#c8cbb3"/>
+    <path d="M12 372 V206 q0 -4 4 -4 H180" stroke="#cbcdb6"/><path d="M204 372 V206 q0 -4 4 -4 H372" stroke="#d3d5bf"/>
+  </g>
+  <!-- musgo en las esquinas y brotes en las juntas -->
+  <g fill="#7fa65a" stroke="#1b1714" stroke-opacity=".35" stroke-width="2">
+    <path d="M4 150 q20 -6 26 14 q10 -10 22 4 q-4 20 -48 20z"/><path d="M380 30 q-24 0 -26 18 q-14 -4 -20 10 q20 14 46 4z"/>
+    <path d="M196 340 q18 -10 28 6 q12 -8 22 8 q-20 22 -50 20z"/><path d="M300 196 q10 16 -4 26 q14 8 4 22 q-24 -10 -22 -48z"/>
+  </g>
+  <g fill="none" stroke="#4f7a36" stroke-width="3" stroke-linecap="round">
+    <path d="M188 60 l-6 -12 M192 62 l2 -14 M196 60 l8 -10"/><path d="M60 188 l-10 -6 M64 192 l0 -12 M68 188 l10 -8"/>
+    <path d="M188 300 l-8 -10 M192 302 l2 -12"/><path d="M300 188 l-8 -8 M304 192 l4 -12 M310 188 l10 -6"/>
+  </g>
+  <g fill="#f3d36b" stroke="#1b1714" stroke-opacity=".5" stroke-width="1.5">
+    <circle cx="150" cy="250" r="4"/><circle cx="320" cy="110" r="4"/><circle cx="90" cy="70" r="3.5"/>
+  </g>
+</svg>
