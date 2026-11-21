@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Cosmetic station «Vapor»: light steel riveted plates with dark outlines crossed by a brass steam pipe, stone coping on the bottom edge; FloorView rotates it so the coping faces the platform. Seamless left-right. -->
+  <rect width="128" height="128" fill="#2b2f37"/>
+  <rect x="3" y="3" width="58" height="96" rx="3" fill="#8f99a8" stroke="#1b1714" stroke-width="3"/>
+  <rect x="67" y="3" width="58" height="96" rx="3" fill="#7f8999" stroke="#1b1714" stroke-width="3"/>
+  <rect x="7" y="7" width="50" height="3" rx="1.5" fill="#d4dbe5" opacity="0.8"/>
+  <rect x="71" y="7" width="50" height="3" rx="1.5" fill="#d4dbe5" opacity="0.8"/>
+  <circle cx="8" cy="10" r="2.2" fill="#4a5262"/>
+  <circle cx="8" cy="30" r="2.2" fill="#4a5262"/>
+  <circle cx="8" cy="80" r="2.2" fill="#4a5262"/>
+  <circle cx="8" cy="94" r="2.2" fill="#4a5262"/>
+  <circle cx="56" cy="10" r="2.2" fill="#4a5262"/>
+  <circle cx="56" cy="30" r="2.2" fill="#4a5262"/>
+  <circle cx="56" cy="80" r="2.2" fill="#4a5262"/>
+  <circle cx="56" cy="94" r="2.2" fill="#4a5262"/>
+  <circle cx="72" cy="10" r="2.2" fill="#4a5262"/>
+  <circle cx="72" cy="30" r="2.2" fill="#4a5262"/>
+  <circle cx="72" cy="80" r="2.2" fill="#4a5262"/>
+  <circle cx="72" cy="94" r="2.2" fill="#4a5262"/>
+  <circle cx="120" cy="10" r="2.2" fill="#4a5262"/>
+  <circle cx="120" cy="30" r="2.2" fill="#4a5262"/>
+  <circle cx="120" cy="80" r="2.2" fill="#4a5262"/>
+  <circle cx="120" cy="94" r="2.2" fill="#4a5262"/>
+  <rect x="-2" y="44" width="132" height="16" fill="#c89c52" stroke="#1b1714" stroke-width="3"/>
+  <rect x="-2" y="47" width="132" height="4" fill="#efcf8a" opacity="0.6"/>
+  <rect x="26" y="40" width="12" height="24" rx="2" fill="#a8783a" stroke="#1b1714" stroke-width="2.5"/>
+  <rect x="90" y="40" width="12" height="24" rx="2" fill="#a8783a" stroke="#1b1714" stroke-width="2.5"/>
+  <circle cx="96" cy="78" r="9" fill="#f6ecd2" stroke="#1b1714" stroke-width="2.5"/>
+  <path d="M96 78 L96 72 M96 78 L100 80" stroke="#1b1714" stroke-width="2"/>
+  <path d="M96 64 V69" stroke="#1b1714" stroke-width="3"/>
+  <rect x="-2" y="104" width="132" height="24" fill="#a9a196" stroke="#1b1714" stroke-width="3.5"/>
+  <rect x="-2" y="107" width="132" height="4" fill="#d2cbbf"/>
+  <path d="M32 106 V126 M96 106 V126" stroke="#6f685e" stroke-width="2.4"/>
+  <path d="M0 126 H128" stroke="#1b1714" stroke-width="3"/>
+</svg>

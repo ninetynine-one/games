@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Cosmetic station «Nogal»: walnut wainscot boards with a brass trim rail and a stone coping on the bottom edge; FloorView rotates it so the coping faces the platform. Seamless left-right. -->
+  <rect width="128" height="128" fill="#2e1a10"/>
+  <rect x="2" y="2" width="28" height="98" rx="2" fill="#6a3e24"/>
+  <rect x="4" y="4" width="4" height="94" fill="#9a6a44" opacity="0.5"/>
+  <path d="M18 10 Q14 30 19 50 Q23 70 17 92" fill="none" stroke="#3e2414" stroke-width="1.6" opacity="0.7"/>
+  <rect x="34" y="2" width="28" height="98" rx="2" fill="#5a3420"/>
+  <rect x="36" y="4" width="4" height="94" fill="#9a6a44" opacity="0.5"/>
+  <path d="M50 10 Q46 30 51 50 Q55 70 49 92" fill="none" stroke="#3e2414" stroke-width="1.6" opacity="0.7"/>
+  <rect x="66" y="2" width="28" height="98" rx="2" fill="#74462a"/>
+  <rect x="68" y="4" width="4" height="94" fill="#9a6a44" opacity="0.5"/>
+  <path d="M82 10 Q78 30 83 50 Q87 70 81 92" fill="none" stroke="#3e2414" stroke-width="1.6" opacity="0.7"/>
+  <rect x="98" y="2" width="28" height="98" rx="2" fill="#603822"/>
+  <rect x="100" y="4" width="4" height="94" fill="#9a6a44" opacity="0.5"/>
+  <path d="M114 10 Q110 30 115 50 Q119 70 113 92" fill="none" stroke="#3e2414" stroke-width="1.6" opacity="0.7"/>
+  <rect x="-2" y="58" width="132" height="8" fill="#c89c52" stroke="#1b1714" stroke-width="2.5"/>
+  <rect x="-2" y="59" width="132" height="2" fill="#efcf8a" opacity="0.7"/>
+  <circle cx="16" cy="62" r="2" fill="#6a4820"/>
+  <circle cx="48" cy="62" r="2" fill="#6a4820"/>
+  <circle cx="80" cy="62" r="2" fill="#6a4820"/>
+  <circle cx="112" cy="62" r="2" fill="#6a4820"/>
+  <rect x="-2" y="104" width="132" height="24" fill="#a9a196" stroke="#1b1714" stroke-width="3.5"/>
+  <rect x="-2" y="107" width="132" height="4" fill="#d2cbbf"/>
+  <path d="M32 106 V126 M96 106 V126" stroke="#6f685e" stroke-width="2.4"/>
+  <path d="M0 126 H128" stroke="#1b1714" stroke-width="3"/>
+</svg>
