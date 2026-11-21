@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Política de privacidad · Los últimos jardineros del cielo</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #14110f; color: #f2ece4; font: 17px/1.55 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: calc(24px + env(safe-area-inset-top, 0px)) 20px calc(40px + env(safe-area-inset-bottom, 0px)); }
+  h1 { font-size: 1.6em; line-height: 1.2; color: #e8963a; }
+  h2 { font-size: 1.15em; margin-top: 2em; color: #5fe0cf; }
+  table { border-collapse: collapse; width: 100%; font-size: .92em; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 6px; border-bottom: 1px solid #4a443e; }
+  code { background: #2a2622; padding: 1px 5px; border-radius: 4px; font-size: .92em; overflow-wrap: anywhere; }
+  a { color: #e8963a; }
+  .back { display: inline-block; margin-top: 1.5em; padding: 12px 20px; border: 2px solid #9a9189; border-radius: 10px; text-decoration: none; }
+  .muted { color: #a59c92; }
+</style>
+</head>
+<body>
+<main>
+<h1>Política de privacidad</h1>
+<p class="muted">Los últimos jardineros del cielo · [NOMBRE DE LA EMPRESA] · Última actualización: 20 de noviembre de 2026</p>
+
+<p>Este juego no tiene cuentas, anuncios ni compras. No te pedimos nombre, correo, teléfono ni ubicación precisa. Esta página explica exactamente qué datos salen de tu dispositivo y para qué.</p>
+
+<h2>1. Responsable</h2>
+<p>[NOMBRE DE LA EMPRESA]. Contacto para cualquier consulta o solicitud sobre tus datos: <a href="mailto:[CORREO DE CONTACTO]">[CORREO DE CONTACTO]</a>.</p>
+
+<h2>2. Datos que se quedan en tu dispositivo</h2>
+<p>El juego guarda en el almacenamiento local del navegador o de la app (<code>localStorage</code>): tu progreso (islas desbloqueadas, récords, desbloqueos, ajustes, la partida en curso para poder continuarla) y un registro local de eventos de juego que solo sirve para la opción «Exportar telemetría» de Ajustes. Nada de esto se envía a ningún servidor. En Android, la copia de seguridad automática del sistema puede incluir estos datos en tu cuenta de Google según tu configuración del dispositivo.</p>
+
+<h2>3. Datos de juego que se envían (solo si aceptas)</h2>
+<p>La primera vez que abres el juego te preguntamos si quieres enviar datos de juego. Si respondes «No, gracias», no se envía nada. Puedes cambiar tu respuesta cuando quieras en <strong>Ajustes → Enviar datos de juego</strong>; al desactivarlo se descarta lo que estuviera pendiente de envío.</p>
+<p>Si aceptas, el juego envía lotes de eventos al servidor <code>https://games.ninetynineone.studio/api/events</code> (en la versión web, a <code>/api/events</code> del mismo sitio). Cada lote contiene:</p>
+<table>
+  <tr><th>Dato</th><th>Qué es</th></tr>
+  <tr><td>Identificador de jugador</td><td>Un número aleatorio (UUID) creado en tu dispositivo la primera vez que se envía algo y guardado en él. No está ligado a tu nombre, cuenta ni al identificador publicitario. Es <strong>seudónimo</strong>: permite saber que dos partidas son del mismo dispositivo. Se borra con «Borrar progreso» o borrando los datos de la app.</td></tr>
+  <tr><td>Identificador de sesión</td><td>Otro número aleatorio que cambia cada vez que abres el juego.</td></tr>
+  <tr><td>Versión del juego</td><td>Por ejemplo, <code>2.0.0</code>.</td></tr>
+  <tr><td>Datos del dispositivo (al empezar la sesión)</td><td>Tipo (móvil o escritorio), plataforma (web, Android o iOS), tamaño de la ventana en píxeles e idioma del sistema.</td></tr>
+  <tr><td>Eventos de juego</td><td>Fecha y hora de cada evento y: inicio y fin de partida o expedición, nivel u oleada alcanzada, resultado, duración, Savia y bajas al terminar, héroe/herramienta/mascota elegidos, recompensas y cartas elegidas, pasos del tutorial y cambios de ajustes.</td></tr>
+</table>
+<p><strong>Dirección IP y país.</strong> Como en cualquier conexión a internet, el servidor recibe la dirección IP de tu dispositivo y la cabecera técnica que tu navegador o WebView envía automáticamente (User-Agent: modelo de navegador y sistema). El servidor usa la IP para deducir tu <strong>país</strong> y lo guarda junto a los eventos. [A CONFIRMAR POR LA EMPRESA: si la IP o el User-Agent se guardan o se descartan tras deducir el país, y durante cuánto tiempo.]</p>
+
+<h2>4. Para qué los usamos</h2>
+<p>Solo para entender cómo se juega y mejorar el juego: dificultad de cada isla, dónde se abandona, qué opciones se eligen y en qué dispositivos funciona. No los usamos para publicidad, no hacemos perfiles comerciales y <strong>no los vendemos ni los compartimos con terceros</strong>, salvo el proveedor que aloja el servidor, que actúa por nuestra cuenta. [A CONFIRMAR: nombre del proveedor de alojamiento y país.]</p>
+<p>Base legal: tu consentimiento, que puedes retirar en cualquier momento desde Ajustes.</p>
+
+<h2>5. Conservación y seguridad</h2>
+<p>Los datos viajan cifrados (HTTPS). Se conservan [A CONFIRMAR: plazo, p. ej. 24 meses] y después se borran o se agregan de forma que ya no se pueda distinguir a ningún dispositivo.</p>
+
+<h2>6. Tus derechos</h2>
+<p>Puedes pedir acceso, rectificación o supresión de los datos asociados a tu identificador de jugador, u oponerte a su tratamiento, escribiendo a <a href="mailto:[CORREO DE CONTACTO]">[CORREO DE CONTACTO]</a>. Para localizar tus datos necesitaremos ese identificador; si prefieres, desactiva el envío y borra los datos de la app y dejará de existir en tu dispositivo. También puedes reclamar ante la autoridad de protección de datos de tu país.</p>
+
+<h2>7. Menores</h2>
+<p>El juego no pide datos personales y el envío de datos de juego es opcional y desactivado hasta que alguien lo acepta. [A CONFIRMAR: público objetivo declarado en Google Play. Si incluye menores de 13 años, revisar el programa Familias antes de publicar.]</p>
+
+<h2>8. Cambios</h2>
+<p>Si cambia lo que se envía, actualizaremos esta página y la fecha de arriba antes de publicar la versión que lo cambie.</p>
+
+<a class="back" href="./index.html">Volver al juego</a>
+</main>
+</body>
+</html>
