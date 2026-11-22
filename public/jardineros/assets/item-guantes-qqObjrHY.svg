@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Guantes de injerto (Acto 2): dos guantes de cuero pardo con puño verde y costura, y un esqueje atado con cordel y dos hojas -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="73"/>
+      <feDisplacementMap in="SourceGraphic" scale="1.6"/>
+    </filter>
+    <path id="g" d="M10 78 Q6 56 16 46 Q24 42 26 52 L28 30 Q30 14 38 18 Q44 22 42 36 Q46 10 54 14 Q62 18 56 42 Q66 24 70 32 Q72 40 60 62 L58 96 L22 100 Z"/>
+  </defs>
+  <g filter="url(#wob)" stroke="#2a1712" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- guante izquierdo y derecho (espejo) -->
+    <use href="#g" fill="#b8683a"/>
+    <use href="#g" fill="#b8683a" transform="translate(128 0) scale(-1 1)"/>
+    <!-- remiendos -->
+    <path d="M14 56 Q20 52 24 58 Q20 64 14 62 Z" fill="#e0a868" stroke-width="2"/>
+    <path d="M104 74 Q112 70 116 76 Q110 82 104 80 Z" fill="#e0a868" stroke-width="2"/>
+    <!-- puños verdes con botón -->
+    <path d="M18 98 L60 94 L60 114 Q40 124 18 116 Z" fill="#6f8f3a"/>
+    <path d="M110 98 L68 94 L68 114 Q88 124 110 116 Z" fill="#6f8f3a"/>
+    <path d="M26 106 L52 104 M102 106 L76 104" fill="none" stroke="#d9c98a" stroke-width="1.8" stroke-dasharray="4 3"/>
+    <circle cx="26" cy="100" r="4" fill="#d9a44a" stroke-width="2.4"/>
+    <circle cx="102" cy="100" r="4" fill="#d9a44a" stroke-width="2.4"/>
+    <!-- esqueje: rama con punta blanca, cordel y dos hojas -->
+    <path d="M48 96 L80 44" fill="none" stroke-width="9"/>
+    <path d="M48 96 L80 44" fill="none" stroke="#a8683a" stroke-width="5"/>
+    <circle cx="47" cy="97" r="5" fill="#e8c88a" stroke-width="2.4"/>
+    <path d="M70 62 L76 56 L80 66 Z" fill="#e6e6e0" stroke-width="2.4"/>
+    <path d="M66 64 Q74 58 80 68 M68 60 Q76 54 82 64" fill="none" stroke="#e8d8a0" stroke-width="3"/>
+    <path d="M58 76 Q50 72 44 80 Q50 90 60 82 Z M62 76 Q70 72 74 80 Q68 88 60 82 Z" fill="#e8d8a0" stroke-width="2.4"/>
+    <path d="M80 44 Q70 28 84 22 Q94 30 80 44 Z" fill="#7ac03a"/>
+    <path d="M82 50 Q92 38 108 42 Q106 56 82 50 Z" fill="#7ac03a"/>
+    <path d="M82 40 L84 28 M86 48 L100 46" fill="none" stroke="#c6e07a" stroke-width="1.6"/>
+  </g>
+</svg>
