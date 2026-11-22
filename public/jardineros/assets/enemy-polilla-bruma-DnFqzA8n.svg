@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Polilla de Bruma: aérea; alas lila con espirales y plumas en las antenas; deja nubes de bruma -->
+  <defs>
+    <filter id="wob" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="41"/>
+      <feDisplacementMap in="SourceGraphic" scale="2.2"/>
+    </filter>
+  </defs>
+  <ellipse cx="64" cy="118" rx="22" ry="5" fill="#000" opacity="0.28"/>
+  <g filter="url(#wob)" stroke="#2a1f33" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- alas traseras -->
+    <path d="M56 70 Q28 100 18 88 Q14 70 42 62 Z" fill="#cbbfdc"/>
+    <path d="M72 70 Q100 100 110 88 Q114 70 86 62 Z" fill="#cbbfdc"/>
+    <!-- alas delanteras -->
+    <path d="M54 58 Q24 26 8 38 Q2 58 50 70 Z" fill="#e9dfe6"/>
+    <path d="M74 58 Q104 26 120 38 Q126 58 78 70 Z" fill="#e9dfe6"/>
+    <path d="M46 52 Q22 36 10 42 Q8 52 30 56 Q44 54 46 52 Z M82 52 Q106 36 118 42 Q120 52 98 56 Q84 54 82 52 Z" fill="#a99bc4" stroke="none"/>
+    <!-- espirales -->
+    <path d="M34 50 Q22 46 28 40 Q36 38 38 46 Q36 52 30 50 M94 50 Q106 46 100 40 Q92 38 90 46 Q92 52 98 50" fill="none" stroke="#f6ecdf" stroke-width="3"/>
+    <path d="M40 82 Q34 78 38 74 Q44 74 44 80 M88 82 Q94 78 90 74 Q84 74 84 80" fill="none" stroke="#f6ecdf" stroke-width="2.6"/>
+    <!-- antenas de pluma -->
+    <path d="M56 40 Q46 24 34 20 Q30 14 38 14 Q50 16 58 36 Z M72 40 Q82 24 94 20 Q98 14 90 14 Q78 16 70 36 Z" fill="#f2ebf0" stroke-width="3"/>
+    <!-- cuerpo peludo -->
+    <path d="M46 62 Q42 40 64 38 Q86 40 82 62 Q84 92 64 98 Q44 92 46 62 Z" fill="#c7bad8"/>
+    <path d="M48 50 Q64 56 80 50 Q82 40 64 38 Q46 40 48 50 Z" fill="#f2ebf0" stroke="none"/>
+    <!-- ojos -->
+    <circle cx="55" cy="49" r="5.5" fill="#2a1f33"/>
+    <circle cx="73" cy="49" r="5.5" fill="#2a1f33"/>
+    <circle cx="53.5" cy="47.5" r="1.8" fill="#fff" stroke="none"/>
+    <circle cx="71.5" cy="47.5" r="1.8" fill="#fff" stroke="none"/>
+    <!-- bruma -->
+    <g fill="#f4eefa" stroke="#b7a9d0" stroke-width="2.4">
+      <path d="M6 70 Q4 62 14 62 Q18 56 26 62 Q32 62 30 70 Q22 74 6 70 Z"/>
+      <path d="M98 100 Q96 92 106 92 Q110 86 118 92 Q124 92 122 100 Q114 104 98 100 Z"/>
+      <circle cx="8" cy="54" r="3" fill="none"/>
+      <circle cx="120" cy="84" r="3" fill="none"/>
+    </g>
+  </g>
+</svg>
